@@ -1,0 +1,5 @@
+dist
+**/.size-snapshot.json
+**/.stats.html
+*.ts
+*.tsx

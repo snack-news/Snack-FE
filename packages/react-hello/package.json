@@ -1,0 +1,28 @@
+{
+  "name": "@snack-fe/react-hello",
+  "version": "0.0.4",
+  "description": "Hello Component",
+  "author": "vomvoru <qkrcjfgus33@gmail.com>",
+  "homepage": "",
+  "license": "UNLICENSED",
+  "main": "src/index.tsx",
+  "publishConfig": {
+    "registry": "http://pkgrepos.tmonc.net:8080/nexus/content/repositories/npm-internal/"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@types/react": "^16.8.5",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react-test-renderer": "^16.8.1",
+    "babel-jest": "^24.1.0",
+    "jest": "^23.6.0",
+    "react-test-renderer": "^16.8.3",
+    "typescript": "^3.2.2"
+  }
+}

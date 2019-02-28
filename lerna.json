@@ -1,0 +1,9 @@
+{
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "*.json", "*.txt", "test/**", "**.test.js"]
+    }
+  },
+  "packages": ["packages/*"],
+  "version": "independent"
+}
