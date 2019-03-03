@@ -1,12 +1,6 @@
 {
-  "tslint.configFile": "./tslint.json",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
-  },
-
-  // prettier-eslint, prettier-tslint 를 위한 설정
+  // prettier-eslint 를 위한 설정
   "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true,
   "editor.formatOnSave": true,
   "eslint.autoFixOnSave": false
 }

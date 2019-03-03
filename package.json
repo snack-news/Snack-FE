@@ -18,16 +18,9 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "jest --bail --findRelatedTests"
-    ],
-    "*.{js,jsx}": [
+      "jest --bail --findRelatedTests",
       "prettier --write",
       "eslint --fix",
-      "git add"
-    ],
-    "*.{ts,tsx}": [
-      "prettier --write",
-      "tslint --fix -c ./tslint.json",
       "git add"
     ]
   },
@@ -45,6 +38,8 @@
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.2.0",
     "@types/jest": "^24.0.3",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
     "awesome-typescript-loader": "^5.2.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
@@ -65,10 +60,8 @@
     "lint-staged": "^8.1.0",
     "prettier": "^1.15.3",
     "prettier-eslint": "^8.8.2",
-    "prettier-tslint": "^0.4.2",
     "source-map-loader": "^0.2.4",
     "ts-jest": "^23.10.5",
-    "tslint-config-airbnb": "^5.11.1",
     "typescript": "^3.3.3333",
     "webpack": "^4.29.6",
     "webpack-bundle-analyzer": "^3.0.4",

@@ -1,6 +1,7 @@
 module.exports = {
   extends: ["airbnb"],
-  parser: "babel-eslint",
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
   parserOptions: {
     ecmaVersion: 6,
     sourceType: "module"
@@ -9,5 +10,8 @@ module.exports = {
     browser: true,
     es6: true,
     jest: true
+  },
+  rules: {
+    "react/jsx-filename-extension": [1, { extensions: [".jsx", ".tsx"] }]
   }
 };
