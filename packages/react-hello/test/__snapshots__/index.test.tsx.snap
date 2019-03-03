@@ -2,13 +2,6 @@
 
 exports[`Link changes the class when hovered 1`] = `
 <h1>
-  Hello from
-   
-  webpack
-   
-  and
-   
-  react
-  !
+  Hello from webpack and react!
 </h1>
 `;
