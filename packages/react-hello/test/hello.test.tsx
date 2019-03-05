@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import Hello from '..';
+import { Hello } from '../src/Hello';
 
 test('Link changes the class when hovered', () => {
   const component = renderer.create(<Hello compiler="webpack" framework="react" />);

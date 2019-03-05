@@ -26,12 +26,7 @@
     ]
   },
   "dependencies": {
-    "@snack-fe/react-hello": "file:packages/react-hello",
-    "@types/react": "^16.8.5",
-    "@types/react-dom": "^16.8.2",
-    "lerna": "^3.13.1",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "@snack-fe/react-hello": "file:packages/react-hello"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",
