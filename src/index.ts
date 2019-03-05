@@ -1,4 +1,6 @@
-import { render } from '@snack-fe/react-hello';
+import { render } from '@snack-fe/app';
+
+console.log('index');
 
 render(
   {

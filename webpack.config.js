@@ -1,7 +1,8 @@
+const path = require('path');
+
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
-const path = require('path');
+const eslintrc = require('./.eslintrc');
 
 module.exports = {
   entry: path.resolve(__dirname, './src/index.ts'),
@@ -20,14 +21,18 @@ module.exports = {
       {
         test: /\.[t|j]sx?$/,
         exclude: /node_modules/,
-        loader: 'eslint-loader',
-        options: {
-          fix: true,
-          cache: true,
-        },
+        use: [
+          'awesome-typescript-loader',
+          {
+            loader: 'eslint-loader',
+            options: {
+              ...eslintrc,
+              fix: true,
+              cache: true,
+            },
+          },
+        ],
       },
-      // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
-      { test: /\.tsx?$/, loader: 'awesome-typescript-loader' },
 
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
       { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },

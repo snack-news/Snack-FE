@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "@snack-fe/react-hello",
-  "version": "0.0.4",
+  "name": "@snack-fe/app",
+  "version": "0.0.1",
   "description": "Hello Component",
   "author": "vomvoru <qkrcjfgus33@gmail.com>",
   "homepage": "",
@@ -9,8 +9,11 @@
   "main": "index.tsx",
   "scripts": {},
   "dependencies": {
+    "@snack-fe/react-hello": "file:../react-hello",
     "@types/react": "^16.8.5",
-    "react": "^16.8.3"
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   },
   "devDependencies": {}
 }

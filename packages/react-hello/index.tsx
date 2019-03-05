@@ -1,11 +1,11 @@
 import * as React from 'react';
-import ReactDOM from 'react-dom';
-import { HelloProps, Hello } from './src/Hello';
 
-export const render = (props: HelloProps, rootElement: Element | null) => {
-  ReactDOM.render(<Hello {...props} />, rootElement);
-};
+console.log('react hello package');
+export interface HelloProps {
+  compiler: string;
+  framework: string;
+}
 
-export default {
-  render,
-};
+export const Hello = ({ compiler, framework }: HelloProps) => (
+  <h1>{`Hello from ${compiler} and ${framework}!`}</h1>
+);
