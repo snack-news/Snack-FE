@@ -26,7 +26,11 @@
     ]
   },
   "dependencies": {
-    "@snack-fe/app": "file:packages/app"
+    "@snack-fe/app": "file:packages/app",
+    "@types/react": "^16.8.5",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   },
   "devDependencies": {
     "@babel/core": "^7.2.0",

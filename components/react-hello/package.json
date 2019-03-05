@@ -8,9 +8,6 @@
   "license": "UNLICENSED",
   "main": "index.tsx",
   "scripts": {},
-  "dependencies": {
-    "@types/react": "^16.8.5",
-    "react": "^16.8.3"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
