@@ -14,9 +14,6 @@ module.exports = {
       functions: 80,
     },
   },
-  watchPlugins: [
-    'jest-watch-typeahead/filename',
-    'jest-watch-typeahead/testname',
-  ],
+  watchPlugins: ['jest-watch-typeahead/filename', 'jest-watch-typeahead/testname'],
   notify: true,
 };

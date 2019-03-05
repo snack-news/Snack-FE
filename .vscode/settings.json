@@ -1,6 +1,6 @@
 {
   // prettier-eslint 를 위한 설정
   "prettier.eslintIntegration": true,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "eslint.autoFixOnSave": false
 }
