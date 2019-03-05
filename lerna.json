@@ -4,6 +4,6 @@
       "ignoreChanges": ["*.md", "*.json", "*.txt", "test/**", "**.test.js"]
     }
   },
-  "packages": ["packages/*"],
+  "packages": ["packages/*", "components/*"],
   "version": "independent"
 }

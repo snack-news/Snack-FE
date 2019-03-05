@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "vomvoru <qkrcjfgus33@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.4.2",

@@ -9,7 +9,7 @@
   "main": "index.tsx",
   "scripts": {},
   "dependencies": {
-    "@snack-fe/react-hello": "file:../react-hello",
+    "@snack-fe/react-hello": "file:../../components/react-hello",
     "@types/react": "^16.8.5",
     "@types/react-dom": "^16.8.2",
     "react": "^16.8.3",
