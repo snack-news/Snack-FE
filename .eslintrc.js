@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@snack-fe/eslint-config-snack"]
+  extends: ['@snack-fe/eslint-config-snack'],
 };
