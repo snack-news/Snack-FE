@@ -21,6 +21,7 @@
     "*.{js,jsx,ts,tsx}": [
       "jest --bail --findRelatedTests",
       "prettier-eslint --write",
+      "eslint",
       "git add"
     ]
   },
@@ -43,7 +44,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^24.1.0",
-    "eslint": "^5.15.0",
+    "eslint": "^5.15.1",
     "eslint-import-resolver-webpack": "^0.8.4",
     "eslint-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
