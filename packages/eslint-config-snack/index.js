@@ -33,7 +33,7 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       rules: {
-        // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/src/configs/recommended.json
+        // https://github.com/typescript-eslint/typescript-eslint/issues/265
         '@typescript-eslint/adjacent-overload-signatures': 'error',
         '@typescript-eslint/array-type': 'error',
         '@typescript-eslint/ban-types': 'error',
