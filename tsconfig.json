@@ -10,9 +10,10 @@
 
     /////////// path ///////////
     "baseUrl": ".", // Non-relativ 모듈 혹은 paths 옵션의 기준 디렉토리
-    "paths": { // baseUrl 옵션을 기준디렉토리로 불러올 모듈의 위치 설정이 가능
+    "paths": {
+      // baseUrl 옵션을 기준디렉토리로 불러올 모듈의 위치 설정이 가능
       "*": ["*"]
-    }, 
+    },
     // "rootDirs": [ ], // 가상 디덱토리를 설정
     // "rootDir": "./", // 입력파일의 rootDir 설정
     // outDir옵션을 사용할때만 사용
@@ -22,7 +23,7 @@
     /////////// declaration ///////////
     "declaration": false, // .d.ts 파일의 생성 여부
     // "declarationDir": "", // .d.ts 파일이 생성되는 디렉토리 설정
-    
+
     /////////// log ///////////
     "diagnostics": false, // Show diagnostic information.
     "traceResolution": false, // 모듈 검색에 대한 로그메세지 출력 여부
@@ -37,10 +38,10 @@
     "jsxFactory": "React.createElement", // jsx 팩토리 함수 설정,
 
     /////////// JS ///////////
-    // "allowJs": false, // 자바스크립트 파일 컴파일 허용 여부. 
+    // "allowJs": false, // 자바스크립트 파일 컴파일 허용 여부.
     // "checkJs": false, // allowJs 옵션이 true여서 js파일 모듈을 사용시 js파일의 오류 검사 여부
     // "maxNodeModuleJsDepth": 0, // js 모듈을 검색할 최대 깊이
-    
+
     /////////// Lint ///////////
     "strict": true, // 모든 엄격한 타입 검사 옵션을 활성화
     // noImplicitAny, noImplicitThis, alwaysStrict, strictNullChecks, strictFunctionTypes
@@ -53,18 +54,18 @@
     // 자세한 내용은 문제 #1232를 참조
     "noStrictGenericChecks": true, // 함수에서 generic의 엄격한 검사 해제 여부
     "noUnusedLocals": true, // 사용안된 지역변수에 대한 오류 보고 여부
-    "noUnusedParameters": true,  // 사용안된 파라미터에 대한 오류 보고 여부
+    "noUnusedParameters": true, // 사용안된 파라미터에 대한 오류 보고 여부
 
     /////////// edit outfile ///////////
     "charset": "utf8", // 입력파일의 문자집합 형식
-    "emitBOM": false,// 출력 파일의 시작 부분에 UTF-8 바이트 순서표 (BOM) 추가여부
+    "emitBOM": false, // 출력 파일의 시작 부분에 UTF-8 바이트 순서표 (BOM) 추가여부
     // "newLine": "lf", // end of line sequence 설정
     "removeComments": true, // 주석 삭제
     "disableSizeLimit": false, // Disable size limitation on JavaScript project.
     "noEmit": false, // 결과파일을 저장하지 않음
     "noEmitOnError": false, // 에러 발생시 결과파일을 저장하지 않음
     "preserveConstEnums": false, // const enum형 선언을 지우지 않을건지 여부
-    
+
     /////////// more spec ///////////
     // "lib": [], // 컴파일에 포함될 라이브러리 파일 목록
     "downlevelIteration": false, // target이 ES3 및 ES5 일때도 for..of, spread, destructuring 문법 지원
@@ -79,29 +80,29 @@
     // @TODO 테스트 필요
     // "mapRoot": "./map", // "source map 파일을 저장할 root 디렉토리 지정
     // 지정하지 않으면 변환된 파일과 동일한 디렉토리에 저장된다.
-    "sourceMap": true, // 소스맵(*.map) 파일 생성 여부
+    "sourceMap": true // 소스맵(*.map) 파일 생성 여부
     // "sourceRoot": "", // 디버거가 알아야될 .ts파일 root 위치. 소스맵(*.map)에 적용된다.
     // @TODO 테스트 필요
     // "inlineSources": false, // 변환전 파일 .ts 코드를 결과코드에 추가
     // @TODO 테스트 필요
 
     /////////// etc ///////////
-    
+
     // "noImplicitUseStrict": false, // @TODO 테스트 필요
-    
+
     // "noLib": false, // 기본 라이브러리(lib.d.ts)를 가져오지 않는다.
-    
+
     // "plugins": [ ], // 편집환경을 더 좋게 변경하기 위한 플러그인 기능
-    
+
     // "preserveSymlinks": false, // Symlink파일에서 다른 모듈을 import시 기준경로를 Symlink 경로로 설정
     // 기존에는 Symlink파일에서 다른 모듈을 import시
     // Symlink파일의 실제 경로에서 모듈을 가져왔다.
     // https://nodejs.org/api/cli.html#cli_preserve_symlinks
-    
+
     // "skipLibCheck": false, // 모든 선언파일(*.d.ts)의 유형검사를 건너뛸지 여부
-    
+
     // "watch": false, // 파일 변경시 컴파일
-    
+
     /////////// ??? ///////////
     // "isolatedModules": false, // @TODO 뭘까...
     // https://github.com/Microsoft/TypeScript/issues/2499

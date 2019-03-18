@@ -4,6 +4,9 @@ const eslintrc = require('../../.eslintrc');
 
 module.exports = {
   target: 'node',
+  node: {
+    __dirname: false,
+  },
   entry: path.resolve(__dirname, './index.ts'),
   output: {
     filename: 'bundle.js',

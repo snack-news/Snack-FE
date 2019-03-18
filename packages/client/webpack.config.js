@@ -7,8 +7,9 @@ module.exports = {
   entry: path.resolve(__dirname, './index.ts'),
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, './public/dist'),
   },
+  mode: 'development',
   // Enable sourcemaps for debugging webpack's output.
   devtool: 'source-map',
   resolve: {
