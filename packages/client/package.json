@@ -1,13 +1,13 @@
 {
-  "name": "@snack-fe/server",
+  "name": "@snack-fe/clinet",
   "version": "0.0.1",
-  "description": "Snack News FE Node Serer",
+  "description": "Snack News FE Clinet",
   "main": "index.ts",
   "scripts": {
     "build": "webpack",
     "build:watch": "webpack -w",
-    "start": "node dist/bundle.js",
-    "start:dev": "concurrently \"webpack -w\" \"nodemon dist/bundle.js\"",
+    "start": "echo \"end\"",
+    "start:dev": "webpack -w",
     "test": "jest --coverage",
     "test:watch": "jest --coverage --watchAll",
     "ts-compile-check": "tsc -p ./tsconfig.json --noEmit"
@@ -15,14 +15,17 @@
   "author": "qkrcjfgus3@gmail.com",
   "license": "UNLICENSED",
   "dependencies": {
-    "source-map-support": "^0.5.11"
+    "@snack-fe/app": "file:packages/app",
+    "@types/react": "^16.8.5",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
-    "concurrently": "^4.1.0",
     "eslint-loader": "^2.0.0",
-    "nodemon": "^1.18.10",
     "webpack": "^4.29.6",
+    "webpack-bundle-analyzer": "^3.1.0",
     "webpack-cli": "^3.2.3"
   }
 }

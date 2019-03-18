@@ -1,11 +1,10 @@
 const path = require('path');
 
 const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const eslintrc = require('./.eslintrc');
+const eslintrc = require('../../.eslintrc');
 
 module.exports = {
-  entry: path.resolve(__dirname, './src/index.ts'),
+  entry: path.resolve(__dirname, './index.ts'),
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
@@ -33,15 +32,7 @@ module.exports = {
           },
         ],
       },
-
-      // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-      { enforce: 'pre', test: /\.js$/, loader: 'source-map-loader' },
     ],
   },
-  plugins: [
-    new BundleAnalyzerPlugin(),
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './template/index.html'),
-    }),
-  ],
+  plugins: [new BundleAnalyzerPlugin()],
 };

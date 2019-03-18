@@ -26,7 +26,7 @@ module.exports = {
     complexity: ['error', { max: 10 }],
     'max-lines': ['error', { max: 100, skipBlankLines: true, skipComments: true }],
     'max-depth': ['error', 2],
-    'import/no-extraneous-dependencies': 'off',
+    'import/no-extraneous-dependencies': 'off', // TODO
   },
 
   overrides: [
