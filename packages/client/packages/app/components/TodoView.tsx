@@ -12,7 +12,7 @@ const TodoView = observer<React.FunctionComponent<Props>>(({ todo }) => (
     <DevTools />
     <input
       type="checkbox"
-      checked={todo.finished}
+      defaultChecked={todo.finished}
       onClick={() => {
         todo.toggleFinished();
       }}
