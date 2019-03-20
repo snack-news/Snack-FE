@@ -49,7 +49,7 @@ module.exports = {
         '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
         'no-array-constructor': 'off',
         '@typescript-eslint/no-array-constructor': airbnbBaseStyleRules['no-array-constructor'],
-        '@typescript-eslint/no-empty-interface': 'error',
+        '@typescript-eslint/no-empty-interface': 'off',
         '@typescript-eslint/no-explicit-any': 'warn',
         '@typescript-eslint/no-inferrable-types': 'error',
         '@typescript-eslint/no-misused-new': 'error',

@@ -109,5 +109,6 @@
     // "emitDecoratorMetadata": false, // @TODO 테스트 필요
     // Emit design-type metadata for decorated declarations in source. See issue #2577 for details.
     // "noResolve": false // @TODO 테스트 필요
-  }
+  },
+  "exclude": ["node_modules"]
 }

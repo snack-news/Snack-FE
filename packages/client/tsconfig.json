@@ -1,4 +1,7 @@
 {
   "extends": "../../tsconfig.json",
-  "files": ["index.ts"]
+  "compilerOptions": {
+    "experimentalDecorators": true // ES Decorator에 대한 실험적 기능 사용 여부
+  },
+  "include": ["**/*"]
 }

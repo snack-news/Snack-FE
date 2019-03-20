@@ -9,7 +9,10 @@
   "main": "index.tsx",
   "scripts": {},
   "dependencies": {
-    "@snack-fe/react-hello": "file:../react-hello"
+    "@snack-fe/react-hello": "file:../react-hello",
+    "mobx": "^5.9.0",
+    "mobx-react": "^5.4.3",
+    "mobx-react-devtools": "^6.1.1"
   },
   "devDependencies": {}
 }
