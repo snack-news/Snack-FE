@@ -15,19 +15,6 @@
   },
   "author": "",
   "license": "UNLICENSED",
-  "husky": {
-    "hooks": {
-      "pre-commit": "concurrently --kill-others-on-fail --success all \"npm run ts-compile-check\" \"lint-staged\""
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx}": [
-      "jest --bail --findRelatedTests",
-      "prettier-eslint --write",
-      "eslint",
-      "git add"
-    ]
-  },
   "dependencies": {},
   "devDependencies": {
     "@types/jest": "^24.0.3",

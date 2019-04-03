@@ -21,9 +21,7 @@ class TodoListView extends React.Component<Props, State> {
             <TodoView todo={todo} key={todo.id} />
           ))}
         </ul>
-        Tasks left:
-        {' '}
-        {todoList.unfinishedTodoCount}
+        Tasks left: {todoList.unfinishedTodoCount}
       </div>
     );
   }

@@ -4,7 +4,7 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 const eslintrc = require('../../.eslintrc');
 
 module.exports = {
-  entry: path.resolve(__dirname, './index.ts'),
+  entry: path.resolve(__dirname, './index.tsx'),
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, './public/dist'),

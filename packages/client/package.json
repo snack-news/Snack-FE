@@ -15,11 +15,11 @@
   "author": "qkrcjfgus3@gmail.com",
   "license": "UNLICENSED",
   "dependencies": {
-    "@snack-fe/app": "file:packages/app",
     "@types/react": "^16.8.5",
     "@types/react-dom": "^16.8.2",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^5.0.0"
   },
   "devDependencies": {
     "awesome-typescript-loader": "^5.2.1",
