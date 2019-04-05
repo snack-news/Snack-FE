@@ -11,21 +11,41 @@ const Menu = () => (
         <span>Menu</span>
       </section>
     </header>
-    <section>
-      <Link to="/">홈</Link>
-      <a href="/">토픽 모아보기</a>
-      <a href="/">서비스 안내</a>
-      <a href="/">공지사항</a>
-      <a href="/">제안하기</a>
-      <a href="/">문의하기</a>
-    </section>
+    <ul>
+      <li>
+        <Link to="/">홈</Link>
+      </li>
+      <li>
+        <a href="/">토픽 모아보기</a>
+      </li>
+      <li>
+        <a href="/">서비스 안내</a>
+      </li>
+      <li>
+        <a href="/">공지사항</a>
+      </li>
+      <li>
+        <a href="/">제안하기</a>
+      </li>
+      <li>
+        <a href="/">문의하기</a>
+      </li>
+    </ul>
 
-    <section>
-      <a href="/">페이스북</a>
-      <a href="/">트위터</a>
-      <a href="/">카카오톡</a>
-      <a href="/">이메일</a>
-    </section>
+    <ul>
+      <li>
+        <a href="/">페이스북</a>
+      </li>
+      <li>
+        <a href="/">트위터</a>
+      </li>
+      <li>
+        <a href="/">카카오톡</a>
+      </li>
+      <li>
+        <a href="/">이메일</a>
+      </li>
+    </ul>
   </div>
 );
 

@@ -1,17 +1,17 @@
 import * as React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Home from '../pages/Home';
+import News from '../pages/News';
+import Picks from '../pages/Picks';
 import Menu from '../pages/Menu';
-import Header from './Header';
 
 function AppRouter() {
   return (
     <Router>
       <div>
-        <Header />
-
-        <Route path="/" exact component={Home} />
+        <Route path="/" exact component={News} />
+        <Route path="/news/" exact component={News} />
+        <Route path="/picks/" exact component={Picks} />
         <Route path="/menu/" component={Menu} />
       </div>
     </Router>
