@@ -1,20 +1,19 @@
-const path = require('path');
+const path = require("path");
 
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-const eslintrc = require('../../.eslintrc');
+const eslintrc = require("../../.eslintrc");
 
 module.exports = {
-  entry: path.resolve(__dirname, './index.tsx'),
+  entry: path.resolve(__dirname, "./index.tsx"),
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, './public/dist'),
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "./public/dist")
   },
-  mode: 'development',
+  mode: "development",
   // Enable sourcemaps for debugging webpack's output.
-  devtool: 'source-map',
+  devtool: "source-map",
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
-    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
+    extensions: [".ts", ".tsx", ".js", ".jsx", ".json"]
   },
   module: {
     rules: [
@@ -22,18 +21,17 @@ module.exports = {
         test: /\.[t|j]sx?$/,
         exclude: /node_modules/,
         use: [
-          'awesome-typescript-loader',
+          "awesome-typescript-loader",
           {
-            loader: 'eslint-loader',
+            loader: "eslint-loader",
             options: {
               ...eslintrc,
               fix: true,
-              cache: true,
-            },
-          },
-        ],
-      },
-    ],
-  },
-  plugins: [new BundleAnalyzerPlugin()],
+              cache: true
+            }
+          }
+        ]
+      }
+    ]
+  }
 };
