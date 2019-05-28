@@ -1,4 +1,4 @@
-선택과 집중으로 미뤄진 TODO
+'선택과 집중'으로 미뤄진 TODO
 
 - vscode의 eslint가 빌드된 파일에서도 작동중
 - Storybook 미적용
