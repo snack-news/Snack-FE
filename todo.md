@@ -5,3 +5,4 @@
 - nps 미적용 (일부 적용)
 - lerna 미적용
 - @babel/plugin-transform-runtime 미적용
+- lint-staged (커밋전 eslint등의 검사)
