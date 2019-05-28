@@ -289,3 +289,5 @@ coverage
 lerna-debug.log
 
 .size-snapshot.json
+
+./public/dist
