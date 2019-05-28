@@ -4,7 +4,8 @@
   "description": "Snack News FE",
   "main": "index.js",
   "scripts": {
-    "start": "nps"
+    "start": "nps",
+    "build": "nps build"
   },
   "author": "",
   "license": "UNLICENSED",
