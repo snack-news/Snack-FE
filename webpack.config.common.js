@@ -1,5 +1,7 @@
 const path = require('path');
-const babelConfig = require('./babel.config');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const babelConfig = require('./babel.config.webpack');
 
 module.exports = {
   entry: './src/index.tsx',
@@ -45,5 +47,8 @@ module.exports = {
       },
     ],
   },
-  externals: [/^[^.]/], // 상대경로 이외의 모듈은 모두 제외
+  plugins: [new HtmlWebpackPlugin()],
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.json'],
+  },
 };

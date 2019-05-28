@@ -1,10 +1,9 @@
-// TODO '@babel/plugin-transform-runtime 에 대한 browserslist 지원 이슈가 해결되면 수정 필요
-// https://github.com/babel/babel/issues/6629
+const babelConfigCommon = require('./babel.config.common');
 
 module.exports = {
+  ...babelConfigCommon,
   presets: [
-    '@babel/typescript',
-    '@babel/preset-react',
+    ...babelConfigCommon.presets,
     [
       '@babel/preset-env',
       {
@@ -15,7 +14,7 @@ module.exports = {
     ],
   ],
   plugins: [
-    '@babel/proposal-class-properties',
+    ...babelConfigCommon.plugins,
     [
       '@babel/plugin-transform-runtime',
       {
@@ -29,9 +28,5 @@ module.exports = {
         useESModules: false,
       },
     ],
-    'babel-plugin-styled-components',
   ],
-  inputSourceMap: true,
-  sourceMaps: true,
-  sourceType: 'module',
 };
