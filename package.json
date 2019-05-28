@@ -4,7 +4,8 @@
   "description": "Snack News FE",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "jest"
   },
   "author": "",
   "license": "UNLICENSED",
@@ -37,5 +38,7 @@
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/jest": "^24.0.13"
+  }
 }
