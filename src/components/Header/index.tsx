@@ -26,19 +26,12 @@ const Center = styled.div`
 `;
 
 const Menu = () => (
-  <div
+  <FiMenu
     style={{
-      height: '30px',
-      width: '30px',
+      fontSize: '30px',
+      color: '#0b66f7',
     }}
-  >
-    <FiMenu
-      style={{
-        fontSize: '24px',
-        color: '#0b66f7',
-      }}
-    />
-  </div>
+  />
 );
 
 export const Header: React.SFC<HeaderProps> = () => {
