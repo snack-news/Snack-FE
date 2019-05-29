@@ -6,3 +6,5 @@
 - lerna 미적용
 - @babel/plugin-transform-runtime 미적용
 - lint-staged (커밋전 eslint등의 검사)
+- 로고 이미지 파일이 png라서 불편한사항 (크기 조절이 쉽지 않음. svg 필요)
+- 로고 이미지 파일이 약간의 여백이 있으므로서 생기는 정렬 불균형 현상

@@ -1,31 +1,30 @@
 import React from 'react';
-import styled from 'styled-components';
-import { FiMenu } from 'react-icons/fi';
 
 import BarWrapper from '../BarWrapper';
 
-import logo from './img/logo.png';
+import logoImg from '../../resources/logo_blue2x.png';
+import MenuImg from '../../resources/icon/menu_blue2x.png';
 
 interface HeaderProps {}
 
 const Logo = () => (
-  <div>
-    <img
-      src={logo}
-      alt="logo"
-      style={{
-        height: '22px',
-        justifyContent: 'center',
-      }}
-    />
-  </div>
+  <img
+    src={logoImg}
+    alt="logo"
+    style={{
+      height: '28px',
+      justifyContent: 'center',
+    }}
+  />
 );
 
 const Menu = () => (
-  <FiMenu
+  <img
+    src={MenuImg}
+    alt="menu"
     style={{
-      fontSize: '30px',
-      color: '#0b66f7',
+      width: '30px',
+      justifyContent: 'center',
     }}
   />
 );
