@@ -21,10 +21,6 @@ const Logo = () => (
   </div>
 );
 
-const Center = styled.div`
-  flex: 1;
-`;
-
 const Menu = () => (
   <FiMenu
     style={{
@@ -38,7 +34,6 @@ export const Header: React.SFC<HeaderProps> = () => {
   return (
     <BarWrapper>
       <Logo />
-      <Center />
       <Menu />
     </BarWrapper>
   );

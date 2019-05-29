@@ -5,6 +5,7 @@ const BarWrapper = styled.div`
   align-items: center;
   background-color: #fffefe;
   padding: 16px 20px;
+  justify-content: space-between;
 `;
 
 export default BarWrapper;
