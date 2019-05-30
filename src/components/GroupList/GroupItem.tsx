@@ -1,9 +1,11 @@
 import React, { SFC } from 'react';
 import styled from 'styled-components';
 import BarWrapper from '../BarWrapper/index';
+import arrowLinkImg from '../../resources/icon/arrow_link.png';
 
 export interface GroupItemProps {
   name: string;
+  id: string;
 }
 
 interface GroupTextIconProps {
@@ -32,12 +34,17 @@ const GroupLabel = styled.span`
   font-size: 14px;
   font-weight: 500;
   color: #121111;
+  flex: 1;
+  padding: 0 10px;
 `;
+
+const ArrowIcon = () => <img src={arrowLinkImg} alt="arrow" style={{ height: '14px' }} />;
 
 const GroupItem: SFC<GroupItemProps> = ({ name }) => (
   <BarWrapper>
     <GroupTextIcon name={name} />
     <GroupLabel>{name}</GroupLabel>
+    <ArrowIcon />
   </BarWrapper>
 );
 

@@ -20,7 +20,7 @@ const SortLabel = styled.span`
 
 const SortButton = () => (
   <div>
-    <SortLabel>ABC 순</SortLabel>
+    <SortLabel>가나다 순</SortLabel>
     <img src={downarrowFilterImg} alt="sort" />
   </div>
 );
