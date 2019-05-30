@@ -26,7 +26,7 @@ const SortButton = () => (
 );
 
 const SubHeader = () => (
-  <BarWrapper>
+  <BarWrapper style={{ height: '46px' }}>
     <Title>전체</Title>
     <SortButton />
   </BarWrapper>

@@ -4,7 +4,7 @@ const BarWrapper = styled.div`
   display: flex;
   align-items: center;
   background-color: #fffefe;
-  padding: 16px 20px;
+  padding: 0px 20px;
   justify-content: space-between;
 `;
 

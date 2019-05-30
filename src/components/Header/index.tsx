@@ -31,7 +31,7 @@ const Menu = () => (
 
 export const Header: React.SFC<HeaderProps> = () => {
   return (
-    <BarWrapper>
+    <BarWrapper style={{ height: '54px' }}>
       <Logo />
       <Menu />
     </BarWrapper>

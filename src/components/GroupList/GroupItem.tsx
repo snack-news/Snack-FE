@@ -41,7 +41,7 @@ const GroupLabel = styled.span`
 const ArrowIcon = () => <img src={arrowLinkImg} alt="arrow" style={{ height: '14px' }} />;
 
 const GroupItem: SFC<GroupItemProps> = ({ name }) => (
-  <BarWrapper>
+  <BarWrapper style={{ height: '60px' }}>
     <GroupTextIcon name={name} />
     <GroupLabel>{name}</GroupLabel>
     <ArrowIcon />
