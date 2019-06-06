@@ -1,22 +1,19 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import CompanySelectPage from '../CompanySelectPage';
+import styled from 'styled-components';
+import Header from '../../components/Header';
+import HorizontalDivider from '../../components/HorizontalDivider';
+import Tabs from '../../components/Tabs';
+import DefaultProps from '../../constants/DefaultProps';
 
-const HomePage = () => (
-  <Router>
-    <div>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">HomePage</Link>
-          </li>
-          <li>
-            <Link to="/company-list/">회사 그룹</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </Router>
+const Wrapper = styled.div``;
+
+const CompanySelectPage = () => (
+  <Wrapper>
+    <Header />
+    <HorizontalDivider />
+    <Tabs {...DefaultProps.tabs} />
+    <HorizontalDivider thick />
+  </Wrapper>
 );
 
-export default HomePage;
+export default CompanySelectPage;
