@@ -25,10 +25,6 @@ const Label = styled.div.attrs<{ text: string }>(({ text }) => ({
   font-family: SFProDisplay;
   font-size: 17px;
   font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
   color: #121111;
 `;
 

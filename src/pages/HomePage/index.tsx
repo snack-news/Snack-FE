@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import HorizontalDivider from '../../components/HorizontalDivider';
 import Tabs from '../../components/Tabs';
 import SelectBox from '../../components/SelectBox';
+import NewsList from '../../components/NewsList';
 import Footer from '../../components/Footer';
 import DefaultProps from '../../constants/DefaultProps';
 
@@ -17,6 +18,7 @@ const CompanySelectPage = () => (
     <HorizontalDivider thick />
     <SelectBox />
     <HorizontalDivider thick />
+    <NewsList />
     <Footer />
   </Wrapper>
 );

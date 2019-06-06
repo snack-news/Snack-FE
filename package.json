@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.4.5",
+    "@types/psl": "^1.1.0",
     "@types/react": "^16.8.19",
     "@types/react-dom": "^16.8.4",
     "@types/react-router-dom": "^4.3.3",
@@ -62,6 +63,7 @@
     "express": "^4.17.1",
     "html-webpack-template": "^6.2.0",
     "normalize.css": "^8.0.1",
+    "psl": "^1.1.32",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
