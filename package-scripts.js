@@ -8,12 +8,22 @@ module.exports = {
       description: 'js 파일 빌드',
     },
     server: {
-      script: `${crossEnv('NODE_ENV=production')} node ./server/index.js`,
-      description: '노드 서버 시작',
+      default: {
+        script: `${crossEnv('NODE_ENV=production')} node ./server/index.js`,
+        description: '노드 서버 시작',
+      },
+      dev: {
+        script: `${crossEnv('NODE_ENV=development')} node ./server/index.js`,
+        description: '노드 개발 서버 시작',
+      },
+    },
+    test: {
+      script: 'jest --watchAll',
+      description: '테스트',
     },
     dev: {
-      script: `${crossEnv('NODE_ENV=development')} node ./server/index.js`,
-      description: '노드 개발 서버 시작',
+      script: concurrent.nps('server.dev', 'test'),
+      description: '개발 환경',
     },
   },
 };
