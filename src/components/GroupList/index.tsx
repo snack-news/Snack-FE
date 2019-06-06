@@ -9,7 +9,7 @@ interface GroupListProps {
 const GroupList: SFC<GroupListProps> = ({ groups }) => (
   <Fragment>
     {groups.map(group => (
-      <Fragment key={group.id}>
+      <Fragment key={group.groupId}>
         <GroupItem {...group} />
         <HorizontalDivider />
       </Fragment>

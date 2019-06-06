@@ -8,12 +8,12 @@ import GroupList from '../../components/GroupList';
 const Wrapper = styled.div``;
 
 const mockGropus = [
-  { name: '아마존', id: '1' },
-  { name: '쿠팡', id: '2' },
-  { name: '페이스북', id: '3' },
-  { name: '삼성', id: '4' },
-  { name: '테슬라', id: '5' },
-  { name: '이커머스', id: '6' },
+  { groupName: '아마존', groupId: '1' },
+  { groupName: '쿠팡', groupId: '2' },
+  { groupName: '페이스북', groupId: '3' },
+  { groupName: '삼성', groupId: '4' },
+  { groupName: '테슬라', groupId: '5' },
+  { groupName: '이커머스', groupId: '6' },
 ];
 
 const CompanySelectPage = () => (

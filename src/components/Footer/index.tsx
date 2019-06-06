@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import BarWrapper from '../BarWrapper';
 
@@ -8,15 +7,27 @@ import MenuImg from '../../resources/icon/menu_blue2x.png';
 
 interface HeaderProps {}
 
-const Logo = styled.img.attrs({ src: logoImg })`
-  height: 28px;
-  justify-content: center;
-`;
+const Logo = () => (
+  <img
+    src={logoImg}
+    alt="logo"
+    style={{
+      height: '28px',
+      justifyContent: 'center',
+    }}
+  />
+);
 
-const Menu = styled.img.attrs({ src: MenuImg })`
-  width: 30px;
-  justify-content: center;
-`;
+const Menu = () => (
+  <img
+    src={MenuImg}
+    alt="menu"
+    style={{
+      width: '30px',
+      justifyContent: 'center',
+    }}
+  />
+);
 
 export const Header: React.SFC<HeaderProps> = () => {
   return (

@@ -11,7 +11,7 @@ const TabWrapper = styled.div`
   flex-direction: column;
 `;
 
-const TabLabel = styled.div`
+const TabLabel = styled.div<Pick<TabProps, 'selected'>>`
   display: flex;
   flex: 1;
   align-items: center;
@@ -20,7 +20,8 @@ const TabLabel = styled.div`
   font-family: SFProDisplay;
   font-size: 16px;
   font-weight: 600;
-  color: #595966;
+
+  color: ${({ selected }) => (selected ? '#0b66f7' : '#595966')};
 `;
 
 const TabUnderLine = styled.div`
@@ -31,13 +32,7 @@ const TabUnderLine = styled.div`
 
 const Tab: SFC<TabProps> = ({ children, selected }) => (
   <TabWrapper>
-    <TabLabel
-      style={{
-        color: selected ? '#0b66f7' : undefined,
-      }}
-    >
-      {children}
-    </TabLabel>
+    <TabLabel selected={selected}>{children}</TabLabel>
     {selected ? <TabUnderLine /> : null}
   </TabWrapper>
 );
