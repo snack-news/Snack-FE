@@ -21,8 +21,7 @@ const newsListMock = [
     link: {
       href:
         'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
-      title: '애플 7% 주가 상승했나? 여력있어 보여',
-      img: linkMock,
+      title: '사진이 없는 링크',
     },
     key: '2',
   },
