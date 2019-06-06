@@ -10,6 +10,7 @@ module.exports = merge(common, {
     proxy: {
       '/api': 'http://localhost:3000/api',
     },
+    historyApiFallback: true,
     open: true,
   },
   devtool: 'eval-source-map',
