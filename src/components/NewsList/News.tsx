@@ -188,7 +188,7 @@ const News: SFC<NewsProps> = ({ tags, link }) => (
     <HorizontalDivider small style={{ marginTop: '10px', marginBottom: '10px' }} />
     <Footer>
       <IconLabel iconImg={shareImg} label="공유하기" />
-      <IconLabel iconImg={copyImg} label="공유하기" />
+      <IconLabel iconImg={copyImg} label="링크복사" />
     </Footer>
     <HorizontalDivider />
   </Wrapper>
