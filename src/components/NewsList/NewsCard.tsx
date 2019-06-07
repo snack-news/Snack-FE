@@ -12,17 +12,20 @@ interface Link {
   img?: string;
 }
 
-interface NewsProps {
+interface NewsCardProps {
+  title: string;
+  content: string;
   tags: TagProps[];
   link?: Link;
 }
 
 interface TagsProps {
-  tags: NewsProps['tags'];
+  tags: NewsCardProps['tags'];
 }
 
 interface TagProps {
   highlight?: boolean;
+  children: string;
 }
 
 const Wrapper = styled.div`
@@ -59,9 +62,14 @@ const Title = styled.div`
   font-weight: 600;
   color: #121111;
   padding: 10px 0px;
+
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow: hidden;
 `;
 
-const Contents = styled.div`
+const Content = styled.div`
   width: 305px;
   font-family: AppleSDGothicNeo;
   font-size: 14px;
@@ -169,18 +177,12 @@ const IconLabel: SFC<IconLabelProps> = ({ iconImg, label }) => (
   </IconLabelWrapper>
 );
 
-const News: SFC<NewsProps> = ({ tags, link }) => (
+const NewsCard: SFC<NewsCardProps> = ({ title, content, tags, link }) => (
   <Wrapper>
     <Header>
       <Tags tags={tags} />
-      <Title>애플 7% 주가 상승</Title>
-      <Contents>
-        보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인
-        여름여름여름여름여름여름여름여름여름여름여름여름.
-        여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름.
-        여름여름여름여름여름여름여름여여름.
-        여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
-      </Contents>
+      <Title>{title}</Title>
+      <Content>{content}</Content>
       <MoreButton />
     </Header>
     {link && link.img && <LinkImg src={link.img} />}
@@ -194,4 +196,4 @@ const News: SFC<NewsProps> = ({ tags, link }) => (
   </Wrapper>
 );
 
-export default News;
+export default NewsCard;
