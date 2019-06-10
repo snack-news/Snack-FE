@@ -3,14 +3,39 @@ import styled from 'styled-components';
 
 import HorizontalDivider from '../HorizontalDivider';
 
-const CompanyBox = () => <CompanyBox.Wrapper />;
+const CompanyBox = () => (
+  <CompanyBox.Wrapper>
+    <CompanyBox.Logo />
+    <CompanyBox.Label>그랩</CompanyBox.Label>
+  </CompanyBox.Wrapper>
+);
 CompanyBox.Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   width: 89px;
   height: 74px;
   border-radius: 5px;
   border: solid 0.5px #d6d6db;
   flex: none;
   margin-right: 10px;
+  padding: 12px 0 8px 0;
+`;
+
+CompanyBox.Logo = styled.img`
+  width: 70.6px;
+  height: 27.2px;
+  background-color: #009c3d;
+`;
+
+CompanyBox.Label = styled.div`
+  flex: 1;
+  font-family: AppleSDGothicNeo;
+  font-size: 12px;
+  margin-top: 12px;
+  text-align: center;
+  color: #595966;
 `;
 
 const CompanyListCard = () => (
