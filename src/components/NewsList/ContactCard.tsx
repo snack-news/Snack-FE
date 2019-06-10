@@ -1,46 +1,59 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
 import HorizontalDivider from '../HorizontalDivider';
 
 const ContactCard = () => (
-  <React.Fragment>
+  <Fragment>
     <HorizontalDivider thick />
     <ContactCard.Wrapper>
-      <ContactCard.Header>
-        <ContactCard.Title />
-        <ContactCard.MoreLink />
-      </ContactCard.Header>
+      <ContactCard.Links />
+      <ContactCard.Copyright />
     </ContactCard.Wrapper>
     <HorizontalDivider thick />
-  </React.Fragment>
+  </Fragment>
 );
 
 ContactCard.Wrapper = styled.div`
   display: flex;
-  padding: 15px 0;
   flex-direction: column;
-  align-items: center;
+  padding: 22px 20px 30px 20px;
 `;
 
-ContactCard.Header = styled.div`
+ContactCard.LinksWrapper = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
+  margin-bottom: 20px;
 `;
 
-ContactCard.Title = styled.div.attrs({ children: '회사별 뉴스 모아보기' })`
+ContactCard.Link = styled.div`
   font-family: SFProDisplay;
-  font-size: 17px;
-  font-weight: 600;
-  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #0b66f7;
 `;
 
-ContactCard.MoreLink = styled.div.attrs({ children: '모두보기' })`
-  font-family: AppleSDGothicNeo;
-  font-size: 13px;
-  color: #0b66f7;
+ContactCard.Links = () => (
+  <ContactCard.LinksWrapper>
+    <ContactCard.Link>서비스 안내</ContactCard.Link>
+    <ContactCard.LinkDivider />
+    <ContactCard.Link>제안하기</ContactCard.Link>
+    <ContactCard.LinkDivider />
+    <ContactCard.Link>문의하기</ContactCard.Link>
+  </ContactCard.LinksWrapper>
+);
+
+ContactCard.LinkDivider = styled.div`
+  width: 0.5px;
+  height: 17px;
+  background-color: #93939f;
+  margin: 0 8px;
+`;
+
+ContactCard.Copyright = styled.span.attrs({ children: '© 2019 Snack Project' })`
+  font-family: SFProDisplay;
+  font-size: 12px;
+  color: #93939f;
 `;
 
 export default ContactCard;
