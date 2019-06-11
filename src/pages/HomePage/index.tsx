@@ -8,6 +8,9 @@ import NewsList from '../../components/NewsList';
 import Footer from '../../components/Footer';
 import DefaultProps from '../../constants/DefaultProps';
 
+import 'normalize.css';
+import '../../global.css';
+
 const Wrapper = styled.div``;
 
 const CompanySelectPage = () => (

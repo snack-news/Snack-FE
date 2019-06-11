@@ -5,6 +5,9 @@ import HorizontalDivider from '../../components/HorizontalDivider';
 import SubHeader from '../../components/SubHeader';
 import GroupList from '../../components/GroupList';
 
+import 'normalize.css';
+import '../../global.css';
+
 const Wrapper = styled.div``;
 
 const mockGropus = [
