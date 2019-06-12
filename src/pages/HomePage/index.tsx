@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
-import Header from '../../components/Header';
-import HorizontalDivider from '../../components/HorizontalDivider';
-import Tabs from '../../components/Tabs';
-import SelectBox from '../../components/SelectBox';
-import NewsList from '../../components/NewsList';
-import Footer from '../../components/Footer';
-import DefaultProps from '../../constants/DefaultProps';
+import Header from '../../templates/Header';
+import HorizontalDivider from '../../templates/HorizontalDivider';
+import Tabs from '../../templates/Tabs';
+import SelectBox from '../../templates/SelectBox';
+import NewsList from '../../templates/NewsList';
+import Footer from '../../templates/Footer';
+import constants from '../../constants';
 
 import 'normalize.css';
 import '../../global.css';
@@ -17,7 +17,7 @@ const CompanySelectPage = () => (
   <Wrapper>
     <Header />
     <HorizontalDivider />
-    <Tabs {...DefaultProps.tabs} />
+    <Tabs {...constants.tabs} />
     <HorizontalDivider thick />
     <SelectBox />
     <HorizontalDivider thick />

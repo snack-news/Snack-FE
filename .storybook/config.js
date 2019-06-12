@@ -1,4 +1,12 @@
-import { configure, addParameters } from '@storybook/react';
+import { configure, addParameters, addDecorator } from '@storybook/react';
+import { withPropsTable } from 'storybook-addon-react-docgen';
+import '@storybook/addon-console';
+
+import Outline from '../stories/Outline'
+
+addDecorator(withPropsTable({
+  propTablesExclude: [Outline]
+}));
 
 addParameters({
   options: {

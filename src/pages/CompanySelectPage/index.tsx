@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import Header from '../../components/Header';
-import HorizontalDivider from '../../components/HorizontalDivider';
-import SubHeader from '../../components/SubHeader';
-import GroupList from '../../components/GroupList';
+import Header from '../../templates/Header';
+import HorizontalDivider from '../../templates/HorizontalDivider';
+import SubHeader from '../../templates/SubHeader';
+import GroupList from '../../templates/GroupList';
 
 import 'normalize.css';
 import '../../global.css';
