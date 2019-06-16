@@ -1,15 +1,12 @@
 import React from 'react';
 
-import storiesOfWithTemplate from './storiesOfWithTemplate';
+import storiesOfWithTemplates from './storiesOfWithTemplates';
 
 import Outline from '../Outline';
 
-import Footer from '../../src/templates/Footer';
-import Copyright from '../../src/templates/Footer/components/Copyright';
-import FooterLinkList from '../../src/templates/Footer/components/FooterLinkList';
-import SocialList from '../../src/templates/Footer/components/SocialList';
+import Footer, { Copyright, FooterLinkList, SocialIconList } from '../../src/templates/Footer';
 
-storiesOfWithTemplate('Footer', module)
+storiesOfWithTemplates('Footer', module)
   .add('기본', () => <Footer />)
   .add('Copyright', () => (
     <Outline>
@@ -21,8 +18,8 @@ storiesOfWithTemplate('Footer', module)
       <FooterLinkList />
     </Outline>
   ))
-  .add('SocialList', () => (
+  .add('SocialIconList', () => (
     <Outline>
-      <SocialList />
+      <SocialIconList />
     </Outline>
   ));

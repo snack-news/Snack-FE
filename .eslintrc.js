@@ -24,7 +24,7 @@ module.exports = {
     jest: true,
   },
   rules: {
-    // prettier
+    /* prettier */
     'prettier/prettier': [
       'error',
       {
@@ -34,10 +34,10 @@ module.exports = {
       },
     ],
 
-    // jsx 구문을 tsx에서도 허용
+    /* jsx 구문을 tsx에서도 허용 */
     'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
 
-    // 코드질을 올리기 위한 유용한 규칙들
+    /* 코드질을 올리기 위한 유용한 규칙들 */
     complexity: ['warn', { max: 10 }],
     'max-lines': ['warn', { max: 100, skipBlankLines: true, skipComments: true }],
     'max-depth': ['warn', 2],
@@ -50,9 +50,12 @@ module.exports = {
       },
     ],
 
-    // eslint-plugin-react-hooks
+    /* eslint-plugin-react-hooks */
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+
+    /* 커스텀으로 off 한 사항들 */
+    // 없음
   },
 
   overrides: [

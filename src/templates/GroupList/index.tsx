@@ -1,20 +1,25 @@
-import React, { SFC, Fragment } from 'react';
-import GroupItem, { GroupItemProps } from './GroupItem';
+import React from 'react';
+
+import GroupItem from './GroupItem';
 import HorizontalDivider from '../HorizontalDivider/index';
+import ColListLayout from '../../layouts/ColListLayout';
 
-interface GroupListProps {
-  groups: GroupItemProps[];
-}
+import { getGroupList } from '../../api';
 
-const GroupList: SFC<GroupListProps> = ({ groups }) => (
-  <Fragment>
-    {groups.map(group => (
-      <Fragment key={group.groupId}>
-        <GroupItem {...group} />
-        <HorizontalDivider />
-      </Fragment>
-    ))}
-  </Fragment>
-);
+/* GroupList 컴포넌트 */
+const GroupList = () => {
+  const groupList = getGroupList();
+
+  return (
+    <ColListLayout.Nomal>
+      {groupList.map(group => (
+        <ColListLayout.Nomal key={group.groupId}>
+          <GroupItem {...group} key="GroupItem" />
+          <HorizontalDivider key="HorizontalDivider" />
+        </ColListLayout.Nomal>
+      ))}
+    </ColListLayout.Nomal>
+  );
+};
 
 export default GroupList;

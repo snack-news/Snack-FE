@@ -1,0 +1,5 @@
+import React from 'react';
+import storiesOfWithPages from './storiesOfWithPages';
+import CompanySelectPage from '../../src/pages/CompanySelectPage';
+
+storiesOfWithPages('CompanySelectPage', module).add('기본', () => <CompanySelectPage />);

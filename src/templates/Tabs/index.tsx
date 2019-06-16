@@ -10,7 +10,6 @@ interface Tab {
 
 interface TabsProps {
   tabs: Tab[];
-  selectedId: Tab['id'];
 }
 
 const TabsWrapper = styled.div`
@@ -19,11 +18,11 @@ const TabsWrapper = styled.div`
   height: 40px;
 `;
 
-export const Tabs: React.SFC<TabsProps> = ({ tabs, selectedId }) => {
+export const Tabs: React.SFC<TabsProps> = ({ tabs }) => {
   return (
     <TabsWrapper>
       {tabs.map(({ label, id }) => (
-        <Tab selected={id === selectedId} key={id}>
+        <Tab selected={id === tabs[0].id} key={id}>
           {label}
         </Tab>
       ))}

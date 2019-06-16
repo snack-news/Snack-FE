@@ -6,10 +6,7 @@ import Tabs from '../../templates/Tabs';
 import SelectBox from '../../templates/SelectBox';
 import NewsList from '../../templates/NewsList';
 import Footer from '../../templates/Footer';
-import constants from '../../constants';
-
-import 'normalize.css';
-import '../../global.css';
+import { tabs } from '../../constants';
 
 const Wrapper = styled.div``;
 
@@ -17,7 +14,7 @@ const CompanySelectPage = () => (
   <Wrapper>
     <Header />
     <HorizontalDivider />
-    <Tabs {...constants.tabs} />
+    <Tabs tabs={tabs} />
     <HorizontalDivider thick />
     <SelectBox />
     <HorizontalDivider thick />

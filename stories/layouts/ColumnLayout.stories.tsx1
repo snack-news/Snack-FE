@@ -1,0 +1,31 @@
+import React from 'react';
+import styled from 'styled-components';
+import { number } from '@storybook/addon-knobs';
+
+import storiesOfWithLayouts from './storiesOfWithLayouts';
+import ColumnLayout from '../../src/layouts/ColumnLayout';
+
+const ColumLayoutStyled = styled(ColumnLayout)`
+  border: 1px solid green;
+`;
+
+const RedDiv = styled.div`
+  background: red;
+  height: 10px;
+`;
+
+const BlueDiv = styled.div`
+  background: blue;
+  height: 10px;
+`;
+
+storiesOfWithLayouts('ColumnLayout', module).add('기본', () => (
+  <ColumLayoutStyled
+    paddingTop={`${number('paddingTop', 10)}px`}
+    items={[
+      { el: <RedDiv />, paddingBottom: `${number('items[0].paddingBottom', 10)}px`, key: '1' },
+      { el: <BlueDiv />, paddingBottom: `${number('items[].paddingBottom', 20)}px`, key: '2' },
+      { el: <RedDiv />, paddingBottom: `${number('items[2].paddingBottom', 30)}px`, key: '3' },
+    ]}
+  />
+));
