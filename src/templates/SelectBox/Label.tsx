@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import downarrowImg from '../../resources/icon/downarrow.png';
+import { downarrowImg } from 'Resources/index';
 
 const DownArrowIcon = styled.img.attrs({
   src: downarrowImg,

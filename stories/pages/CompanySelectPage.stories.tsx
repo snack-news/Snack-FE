@@ -1,5 +1,5 @@
 import React from 'react';
+import { CompanySelectPage } from 'Pages/index';
 import storiesOfWithPages from './storiesOfWithPages';
-import CompanySelectPage from '../../src/pages/CompanySelectPage';
 
 storiesOfWithPages('CompanySelectPage', module).add('default', () => <CompanySelectPage />);

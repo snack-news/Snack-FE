@@ -1,32 +1,21 @@
 import React from 'react';
-import styled from 'styled-components';
+
+import { RowListLayout } from 'Layouts/index';
+import { tabs } from 'Constants';
 
 import Tab from './Tab';
 
-interface Tab {
-  key: string;
-  label: string;
-}
+interface TabsProps {}
 
-interface TabsProps {
-  tabs: Tab[];
-}
-
-const TabsWrapper = styled.div`
-  display: flex;
-  background-color: #fffefe;
-  height: 40px;
-`;
-
-export const Tabs: React.SFC<TabsProps> = ({ tabs }) => {
+export const Tabs: React.SFC<TabsProps> = () => {
   return (
-    <TabsWrapper>
+    <RowListLayout.Between>
       {tabs.map(({ label, key }) => (
         <Tab selected={key === tabs[0].key} key={key}>
           {label}
         </Tab>
       ))}
-    </TabsWrapper>
+    </RowListLayout.Between>
   );
 };
 

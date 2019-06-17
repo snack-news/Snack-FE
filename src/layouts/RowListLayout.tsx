@@ -11,13 +11,13 @@ interface BaseProps {
 
 const Base = styled.div<BaseProps>`
   display: flex;
+  flex-grow: 1;
+
   align-items: center;
-  flex: 1;
 `;
 
 const Between = styled(Base)`
   justify-content: space-between;
-  flex-grow: 1;
 `;
 
 interface RowItem {
@@ -27,13 +27,13 @@ interface RowItem {
   key?: string;
 }
 
-interface RowListLayoutProps {
+interface DetailProps {
   items: RowItem[];
   left?: CSSProperties['paddingLeft'];
   className?: string;
 }
 
-const Detail: SFC<RowListLayoutProps> = ({ items, left, className }) => {
+const Detail: SFC<DetailProps> = ({ items, left, className }) => {
   const lastIndex = items.length - 1;
 
   return (

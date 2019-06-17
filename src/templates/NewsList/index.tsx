@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import styled from 'styled-components';
 
 import { getNewsList } from 'Api/index';
@@ -14,7 +14,12 @@ const Wrapper = styled(ColListLayout.Repeat)``;
 
 const NewsList = () => {
   const newsList = getNewsList();
-  const newsCardComponents = newsList.map(newsCardProps => <NewsCard {...newsCardProps} />);
+  const newsCardComponents = newsList.map(newsCardProps => (
+    <Fragment>
+      <NewsCard {...newsCardProps} />
+      <HorizontalDivider />,
+    </Fragment>
+  ));
 
   const body = [
     ...newsCardComponents.slice(0, 3),

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import BarWrapper from '../BarWrapper';
+import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import Label from './Label';
 
 import contentImg from '../../resources/icon/content.png';
@@ -14,12 +14,18 @@ const ContentIcon = styled.img.attrs({
   width: 22px;
 `;
 
+const SelectBoxWrapper = styled(BothMarginWrapper)`
+  margin: 12px 0;
+`;
+
 export const SelectBox: React.SFC<SelectBoxProps> = () => {
   return (
-    <BarWrapper style={{ height: '45px' }}>
-      <Label text="1월 2주" />
-      <ContentIcon />
-    </BarWrapper>
+    <SelectBoxWrapper>
+      <RowListLayout.Between>
+        <Label text="1월 2주" />
+        <ContentIcon />
+      </RowListLayout.Between>
+    </SelectBoxWrapper>
   );
 };
 

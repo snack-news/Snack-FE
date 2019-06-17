@@ -1,6 +1,8 @@
 import React, { SFC } from 'react';
 import styled from 'styled-components';
 
+import { ColListLayout } from 'Layouts/index';
+
 interface TabProps {
   selected?: boolean;
 }
@@ -31,10 +33,18 @@ const TabUnderLine = styled.div`
 `;
 
 const Tab: SFC<TabProps> = ({ children, selected }) => (
-  <TabWrapper>
-    <TabLabel selected={selected}>{children}</TabLabel>
-    {selected ? <TabUnderLine /> : null}
-  </TabWrapper>
+  <ColListLayout.Detail
+    top="10px"
+    items={[
+      {
+        el: <TabLabel selected={selected}>{children}</TabLabel>,
+        bottom: '10px',
+      },
+      {
+        el: selected ? <TabUnderLine /> : null,
+      },
+    ]}
+  />
 );
 
 export default Tab;

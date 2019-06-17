@@ -1,11 +1,11 @@
 export const tabs = [
   {
-    key: '1',
     label: 'News',
+    key: 'News',
   },
   {
-    key: '2',
     label: 'Picks',
+    key: 'Picks',
   },
 ];
 

@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import BarWrapper from '../BarWrapper/index';
-import downarrowFilterImg from '../../resources/icon/downarrow_filter.png';
+
+import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
+
+import { downarrowFilterImg } from 'Resources/index';
 
 const Title = styled.div`
   font-family: AppleSDGothicNeo;
@@ -25,11 +27,17 @@ const SortButton = () => (
   </div>
 );
 
+const SubHeaderWrapper = styled(BothMarginWrapper)`
+  margin: 15px 0;
+`;
+
 const SubHeader = () => (
-  <BarWrapper style={{ height: '46px' }}>
-    <Title>전체</Title>
-    <SortButton />
-  </BarWrapper>
+  <SubHeaderWrapper>
+    <RowListLayout.Between>
+      <Title>전체</Title>
+      <SortButton />
+    </RowListLayout.Between>
+  </SubHeaderWrapper>
 );
 
 export default SubHeader;

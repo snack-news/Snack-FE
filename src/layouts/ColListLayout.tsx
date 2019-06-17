@@ -5,6 +5,12 @@
 import React, { ReactNode, CSSProperties, SFC, ReactElement } from 'react';
 import styled from 'styled-components';
 
+const Base = styled.div`
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+`;
+
 interface ColItem {
   el: ReactNode;
   bottom?: CSSProperties['marginBottom'];
@@ -16,46 +22,20 @@ interface DetailProps {
   top?: CSSProperties['paddingTop'];
 }
 
-const Detail = styled.div.attrs<DetailProps>(({ items }) => {
+const Detail = styled(Base).attrs<DetailProps>(({ items }) => {
   const lastIndex = items.length - 1;
 
   return {
-    children: (
-      <Base>
-        {items.map(({ el, bottom, key }, i) => (
-          <div style={{ marginBottom: lastIndex === i ? undefined : bottom }} key={key || i}>
-            {el}
-          </div>
-        ))}
-      </Base>
-    ),
+    children: items.map(({ el, bottom, key }, i) => (
+      <div style={{ marginBottom: lastIndex === i ? undefined : bottom }} key={key || i}>
+        {el}
+      </div>
+    )),
   };
 })<DetailProps>`
   padding-top: ${({ top }) => top};
   padding-bottom: ${({ items }) => items[items.length - 1].bottom};
 `;
-
-interface BaseProps {
-  children: (ReactElement | string | null | undefined)[];
-}
-
-const Base: SFC<BaseProps> = ({ children }) => (
-  <div style={{ display: 'flex', flexDirection: 'column' }}>
-    {children.map(child => {
-      if (child === null || child === undefined || typeof child === 'string') {
-        return child;
-      }
-
-      const key = child.key === null ? undefined : child.key;
-
-      return (
-        <div style={{ flex: '1' }} key={key}>
-          {child}
-        </div>
-      );
-    })}
-  </div>
-);
 
 interface RepeatProps {
   children: (ReactElement | string | null | undefined)[];

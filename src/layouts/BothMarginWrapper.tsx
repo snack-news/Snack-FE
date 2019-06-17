@@ -10,8 +10,9 @@ interface BothMarginWrapperProps {
 
 export const BothMarginWrapper = styled.div<BothMarginWrapperProps>`
   display: flex;
-  overflow: auto;
+  flex-grow: 1;
 
+  overflow: auto;
   padding: 0px ${({ depth = 1 }) => `${20 * depth}px`};
   margin: 0 auto;
   max-width: ${({ depth = 1 }) => `${600 - 20 * depth}px`};

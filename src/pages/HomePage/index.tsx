@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Header, HorizontalDivider, NewsList, Footer } from 'Templates/index';
-
-// import { tabs } from 'Constants';
+import { Header, Tabs, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
 
 const Wrapper = styled.div``;
 
@@ -11,9 +9,9 @@ const CompanySelectPage = () => (
   <Wrapper>
     <Header />
     <HorizontalDivider />
-    {/* <Tabs tabs={tabs} /> */}
+    <Tabs />
     <HorizontalDivider thick />
-    {/* <SelectBox /> */}
+    <SelectBox />
     <HorizontalDivider thick />
     <NewsList />
     <Footer />
