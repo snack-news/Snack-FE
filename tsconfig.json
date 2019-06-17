@@ -17,11 +17,16 @@
     "esModuleInterop": true, // https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-7.html
 
     /////////// path ///////////
-    // "baseUrl": ".", // Non-relativ 모듈 혹은 paths 옵션의 기준 디렉토리
-    // "paths": {
-    //   // baseUrl 옵션을 기준디렉토리로 불러올 모듈의 위치 설정이 가능
-    //   "*": ["*"]
-    // },
+    "baseUrl": "./", // Non-relativ 모듈 혹은 paths 옵션의 기준 디렉토리
+    "paths": {
+      "Api/*": ["./src/api/*"],
+      "Components/*": ["./src/components/*"],
+      "Layouts/*": ["./src/layouts/*"],
+      "Pages/*": ["./src/pages/*"],
+      "Resources/*": ["./src/resources/*"],
+      "Templates/*": ["./src/templates/*"],
+      "Constants": ["./src/constants.ts"],
+    },
     // "rootDirs": [ ], // 가상 디덱토리를 설정
     // "rootDir": "./", // 입력파일의 rootDir 설정
     // outDir옵션을 사용할때만 사용

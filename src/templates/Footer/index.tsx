@@ -1,10 +1,8 @@
 import React, { SFC, ReactNode } from 'react';
 import styled from 'styled-components';
 
+import { BothMarginWrapper, ColListLayout } from 'Layouts/index';
 import { FooterLinkList, SocialIconList, Copyright } from './components';
-
-import BothMarginWrapper from '../../layouts/BothMarginWrapper';
-import ColListLayout from '../../layouts/ColListLayout';
 
 /* Footer 컴포넌트 */
 const Footer = () => (

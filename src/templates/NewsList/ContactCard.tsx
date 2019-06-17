@@ -1,8 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { RowListLayout } from 'Layouts/index';
+
 import CardSimpleLayout from './CardSimpleLayout';
-import RowListLayout from '../../layouts/RowListLayout';
 
 const ContactCard = () => (
   <CardSimpleLayout>

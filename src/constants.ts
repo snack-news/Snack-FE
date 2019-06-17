@@ -17,19 +17,19 @@ export const footerLinks = [
 
 export const externalLinks = {
   facebook: {
-    link: '',
+    link: 'https://www.facebook.com/',
   },
   twitter: {
-    link: '',
+    link: 'https://www.facebook.com/',
   },
   kakao: {
-    link: '',
+    link: 'https://www.facebook.com/',
   },
   linkedin: {
-    link: '',
+    link: 'https://www.facebook.com/',
   },
   email: {
-    link: '',
+    link: 'https://www.facebook.com/',
   },
 };
 
@@ -37,22 +37,22 @@ export const platformList = [
   {
     platformName: 'Facebook',
     backgroundColor: '#33599d',
-    link: externalLinks.facebook,
+    link: externalLinks.facebook.link,
   },
   {
     platformName: 'KakaoTalk',
     backgroundColor: '#fae100',
     color: '#121111',
-    link: externalLinks.kakao,
+    link: externalLinks.kakao.link,
   },
   {
     platformName: 'Twitter',
     backgroundColor: '#38a1f3',
-    link: externalLinks.twitter,
+    link: externalLinks.twitter.link,
   },
   {
     platformName: 'Linkedin',
     backgroundColor: '#0077b5',
-    link: externalLinks.linkedin,
+    link: externalLinks.linkedin.link,
   },
 ];

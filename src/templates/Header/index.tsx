@@ -1,10 +1,9 @@
 import React, { ReactElement, SFC } from 'react';
 import styled from 'styled-components';
 
-import BothMarginWrapper from '../../layouts/BothMarginWrapper';
-import RowListLayout from '../../layouts/RowListLayout';
+import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
 
-import { logoImg, MenuImg } from '../../resources';
+import { logoImg, MenuImg } from 'Resources/index';
 
 // Header 컴포넌트
 interface HeaderProps {}

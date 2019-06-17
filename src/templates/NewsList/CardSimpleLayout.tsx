@@ -1,8 +1,6 @@
 import React, { ReactElement, SFC } from 'react';
 
-import ColListLayout from '../../layouts/ColListLayout';
-import RowListLayout from '../../layouts/RowListLayout';
-import BothMarginWrapper from '../../layouts/BothMarginWrapper';
+import { ColListLayout, RowListLayout, BothMarginWrapper } from 'Layouts/index';
 
 interface CardSimpleLayoutProps {
   children: {

@@ -1,11 +1,9 @@
 import React, { SFC } from 'react';
 import styled from 'styled-components';
 
-import { getCompanyList } from '../../api';
+import { getCompanyList } from 'Api/index';
 
-import ColListLayout from '../../layouts/ColListLayout';
-import RowListLayout from '../../layouts/RowListLayout';
-import Center from '../../layouts/Center';
+import { ColListLayout, RowListLayout, Center } from 'Layouts/index';
 
 import CardSimpleLayout from './CardSimpleLayout';
 

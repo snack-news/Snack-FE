@@ -1,11 +1,9 @@
 import React, { SFC, ReactElement } from 'react';
 import styled from 'styled-components';
 
-import BothMarginWrapper from '../../layouts/BothMarginWrapper';
-import Center from '../../layouts/Center';
-import RowListLayout from '../../layouts/RowListLayout';
+import { BothMarginWrapper, Center, RowListLayout } from 'Layouts/index';
 
-import { arrowLinkImg } from '../../resources';
+import { arrowLinkImg } from 'Resources/index';
 
 /* CompanyItem 컴포넌트 */
 const CompanyItem: SFC<Company> = ({ companyName, logoImg }) => (

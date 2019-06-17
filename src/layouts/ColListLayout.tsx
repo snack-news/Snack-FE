@@ -21,13 +21,13 @@ const Detail = styled.div.attrs<DetailProps>(({ items }) => {
 
   return {
     children: (
-      <Nomal>
+      <Base>
         {items.map(({ el, bottom, key }, i) => (
           <div style={{ marginBottom: lastIndex === i ? undefined : bottom }} key={key || i}>
             {el}
           </div>
         ))}
-      </Nomal>
+      </Base>
     ),
   };
 })<DetailProps>`
@@ -35,13 +35,17 @@ const Detail = styled.div.attrs<DetailProps>(({ items }) => {
   padding-bottom: ${({ items }) => items[items.length - 1].bottom};
 `;
 
-interface NomalProps {
-  children: ReactElement[];
+interface BaseProps {
+  children: (ReactElement | string | null | undefined)[];
 }
 
-const Nomal: SFC<NomalProps> = ({ children }) => (
+const Base: SFC<BaseProps> = ({ children }) => (
   <div style={{ display: 'flex', flexDirection: 'column' }}>
     {children.map(child => {
+      if (child === null || child === undefined || typeof child === 'string') {
+        return child;
+      }
+
       const key = child.key === null ? undefined : child.key;
 
       return (
@@ -54,8 +58,8 @@ const Nomal: SFC<NomalProps> = ({ children }) => (
 );
 
 interface RepeatProps {
-  children: ReactElement[];
-  interval: CSSProperties['marginBottom'];
+  children: (ReactElement | string | null | undefined)[];
+  interval?: CSSProperties['marginBottom'];
 }
 
 const Repeat: SFC<RepeatProps> = ({ children, interval }) => (
@@ -67,4 +71,4 @@ const Repeat: SFC<RepeatProps> = ({ children, interval }) => (
   />
 );
 
-export default { Repeat, Detail, Nomal };
+export const ColListLayout = { Repeat, Detail };

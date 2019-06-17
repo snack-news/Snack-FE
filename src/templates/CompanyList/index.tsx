@@ -1,25 +1,25 @@
 import React from 'react';
 
+import { ColListLayout } from 'Layouts/index';
+import { getCompanyList } from 'Api/index';
+import { HorizontalDivider } from 'Templates/index';
+
 import CompanyItem from './CompanyItem';
-import HorizontalDivider from '../HorizontalDivider/index';
-import ColListLayout from '../../layouts/ColListLayout';
 
-import { getCompanyList } from '../../api';
-
-/* GroupList 컴포넌트 */
-const GroupList = () => {
+/* CompanyList 컴포넌트 */
+const CompanyList = () => {
   const companyList = getCompanyList();
 
   return (
-    <ColListLayout.Nomal>
+    <ColListLayout.Repeat>
       {companyList.map(company => (
-        <ColListLayout.Nomal key={company.id}>
+        <ColListLayout.Repeat key={company.id}>
           <CompanyItem {...company} key="CompanyItem" />
           <HorizontalDivider key="HorizontalDivider" />
-        </ColListLayout.Nomal>
+        </ColListLayout.Repeat>
       ))}
-    </ColListLayout.Nomal>
+    </ColListLayout.Repeat>
   );
 };
 
-export default GroupList;
+export default CompanyList;

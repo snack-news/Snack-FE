@@ -1,10 +1,10 @@
 import React, { SFC } from 'react';
 import styled from 'styled-components';
 
-import RowListLayout from '../../layouts/RowListLayout';
+import { Center, RowListLayout } from 'Layouts/index';
+import { platformList } from 'Constants';
+
 import CardSimpleLayout from './CardSimpleLayout';
-import Center from '../../layouts/Center';
-import { platformList } from '../../constants';
 
 const PlatformListCard = () => (
   <CardSimpleLayout>
@@ -34,24 +34,29 @@ interface PlatformCardProps {
   platformName: string;
   backgroundColor?: string;
   color?: string;
+  link: string;
 }
 
-const PlatformCard: SFC<PlatformCardProps> = ({ platformName, backgroundColor, color }) => (
-  <PlatformCardWrapper style={{ backgroundColor, color }}>
-    <PlatformCardLabel>
-      {platformName}
-      <br />
-      에서 보기
-    </PlatformCardLabel>
+const PlatformCard: SFC<PlatformCardProps> = ({ platformName, backgroundColor, color, link }) => (
+  <PlatformCardWrapper style={{ backgroundColor, color }} href={link}>
+    <Center>
+      <PlatformCardLabel>
+        {platformName}
+        <br />
+        에서 보기
+      </PlatformCardLabel>
+    </Center>
   </PlatformCardWrapper>
 );
 
-const PlatformCardWrapper = styled(Center)`
+const PlatformCardWrapper = styled.a`
+  display: flex;
   width: 81px;
   height: 75px;
   border-radius: 5px;
   flex: none;
   color: #fefefe;
+  text-decoration: none;
 `;
 
 const PlatformCardLabel = styled.div`

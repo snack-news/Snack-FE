@@ -1,7 +1,6 @@
 import React from 'react';
 
+import { CompanyList } from 'Templates/index';
 import storiesOfWithTemplates from './storiesOfWithTemplates';
-
-import CompanyList from '../../src/templates/CompanyList';
 
 storiesOfWithTemplates('CompanyList', module).add('default', () => <CompanyList />);

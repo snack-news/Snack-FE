@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import RowListLayout from '../../../layouts/RowListLayout';
-
-import { footerLinks } from '../../../constants';
+import { RowListLayout } from 'Layouts/index';
+import { footerLinks } from 'Constants';
 
 /* FooterLinkList 컴포넌트 */
 export const FooterLinkList = () => (

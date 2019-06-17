@@ -1,18 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { getNewsList } from '../../api';
-
-import ColListLayout from '../../layouts/ColListLayout';
+import { getNewsList } from 'Api/index';
+import { ColListLayout } from 'Layouts/index';
+import { HorizontalDivider } from 'Templates/index';
 
 import CompanyListCard from './CompanyListCard';
 import ContactCard from './ContactCard';
 import PlatformListCard from './PlatformListCard';
 import NewsCard from './NewsCard';
 
-import HorizontalDivider from '../HorizontalDivider';
-
-const Wrapper = styled(ColListLayout.Nomal)``;
+const Wrapper = styled(ColListLayout.Repeat)``;
 
 const NewsList = () => {
   const newsList = getNewsList();

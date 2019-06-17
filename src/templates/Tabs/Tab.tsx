@@ -6,14 +6,14 @@ interface TabProps {
 }
 
 const TabWrapper = styled.div`
-  flex: 1;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
 `;
 
 const TabLabel = styled.div<Pick<TabProps, 'selected'>>`
   display: flex;
-  flex: 1;
+  flex-grow: 1;
   align-items: center;
   justify-content: center;
 

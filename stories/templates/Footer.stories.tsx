@@ -1,10 +1,10 @@
 import React from 'react';
 
+import { Footer } from 'Templates/index';
+import { Copyright, FooterLinkList, SocialIconList } from 'Templates/Footer/components';
 import storiesOfWithTemplates from './storiesOfWithTemplates';
 
 import Outline from '../Outline';
-
-import Footer, { Copyright, FooterLinkList, SocialIconList } from '../../src/templates/Footer';
 
 storiesOfWithTemplates('Footer', module)
   .add('default', () => <Footer />)

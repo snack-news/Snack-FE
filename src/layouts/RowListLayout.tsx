@@ -5,18 +5,19 @@
 import React, { ReactNode, CSSProperties, ReactElement, SFC } from 'react';
 import styled from 'styled-components';
 
-interface NormalProps {
-  children: (ReactElement | undefined)[];
+interface BaseProps {
+  children: (ReactElement | string | null | undefined)[];
 }
 
-const Normal = styled.div<NormalProps>`
+const Base = styled.div<BaseProps>`
   display: flex;
   align-items: center;
   flex: 1;
 `;
 
-const Between = styled(Normal)`
+const Between = styled(Base)`
   justify-content: space-between;
+  flex-grow: 1;
 `;
 
 interface RowItem {
@@ -36,7 +37,7 @@ const Detail: SFC<RowListLayoutProps> = ({ items, left, className }) => {
   const lastIndex = items.length - 1;
 
   return (
-    <Normal
+    <Base
       className={className}
       style={{ paddingLeft: left, paddingRight: items[items.length - 1].right }}
     >
@@ -45,13 +46,13 @@ const Detail: SFC<RowListLayoutProps> = ({ items, left, className }) => {
           {el}
         </div>
       ))}
-    </Normal>
+    </Base>
   );
 };
 
 interface RepeatProps {
-  children: ReactElement[];
-  interval: CSSProperties['paddingLeft'];
+  children: (ReactElement | string | null | undefined)[];
+  interval?: CSSProperties['paddingLeft'];
   className?: string;
 }
 
@@ -59,17 +60,22 @@ const Repeat: SFC<RepeatProps> = ({ children, interval, className }) => {
   const lastIndex = children.length - 1;
 
   return (
-    <Normal className={className} style={{ paddingRight: interval }}>
-      {children.map((child, i) => (
-        <div
-          style={{ marginRight: lastIndex === i ? undefined : interval }}
-          key={child.key === null ? undefined : child.key}
-        >
-          {child}
-        </div>
-      ))}
-    </Normal>
+    <Base className={className} style={{ paddingRight: interval }}>
+      {children.map((child, i) => {
+        if (child === null || child === undefined || typeof child === 'string') {
+          return child;
+        }
+
+        const key = child.key === null ? undefined : child.key;
+
+        return (
+          <div style={{ marginRight: lastIndex === i ? undefined : interval }} key={key}>
+            {child}
+          </div>
+        );
+      })}
+    </Base>
   );
 };
 
-export default { Normal, Detail, Between, Repeat };
+export const RowListLayout = { Detail, Between, Repeat };

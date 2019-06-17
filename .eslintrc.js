@@ -55,7 +55,8 @@ module.exports = {
     'react-hooks/exhaustive-deps': 'warn',
 
     /* 커스텀으로 off 한 사항들 */
-    // 없음
+    'import/prefer-default-export': 'off',
+    // 'import/no-default-export': 'warn'
   },
 
   overrides: [

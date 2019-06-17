@@ -4,6 +4,9 @@ const htmlWebpackTemplate = require('html-webpack-template');
 
 const babelConfig = require('./babel.config.webpack');
 
+const ROOT_PATH = path.resolve(__dirname, '.');
+const SRC_PATH = path.resolve(ROOT_PATH, './src/');
+
 module.exports = {
   entry: './src/index.tsx',
   output: {
@@ -66,5 +69,14 @@ module.exports = {
   ],
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
+    alias: {
+      Api: path.resolve(SRC_PATH, 'api/'),
+      Components: path.resolve(SRC_PATH, 'components/'),
+      Layouts: path.resolve(SRC_PATH, 'layouts/'),
+      Pages: path.resolve(SRC_PATH, 'pages/'),
+      Resources: path.resolve(SRC_PATH, 'resources/'),
+      Templates: path.resolve(SRC_PATH, 'templates/'),
+      Constants: path.resolve(SRC_PATH, 'constants.ts'),
+    },
   },
 };

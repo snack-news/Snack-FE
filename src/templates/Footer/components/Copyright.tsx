@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { LogoWhiteFooterImg } from '../../../resources';
+import { LogoWhiteFooterImg } from 'Resources/index';
 
 /* Copyright 컴포넌트 */
 export const Copyright = styled.img.attrs({ src: LogoWhiteFooterImg })`

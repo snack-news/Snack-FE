@@ -1,6 +1,6 @@
 // TODO 이후 API 가 많아지면 파일 분리가 필요하다.
-import uberLogo from '../resources/mock/uber-logo.png';
-import linkMock from '../resources/mock/linkMock.jpg';
+import uberLogo from 'Resources/mock/uber-logo.png';
+import linkMock from 'Resources/mock/linkMock.jpg';
 
 export const getCompanyList = () => [
   { companyName: '아마존', id: '1', logoImg: uberLogo },

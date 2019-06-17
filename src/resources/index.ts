@@ -6,6 +6,8 @@ import LogoWhiteFooterImgPath from './icon/logo_white_footer.png';
 import arrowLinkImgPath from './icon/arrow_link.png';
 import logoImgPath from './logo_blue2x.png';
 import MenuImgPath from './icon/menu_blue2x.png';
+import shareImgPath from './icon/share.png';
+import copyImgPath from './icon/copy.png';
 
 export const facebookImg = facebookImgPath;
 export const twitterImg = twitterImgPath;
@@ -15,3 +17,5 @@ export const LogoWhiteFooterImg = LogoWhiteFooterImgPath;
 export const arrowLinkImg = arrowLinkImgPath;
 export const logoImg = logoImgPath;
 export const MenuImg = MenuImgPath;
+export const shareImg = shareImgPath;
+export const copyImg = copyImgPath;

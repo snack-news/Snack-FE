@@ -1,4 +1,5 @@
-const babelConfig = require('../babel.config.storybook')
+const babelConfig = require('../babel.config.storybook');
+const webpackConfig = require('../webpack.config.prod');
 
 module.exports = ({ config, mode }) => {
   config.module.rules.push({
@@ -8,13 +9,18 @@ module.exports = ({ config, mode }) => {
       options: {
         ...babelConfig,
       },
-    }, {
-      loader: require.resolve('react-docgen-typescript-loader'),
     }]
+    // }, {
+    //   loader: require.resolve('react-docgen-typescript-loader'),
+    // }]
     
   });
 
   config.resolve.extensions.push('.ts', '.tsx');
+  config.resolve.alias = {
+    ...config.resolve.alias,
+    ...webpackConfig.resolve.alias,
+  }
 
   return config;
 };
