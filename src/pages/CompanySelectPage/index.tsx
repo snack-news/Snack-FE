@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Header from '../../templates/Header';
 import HorizontalDivider from '../../templates/HorizontalDivider';
 import SubHeader from '../../templates/SubHeader';
-import GroupList from '../../templates/GroupList';
+import CompanyList from '../../templates/CompanyList';
 
 const Wrapper = styled.div``;
 
@@ -13,7 +13,7 @@ const CompanySelectPage = () => (
     <HorizontalDivider />
     <SubHeader />
     <HorizontalDivider />
-    <GroupList />
+    <CompanyList />
   </Wrapper>
 );
 

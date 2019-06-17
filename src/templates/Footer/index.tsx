@@ -1,13 +1,10 @@
 import React, { SFC, ReactNode } from 'react';
 import styled from 'styled-components';
 
+import { FooterLinkList, SocialIconList, Copyright } from './components';
+
 import BothMarginWrapper from '../../layouts/BothMarginWrapper';
 import ColListLayout from '../../layouts/ColListLayout';
-import RowListLayout from '../../layouts/RowListLayout';
-
-import { footerLinks, socialList } from '../../constants';
-
-import { LogoWhiteFooterImg } from '../../resources';
 
 /* Footer 컴포넌트 */
 const Footer = () => (
@@ -21,8 +18,6 @@ const Footer = () => (
     </FooterLayout>
   </FooterStyleWrapper>
 );
-
-export default Footer;
 
 /* FooterStyleWrapper 컴포넌트 */
 const FooterStyleWrapper = styled.div`
@@ -59,39 +54,4 @@ const FooterLayout: SFC<FooterLayoutProps> = ({ children }) => (
   />
 );
 
-/* FooterLinkList 컴포넌트 */
-export const FooterLinkList = () => (
-  <RowListLayout.Between>
-    {footerLinks.map(footerLinkProps => (
-      <FooterLink {...footerLinkProps} />
-    ))}
-  </RowListLayout.Between>
-);
-
-/* FooterLink 컴포넌트 */
-const FooterLink = styled.div`
-  width: 65px;
-  font-family: SFProDisplay;
-  font-size: 13px;
-  font-weight: 500;
-  text-align: center;
-  color: #fefefe;
-`;
-
-/* SocialIconList 컴포넌트 */
-export const SocialIconList = () => (
-  <RowListLayout.Between>
-    {socialList.map(socialIconProps => (
-      <SocialIcon {...socialIconProps} />
-    ))}
-  </RowListLayout.Between>
-);
-
-/* SocialIcon 컴포넌트 */
-const SocialIcon = styled.img``;
-
-/* Copyright 컴포넌트 */
-export const Copyright = styled.img.attrs({ src: LogoWhiteFooterImg })`
-  display: block;
-  margin: 0 auto;
-`;
+export default Footer;

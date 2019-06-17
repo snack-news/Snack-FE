@@ -19,7 +19,7 @@ const BlueDiv = styled.div`
   height: 10px;
 `;
 
-storiesOfWithLayouts('ColumnLayout', module).add('기본', () => (
+storiesOfWithLayouts('ColumnLayout', module).add('default', () => (
   <ColumLayoutStyled
     paddingTop={`${number('paddingTop', 10)}px`}
     items={[

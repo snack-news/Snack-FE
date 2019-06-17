@@ -1,100 +1,87 @@
-import React from 'react';
+import React, { SFC } from 'react';
 import styled from 'styled-components';
 
-import HorizontalDivider from '../HorizontalDivider';
+import { getCompanyList } from '../../api';
 
-const CompanyBox = () => (
-  <CompanyBox.Wrapper>
-    <CompanyBox.Logo />
-    <CompanyBox.Label>그랩</CompanyBox.Label>
-  </CompanyBox.Wrapper>
-);
-CompanyBox.Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+import ColListLayout from '../../layouts/ColListLayout';
+import RowListLayout from '../../layouts/RowListLayout';
+import Center from '../../layouts/Center';
 
-  width: 89px;
-  height: 74px;
-  border-radius: 5px;
-  border: solid 0.5px #d6d6db;
-  flex: none;
-  margin-right: 10px;
-  padding: 12px 0 8px 0;
-`;
+import CardSimpleLayout from './CardSimpleLayout';
 
-CompanyBox.Logo = styled.img`
-  width: 70.6px;
-  height: 27.2px;
-  background-color: #009c3d;
-`;
+const CompanyListCard = () => {
+  const companyList = getCompanyList();
 
-CompanyBox.Label = styled.div`
-  flex: 1;
-  font-family: AppleSDGothicNeo;
-  font-size: 12px;
-  margin-top: 12px;
-  text-align: center;
-  color: #595966;
-`;
+  return (
+    <CardSimpleLayout>
+      {{
+        header: <CompanyListCardTitle />,
+        nav: <CompanyListCardMoreLink />,
+        body: (
+          <RowListLayout.Repeat interval="10px">
+            {companyList.map(companyBoxProps => (
+              <CompanyBox {...companyBoxProps} />
+            ))}
+          </RowListLayout.Repeat>
+        ),
+      }}
+    </CardSimpleLayout>
+  );
+};
 
-const CompanyListCard = () => (
-  <React.Fragment>
-    <HorizontalDivider thick />
-    <CompanyListCard.Wrapper>
-      <CompanyListCard.Header>
-        <CompanyListCard.Title />
-        <CompanyListCard.MoreLink />
-      </CompanyListCard.Header>
-      <CompanyListCard.Body>
-        <CompanyBox />
-        <CompanyBox />
-        <CompanyBox />
-        <CompanyBox />
-        <CompanyBox />
-        <CompanyBox />
-        <CompanyBox />
-        <CompanyBox />
-      </CompanyListCard.Body>
-    </CompanyListCard.Wrapper>
-    <HorizontalDivider thick />
-  </React.Fragment>
-);
-
-CompanyListCard.Wrapper = styled.div`
-  display: flex;
-  padding: 15px 20px 10px 20px;
-  flex-direction: column;
-`;
-
-CompanyListCard.Header = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 5px;
-`;
-
-CompanyListCard.Title = styled.div.attrs({ children: '회사별 뉴스 모아보기' })`
+const CompanyListCardTitle = styled.div.attrs({ children: '회사별 뉴스 모아보기' })`
   font-family: SFProDisplay;
   font-size: 17px;
   font-weight: 600;
   color: #000000;
 `;
 
-CompanyListCard.MoreLink = styled.div.attrs({ children: '모두보기' })`
+const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
   font-family: AppleSDGothicNeo;
   font-size: 13px;
   color: #0b66f7;
 `;
 
-CompanyListCard.Body = styled.div`
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+const CompanyBox: SFC<Company> = ({ logoImg, companyName }) => (
+  <CompanyBoxWrapper
+    top="12px"
+    items={[
+      {
+        el: (
+          <Center>
+            <CompanyBoxLogo src={logoImg} />
+          </Center>
+        ),
+        bottom: '12px',
+      },
+      {
+        el: (
+          <Center>
+            <CompanyBoxLabel>{companyName}</CompanyBoxLabel>
+          </Center>
+        ),
+        bottom: '8px',
+      },
+    ]}
+  />
+);
 
-  flex-wrap: nowrap;
-  overflow: auto;
-  padding: 10px 0;
+const CompanyBoxWrapper = styled(ColListLayout.Detail)`
+  min-width: 89px;
+  min-height: 74px;
+  border-radius: 5px;
+  border: solid 0.5px #d6d6db;
+`;
+
+const CompanyBoxLogo = styled.img`
+  width: 70.6px;
+  height: 27.2px;
+`;
+
+const CompanyBoxLabel = styled.div`
+  font-family: AppleSDGothicNeo;
+  font-size: 12px;
+  color: #595966;
 `;
 
 export default CompanyListCard;

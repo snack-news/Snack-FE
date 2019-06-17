@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Tab from './Tab';
 
 interface Tab {
-  id: string;
+  key: string;
   label: string;
 }
 
@@ -21,8 +21,8 @@ const TabsWrapper = styled.div`
 export const Tabs: React.SFC<TabsProps> = ({ tabs }) => {
   return (
     <TabsWrapper>
-      {tabs.map(({ label, id }) => (
-        <Tab selected={id === tabs[0].id} key={id}>
+      {tabs.map(({ label, key }) => (
+        <Tab selected={key === tabs[0].key} key={key}>
           {label}
         </Tab>
       ))}

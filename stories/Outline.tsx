@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 const Outline = styled.div`
-  border: 1px solid red;
-  background: #ddd;
+  border: 2px solid red;
 `;
 
 export default Outline;

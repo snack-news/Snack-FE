@@ -53,4 +53,18 @@ const Nomal: SFC<NomalProps> = ({ children }) => (
   </div>
 );
 
-export default { Detail, Nomal };
+interface RepeatProps {
+  children: ReactElement[];
+  interval: CSSProperties['marginBottom'];
+}
+
+const Repeat: SFC<RepeatProps> = ({ children, interval }) => (
+  <Detail
+    items={children.map((child, i) => ({
+      el: child,
+      bottom: i === children.length - 1 ? undefined : interval,
+    }))}
+  />
+);
+
+export default { Repeat, Detail, Nomal };

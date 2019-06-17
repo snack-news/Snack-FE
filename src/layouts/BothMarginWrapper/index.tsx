@@ -9,7 +9,9 @@ interface BothMarginWrapperProps {
 }
 
 const BothMarginWrapper = styled.div<BothMarginWrapperProps>`
-  /* background-color: #fffefe; */
+  display: flex;
+  overflow: auto;
+
   padding: 0px ${({ depth = 1 }) => `${20 * depth}px`};
   margin: 0 auto;
   max-width: ${({ depth = 1 }) => `${600 - 20 * depth}px`};

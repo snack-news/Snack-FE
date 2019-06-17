@@ -1,20 +1,20 @@
 import React from 'react';
 
-import GroupItem from './GroupItem';
+import CompanyItem from './CompanyItem';
 import HorizontalDivider from '../HorizontalDivider/index';
 import ColListLayout from '../../layouts/ColListLayout';
 
-import { getGroupList } from '../../api';
+import { getCompanyList } from '../../api';
 
 /* GroupList 컴포넌트 */
 const GroupList = () => {
-  const groupList = getGroupList();
+  const companyList = getCompanyList();
 
   return (
     <ColListLayout.Nomal>
-      {groupList.map(group => (
-        <ColListLayout.Nomal key={group.groupId}>
-          <GroupItem {...group} key="GroupItem" />
+      {companyList.map(company => (
+        <ColListLayout.Nomal key={company.id}>
+          <CompanyItem {...company} key="CompanyItem" />
           <HorizontalDivider key="HorizontalDivider" />
         </ColListLayout.Nomal>
       ))}

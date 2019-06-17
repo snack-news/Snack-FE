@@ -7,7 +7,7 @@ import Outline from '../Outline';
 import Footer, { Copyright, FooterLinkList, SocialIconList } from '../../src/templates/Footer';
 
 storiesOfWithTemplates('Footer', module)
-  .add('기본', () => <Footer />)
+  .add('default', () => <Footer />)
   .add('Copyright', () => (
     <Outline>
       <Copyright />

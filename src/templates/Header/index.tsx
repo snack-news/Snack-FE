@@ -1,30 +1,56 @@
-import React from 'react';
+import React, { ReactElement, SFC } from 'react';
 import styled from 'styled-components';
 
-import BarWrapper from '../BarWrapper';
+import BothMarginWrapper from '../../layouts/BothMarginWrapper';
+import RowListLayout from '../../layouts/RowListLayout';
 
-import logoImg from '../../resources/logo_blue2x.png';
-import MenuImg from '../../resources/icon/menu_blue2x.png';
+import { logoImg, MenuImg } from '../../resources';
 
+// Header 컴포넌트
 interface HeaderProps {}
-
-const Logo = styled.img.attrs({ src: logoImg })`
-  height: 28px;
-  justify-content: center;
-`;
-
-const Menu = styled.img.attrs({ src: MenuImg })`
-  width: 30px;
-  justify-content: center;
-`;
 
 export const Header: React.SFC<HeaderProps> = () => {
   return (
-    <BarWrapper style={{ height: '54px' }}>
-      <Logo />
-      <Menu />
-    </BarWrapper>
+    <HeaderLayout>
+      {{
+        logo: <Logo />,
+        menu: <Menu />,
+      }}
+    </HeaderLayout>
   );
 };
 
 export default Header;
+
+// HeaderLayout 컴포넌트
+interface HeaderLayoutProps {
+  children: {
+    logo: ReactElement;
+    menu: ReactElement;
+  };
+}
+
+const HeaderLayout: SFC<HeaderLayoutProps> = ({ children: { logo, menu } }) => {
+  return (
+    <HeaderLayoutWrapper>
+      <RowListLayout.Between>{[logo, menu]}</RowListLayout.Between>
+    </HeaderLayoutWrapper>
+  );
+};
+
+// HeaderLayoutWrapper 컴포넌트
+const HeaderLayoutWrapper = styled(BothMarginWrapper)`
+  padding-top: 17px;
+  padding-bottom: 17px;
+  min-height: 54px;
+`;
+
+// Logo 컴포넌트
+const Logo = styled.img.attrs({ src: logoImg })`
+  height: 28px;
+`;
+
+// Menu 컴포넌트
+const Menu = styled.img.attrs({ src: MenuImg })`
+  width: 30px;
+`;

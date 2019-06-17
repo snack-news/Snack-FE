@@ -1,0 +1,101 @@
+import React, { SFC, ReactElement } from 'react';
+import styled from 'styled-components';
+
+import BothMarginWrapper from '../../layouts/BothMarginWrapper';
+import Center from '../../layouts/Center';
+import RowListLayout from '../../layouts/RowListLayout';
+
+import { arrowLinkImg } from '../../resources';
+
+/* CompanyItem 컴포넌트 */
+const CompanyItem: SFC<Company> = ({ companyName, logoImg }) => (
+  <CompanyItemLayout>
+    {{
+      companyIcon: <CompanyIcon src={logoImg} />,
+      companyLabel: <CompanyLabel>{companyName}</CompanyLabel>,
+      arrowIcon: <ArrowIcon />,
+    }}
+  </CompanyItemLayout>
+);
+
+export default CompanyItem;
+
+/* CompanyItemLayout 컴포넌트 */
+interface CompanyItemLayoutProps {
+  children: {
+    companyIcon: ReactElement;
+    companyLabel: ReactElement;
+    arrowIcon: ReactElement;
+  };
+}
+
+const CompanyItemLayout: SFC<CompanyItemLayoutProps> = ({
+  children: { companyIcon, companyLabel, arrowIcon },
+}) => (
+  <CompanyItemLayoutWrapper>
+    <RowListLayout.Detail
+      items={[
+        {
+          el: companyIcon,
+          right: '10px',
+        },
+        {
+          el: companyLabel,
+          right: 'auto',
+        },
+        {
+          el: arrowIcon,
+        },
+      ]}
+    />
+  </CompanyItemLayoutWrapper>
+);
+
+/* CompanyItemLayoutWrapper 컴포넌트 */
+const CompanyItemLayoutWrapper = styled(BothMarginWrapper)`
+  padding-top: 12px;
+  padding-bottom: 12px;
+`;
+
+/* CompanyIcon 컴포넌트 */
+interface CompanyIconProps {
+  src: string;
+}
+
+const CompanyIcon: SFC<CompanyIconProps> = ({ src }) => (
+  <CompanyIconWrapper>
+    <CompanyIconImg src={src} />
+  </CompanyIconWrapper>
+);
+
+/* CompanyIconWrapper 컴포넌트 */
+const ICON_WRAPPER_SIZE = '36px';
+const ICON_MAX_SIZE = '24px';
+
+const CompanyIconWrapper = styled(Center)`
+  width: ${ICON_WRAPPER_SIZE};
+  height: ${ICON_WRAPPER_SIZE};
+
+  background-color: #b7b7b7;
+  border-radius: 1000px;
+  font-size: 10px;
+`;
+
+/* CompanyIconImg 컴포넌트 */
+const CompanyIconImg = styled.img`
+  max-width: ${ICON_MAX_SIZE};
+  max-height: ${ICON_MAX_SIZE};
+`;
+
+/* CompanyLabel 컴포넌트 */
+const CompanyLabel = styled.span`
+  font-family: SFProDisplay;
+  font-size: 14px;
+  font-weight: 500;
+  color: #121111;
+`;
+
+/* ArrowIcon 컴포넌트 */
+const ArrowIcon = styled.img.attrs({ src: arrowLinkImg })`
+  height: 14px;
+`;

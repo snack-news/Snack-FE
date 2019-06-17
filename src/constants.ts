@@ -1,12 +1,10 @@
-import { facebookImg, twitterImg, kakaoImg, emailImg } from './resources';
-
 export const tabs = [
   {
-    id: '1',
+    key: '1',
     label: 'News',
   },
   {
-    id: '2',
+    key: '2',
     label: 'Picks',
   },
 ];
@@ -17,21 +15,44 @@ export const footerLinks = [
   { children: '문의하기', key: '3' },
 ];
 
-export const socialList = [
+export const externalLinks = {
+  facebook: {
+    link: '',
+  },
+  twitter: {
+    link: '',
+  },
+  kakao: {
+    link: '',
+  },
+  linkedin: {
+    link: '',
+  },
+  email: {
+    link: '',
+  },
+};
+
+export const platformList = [
   {
-    key: '1',
-    src: facebookImg,
+    platformName: 'Facebook',
+    backgroundColor: '#33599d',
+    link: externalLinks.facebook,
   },
   {
-    key: '2',
-    src: twitterImg,
+    platformName: 'KakaoTalk',
+    backgroundColor: '#fae100',
+    color: '#121111',
+    link: externalLinks.kakao,
   },
   {
-    key: '3',
-    src: kakaoImg,
+    platformName: 'Twitter',
+    backgroundColor: '#38a1f3',
+    link: externalLinks.twitter,
   },
   {
-    key: '4',
-    src: emailImg,
+    platformName: 'Linkedin',
+    backgroundColor: '#0077b5',
+    link: externalLinks.linkedin,
   },
 ];

@@ -1,3 +1,10 @@
+interface Company {
+  logoImg: string;
+  companyName: string;
+  id: string;
+}
+
+/** 리소스 import시 필요한 타입 정의 */
 declare module '*.css' {
   const classes: { [key: string]: string };
   export default classes;
