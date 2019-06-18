@@ -1,20 +1,22 @@
 import React from 'react';
-// import styled from 'styled-components';
+import styled from 'styled-components';
 
 import { RowListLayout } from 'Layouts/index';
 
-// import { socialList } from 'Constants';
+import { footerSocialList } from 'Constants';
 
 /* SocialIconList 컴포넌트 */
 export const SocialIconList = () => (
   <RowListLayout.Between>
-    {/* {socialList.map(socialIconProps => (
-      <SocialIcon {...socialIconProps} />
-    ))} */}
+    {footerSocialList.map(({ img, link }) => (
+      <a href={link}>
+        <SocialIcon src={img} />
+      </a>
+    ))}
   </RowListLayout.Between>
 );
 
 /* SocialIcon 컴포넌트 */
-// const SocialIcon = styled.img``;
+const SocialIcon = styled.img``;
 
 export default SocialIconList;
