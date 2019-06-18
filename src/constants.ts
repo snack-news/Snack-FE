@@ -56,3 +56,8 @@ export const platformList = [
     link: externalLinks.linkedin.link,
   },
 ];
+
+export const theme = {
+  maxWidth: 600,
+  depthWidth: 20,
+};

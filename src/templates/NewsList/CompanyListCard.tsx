@@ -43,6 +43,7 @@ const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
 const CompanyBox: SFC<Company> = ({ logoImg, companyName }) => (
   <CompanyBoxWrapper
     top="12px"
+    bottom="8px"
     items={[
       {
         el: (
@@ -58,7 +59,6 @@ const CompanyBox: SFC<Company> = ({ logoImg, companyName }) => (
             <CompanyBoxLabel>{companyName}</CompanyBoxLabel>
           </Center>
         ),
-        bottom: '8px',
       },
     ]}
   />

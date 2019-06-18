@@ -13,6 +13,7 @@ interface CardSimpleLayoutProps {
 const CardSimpleLayout: SFC<CardSimpleLayoutProps> = ({ children: { header, nav, body } }) => (
   <ColListLayout.Detail
     top="20px"
+    bottom="20px"
     items={[
       {
         el: (
@@ -24,7 +25,6 @@ const CardSimpleLayout: SFC<CardSimpleLayoutProps> = ({ children: { header, nav,
       },
       {
         el: <BothMarginWrapper>{body}</BothMarginWrapper>,
-        bottom: '20px',
       },
     ]}
   />

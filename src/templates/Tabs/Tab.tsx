@@ -7,12 +7,6 @@ interface TabProps {
   selected?: boolean;
 }
 
-const TabWrapper = styled.div`
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-`;
-
 const TabLabel = styled.div<Pick<TabProps, 'selected'>>`
   display: flex;
   flex-grow: 1;

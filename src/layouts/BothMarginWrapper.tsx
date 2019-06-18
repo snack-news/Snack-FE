@@ -3,17 +3,17 @@
  */
 
 import styled from 'styled-components';
+import { theme } from 'Constants';
+import { BaseLayout } from './BaseLayout';
 
 interface BothMarginWrapperProps {
   depth?: number;
 }
 
-export const BothMarginWrapper = styled.div<BothMarginWrapperProps>`
-  display: flex;
-  flex-grow: 1;
-
+export const BothMarginWrapper = styled(BaseLayout)<BothMarginWrapperProps>`
   overflow: auto;
-  padding: 0px ${({ depth = 1 }) => `${20 * depth}px`};
+  padding-right: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
+  padding-left: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
   margin: 0 auto;
-  max-width: ${({ depth = 1 }) => `${600 - 20 * depth}px`};
+  max-width: ${({ depth = 1 }) => `${theme.maxWidth - theme.depthWidth * depth}px`};
 `;

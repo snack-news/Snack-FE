@@ -57,6 +57,7 @@ const NewsCardLayout: SFC<NewsCardLayoutProps> = ({
 }) => (
   <ColListLayout.Detail
     top="30px"
+    bottom="22px"
     items={[
       {
         el: <BothMarginWrapper>{tags}</BothMarginWrapper>,
@@ -84,7 +85,6 @@ const NewsCardLayout: SFC<NewsCardLayoutProps> = ({
       },
       {
         el: <BothMarginWrapper depth={3}>{footer}</BothMarginWrapper>,
-        bottom: '22px',
       },
     ]}
   />

@@ -35,6 +35,7 @@ interface FooterLayoutProps {
 const FooterLayout: SFC<FooterLayoutProps> = ({ children }) => (
   <ColListLayout.Detail
     top="40px"
+    bottom="32px"
     items={[
       {
         el: <BothMarginWrapper depth={2}>{children.linkList}</BothMarginWrapper>,
@@ -46,7 +47,6 @@ const FooterLayout: SFC<FooterLayoutProps> = ({ children }) => (
       },
       {
         el: children.copyright,
-        bottom: '32px',
       },
     ]}
   />

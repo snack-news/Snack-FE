@@ -10,8 +10,6 @@ import ContactCard from './ContactCard';
 import PlatformListCard from './PlatformListCard';
 import NewsCard from './NewsCard';
 
-const Wrapper = styled(ColListLayout.Repeat)``;
-
 const NewsList = () => {
   const newsList = getNewsList();
   const newsCardComponents = newsList.map(newsCardProps => (
@@ -21,23 +19,25 @@ const NewsList = () => {
     </Fragment>
   ));
 
-  const body = [
-    ...newsCardComponents.slice(0, 3),
-    <HorizontalDivider thick />,
-    <CompanyListCard key="CompanyListCard" />,
-    <HorizontalDivider thick />,
-    ...newsCardComponents.slice(3, 5),
-    <HorizontalDivider thick />,
-    <ContactCard key="ContactCard" />,
-    <HorizontalDivider thick />,
-    ...newsCardComponents.slice(5, 6),
-    <HorizontalDivider thick />,
-    <PlatformListCard key="PlatformListCard" />,
-    <HorizontalDivider thick />,
-    ...newsCardComponents.slice(6),
-  ];
-
-  return <Wrapper>{body}</Wrapper>;
+  return (
+    <ColListLayout.Repeat>
+      {[
+        ...newsCardComponents.slice(0, 3),
+        <HorizontalDivider thick />,
+        <CompanyListCard key="CompanyListCard" />,
+        <HorizontalDivider thick />,
+        ...newsCardComponents.slice(3, 5),
+        <HorizontalDivider thick />,
+        <ContactCard key="ContactCard" />,
+        <HorizontalDivider thick />,
+        ...newsCardComponents.slice(5, 6),
+        <HorizontalDivider thick />,
+        <PlatformListCard key="PlatformListCard" />,
+        <HorizontalDivider thick />,
+        ...newsCardComponents.slice(6),
+      ]}
+    </ColListLayout.Repeat>
+  );
 };
 
 export default NewsList;

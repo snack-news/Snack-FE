@@ -4,15 +4,15 @@
 
 import React, { ReactNode, CSSProperties, ReactElement, SFC } from 'react';
 import styled from 'styled-components';
+import { BaseLayout } from './BaseLayout';
+
+type CSSLength = CSSProperties['marginBottom'];
 
 interface BaseProps {
   children: (ReactElement | string | null | undefined)[];
 }
 
-const Base = styled.div<BaseProps>`
-  display: flex;
-  flex-grow: 1;
-
+const Base = styled(BaseLayout)<BaseProps>`
   align-items: center;
 `;
 
@@ -22,27 +22,25 @@ const Between = styled(Base)`
 
 interface RowItem {
   el: ReactNode;
-  right?: CSSProperties['marginRight'];
+  right?: CSSLength;
   flex?: CSSProperties['flex'];
   key?: string;
 }
 
 interface DetailProps {
   items: RowItem[];
-  left?: CSSProperties['paddingLeft'];
   className?: string;
+  left?: CSSLength;
+  right?: CSSLength;
 }
 
-const Detail: SFC<DetailProps> = ({ items, left, className }) => {
+const Detail: SFC<DetailProps> = ({ items, className, left, right }) => {
   const lastIndex = items.length - 1;
 
   return (
-    <Base
-      className={className}
-      style={{ paddingLeft: left, paddingRight: items[items.length - 1].right }}
-    >
-      {items.map(({ el, right, flex, key }, i) => (
-        <div style={{ marginRight: lastIndex === i ? undefined : right, flex }} key={key || i}>
+    <Base className={className} style={{ paddingLeft: left, paddingRight: right }}>
+      {items.map(({ el, right: itemRight, flex, key }, i) => (
+        <div style={{ marginRight: lastIndex === i ? undefined : itemRight, flex }} key={key || i}>
           {el}
         </div>
       ))}
@@ -52,30 +50,20 @@ const Detail: SFC<DetailProps> = ({ items, left, className }) => {
 
 interface RepeatProps {
   children: (ReactElement | string | null | undefined)[];
-  interval?: CSSProperties['paddingLeft'];
+  interval?: CSSLength;
   className?: string;
+  left?: CSSLength;
+  right?: CSSLength;
 }
 
-const Repeat: SFC<RepeatProps> = ({ children, interval, className }) => {
-  const lastIndex = children.length - 1;
-
-  return (
-    <Base className={className} style={{ paddingRight: interval }}>
-      {children.map((child, i) => {
-        if (child === null || child === undefined || typeof child === 'string') {
-          return child;
-        }
-
-        const key = child.key === null ? undefined : child.key;
-
-        return (
-          <div style={{ marginRight: lastIndex === i ? undefined : interval }} key={key}>
-            {child}
-          </div>
-        );
-      })}
-    </Base>
-  );
-};
+const Repeat: SFC<RepeatProps> = ({ children, interval, className, left, right }) => (
+  <Detail
+    {...{ className, left, right }}
+    items={children.map(child => ({
+      el: child,
+      bottom: interval,
+    }))}
+  />
+);
 
 export const RowListLayout = { Detail, Between, Repeat };

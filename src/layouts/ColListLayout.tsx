@@ -5,48 +5,55 @@
 import React, { ReactNode, CSSProperties, SFC, ReactElement } from 'react';
 import styled from 'styled-components';
 
-const Base = styled.div`
-  display: flex;
-  flex-grow: 1;
+import { BaseLayout } from './BaseLayout';
+
+type CSSLength = CSSProperties['marginBottom'];
+
+const Base = styled(BaseLayout)`
   flex-direction: column;
 `;
 
 interface ColItem {
   el: ReactNode;
-  bottom?: CSSProperties['marginBottom'];
+  bottom?: CSSLength;
   key?: string;
 }
 
 interface DetailProps {
   items: ColItem[];
-  top?: CSSProperties['paddingTop'];
+  className?: string;
+  top?: CSSLength;
+  bottom?: CSSLength;
 }
 
-const Detail = styled(Base).attrs<DetailProps>(({ items }) => {
+const Detail: SFC<DetailProps> = ({ items, className, top, bottom }) => {
   const lastIndex = items.length - 1;
 
-  return {
-    children: items.map(({ el, bottom, key }, i) => (
-      <div style={{ marginBottom: lastIndex === i ? undefined : bottom }} key={key || i}>
-        {el}
-      </div>
-    )),
-  };
-})<DetailProps>`
-  padding-top: ${({ top }) => top};
-  padding-bottom: ${({ items }) => items[items.length - 1].bottom};
-`;
+  return (
+    <Base className={className} style={{ paddingTop: top, paddingBottom: bottom }}>
+      {items.map(({ el, bottom: itemBottom, key }, i) => (
+        <div style={{ marginBottom: lastIndex === i ? undefined : itemBottom }} key={key || i}>
+          {el}
+        </div>
+      ))}
+    </Base>
+  );
+};
 
 interface RepeatProps {
   children: (ReactElement | string | null | undefined)[];
   interval?: CSSProperties['marginBottom'];
+  className?: string;
+  top?: CSSLength;
+  bottom?: CSSLength;
 }
 
-const Repeat: SFC<RepeatProps> = ({ children, interval }) => (
+const Repeat: SFC<RepeatProps> = ({ children, interval, className, top, bottom }) => (
   <Detail
-    items={children.map((child, i) => ({
+    {...{ className, top, bottom }}
+    items={children.map(child => ({
       el: child,
-      bottom: i === children.length - 1 ? undefined : interval,
+      bottom: interval,
     }))}
   />
 );
