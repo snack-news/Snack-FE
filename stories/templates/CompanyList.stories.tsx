@@ -1,6 +1,8 @@
 import React from 'react';
+import { Story } from '@storybook/react';
 
 import { CompanyList } from 'Templates/index';
-import storiesOfWithTemplates from './storiesOfWithTemplates';
 
-storiesOfWithTemplates('CompanyList', module).add('default', () => <CompanyList />);
+export default (story: Story) => {
+  story.add('default', () => <CompanyList />);
+};

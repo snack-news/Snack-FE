@@ -1,6 +1,8 @@
 import React from 'react';
+import { Story } from '@storybook/react';
 
 import { Header } from 'Templates/index';
-import storiesOfWithTemplates from './storiesOfWithTemplates';
 
-storiesOfWithTemplates('Header', module).add('default', () => <Header />);
+export default (story: Story) => {
+  story.add('default', () => <Header />);
+};
