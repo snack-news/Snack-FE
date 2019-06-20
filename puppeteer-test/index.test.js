@@ -23,7 +23,7 @@ config.ids.forEach(id => {
   it(`id: ${id}`, async () => {
     await page.goto(`http://localhost:${config.port}/iframe.html?id=${id}`);
 
-    const screenshot = await page.screenshot();
+    const screenshot = await page.screenshot({ fullPage: true });
     // browser.close();
 
     expect(screenshot).toMatchImageSnapshot();

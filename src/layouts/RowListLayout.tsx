@@ -61,7 +61,7 @@ const Repeat: SFC<RepeatProps> = ({ children, interval, className, left, right }
     {...{ className, left, right }}
     items={children.map(child => ({
       el: child,
-      bottom: interval,
+      right: interval,
     }))}
   />
 );
