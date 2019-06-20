@@ -1,0 +1,22 @@
+module.exports = {
+  port: 8899,
+  device: 'iPhone 6',
+  ids: [
+    'pages-companyselectpage--default',
+    'pages-homepage--default',
+    'templates-companylist--default',
+    'templates-footer--default',
+    'templates-footer--copyright',
+    'templates-footer--footerlinklist',
+    'templates-footer--socialiconlist',
+    'templates-header--default',
+    'templates-horizontaldivider--default',
+    'templates-newslist--default',
+    'templates-newslist--companylistcard',
+    'templates-newslist--contactcard',
+    'templates-newslist--platformlistcard',
+    'templates-selectbox--default',
+    'templates-subheader--default',
+    'templates-tabs--default',
+  ],
+};

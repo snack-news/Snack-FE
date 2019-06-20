@@ -16,6 +16,7 @@ module.exports = {
     },
   },
   modulePathIgnorePatterns: ['__mocks__'],
+  setupFilesAfterEnv: [path.resolve(__dirname, './jest.setup.js')],
   // notify: true, // TODO 아래 이슈가 해결되고 사용해야 되는 옵션이다.
   // https://github.com/facebook/jest/issues/8036
 };

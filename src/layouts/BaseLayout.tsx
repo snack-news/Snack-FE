@@ -6,4 +6,5 @@ import styled from 'styled-components';
 
 export const BaseLayout = styled.div`
   display: flex;
+  flex-grow: 1;
 `;
