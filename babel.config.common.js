@@ -3,7 +3,11 @@
 
 module.exports = {
   presets: ['@babel/typescript', '@babel/preset-react'],
-  plugins: ['@babel/proposal-class-properties', 'babel-plugin-styled-components'],
+  plugins: [
+    'require-context-hook',
+    '@babel/proposal-class-properties',
+    'babel-plugin-styled-components',
+  ],
   inputSourceMap: true,
   sourceMaps: true,
   sourceType: 'module',

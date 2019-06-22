@@ -1,3 +1,4 @@
+const path = require('path');
 const babelConfigCommon = require('./babel.config.common');
 
 module.exports = {
@@ -26,6 +27,10 @@ module.exports = {
         regenerator: true,
         useESModules: false,
       },
+    ],
+    [
+      'babel-plugin-webpack-alias',
+      { config: path.resolve(__dirname, './webpack.config.common.js') },
     ],
   ],
 };

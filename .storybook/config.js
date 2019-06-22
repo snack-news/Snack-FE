@@ -32,7 +32,6 @@ function loadStories() {
     const section = paths[1];
     const fileName = paths[paths.length - 1];
     const baseFileName = fileName.split('.')[0];
-    console.log(paths[paths.length - 1], baseFileName)
 
     req(filePath).default(storiesOf(`${section}/${baseFileName}`))
   });
