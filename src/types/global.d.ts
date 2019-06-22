@@ -1,7 +1,7 @@
 interface Company {
   logoImg: string;
   companyName: string;
-  id: string;
+  key: string;
 }
 
 /** 리소스 import시 필요한 타입 정의 */

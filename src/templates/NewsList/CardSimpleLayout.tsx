@@ -18,7 +18,10 @@ const CardSimpleLayout: SFC<CardSimpleLayoutProps> = ({ children: { header, nav,
       {
         el: (
           <BothMarginWrapper>
-            <RowListLayout.Between>{[header, nav]}</RowListLayout.Between>
+            <RowListLayout.Between>
+              {header}
+              {nav}
+            </RowListLayout.Between>
           </BothMarginWrapper>
         ),
         bottom: '20px',

@@ -13,7 +13,7 @@ const CompanyList = () => {
   return (
     <ColListLayout.Repeat>
       {companyList.map(company => (
-        <ColListLayout.Repeat key={company.id}>
+        <ColListLayout.Repeat key={company.key}>
           <CompanyItem {...company} key="CompanyItem" />
           <HorizontalDivider key="HorizontalDivider" />
         </ColListLayout.Repeat>

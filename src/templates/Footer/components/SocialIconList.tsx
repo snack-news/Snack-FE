@@ -8,8 +8,8 @@ import { footerSocialList } from 'Constants';
 /* SocialIconList 컴포넌트 */
 export const SocialIconList = () => (
   <RowListLayout.Between>
-    {footerSocialList.map(({ img, link }) => (
-      <a href={link}>
+    {footerSocialList.map(({ img, link, key }) => (
+      <a href={link} key={key}>
         <SocialIcon src={img} />
       </a>
     ))}

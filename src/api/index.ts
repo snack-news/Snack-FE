@@ -3,12 +3,12 @@ import uberLogo from 'Resources/mock/uber-logo.png';
 import linkMock from 'Resources/mock/linkMock.jpg';
 
 export const getCompanyList = () => [
-  { companyName: '아마존', id: '1', logoImg: uberLogo },
-  { companyName: '쿠팡', id: '2', logoImg: uberLogo },
-  { companyName: '페이스북', id: '3', logoImg: uberLogo },
-  { companyName: '삼성', id: '4', logoImg: uberLogo },
-  { companyName: '테슬라', id: '5', logoImg: uberLogo },
-  { companyName: '이커머스', id: '6', logoImg: uberLogo },
+  { companyName: '아마존', key: '1', logoImg: uberLogo },
+  { companyName: '쿠팡', key: '2', logoImg: uberLogo },
+  { companyName: '페이스북', key: '3', logoImg: uberLogo },
+  { companyName: '삼성', key: '4', logoImg: uberLogo },
+  { companyName: '테슬라', key: '5', logoImg: uberLogo },
+  { companyName: '이커머스', key: '6', logoImg: uberLogo },
 ];
 
 export const getNewsList = () => {

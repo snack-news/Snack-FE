@@ -32,7 +32,10 @@ interface HeaderLayoutProps {
 const HeaderLayout: SFC<HeaderLayoutProps> = ({ children: { logo, menu } }) => {
   return (
     <HeaderLayoutWrapper>
-      <RowListLayout.Between>{[logo, menu]}</RowListLayout.Between>
+      <RowListLayout.Between>
+        {logo}
+        {menu}
+      </RowListLayout.Between>
     </HeaderLayoutWrapper>
   );
 };

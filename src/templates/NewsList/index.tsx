@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import styled from 'styled-components';
 
 import { getNewsList } from 'Api/index';
 import { ColListLayout } from 'Layouts/index';
@@ -13,7 +12,7 @@ import NewsCard from './NewsCard';
 const NewsList = () => {
   const newsList = getNewsList();
   const newsCardComponents = newsList.map(newsCardProps => (
-    <Fragment>
+    <Fragment key={newsCardProps.key}>
       <NewsCard {...newsCardProps} />
       <HorizontalDivider />,
     </Fragment>
@@ -23,17 +22,23 @@ const NewsList = () => {
     <ColListLayout.Repeat>
       {[
         ...newsCardComponents.slice(0, 3),
-        <HorizontalDivider thick />,
-        <CompanyListCard key="CompanyListCard" />,
-        <HorizontalDivider thick />,
+        <Fragment key="CompanyListCard">
+          <HorizontalDivider thick />
+          <CompanyListCard />
+          <HorizontalDivider thick />
+        </Fragment>,
         ...newsCardComponents.slice(3, 5),
-        <HorizontalDivider thick />,
-        <ContactCard key="ContactCard" />,
-        <HorizontalDivider thick />,
+        <Fragment key="ContactCard">
+          <HorizontalDivider thick />
+          <ContactCard />
+          <HorizontalDivider thick />
+        </Fragment>,
         ...newsCardComponents.slice(5, 6),
-        <HorizontalDivider thick />,
-        <PlatformListCard key="PlatformListCard" />,
-        <HorizontalDivider thick />,
+        <Fragment key="PlatformListCard">
+          <HorizontalDivider thick />
+          <PlatformListCard />
+          <HorizontalDivider thick />
+        </Fragment>,
         ...newsCardComponents.slice(6),
       ]}
     </ColListLayout.Repeat>
