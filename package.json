@@ -23,6 +23,7 @@
     "@storybook/addon-backgrounds": "^5.1.8",
     "@storybook/addon-console": "^1.1.0",
     "@storybook/addon-storyshots": "^5.1.9",
+    "@storybook/addon-storyshots-puppeteer": "^5.1.9",
     "@storybook/addon-viewport": "^5.1.8",
     "@storybook/react": "^5.1.8",
     "@types/jest": "^24.0.14",
