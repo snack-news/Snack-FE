@@ -1,8 +1,8 @@
 import React from 'react';
-import { Story } from '@storybook/react';
+import { storiesOf } from '@storybook/react';
 
 import { HomePage } from 'Pages/index';
 
-export default (story: Story) => {
-  story.add('default', () => <HomePage />);
+export default (name: string) => {
+  storiesOf(name, module).add('default', () => <HomePage />);
 };

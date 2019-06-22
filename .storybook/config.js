@@ -33,7 +33,7 @@ function loadStories() {
     const fileName = paths[paths.length - 1];
     const baseFileName = fileName.split('.')[0];
 
-    req(filePath).default(storiesOf(`${section}/${baseFileName}`))
+    req(filePath).default(`${section}/${baseFileName}`)
   });
 }
 

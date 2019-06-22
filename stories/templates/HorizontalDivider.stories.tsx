@@ -1,13 +1,13 @@
 import React from 'react';
-import { Story } from '@storybook/react';
+import { storiesOf } from '@storybook/react';
 
 import { HorizontalDivider } from 'Templates/index';
 import Outline from '../Outline';
 
-export default (story: Story) => {
-  story.add('default', () => (
+export default (name: string) => {
+  storiesOf(name, module).add('default', () => (
     <Outline>
       <HorizontalDivider />
     </Outline>
-  ));
+));
 };
