@@ -26,6 +26,7 @@
       "Resources/*": ["./src/resources/*"],
       "Templates/*": ["./src/templates/*"],
       "Constants": ["./src/constants.ts"],
+      "Utils": ["./src/utils.ts"],
     },
     // "rootDirs": [ ], // 가상 디덱토리를 설정
     // "rootDir": "./", // 입력파일의 rootDir 설정

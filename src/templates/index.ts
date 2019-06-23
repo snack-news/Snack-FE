@@ -6,3 +6,4 @@ export { default as NewsList } from './NewsList';
 export { default as SelectBox } from './SelectBox';
 export { default as SubHeader } from './SubHeader';
 export { default as Tabs } from './Tabs';
+export { default as PickNewsList } from './PickNewsList';

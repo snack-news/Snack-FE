@@ -77,6 +77,7 @@ module.exports = {
       Resources: path.resolve(SRC_PATH, 'resources/'),
       Templates: path.resolve(SRC_PATH, 'templates/'),
       Constants: path.resolve(SRC_PATH, 'constants.ts'),
+      Utils: path.resolve(SRC_PATH, 'utils.ts'),
     },
   },
 };

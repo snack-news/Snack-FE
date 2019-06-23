@@ -17,6 +17,10 @@ module.exports = {
         description: '노드 개발 서버 시작',
       },
     },
+    storybook: {
+      script: 'node storybook.js',
+      description: '스토리북 실행',
+    },
     test: {
       script: 'jest --watchAll',
       description: '테스트',
