@@ -8,7 +8,7 @@ import { logoImg, MenuImg } from 'Resources/index';
 // Header 컴포넌트
 interface IHeaderProps {}
 
-export const Header: React.SFC<IHeaderProps> = () => {
+const Header: React.SFC<IHeaderProps> = () => {
   return (
     <HeaderLayout>
       {{

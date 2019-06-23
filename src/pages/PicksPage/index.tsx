@@ -1,7 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Header, Tabs, PickNewsList, HorizontalDivider, Footer } from 'Templates/index';
+import {
+  Header,
+  Tabs,
+  PickCategoryList,
+  PickNewsList,
+  HorizontalDivider,
+  Footer,
+  TextCard,
+} from 'Templates/index';
 
 const Wrapper = styled.div``;
 
@@ -10,6 +18,9 @@ const PicksPage = () => (
     <Header />
     <HorizontalDivider />
     <Tabs />
+    <PickCategoryList />
+    <TextCard />
+    <HorizontalDivider thick />
     <PickNewsList />
     <Footer />
   </Wrapper>

@@ -40,7 +40,7 @@ const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
   color: #0b66f7;
 `;
 
-const CompanyBox: SFC<Company> = ({ logoImg, companyName }) => (
+const CompanyBox: SFC<ICompany> = ({ logoImg, companyName }) => (
   <CompanyBoxWrapper
     top="12px"
     bottom="8px"

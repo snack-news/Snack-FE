@@ -140,3 +140,26 @@ export const getPickNewsList = (): INews[] => [
     key: '3',
   },
 ];
+
+export const getPickCategoryList = (): IPickCategory[] => [
+  {
+    name: '개발',
+    key: '1',
+  },
+  {
+    name: '비지니스',
+    key: '2',
+  },
+  {
+    name: '시장동향',
+    key: '3',
+  },
+  {
+    name: '마게팅',
+    key: '4',
+  },
+  {
+    name: '디자인',
+    key: '5',
+  },
+];

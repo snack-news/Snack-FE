@@ -10,7 +10,7 @@ import { getHostName } from 'Utils';
 // PickNewsList 컴포넌트
 interface IPickNewsListProps {}
 
-export const PickNewsList: SFC<IPickNewsListProps> = () => {
+const PickNewsList: SFC<IPickNewsListProps> = () => {
   const pickNewsList = getPickNewsList();
 
   return (

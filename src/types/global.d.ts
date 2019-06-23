@@ -24,6 +24,11 @@ interface INews {
   key: string;
 }
 
+interface IPickCategory {
+  name: string;
+  key: string;
+}
+
 /** 리소스 import시 필요한 타입 정의 */
 declare module '*.css' {
   const classes: { [key: string]: string };
