@@ -6,9 +6,9 @@ import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import { logoImg, MenuImg } from 'Resources/index';
 
 // Header 컴포넌트
-interface HeaderProps {}
+interface IHeaderProps {}
 
-export const Header: React.SFC<HeaderProps> = () => {
+export const Header: React.SFC<IHeaderProps> = () => {
   return (
     <HeaderLayout>
       {{
@@ -22,14 +22,14 @@ export const Header: React.SFC<HeaderProps> = () => {
 export default Header;
 
 // HeaderLayout 컴포넌트
-interface HeaderLayoutProps {
+interface IHeaderLayoutProps {
   children: {
     logo: ReactElement;
     menu: ReactElement;
   };
 }
 
-const HeaderLayout: SFC<HeaderLayoutProps> = ({ children: { logo, menu } }) => {
+const HeaderLayout: SFC<IHeaderLayoutProps> = ({ children: { logo, menu } }) => {
   return (
     <HeaderLayoutWrapper>
       <RowListLayout.Between>

@@ -8,11 +8,11 @@ import { BaseLayout } from './BaseLayout';
 
 type CSSLength = CSSProperties['marginBottom'];
 
-interface BaseProps {
+interface IBaseProps {
   children: (ReactElement | string | null | undefined)[];
 }
 
-const Base = styled(BaseLayout)<BaseProps>`
+const Base = styled(BaseLayout)<IBaseProps>`
   align-items: center;
 `;
 
@@ -20,21 +20,21 @@ const Between = styled(Base)`
   justify-content: space-between;
 `;
 
-interface RowItem {
+interface IRowItem {
   el: ReactNode;
   right?: CSSLength;
   flex?: CSSProperties['flex'];
   key?: string;
 }
 
-interface DetailProps {
-  items: RowItem[];
+interface IDetailProps {
+  items: IRowItem[];
   className?: string;
   left?: CSSLength;
   right?: CSSLength;
 }
 
-const Detail: SFC<DetailProps> = ({ items, className, left, right }) => {
+const Detail: SFC<IDetailProps> = ({ items, className, left, right }) => {
   const lastIndex = items.length - 1;
 
   return (
@@ -48,7 +48,7 @@ const Detail: SFC<DetailProps> = ({ items, className, left, right }) => {
   );
 };
 
-interface RepeatProps {
+interface IRepeatProps {
   children: (ReactElement | string | null | undefined)[];
   interval?: CSSLength;
   className?: string;
@@ -56,7 +56,7 @@ interface RepeatProps {
   right?: CSSLength;
 }
 
-const Repeat: SFC<RepeatProps> = ({ children, interval, className, left, right }) => (
+const Repeat: SFC<IRepeatProps> = ({ children, interval, className, left, right }) => (
   <Detail
     {...{ className, left, right }}
     items={children.map(child => ({

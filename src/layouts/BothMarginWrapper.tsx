@@ -6,11 +6,11 @@ import styled from 'styled-components';
 import { theme } from 'Constants';
 import { BaseLayout } from './BaseLayout';
 
-interface BothMarginWrapperProps {
+interface IBothMarginWrapperProps {
   depth?: number;
 }
 
-export const BothMarginWrapper = styled(BaseLayout)<BothMarginWrapperProps>`
+export const BothMarginWrapper = styled(BaseLayout)<IBothMarginWrapperProps>`
   overflow: auto;
   padding-right: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
   padding-left: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};

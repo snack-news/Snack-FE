@@ -6,7 +6,7 @@ import Label from './Label';
 
 import contentImg from '../../resources/icon/content.png';
 
-interface SelectBoxProps {}
+interface ISelectBoxProps {}
 
 const ContentIcon = styled.img.attrs({
   src: contentImg,
@@ -18,7 +18,7 @@ const SelectBoxWrapper = styled(BothMarginWrapper)`
   margin: 12px 0;
 `;
 
-export const SelectBox: React.SFC<SelectBoxProps> = () => {
+export const SelectBox: React.SFC<ISelectBoxProps> = () => {
   return (
     <SelectBoxWrapper>
       <RowListLayout.Between>

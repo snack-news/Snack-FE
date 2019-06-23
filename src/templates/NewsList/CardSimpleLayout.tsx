@@ -2,7 +2,7 @@ import React, { ReactElement, SFC } from 'react';
 
 import { ColListLayout, RowListLayout, BothMarginWrapper } from 'Layouts/index';
 
-interface CardSimpleLayoutProps {
+interface ICardSimpleLayoutProps {
   children: {
     header?: ReactElement;
     nav?: ReactElement;
@@ -10,10 +10,10 @@ interface CardSimpleLayoutProps {
   };
 }
 
-const CardSimpleLayout: SFC<CardSimpleLayoutProps> = ({ children: { header, nav, body } }) => (
+const CardSimpleLayout: SFC<ICardSimpleLayoutProps> = ({ children: { header, nav, body } }) => (
   <ColListLayout.Detail
-    top="20px"
-    bottom="20px"
+    top="30px"
+    bottom="30px"
     items={[
       {
         el: (

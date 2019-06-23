@@ -24,7 +24,7 @@ const FooterStyleWrapper = styled.div`
 `;
 
 /* FooterLayout 컴포넌트 */
-interface FooterLayoutProps {
+interface IFooterLayoutProps {
   children: {
     linkList: ReactNode;
     socialList: ReactNode;
@@ -32,7 +32,7 @@ interface FooterLayoutProps {
   };
 }
 
-const FooterLayout: SFC<FooterLayoutProps> = ({ children }) => (
+const FooterLayout: SFC<IFooterLayoutProps> = ({ children }) => (
   <ColListLayout.Detail
     top="40px"
     bottom="32px"

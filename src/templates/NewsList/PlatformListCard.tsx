@@ -30,14 +30,14 @@ const PlatformListCardTitle = styled.div.attrs({
   color: #000000;
 `;
 
-interface PlatformCardProps {
+interface IPlatformCardProps {
   platformName: string;
   backgroundColor?: string;
   color?: string;
   link: string;
 }
 
-const PlatformCard: SFC<PlatformCardProps> = ({ platformName, backgroundColor, color, link }) => (
+const PlatformCard: SFC<IPlatformCardProps> = ({ platformName, backgroundColor, color, link }) => (
   <PlatformCardWrapper style={{ backgroundColor, color }} href={link}>
     <Center>
       <PlatformCardLabel>

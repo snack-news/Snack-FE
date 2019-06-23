@@ -74,7 +74,7 @@ module.exports = {
         '@typescript-eslint/explicit-member-accessibility': 'off',
         indent: 'off',
         '@typescript-eslint/indent': airbnbBaseStyleRules.indent,
-        '@typescript-eslint/interface-name-prefix': 'off',
+        '@typescript-eslint/interface-name-prefix': ['error', 'always'],
         '@typescript-eslint/member-delimiter-style': 'off',
         '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
         'no-array-constructor': 'off',

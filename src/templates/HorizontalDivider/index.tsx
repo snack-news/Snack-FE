@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-interface HorizontalDividerProps {
+interface IHorizontalDividerProps {
   thick?: boolean;
 }
 
-const HorizontalDivider = styled.div<HorizontalDividerProps>`
+const HorizontalDivider = styled.div<IHorizontalDividerProps>`
   height: ${({ thick }) => (thick ? '8px' : '1px')};
   width: 100%;
 

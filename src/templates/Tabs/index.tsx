@@ -5,9 +5,9 @@ import { tabs } from 'Constants';
 
 import Tab from './Tab';
 
-interface TabsProps {}
+interface ITabsProps {}
 
-export const Tabs: React.SFC<TabsProps> = () => {
+export const Tabs: React.SFC<ITabsProps> = () => {
   return (
     <RowListLayout.Between>
       {tabs.map(({ label, key }) => (

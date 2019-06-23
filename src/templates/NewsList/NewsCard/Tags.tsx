@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 import { RowListLayout } from 'Layouts/index';
 
-export interface TagsProps {
-  tags: TagProps[];
+interface ITagsProps {
+  tags: ITag[];
 }
 
-export const Tags: SFC<TagsProps> = ({ tags }) => (
+const Tags: SFC<ITagsProps> = ({ tags }) => (
   <RowListLayout.Repeat interval="8px">
     {tags.map(tagProps => (
       <Tag {...tagProps} />
@@ -15,12 +15,7 @@ export const Tags: SFC<TagsProps> = ({ tags }) => (
   </RowListLayout.Repeat>
 );
 
-interface TagProps {
-  highlight?: boolean;
-  children: string;
-}
-
-const Tag = styled.div<TagProps>`
+const Tag = styled.div<ITag>`
   font-family: SFProDisplay;
   font-size: 11px;
   font-weight: 500;
@@ -29,3 +24,5 @@ const Tag = styled.div<TagProps>`
 
   background-color: ${({ highlight }) => (highlight ? '#dd2020' : '#6d6f72')};
 `;
+
+export default Tags;

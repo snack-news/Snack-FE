@@ -13,20 +13,20 @@ const Base = styled(BaseLayout)`
   flex-direction: column;
 `;
 
-interface ColItem {
+interface IColItem {
   el: ReactNode;
   bottom?: CSSLength;
   key?: string;
 }
 
-interface DetailProps {
-  items: ColItem[];
+interface IDetailProps {
+  items: IColItem[];
   className?: string;
   top?: CSSLength;
   bottom?: CSSLength;
 }
 
-const Detail: SFC<DetailProps> = ({ items, className, top, bottom }) => {
+const Detail: SFC<IDetailProps> = ({ items, className, top, bottom }) => {
   const lastIndex = items.length - 1;
 
   return (
@@ -40,7 +40,7 @@ const Detail: SFC<DetailProps> = ({ items, className, top, bottom }) => {
   );
 };
 
-interface RepeatProps {
+interface IRepeatProps {
   children: (ReactElement | string | null | undefined)[];
   interval?: CSSProperties['marginBottom'];
   className?: string;
@@ -48,7 +48,7 @@ interface RepeatProps {
   bottom?: CSSLength;
 }
 
-const Repeat: SFC<RepeatProps> = ({ children, interval, className, top, bottom }) => (
+const Repeat: SFC<IRepeatProps> = ({ children, interval, className, top, bottom }) => (
   <Detail
     {...{ className, top, bottom }}
     items={children.map(child => ({

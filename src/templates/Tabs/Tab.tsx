@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 import { ColListLayout } from 'Layouts/index';
 
-interface TabProps {
+interface ITabProps {
   selected?: boolean;
 }
 
-const TabLabel = styled.div<Pick<TabProps, 'selected'>>`
+const TabLabel = styled.div<Pick<ITabProps, 'selected'>>`
   display: flex;
   flex-grow: 1;
   align-items: center;
@@ -26,7 +26,7 @@ const TabUnderLine = styled.div`
   background-color: #0b66f7;
 `;
 
-const Tab: SFC<TabProps> = ({ children, selected }) => (
+const Tab: SFC<ITabProps> = ({ children, selected }) => (
   <ColListLayout.Detail
     top="10px"
     items={[

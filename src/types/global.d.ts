@@ -1,6 +1,26 @@
-interface Company {
+interface ICompany {
   logoImg: string;
   companyName: string;
+  key: string;
+}
+
+interface IExternalLink {
+  href: string;
+  title: string;
+  img?: string;
+}
+
+interface ITag {
+  highlight?: boolean;
+  children: string;
+  key: string;
+}
+
+interface INews {
+  title: string;
+  content: string;
+  tags: ITag[];
+  link?: IExternalLink;
   key: string;
 }
 

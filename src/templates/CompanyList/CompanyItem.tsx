@@ -19,7 +19,7 @@ const CompanyItem: SFC<Company> = ({ companyName, logoImg }) => (
 export default CompanyItem;
 
 /* CompanyItemLayout 컴포넌트 */
-interface CompanyItemLayoutProps {
+interface ICompanyItemLayoutProps {
   children: {
     companyIcon: ReactElement;
     companyLabel: ReactElement;
@@ -27,7 +27,7 @@ interface CompanyItemLayoutProps {
   };
 }
 
-const CompanyItemLayout: SFC<CompanyItemLayoutProps> = ({
+const CompanyItemLayout: SFC<ICompanyItemLayoutProps> = ({
   children: { companyIcon, companyLabel, arrowIcon },
 }) => (
   <CompanyItemLayoutWrapper>
@@ -56,11 +56,11 @@ const CompanyItemLayoutWrapper = styled(BothMarginWrapper)`
 `;
 
 /* CompanyIcon 컴포넌트 */
-interface CompanyIconProps {
+interface ICompanyIconProps {
   src: string;
 }
 
-const CompanyIcon: SFC<CompanyIconProps> = ({ src }) => (
+const CompanyIcon: SFC<ICompanyIconProps> = ({ src }) => (
   <CompanyIconWrapper>
     <CompanyIconImg src={src} />
   </CompanyIconWrapper>

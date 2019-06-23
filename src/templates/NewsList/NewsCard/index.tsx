@@ -6,16 +6,9 @@ import { HorizontalDivider } from 'Templates/index';
 import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import { shareImg, copyImg } from 'Resources/index';
 
-import { Tags, TagsProps } from './Tags';
+import Tags from './Tags';
 
-interface NewsCardProps {
-  title: string;
-  content: string;
-  tags: TagsProps['tags'];
-  link?: Link;
-}
-
-const NewsCard: SFC<NewsCardProps> = ({ title, content, tags, link }) => (
+const NewsCard: SFC<INews> = ({ title, content, tags, link }) => (
   <NewsCardLayout>
     {{
       tags: <Tags tags={tags} />,
@@ -42,7 +35,7 @@ const NewsCard: SFC<NewsCardProps> = ({ title, content, tags, link }) => (
   </NewsCardLayout>
 );
 
-interface NewsCardLayoutProps {
+interface INewsCardLayoutProps {
   children: {
     tags: ReactElement;
     title: ReactElement;
@@ -52,7 +45,7 @@ interface NewsCardLayoutProps {
   };
 }
 
-const NewsCardLayout: SFC<NewsCardLayoutProps> = ({
+const NewsCardLayout: SFC<INewsCardLayoutProps> = ({
   children: { tags, title, content, externalLink, footer },
 }) => (
   <ColListLayout.Detail
@@ -164,13 +157,7 @@ const extractHostname = (url: string) => {
   return hostname;
 };
 
-interface Link {
-  href: string;
-  title: string;
-  img?: string;
-}
-
-const ExternalLink: SFC<Pick<Link, 'href' | 'title'>> = ({ href, title }) => {
+const ExternalLink: SFC<IExternalLink> = ({ href, title }) => {
   return (
     <ExternalLinkWrapper>
       <LinkHrefWrapper>{psl.get(extractHostname(href))}</LinkHrefWrapper>
@@ -180,7 +167,7 @@ const ExternalLink: SFC<Pick<Link, 'href' | 'title'>> = ({ href, title }) => {
   );
 };
 
-interface IconLabelProps {
+interface IIconLabelProps {
   iconImg: string;
   label: string;
 }
@@ -195,7 +182,7 @@ const IconLabelText = styled.span`
   color: #595966;
 `;
 
-const IconLabel: SFC<IconLabelProps> = ({ iconImg, label }) => (
+const IconLabel: SFC<IIconLabelProps> = ({ iconImg, label }) => (
   <div>
     <RowListLayout.Repeat interval="3px">
       <IconLabelImg src={iconImg} alt="icon" />

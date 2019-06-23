@@ -5,7 +5,7 @@ import { Header, Tabs, SelectBox, HorizontalDivider, NewsList, Footer } from 'Te
 
 const Wrapper = styled.div``;
 
-const CompanySelectPage = () => (
+const HomePage = () => (
   <Wrapper>
     <Header />
     <HorizontalDivider />
@@ -18,4 +18,4 @@ const CompanySelectPage = () => (
   </Wrapper>
 );
 
-export default CompanySelectPage;
+export default HomePage;
