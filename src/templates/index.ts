@@ -9,3 +9,4 @@ export { default as Tabs } from './Tabs';
 export { default as PickNewsList } from './PickNewsList';
 export { default as PickCategoryList } from './PickCategoryList';
 export { default as TextCard } from './TextCard';
+export { default as NewsCard } from './NewsCard';

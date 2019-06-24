@@ -2,12 +2,11 @@ import React, { Fragment } from 'react';
 
 import { getNewsList } from 'Api/index';
 import { ColListLayout } from 'Layouts/index';
-import { HorizontalDivider } from 'Templates/index';
+import { HorizontalDivider, NewsCard } from 'Templates/index';
 
 import CompanyListCard from './CompanyListCard';
 import ContactCard from './ContactCard';
 import PlatformListCard from './PlatformListCard';
-import NewsCard from './NewsCard';
 import RecommendNewsCard from './RecommendNewsCard';
 
 const NewsList = () => {

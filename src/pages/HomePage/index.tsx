@@ -1,21 +1,25 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { Header, Tabs, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
-
-const Wrapper = styled.div``;
+import { PageLayout } from 'Layouts/index';
 
 const HomePage = () => (
-  <Wrapper>
-    <Header />
-    <HorizontalDivider />
-    <Tabs />
-    <HorizontalDivider thick />
-    <SelectBox />
-    <HorizontalDivider thick />
-    <NewsList />
-    <Footer />
-  </Wrapper>
+  <PageLayout>
+    {{
+      header: (
+        <React.Fragment>
+          <Header />
+          <HorizontalDivider />
+          <Tabs />
+          <HorizontalDivider thick />
+          <SelectBox />
+          <HorizontalDivider thick />
+        </React.Fragment>
+      ),
+      body: <NewsList />,
+      footer: <Footer />,
+    }}
+  </PageLayout>
 );
 
 export default HomePage;

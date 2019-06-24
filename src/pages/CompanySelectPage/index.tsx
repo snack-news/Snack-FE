@@ -1,18 +1,22 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import { Header, SubHeader, HorizontalDivider, CompanyList } from 'Templates/index';
-
-const Wrapper = styled.div``;
+import { PageLayout } from 'Layouts/index';
 
 const CompanySelectPage = () => (
-  <Wrapper>
-    <Header />
-    <HorizontalDivider />
-    <SubHeader />
-    <HorizontalDivider />
-    <CompanyList />
-  </Wrapper>
+  <PageLayout>
+    {{
+      header: (
+        <React.Fragment>
+          <Header />
+          <HorizontalDivider />
+          <SubHeader />
+          <HorizontalDivider />
+        </React.Fragment>
+      ),
+      body: <CompanyList />,
+    }}
+  </PageLayout>
 );
 
 export default CompanySelectPage;

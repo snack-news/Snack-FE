@@ -14,6 +14,5 @@ export const BothMarginWrapper = styled(BaseLayout)<IBothMarginWrapperProps>`
   overflow: auto;
   padding-right: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
   padding-left: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
-  margin: 0 auto;
   max-width: ${({ depth = 1 }) => `${theme.maxWidth - theme.depthWidth * depth}px`};
 `;
