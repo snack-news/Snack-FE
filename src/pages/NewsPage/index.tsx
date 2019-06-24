@@ -11,7 +11,7 @@ const NewsPage = () => (
     {{
       header: (
         <React.Fragment>
-          <Header />
+          <Header title="기사보기" />
           <HorizontalDivider />
         </React.Fragment>
       ),

@@ -14,11 +14,11 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
         className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
       >
         <img
-          className="Header__Logo-s5p83t-1 ceISiM"
+          className="Header__Logo-s5p83t-2 hjPzXf"
           src=""
         />
         <img
-          className="Header__Menu-s5p83t-2 rpXXv"
+          className="Header__Menu-s5p83t-3 bdvXaa"
           src=""
         />
       </div>
@@ -658,11 +658,11 @@ exports[`Storyshots pages/HomePage default 1`] = `
         className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
       >
         <img
-          className="Header__Logo-s5p83t-1 ceISiM"
+          className="Header__Logo-s5p83t-2 hjPzXf"
           src=""
         />
         <img
-          className="Header__Menu-s5p83t-2 rpXXv"
+          className="Header__Menu-s5p83t-3 bdvXaa"
           src=""
         />
       </div>
@@ -10827,11 +10827,12 @@ exports[`Storyshots pages/NewsPage default 1`] = `
         className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
       >
         <img
-          className="Header__Logo-s5p83t-1 ceISiM"
+          className="Header__BackArrow-s5p83t-1 eWrcwg"
           src=""
         />
+        기사보기
         <img
-          className="Header__Menu-s5p83t-2 rpXXv"
+          className="Header__Menu-s5p83t-3 bdvXaa"
           src=""
         />
       </div>
@@ -11273,11 +11274,11 @@ exports[`Storyshots pages/PicksPage default 1`] = `
       className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
     >
       <img
-        className="Header__Logo-s5p83t-1 ceISiM"
+        className="Header__Logo-s5p83t-2 hjPzXf"
         src=""
       />
       <img
-        className="Header__Menu-s5p83t-2 rpXXv"
+        className="Header__Menu-s5p83t-3 bdvXaa"
         src=""
       />
     </div>
@@ -12565,11 +12566,11 @@ exports[`Storyshots templates/Header default 1`] = `
     className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
   >
     <img
-      className="Header__Logo-s5p83t-1 ceISiM"
+      className="Header__Logo-s5p83t-2 hjPzXf"
       src=""
     />
     <img
-      className="Header__Menu-s5p83t-2 rpXXv"
+      className="Header__Menu-s5p83t-3 bdvXaa"
       src=""
     />
   </div>

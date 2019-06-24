@@ -10,3 +10,4 @@ export { default as shareImg } from './icon/share.png';
 export { default as copyImg } from './icon/copy.png';
 export { default as downarrowFilterImg } from './icon/downarrow_filter.png';
 export { default as downarrowImg } from './icon/downarrow.png';
+export { default as backBlueArrowImg } from './icon/back_blue2x.png';
