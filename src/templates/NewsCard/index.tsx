@@ -1,7 +1,7 @@
 import React, { SFC, ReactElement } from 'react';
 import styled, { css } from 'styled-components';
-import psl from 'psl';
 
+import { ExternalLinkWithImage } from 'Components/index';
 import { HorizontalDivider } from 'Templates/index';
 import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import { shareImg, copyImg } from 'Resources/index';
@@ -23,12 +23,7 @@ const NewsCard: SFC<INewsCardProps> = ({ title, content, tags, link, expanded })
           {expanded ? null : <MoreButton />}
         </ColListLayout.Repeat>
       ),
-      externalLink: (
-        <ColListLayout.Repeat>
-          {link && link.img && <LinkImg src={link.img} />}
-          {link && <ExternalLink {...link} />}
-        </ColListLayout.Repeat>
-      ),
+      externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
       footer: (
         <RowListLayout.Between>
           <IconLabel iconImg={shareImg} label="공유하기" />
@@ -44,7 +39,7 @@ interface INewsCardLayoutProps {
     tags: ReactElement;
     title: ReactElement;
     content: ReactElement;
-    externalLink: ReactElement;
+    externalLink: ReactElement | null;
     footer: ReactElement;
   };
 }
@@ -124,57 +119,6 @@ const MoreButton = styled.div.attrs({ children: '더보기' })`
   line-height: 2.4;
   color: #b6b6c0;
 `;
-
-const LinkImg = styled.img`
-  width: 100%;
-`;
-
-const ExternalLinkWrapper = styled.div`
-  width: 100%;
-  background-color: #fafafa;
-  padding: 15px 20px;
-`;
-
-const LinkHrefWrapper = styled.div`
-  font-family: SFProDisplay;
-  font-size: 12px;
-  color: #756e6e;
-`;
-
-const LinkTitleWrapper = styled.div`
-  font-family: SFProDisplay;
-  font-size: 14px;
-  font-weight: 500;
-  color: #121111;
-`;
-
-const extractHostname = (url: string) => {
-  let hostname: string;
-  // find & remove protocol (http, ftp, etc.) and get hostname
-
-  if (url.indexOf('//') > -1) {
-    [, , hostname] = url.split('/');
-  } else {
-    [hostname] = url.split('/');
-  }
-
-  // find & remove port number
-  [hostname] = hostname.split(':');
-  // find & remove "?"
-  [hostname] = hostname.split('?');
-
-  return hostname;
-};
-
-const ExternalLink: SFC<IExternalLink> = ({ href, title }) => {
-  return (
-    <ExternalLinkWrapper>
-      <LinkHrefWrapper>{psl.get(extractHostname(href))}</LinkHrefWrapper>
-      <div style={{ height: '5px' }} />
-      <LinkTitleWrapper>{title}</LinkTitleWrapper>
-    </ExternalLinkWrapper>
-  );
-};
 
 interface IIconLabelProps {
   iconImg: string;

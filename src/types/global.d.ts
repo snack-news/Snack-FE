@@ -20,7 +20,7 @@ interface INews {
   title: string;
   content: string;
   tags: ITag[];
-  link?: IExternalLink;
+  link: IExternalLink;
   key: string;
 }
 

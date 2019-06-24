@@ -951,10 +951,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -966,7 +966,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -1023,7 +1023,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -1036,7 +1036,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -1063,7 +1063,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -1076,7 +1076,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -1242,10 +1242,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -1257,7 +1257,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -1314,7 +1314,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -1327,7 +1327,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -1354,7 +1354,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -1367,7 +1367,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -1549,10 +1549,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -1564,7 +1564,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -1621,7 +1621,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -1634,7 +1634,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -1661,7 +1661,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -1674,7 +1674,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -2240,10 +2240,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -2255,7 +2255,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -2312,7 +2312,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -2325,7 +2325,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -2352,7 +2352,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -2365,7 +2365,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -2531,10 +2531,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -2546,7 +2546,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -2603,7 +2603,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -2616,7 +2616,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -2643,7 +2643,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -2656,7 +2656,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -2971,10 +2971,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -2986,7 +2986,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -3043,7 +3043,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -3056,7 +3056,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -3083,7 +3083,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -3096,7 +3096,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -3623,10 +3623,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -3638,7 +3638,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -3695,7 +3695,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -3708,7 +3708,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -3735,7 +3735,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -3748,7 +3748,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -3914,10 +3914,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -3929,7 +3929,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -3986,7 +3986,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -3999,7 +3999,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -4026,7 +4026,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -4039,7 +4039,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -4221,10 +4221,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -4236,7 +4236,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -4293,7 +4293,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -4306,7 +4306,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -4333,7 +4333,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -4346,7 +4346,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -4528,10 +4528,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -4543,7 +4543,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -4600,7 +4600,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -4613,7 +4613,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -4640,7 +4640,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -4653,7 +4653,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -4819,10 +4819,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -4834,7 +4834,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -4891,7 +4891,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -4904,7 +4904,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -4931,7 +4931,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -4944,7 +4944,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -5126,10 +5126,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -5141,7 +5141,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -5198,7 +5198,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -5211,7 +5211,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -5238,7 +5238,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -5251,7 +5251,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -5433,10 +5433,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -5448,7 +5448,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -5505,7 +5505,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -5518,7 +5518,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -5545,7 +5545,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -5558,7 +5558,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -5724,10 +5724,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -5739,7 +5739,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -5796,7 +5796,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -5809,7 +5809,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -5836,7 +5836,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -5849,7 +5849,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -6031,10 +6031,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -6046,7 +6046,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -6103,7 +6103,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -6116,7 +6116,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -6143,7 +6143,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -6156,7 +6156,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -6338,10 +6338,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -6353,7 +6353,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -6410,7 +6410,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -6423,7 +6423,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -6450,7 +6450,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -6463,7 +6463,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -6629,10 +6629,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -6644,7 +6644,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -6701,7 +6701,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -6714,7 +6714,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -6741,7 +6741,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -6754,7 +6754,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -6936,10 +6936,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -6951,7 +6951,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -7008,7 +7008,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -7021,7 +7021,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -7048,7 +7048,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -7061,7 +7061,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -7243,10 +7243,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -7258,7 +7258,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -7315,7 +7315,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -7328,7 +7328,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -7355,7 +7355,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -7368,7 +7368,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -7534,10 +7534,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -7549,7 +7549,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -7606,7 +7606,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -7619,7 +7619,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -7646,7 +7646,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -7659,7 +7659,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -7841,10 +7841,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -7856,7 +7856,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -7913,7 +7913,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -7926,7 +7926,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -7953,7 +7953,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -7966,7 +7966,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -8148,10 +8148,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -8163,7 +8163,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -8220,7 +8220,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -8233,7 +8233,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -8260,7 +8260,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -8273,7 +8273,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -8439,10 +8439,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -8454,7 +8454,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -8511,7 +8511,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -8524,7 +8524,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -8551,7 +8551,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -8564,7 +8564,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -8746,10 +8746,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -8761,7 +8761,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -8818,7 +8818,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -8831,7 +8831,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -8858,7 +8858,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -8871,7 +8871,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -9053,10 +9053,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -9068,7 +9068,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -9125,7 +9125,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -9138,7 +9138,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -9165,7 +9165,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -9178,7 +9178,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -9344,10 +9344,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -9359,7 +9359,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -9416,7 +9416,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -9429,7 +9429,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -9456,7 +9456,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -9469,7 +9469,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -9651,10 +9651,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -9666,7 +9666,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -9723,7 +9723,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -9736,7 +9736,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -9763,7 +9763,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -9776,7 +9776,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -9958,10 +9958,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -9973,7 +9973,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -10030,7 +10030,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -10043,7 +10043,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -10070,7 +10070,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -10083,7 +10083,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -10249,10 +10249,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -10264,7 +10264,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       사진이 없는 링크
                     </div>
@@ -10321,7 +10321,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -10334,7 +10334,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -10361,7 +10361,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -10374,7 +10374,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -10556,10 +10556,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                    className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
                   >
                     <div
-                      className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                      className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                     >
                       technobezz.com
                     </div>
@@ -10571,7 +10571,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     />
                     <div
-                      className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                      className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -10628,7 +10628,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -10641,7 +10641,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         공유하기
                       </span>
@@ -10668,7 +10668,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     >
                       <img
                         alt="icon"
-                        className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                        className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                         src=""
                       />
                     </div>
@@ -10681,7 +10681,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                        className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                       >
                         링크복사
                       </span>
@@ -11010,10 +11010,10 @@ exports[`Storyshots pages/NewsPage default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -11025,7 +11025,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -11082,7 +11082,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -11095,7 +11095,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -11122,7 +11122,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -11135,7 +11135,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -11502,7 +11502,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"
         style={
           Object {
-            "paddingBottom": "15px",
+            "paddingBottom": undefined,
             "paddingTop": undefined,
           }
         }
@@ -11510,34 +11510,11 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         <div
           style={
             Object {
-              "marginBottom": "15px",
+              "marginBottom": undefined,
             }
           }
         >
-          <img
-            className="PickNewsList__PickNewsThumbnail-sc-1lgdky0-0 iynCzh"
-            src=""
-          />
-        </div>
-        <div
-          style={
-            Object {
-              "marginBottom": "5px",
-            }
-          }
-        >
-          <div
-            className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
-            style={
-              Object {
-                "color": "#756e6e",
-                "fontFamily": "SFProDisplay",
-                "fontSize": "12px",
-              }
-            }
-          >
-            technobezz.com
-          </div>
+          
         </div>
         <div
           style={
@@ -11547,9 +11524,25 @@ exports[`Storyshots pages/PicksPage default 1`] = `
           }
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 PickNewsList__PickNewsTitle-sc-1lgdky0-1 liNRYn"
+            className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
           >
-            애플 주가 7% 상승
+            <div
+              className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
+            >
+              technobezz.com
+            </div>
+            <div
+              style={
+                Object {
+                  "height": "5px",
+                }
+              }
+            />
+            <div
+              className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
+            >
+              애플 7% 주가 상승했나? 여력있어 보여
+            </div>
           </div>
         </div>
       </div>
@@ -11568,7 +11561,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"
         style={
           Object {
-            "paddingBottom": "15px",
+            "paddingBottom": undefined,
             "paddingTop": undefined,
           }
         }
@@ -11576,34 +11569,11 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         <div
           style={
             Object {
-              "marginBottom": "15px",
+              "marginBottom": undefined,
             }
           }
         >
-          <img
-            className="PickNewsList__PickNewsThumbnail-sc-1lgdky0-0 iynCzh"
-            src=""
-          />
-        </div>
-        <div
-          style={
-            Object {
-              "marginBottom": "5px",
-            }
-          }
-        >
-          <div
-            className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
-            style={
-              Object {
-                "color": "#756e6e",
-                "fontFamily": "SFProDisplay",
-                "fontSize": "12px",
-              }
-            }
-          >
-            technobezz.com
-          </div>
+          
         </div>
         <div
           style={
@@ -11613,9 +11583,25 @@ exports[`Storyshots pages/PicksPage default 1`] = `
           }
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 PickNewsList__PickNewsTitle-sc-1lgdky0-1 liNRYn"
+            className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
           >
-            애플 주가 7% 상승
+            <div
+              className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
+            >
+              technobezz.com
+            </div>
+            <div
+              style={
+                Object {
+                  "height": "5px",
+                }
+              }
+            />
+            <div
+              className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
+            >
+              애플 7% 주가 상승했나? 여력있어 보여
+            </div>
           </div>
         </div>
       </div>
@@ -11634,7 +11620,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"
         style={
           Object {
-            "paddingBottom": "15px",
+            "paddingBottom": undefined,
             "paddingTop": undefined,
           }
         }
@@ -11642,34 +11628,11 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         <div
           style={
             Object {
-              "marginBottom": "15px",
+              "marginBottom": undefined,
             }
           }
         >
-          <img
-            className="PickNewsList__PickNewsThumbnail-sc-1lgdky0-0 iynCzh"
-            src=""
-          />
-        </div>
-        <div
-          style={
-            Object {
-              "marginBottom": "5px",
-            }
-          }
-        >
-          <div
-            className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
-            style={
-              Object {
-                "color": "#756e6e",
-                "fontFamily": "SFProDisplay",
-                "fontSize": "12px",
-              }
-            }
-          >
-            technobezz.com
-          </div>
+          
         </div>
         <div
           style={
@@ -11679,9 +11642,25 @@ exports[`Storyshots pages/PicksPage default 1`] = `
           }
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 PickNewsList__PickNewsTitle-sc-1lgdky0-1 liNRYn"
+            className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
           >
-            애플 주가 7% 상승
+            <div
+              className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
+            >
+              technobezz.com
+            </div>
+            <div
+              style={
+                Object {
+                  "height": "5px",
+                }
+              }
+            />
+            <div
+              className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
+            >
+              애플 7% 주가 상승했나? 여력있어 보여
+            </div>
           </div>
         </div>
       </div>
@@ -13459,10 +13438,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -13474,7 +13453,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -13531,7 +13510,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -13544,7 +13523,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -13571,7 +13550,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -13584,7 +13563,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -13750,10 +13729,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -13765,7 +13744,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -13822,7 +13801,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -13835,7 +13814,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -13862,7 +13841,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -13875,7 +13854,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -14057,10 +14036,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -14072,7 +14051,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -14129,7 +14108,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -14142,7 +14121,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -14169,7 +14148,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -14182,7 +14161,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -14748,10 +14727,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -14763,7 +14742,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -14820,7 +14799,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -14833,7 +14812,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -14860,7 +14839,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -14873,7 +14852,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -15039,10 +15018,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -15054,7 +15033,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -15111,7 +15090,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -15124,7 +15103,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -15151,7 +15130,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -15164,7 +15143,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -15479,10 +15458,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -15494,7 +15473,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -15551,7 +15530,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -15564,7 +15543,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -15591,7 +15570,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -15604,7 +15583,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -16131,10 +16110,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -16146,7 +16125,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -16203,7 +16182,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -16216,7 +16195,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -16243,7 +16222,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -16256,7 +16235,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -16422,10 +16401,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -16437,7 +16416,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -16494,7 +16473,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -16507,7 +16486,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -16534,7 +16513,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -16547,7 +16526,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -16729,10 +16708,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -16744,7 +16723,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -16801,7 +16780,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -16814,7 +16793,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -16841,7 +16820,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -16854,7 +16833,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -17036,10 +17015,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -17051,7 +17030,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -17108,7 +17087,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -17121,7 +17100,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -17148,7 +17127,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -17161,7 +17140,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -17327,10 +17306,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -17342,7 +17321,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -17399,7 +17378,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -17412,7 +17391,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -17439,7 +17418,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -17452,7 +17431,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -17634,10 +17613,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -17649,7 +17628,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -17706,7 +17685,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -17719,7 +17698,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -17746,7 +17725,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -17759,7 +17738,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -17941,10 +17920,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -17956,7 +17935,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -18013,7 +17992,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -18026,7 +18005,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -18053,7 +18032,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -18066,7 +18045,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -18232,10 +18211,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -18247,7 +18226,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -18304,7 +18283,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -18317,7 +18296,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -18344,7 +18323,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -18357,7 +18336,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -18539,10 +18518,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -18554,7 +18533,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -18611,7 +18590,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -18624,7 +18603,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -18651,7 +18630,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -18664,7 +18643,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -18846,10 +18825,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -18861,7 +18840,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -18918,7 +18897,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -18931,7 +18910,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -18958,7 +18937,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -18971,7 +18950,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -19137,10 +19116,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -19152,7 +19131,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -19209,7 +19188,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -19222,7 +19201,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -19249,7 +19228,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -19262,7 +19241,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -19444,10 +19423,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -19459,7 +19438,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -19516,7 +19495,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -19529,7 +19508,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -19556,7 +19535,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -19569,7 +19548,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -19751,10 +19730,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -19766,7 +19745,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -19823,7 +19802,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -19836,7 +19815,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -19863,7 +19842,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -19876,7 +19855,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -20042,10 +20021,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -20057,7 +20036,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -20114,7 +20093,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -20127,7 +20106,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -20154,7 +20133,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -20167,7 +20146,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -20349,10 +20328,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -20364,7 +20343,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -20421,7 +20400,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -20434,7 +20413,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -20461,7 +20440,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -20474,7 +20453,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -20656,10 +20635,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -20671,7 +20650,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -20728,7 +20707,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -20741,7 +20720,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -20768,7 +20747,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -20781,7 +20760,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -20947,10 +20926,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -20962,7 +20941,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -21019,7 +20998,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -21032,7 +21011,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -21059,7 +21038,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -21072,7 +21051,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -21254,10 +21233,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -21269,7 +21248,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -21326,7 +21305,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -21339,7 +21318,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -21366,7 +21345,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -21379,7 +21358,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -21561,10 +21540,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -21576,7 +21555,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -21633,7 +21612,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -21646,7 +21625,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -21673,7 +21652,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -21686,7 +21665,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -21852,10 +21831,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -21867,7 +21846,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -21924,7 +21903,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -21937,7 +21916,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -21964,7 +21943,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -21977,7 +21956,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -22159,10 +22138,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -22174,7 +22153,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -22231,7 +22210,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -22244,7 +22223,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -22271,7 +22250,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -22284,7 +22263,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -22466,10 +22445,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -22481,7 +22460,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -22538,7 +22517,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -22551,7 +22530,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -22578,7 +22557,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -22591,7 +22570,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -22757,10 +22736,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -22772,7 +22751,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   사진이 없는 링크
                 </div>
@@ -22829,7 +22808,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -22842,7 +22821,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -22869,7 +22848,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -22882,7 +22861,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
@@ -23064,10 +23043,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="NewsCard__ExternalLinkWrapper-sc-1w5c4o2-4 jgwrOw"
+                className="ExternalLink__ExternalLinkWrapper-sc-1m3p262-2 kOMYrz"
               >
                 <div
-                  className="NewsCard__LinkHrefWrapper-sc-1w5c4o2-5 flnwBh"
+                  className="ExternalLink__LinkHrefWrapper-sc-1m3p262-1 cnfpxV"
                 >
                   technobezz.com
                 </div>
@@ -23079,7 +23058,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 />
                 <div
-                  className="NewsCard__LinkTitleWrapper-sc-1w5c4o2-6 AAQrz"
+                  className="ExternalLink__LinkTitleWrapper-sc-1m3p262-3 IdpoM"
                 >
                   애플 7% 주가 상승했나? 여력있어 보여
                 </div>
@@ -23136,7 +23115,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -23149,7 +23128,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     공유하기
                   </span>
@@ -23176,7 +23155,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 >
                   <img
                     alt="icon"
-                    className="NewsCard__IconLabelImg-sc-1w5c4o2-7 kySqUM"
+                    className="NewsCard__IconLabelImg-sc-1w5c4o2-3 fBYUzd"
                     src=""
                   />
                 </div>
@@ -23189,7 +23168,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="NewsCard__IconLabelText-sc-1w5c4o2-8 eXXAjI"
+                    className="NewsCard__IconLabelText-sc-1w5c4o2-4 iPdSqB"
                   >
                     링크복사
                   </span>
