@@ -1,4 +1,4 @@
-import React, { SFC } from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { RowListLayout } from 'Layouts/index';
@@ -7,7 +7,7 @@ interface ITagsProps {
   tags: ITag[];
 }
 
-const Tags: SFC<ITagsProps> = ({ tags }) => (
+const Tags: FunctionComponent<ITagsProps> = ({ tags }) => (
   <RowListLayout.Repeat interval="8px">
     {tags.map(tagProps => (
       <Tag {...tagProps} />

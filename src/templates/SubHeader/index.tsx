@@ -5,6 +5,15 @@ import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
 
 import { downarrowFilterImg } from 'Resources/index';
 
+export const SubHeader = () => (
+  <SubHeaderWrapper>
+    <RowListLayout.Between>
+      <Title>전체</Title>
+      <SortButton />
+    </RowListLayout.Between>
+  </SubHeaderWrapper>
+);
+
 const Title = styled.div`
   font-family: AppleSDGothicNeo;
   font-size: 13px;
@@ -30,14 +39,3 @@ const SortButton = () => (
 const SubHeaderWrapper = styled(BothMarginWrapper)`
   margin: 15px 0;
 `;
-
-const SubHeader = () => (
-  <SubHeaderWrapper>
-    <RowListLayout.Between>
-      <Title>전체</Title>
-      <SortButton />
-    </RowListLayout.Between>
-  </SubHeaderWrapper>
-);
-
-export default SubHeader;

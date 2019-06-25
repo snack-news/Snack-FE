@@ -1,24 +1,29 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
-import { Header, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
+import { NewsList, Header, HorizontalDivider, CompanyListCard, Footer } from 'Templates/index';
+
 import { PageLayout } from 'Layouts/index';
 
-const CompanyNewsListPage = () => (
+export const CompanyNewsListPage = () => (
   <PageLayout>
     {{
       header: (
-        <React.Fragment>
+        <Fragment>
           <Header />
           <HorizontalDivider />
+          {/* TODO label 들어갈 자리 */}
           <HorizontalDivider thick />
-          <SelectBox />
-          <HorizontalDivider thick />
-        </React.Fragment>
+        </Fragment>
       ),
-      body: <NewsList />,
+      body: (
+        <Fragment>
+          <NewsList newsOptionProps={{ isRenderWeekNumberOfMonth: true }} />
+          <HorizontalDivider thick />
+          <CompanyListCard />
+          <HorizontalDivider thick />
+        </Fragment>
+      ),
       footer: <Footer />,
     }}
   </PageLayout>
 );
-
-export default CompanyNewsListPage;

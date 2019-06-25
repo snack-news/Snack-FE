@@ -1,4 +1,4 @@
-import React, { SFC, ReactElement } from 'react';
+import React, { FunctionComponent, ReactElement } from 'react';
 import styled from 'styled-components';
 
 import { BothMarginWrapper, Center, RowListLayout } from 'Layouts/index';
@@ -6,7 +6,7 @@ import { BothMarginWrapper, Center, RowListLayout } from 'Layouts/index';
 import { arrowLinkImg } from 'Resources/index';
 
 /* CompanyItem 컴포넌트 */
-const CompanyItem: SFC<Company> = ({ companyName, logoImg }) => (
+const CompanyItem: FunctionComponent<ICompany> = ({ companyName, logoImg }) => (
   <CompanyItemLayout>
     {{
       companyIcon: <CompanyIcon src={logoImg} />,
@@ -27,7 +27,7 @@ interface ICompanyItemLayoutProps {
   };
 }
 
-const CompanyItemLayout: SFC<ICompanyItemLayoutProps> = ({
+const CompanyItemLayout: FunctionComponent<ICompanyItemLayoutProps> = ({
   children: { companyIcon, companyLabel, arrowIcon },
 }) => (
   <CompanyItemLayoutWrapper>
@@ -60,7 +60,7 @@ interface ICompanyIconProps {
   src: string;
 }
 
-const CompanyIcon: SFC<ICompanyIconProps> = ({ src }) => (
+const CompanyIcon: FunctionComponent<ICompanyIconProps> = ({ src }) => (
   <CompanyIconWrapper>
     <CompanyIconImg src={src} />
   </CompanyIconWrapper>

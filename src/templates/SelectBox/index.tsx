@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
@@ -18,7 +18,7 @@ const SelectBoxWrapper = styled(BothMarginWrapper)`
   margin: 12px 0;
 `;
 
-export const SelectBox: React.SFC<ISelectBoxProps> = () => {
+export const SelectBox: FunctionComponent<ISelectBoxProps> = () => {
   return (
     <SelectBoxWrapper>
       <RowListLayout.Between>
@@ -28,5 +28,3 @@ export const SelectBox: React.SFC<ISelectBoxProps> = () => {
     </SelectBoxWrapper>
   );
 };
-
-export default SelectBox;

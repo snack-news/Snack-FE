@@ -1,4 +1,4 @@
-import React, { SFC } from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
@@ -8,7 +8,7 @@ import { getPickCategoryList } from 'Api/index';
 // PickCategoryList 컴포넌트
 interface IPickCategoryListProps {}
 
-const PickCategoryList: SFC<IPickCategoryListProps> = () => {
+export const PickCategoryList: FunctionComponent<IPickCategoryListProps> = () => {
   const pickCategoryList = getPickCategoryList();
 
   return (
@@ -35,5 +35,3 @@ const PickCategoryCard = styled.div`
   border: solid 0.5px rgba(214, 214, 219, 0.5);
   background-color: #fefefe;
 `;
-
-export default PickCategoryList;
