@@ -2,14 +2,14 @@
  * 컴포넌트 리스트의 행 정렬을 담당하는 컴포넌트
  */
 
-import React, { ReactNode, CSSProperties, ReactElement, SFC } from 'react';
+import React, { ReactNode, CSSProperties, FunctionComponent } from 'react';
 import styled from 'styled-components';
 import { BaseLayout } from './BaseLayout';
 
 type CSSLength = CSSProperties['marginBottom'];
 
 interface IBaseProps {
-  children: (ReactElement | string | null | undefined)[];
+  children: ReactNode[];
 }
 
 const Base = styled(BaseLayout)<IBaseProps>`
@@ -41,22 +41,28 @@ interface IDetailProps {
 /**
  * 간격을 설정할수 잇는 행 레이아웃 컴포넌트
  */
-const Detail: SFC<IDetailProps> = ({ items, className, left, right }) => {
+const Detail: FunctionComponent<IDetailProps> = ({ items, className, left, right }) => {
   const lastIndex = items.length - 1;
 
   return (
     <Base className={className} style={{ paddingLeft: left, paddingRight: right }}>
-      {items.map(({ el, right: itemRight, flex, key }, i) => (
-        <div style={{ marginRight: lastIndex === i ? undefined : itemRight, flex }} key={key || i}>
-          {el}
-        </div>
-      ))}
+      {items.map(
+        ({ el, right: itemRight, flex, key }, i) =>
+          el && (
+            <div
+              style={{ marginRight: lastIndex === i ? undefined : itemRight, flex }}
+              key={key || i}
+            >
+              {el}
+            </div>
+          )
+      )}
     </Base>
   );
 };
 
 interface IRepeatProps {
-  children: (ReactElement | string | null | undefined)[];
+  children: ReactNode[];
   interval?: CSSLength;
   className?: string;
   left?: CSSLength;
@@ -66,7 +72,13 @@ interface IRepeatProps {
 /**
  * 동일한 간격을 가진 행 레이아웃 컴포넌트
  */
-const Repeat: SFC<IRepeatProps> = ({ children, interval, className, left, right }) => (
+const Repeat: FunctionComponent<IRepeatProps> = ({
+  children,
+  interval,
+  className,
+  left,
+  right,
+}) => (
   <Detail
     {...{ className, left, right }}
     items={children.map(child => ({

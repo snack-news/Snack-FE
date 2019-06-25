@@ -1,13 +1,11 @@
-import React, { SFC } from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { getCompanyList } from 'Api/index';
 
-import { ColListLayout, RowListLayout, Center } from 'Layouts/index';
+import { ColListLayout, RowListLayout, CardSimpleLayout, Center } from 'Layouts/index';
 
-import CardSimpleLayout from './CardSimpleLayout';
-
-const CompanyListCard = () => {
+export const CompanyListCard = () => {
   const companyList = getCompanyList();
 
   return (
@@ -40,7 +38,7 @@ const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
   color: #0b66f7;
 `;
 
-const CompanyBox: SFC<ICompany> = ({ logoImg, companyName }) => (
+const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
   <CompanyBoxWrapper
     top="12px"
     bottom="8px"
@@ -81,5 +79,3 @@ const CompanyBoxLabel = styled.div`
   font-size: 12px;
   color: #595966;
 `;
-
-export default CompanyListCard;

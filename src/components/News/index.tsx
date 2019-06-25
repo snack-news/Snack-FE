@@ -1,56 +1,94 @@
-import React, { FunctionComponent, ReactElement } from 'react';
+import React, { FunctionComponent, ReactNode } from 'react';
 import styled, { css } from 'styled-components';
 
 import { ExternalLinkWithImage } from 'Components/index';
 import { HorizontalDivider } from 'Templates/index';
 import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import { shareImg, copyImg } from 'Resources/index';
+import { getWeekNumberOfMonth } from 'Utils';
 
 import Tags from './Tags';
 
-interface INewsProps extends INews {
+interface INewsProps extends INews, INewsOptionProps {}
+
+export interface INewsOptionProps {
   expanded?: boolean;
+  isRenderHighlightTag?: boolean;
+  isRenderWeekNumberOfMonth?: boolean;
 }
 
-export const News: FunctionComponent<INewsProps> = ({ title, content, tags, link, expanded }) => (
-  <NewsLayout>
-    {{
-      tags: <Tags tags={tags} />,
-      title: <Title>{title}</Title>,
-      content: (
-        <ColListLayout.Repeat>
-          <Content expanded={expanded}>{content}</Content>
-          {expanded ? null : <MoreButton />}
-        </ColListLayout.Repeat>
-      ),
-      externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
-      footer: (
-        <RowListLayout.Between>
-          <IconLabel iconImg={shareImg} label="공유하기" />
-          <IconLabel iconImg={copyImg} label="링크복사" />
-        </RowListLayout.Between>
-      ),
-    }}
-  </NewsLayout>
-);
+const NEWS_DEFAULT_PROPS = {
+  expanded: false,
+  isRenderHighlightTag: false,
+  isRenderWeekNumberOfMonth: false,
+};
+
+export const News: FunctionComponent<INewsProps> = props => {
+  const {
+    createdDate,
+    title,
+    content,
+    tags,
+    link,
+    expanded,
+    isRenderHighlightTag,
+    isRenderWeekNumberOfMonth,
+  } = {
+    ...NEWS_DEFAULT_PROPS,
+    ...props,
+  };
+
+  let filteredTags = tags;
+  if (isRenderHighlightTag === false) {
+    filteredTags = tags.filter(({ highlight }) => highlight === false);
+  }
+
+  return (
+    <NewsLayout>
+      {{
+        createWeekLabel: isRenderWeekNumberOfMonth && <CreatedWeekLabel date={createdDate} />,
+        tags: <Tags tags={filteredTags} />,
+        title: <Title>{title}</Title>,
+        content: (
+          <ColListLayout.Repeat>
+            <Content expanded={expanded}>{content}</Content>
+            {expanded ? null : <MoreButton />}
+          </ColListLayout.Repeat>
+        ),
+        externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
+        footer: (
+          <RowListLayout.Between>
+            <IconLabel iconImg={shareImg} label="공유하기" />
+            <IconLabel iconImg={copyImg} label="링크복사" />
+          </RowListLayout.Between>
+        ),
+      }}
+    </NewsLayout>
+  );
+};
 
 interface INewsLayoutProps {
   children: {
-    tags: ReactElement;
-    title: ReactElement;
-    content: ReactElement;
-    externalLink: ReactElement | null;
-    footer: ReactElement;
+    createWeekLabel: ReactNode;
+    tags: ReactNode;
+    title: ReactNode;
+    content: ReactNode;
+    externalLink: ReactNode;
+    footer: ReactNode;
   };
 }
 
 const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
-  children: { tags, title, content, externalLink, footer },
+  children: { createWeekLabel, tags, title, content, externalLink, footer },
 }) => (
   <ColListLayout.Detail
     top="30px"
     bottom="22px"
     items={[
+      {
+        el: createWeekLabel && <BothMarginWrapper>{createWeekLabel}</BothMarginWrapper>,
+        bottom: '15px',
+      },
       {
         el: <BothMarginWrapper>{tags}</BothMarginWrapper>,
         bottom: '10px',
@@ -81,6 +119,21 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
     ]}
   />
 );
+
+const CreatedWeekLabel: FunctionComponent<{ date: number }> = ({ date }) => {
+  const dateObj = new Date(date);
+  const year = dateObj.getFullYear();
+  const month = dateObj.getMonth() + 1;
+  const weekNumOfMonth = getWeekNumberOfMonth(dateObj);
+
+  const dateFormat = `${year}년 ${month}월 ${weekNumOfMonth}주`;
+
+  return (
+    <div style={{ fontFamily: 'SFProDisplay', fontSize: '15px', color: '#0b66f7' }}>
+      {dateFormat}
+    </div>
+  );
+};
 
 const Title = styled.div`
   font-family: SFProDisplay;

@@ -13,7 +13,7 @@ interface IExternalLink {
 }
 
 interface ITag {
-  highlight?: boolean;
+  highlight: boolean;
   children: string;
   key: string;
 }
@@ -23,6 +23,7 @@ interface INews {
   content: string;
   tags: ITag[];
   link: IExternalLink;
+  createdDate: number;
   key: string;
 }
 

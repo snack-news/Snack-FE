@@ -17,13 +17,17 @@ export const getNewsList = (): INews[] => {
       title: '애플 주가 7% 상승',
       content:
         '보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름',
-      tags: [{ highlight: true, children: 'TOP3', key: '1' }, { children: 'APPLE', key: '2' }],
+      tags: [
+        { highlight: true, children: 'TOP3', key: '1' },
+        { highlight: false, children: 'APPLE', key: '2' },
+      ],
       link: {
         href:
           'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
         title: '애플 7% 주가 상승했나? 여력있어 보여',
         img: linkMock,
       },
+      createdDate: 1561470457644,
       key: '1',
     },
     {
@@ -31,25 +35,30 @@ export const getNewsList = (): INews[] => {
         '긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목',
       content:
         '보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름',
-      tags: [{ children: 'GOOGLE', key: '1' }],
+      tags: [{ highlight: false, children: 'GOOGLE', key: '1' }],
       link: {
         href:
           'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
         title: '사진이 없는 링크',
       },
+      createdDate: 1561470457644,
       key: '2',
     },
     {
       title: '애플 주가 7% 상승',
       content:
         '보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름',
-      tags: [{ highlight: true, children: 'TOP3', key: '1' }, { children: 'APPLE', key: '2' }],
+      tags: [
+        { highlight: true, children: 'TOP3', key: '1' },
+        { highlight: false, children: 'APPLE', key: '2' },
+      ],
       link: {
         href:
           'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
         title: '애플 7% 주가 상승했나? 여력있어 보여',
         img: linkMock,
       },
+      createdDate: 1561470457644,
       key: '3',
     },
   ];
@@ -75,26 +84,34 @@ export const getRecommendNewsList = (): INews[] => [
     title: '공유주방 스타트업 ‘고스트키친’ 21억 규모 투자유치',
     content:
       '보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름',
-    tags: [{ highlight: true, children: 'TOP3', key: '1' }, { children: 'APPLE', key: '2' }],
+    tags: [
+      { highlight: true, children: 'TOP3', key: '1' },
+      { highlight: false, children: 'APPLE', key: '2' },
+    ],
     link: {
       href:
         'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
       title: '애플 7% 주가 상승했나? 여력있어 보여',
       img: linkMock,
     },
+    createdDate: 1561470457644,
     key: '1',
   },
   {
     title: 'LG이노텍, 아이폰 트리플 카메라 위해 2800억 투자',
     content:
       '보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름',
-    tags: [{ highlight: true, children: 'TOP3', key: '1' }, { children: 'APPLE', key: '2' }],
+    tags: [
+      { highlight: true, children: 'TOP3', key: '1' },
+      { highlight: false, children: 'APPLE', key: '2' },
+    ],
     link: {
       href:
         'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
       title: '애플 7% 주가 상승했나? 여력있어 보여',
       img: linkMock,
     },
+    createdDate: 1561470457644,
     key: '2',
   },
 ];
@@ -104,39 +121,51 @@ export const getPickNewsList = (): INews[] => [
     title: '애플 주가 7% 상승',
     content:
       '보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름',
-    tags: [{ highlight: true, children: 'TOP3', key: '1' }, { children: 'APPLE', key: '2' }],
+    tags: [
+      { highlight: true, children: 'TOP3', key: '1' },
+      { highlight: false, children: 'APPLE', key: '2' },
+    ],
     link: {
       href:
         'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
       title: '애플 7% 주가 상승했나? 여력있어 보여',
       img: linkMock,
     },
+    createdDate: 1561470457644,
     key: '1',
   },
   {
     title: '애플 주가 7% 상승',
     content:
       '보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름',
-    tags: [{ highlight: true, children: 'TOP3', key: '1' }, { children: 'APPLE', key: '2' }],
+    tags: [
+      { highlight: true, children: 'TOP3', key: '1' },
+      { highlight: false, children: 'APPLE', key: '2' },
+    ],
     link: {
       href:
         'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
       title: '애플 7% 주가 상승했나? 여력있어 보여',
       img: linkMock,
     },
+    createdDate: 1561470457644,
     key: '2',
   },
   {
     title: '애플 주가 7% 상승',
     content:
       '보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름',
-    tags: [{ highlight: true, children: 'TOP3', key: '1' }, { children: 'APPLE', key: '2' }],
+    tags: [
+      { highlight: true, children: 'TOP3', key: '1' },
+      { highlight: false, children: 'APPLE', key: '2' },
+    ],
     link: {
       href:
         'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
       title: '애플 7% 주가 상승했나? 여력있어 보여',
       img: linkMock,
     },
+    createdDate: 1561470457644,
     key: '3',
   },
 ];
