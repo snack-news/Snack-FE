@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { Header, NewsCard, HorizontalDivider, Footer } from 'Templates/index';
+import { Header, HorizontalDivider, Footer } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
+import { News } from 'Components/News';
 
 import linkMock from 'Resources/mock/linkMock.jpg';
 
@@ -16,7 +17,7 @@ const NewsPage = () => (
         </React.Fragment>
       ),
       body: (
-        <NewsCard
+        <News
           expanded
           {...{
             title: '애플 주가 7% 상승',

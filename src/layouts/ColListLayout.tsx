@@ -26,6 +26,9 @@ interface IDetailProps {
   bottom?: CSSLength;
 }
 
+/**
+ * 아이템마다 간격을 설정할수 있는 레이아웃
+ */
 const Detail: SFC<IDetailProps> = ({ items, className, top, bottom }) => {
   const lastIndex = items.length - 1;
 
@@ -48,6 +51,9 @@ interface IRepeatProps {
   bottom?: CSSLength;
 }
 
+/**
+ * 아이템마다 간격이 일정하면 사용하는 레이아웃 컴포넌트
+ */
 const Repeat: SFC<IRepeatProps> = ({ children, interval, className, top, bottom }) => (
   <Detail
     {...{ className, top, bottom }}

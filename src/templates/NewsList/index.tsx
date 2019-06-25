@@ -2,18 +2,19 @@ import React, { Fragment } from 'react';
 
 import { getNewsList } from 'Api/index';
 import { ColListLayout } from 'Layouts/index';
-import { HorizontalDivider, NewsCard } from 'Templates/index';
+import { HorizontalDivider } from 'Templates/index';
+import { News } from 'Components/index';
 
 import CompanyListCard from './CompanyListCard';
 import ContactCard from './ContactCard';
 import PlatformListCard from './PlatformListCard';
-import RecommendNewsCard from './RecommendNewsCard';
+import RecommendNewsList from './RecommendNewsList';
 
 const NewsList = () => {
   const newsList = getNewsList();
-  const newsCardComponents = newsList.map(newsCardProps => (
-    <Fragment key={newsCardProps.key}>
-      <NewsCard {...newsCardProps} />
+  const newsComponents = newsList.map(newsProps => (
+    <Fragment key={newsProps.key}>
+      <News {...newsProps} />
       <HorizontalDivider />
     </Fragment>
   ));
@@ -21,29 +22,29 @@ const NewsList = () => {
   return (
     <ColListLayout.Repeat>
       {[
-        ...newsCardComponents.slice(0, 3),
+        ...newsComponents.slice(0, 3),
         <Fragment key="CompanyListCard">
           <HorizontalDivider thick />
           <CompanyListCard />
           <HorizontalDivider thick />
         </Fragment>,
-        ...newsCardComponents.slice(3, 5),
+        ...newsComponents.slice(3, 5),
         <Fragment key="ContactCard">
           <HorizontalDivider thick />
           <ContactCard />
           <HorizontalDivider thick />
         </Fragment>,
-        ...newsCardComponents.slice(5, 6),
+        ...newsComponents.slice(5, 6),
         <Fragment key="PlatformListCard">
           <HorizontalDivider thick />
           <PlatformListCard />
           <HorizontalDivider thick />
         </Fragment>,
-        <Fragment key="RecommendNewsCard">
-          <RecommendNewsCard />
+        <Fragment key="RecommendNewsList">
+          <RecommendNewsList />
           <HorizontalDivider />
         </Fragment>,
-        ...newsCardComponents.slice(6),
+        ...newsComponents.slice(6),
       ]}
     </ColListLayout.Repeat>
   );

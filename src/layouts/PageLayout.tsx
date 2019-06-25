@@ -1,3 +1,8 @@
+/**
+ * Page 컴포넌트의 기본 부모 컴포넌트
+ *
+ * footer를 고정할수 있는 layout
+ */
 import React from 'react';
 import styled from 'styled-components';
 

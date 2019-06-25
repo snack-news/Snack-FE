@@ -13,9 +13,13 @@ interface IBaseProps {
 }
 
 const Base = styled(BaseLayout)<IBaseProps>`
+  /* 수평 가운데 정렬 */
   align-items: center;
 `;
 
+/**
+ * 아이템 사이의 간격을 일정하게 맞춰주는 행 레이아웃 컴포넌트
+ */
 const Between = styled(Base)`
   justify-content: space-between;
 `;
@@ -34,6 +38,9 @@ interface IDetailProps {
   right?: CSSLength;
 }
 
+/**
+ * 간격을 설정할수 잇는 행 레이아웃 컴포넌트
+ */
 const Detail: SFC<IDetailProps> = ({ items, className, left, right }) => {
   const lastIndex = items.length - 1;
 
@@ -56,6 +63,9 @@ interface IRepeatProps {
   right?: CSSLength;
 }
 
+/**
+ * 동일한 간격을 가진 행 레이아웃 컴포넌트
+ */
 const Repeat: SFC<IRepeatProps> = ({ children, interval, className, left, right }) => (
   <Detail
     {...{ className, left, right }}
