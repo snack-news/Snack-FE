@@ -19,7 +19,7 @@ export const CompanyNewsListPage = () => (
         <Fragment>
           <NewsList newsOptionProps={{ isRenderWeekNumberOfMonth: true }} />
           <HorizontalDivider thick />
-          <CompanyListCard />
+          <CompanyListCard title="애플말고 이런 회사 소식은 어떠세요?" />
           <HorizontalDivider thick />
         </Fragment>
       ),

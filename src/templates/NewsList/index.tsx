@@ -4,6 +4,7 @@ import { getNewsList } from 'Api/index';
 import { ColListLayout } from 'Layouts/index';
 import { HorizontalDivider, CompanyListCard, RecommendNewsList } from 'Templates/index';
 import { News, INewsOptionProps, ContactCard, PlatformListCard } from 'Components/index';
+import { ICompanyListCardProps } from 'Templates/CompanyListCard';
 
 interface INewsListProps {
   newsOptionProps?: INewsOptionProps;
@@ -11,6 +12,7 @@ interface INewsListProps {
   isRenderContactCard?: boolean;
   isRenderPlatformListCard?: boolean;
   isRenderRecommendNewsList?: boolean;
+  companyListCardProps?: ICompanyListCardProps;
 }
 
 const NEWS_LIST_DEFAULT_PROPS = {
@@ -27,6 +29,7 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
     isRenderContactCard,
     isRenderPlatformListCard,
     isRenderRecommendNewsList,
+    companyListCardProps,
   } = { ...NEWS_LIST_DEFAULT_PROPS, ...props };
   const newsList = getNewsList();
   const newsComponents = newsList.map(newsProps => (
@@ -43,7 +46,7 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
         isRenderCompanyListCard && (
           <Fragment key="CompanyListCard">
             <HorizontalDivider thick />
-            <CompanyListCard />
+            <CompanyListCard {...companyListCardProps} />
             <HorizontalDivider thick />
           </Fragment>
         ),

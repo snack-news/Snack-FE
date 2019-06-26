@@ -63,18 +63,9 @@ export const getNewsList = (): INews[] => {
     },
   ];
 
-  newsCardListMock = [
-    ...newsCardListMock,
-    ...newsCardListMock,
-    ...newsCardListMock,
-    ...newsCardListMock,
-    ...newsCardListMock,
-    ...newsCardListMock,
-    ...newsCardListMock,
-    ...newsCardListMock,
-    ...newsCardListMock,
-    ...newsCardListMock,
-  ].map((news, key) => ({ ...news, key: `${key}` }));
+  newsCardListMock = [...newsCardListMock, ...newsCardListMock, ...newsCardListMock].map(
+    (news, key) => ({ ...news, key: `${key}` })
+  );
 
   return newsCardListMock;
 };

@@ -1,12 +1,12 @@
-import React, { ReactElement, FunctionComponent } from 'react';
+import React, { ReactNode, FunctionComponent } from 'react';
 
 import { ColListLayout, RowListLayout, BothMarginWrapper } from 'Layouts/index';
 
 interface ICardSimpleLayoutProps {
   children: {
-    header?: ReactElement;
-    nav?: ReactElement;
-    body?: ReactElement;
+    header?: ReactNode;
+    nav?: ReactNode;
+    body?: ReactNode;
   };
 }
 

@@ -5,14 +5,25 @@ import { getCompanyList } from 'Api/index';
 
 import { ColListLayout, RowListLayout, CardSimpleLayout, Center } from 'Layouts/index';
 
-export const CompanyListCard = () => {
+export interface ICompanyListCardProps {
+  isRenderMoreLink?: boolean;
+  title?: string;
+}
+
+const COMPANY_LIST_CARD_DEFAULT_PROPS = {
+  isRenderMoreLink: false,
+  title: '',
+};
+
+export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props => {
+  const { title, isRenderMoreLink } = { ...COMPANY_LIST_CARD_DEFAULT_PROPS, ...props };
   const companyList = getCompanyList();
 
   return (
     <CardSimpleLayout>
       {{
-        header: <CompanyListCardTitle />,
-        nav: <CompanyListCardMoreLink />,
+        header: <CompanyListCardTitle>{title}</CompanyListCardTitle>,
+        nav: isRenderMoreLink && <CompanyListCardMoreLink />,
         body: (
           <RowListLayout.Repeat interval="10px">
             {companyList.map(companyBoxProps => (
@@ -25,7 +36,7 @@ export const CompanyListCard = () => {
   );
 };
 
-const CompanyListCardTitle = styled.div.attrs({ children: '회사별 뉴스 모아보기' })`
+const CompanyListCardTitle = styled.div`
   font-family: SFProDisplay;
   font-size: 17px;
   font-weight: 600;
