@@ -7,7 +7,7 @@ import { News } from 'Components/News';
 import linkMock from 'Resources/mock/linkMock.jpg';
 
 // TODO news의 id값만 받고 캐싱된값을 쓰거나 없으면 loading 화면을 보여주며, API 요청을 통해 값을 가져오는 형태로 변경
-const NewsPage = () => (
+export const NewsPage = () => (
   <PageLayout>
     {{
       header: (
@@ -55,5 +55,3 @@ const NewsPage = () => (
     }}
   </PageLayout>
 );
-
-export default NewsPage;

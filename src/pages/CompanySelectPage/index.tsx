@@ -3,7 +3,7 @@ import React from 'react';
 import { Header, SubHeader, HorizontalDivider, CompanyList } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
 
-const CompanySelectPage = () => (
+export const CompanySelectPage = () => (
   <PageLayout>
     {{
       header: (
@@ -18,5 +18,3 @@ const CompanySelectPage = () => (
     }}
   </PageLayout>
 );
-
-export default CompanySelectPage;

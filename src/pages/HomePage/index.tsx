@@ -3,7 +3,7 @@ import React from 'react';
 import { Header, Tabs, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
 
-const HomePage = () => (
+export const HomePage = () => (
   <PageLayout>
     {{
       header: (
@@ -29,5 +29,3 @@ const HomePage = () => (
     }}
   </PageLayout>
 );
-
-export default HomePage;
