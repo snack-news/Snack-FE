@@ -1,4 +1,4 @@
-import React, { SFC } from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
@@ -8,7 +8,7 @@ import { getPickCategoryList } from 'Api/index';
 // PickCategoryList 컴포넌트
 interface IPickCategoryListProps {}
 
-export const PickCategoryList: SFC<IPickCategoryListProps> = () => {
+export const PickCategoryList: FunctionComponent<IPickCategoryListProps> = () => {
   const pickCategoryList = getPickCategoryList();
 
   return (

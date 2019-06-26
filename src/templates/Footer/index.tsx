@@ -1,4 +1,4 @@
-import React, { SFC, ReactNode } from 'react';
+import React, { FunctionComponent, ReactNode } from 'react';
 import styled from 'styled-components';
 
 import { BothMarginWrapper, ColListLayout } from 'Layouts/index';
@@ -32,7 +32,7 @@ interface IFooterLayoutProps {
   };
 }
 
-const FooterLayout: SFC<IFooterLayoutProps> = ({ children }) => (
+const FooterLayout: FunctionComponent<IFooterLayoutProps> = ({ children }) => (
   <ColListLayout.Detail
     top="40px"
     bottom="32px"

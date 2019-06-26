@@ -1,4 +1,4 @@
-import React, { ReactElement, SFC } from 'react';
+import React, { ReactElement, FunctionComponent } from 'react';
 
 import { ColListLayout, RowListLayout, BothMarginWrapper } from 'Layouts/index';
 
@@ -10,7 +10,7 @@ interface ICardSimpleLayoutProps {
   };
 }
 
-export const CardSimpleLayout: SFC<ICardSimpleLayoutProps> = ({
+export const CardSimpleLayout: FunctionComponent<ICardSimpleLayoutProps> = ({
   children: { header, nav, body },
 }) => (
   <ColListLayout.Detail

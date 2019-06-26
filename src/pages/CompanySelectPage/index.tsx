@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import { Header, SubHeader, HorizontalDivider, CompanyList } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
@@ -7,12 +7,12 @@ export const CompanySelectPage = () => (
   <PageLayout>
     {{
       header: (
-        <React.Fragment>
+        <Fragment>
           <Header />
           <HorizontalDivider />
           <SubHeader />
           <HorizontalDivider />
-        </React.Fragment>
+        </Fragment>
       ),
       body: <CompanyList />,
     }}
