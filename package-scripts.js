@@ -17,6 +17,33 @@ module.exports = {
         description: '노드 개발 서버 시작',
       },
     },
+    eslint: {
+      default: {
+        script:
+          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --color',
+        description: 'eslint 스크립트 실행',
+      },
+      watch: {
+        script:
+          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore -w --color --clear',
+        description: 'eslint 스크립트 실행',
+      },
+      autoFix: {
+        script:
+          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --fix --color',
+        description: 'eslint 스크립트 실행',
+      },
+    },
+    typecheck: {
+      default: {
+        script: 'tsc --noEmit',
+        description: 'typescript typecheck 실행',
+      },
+      watch: {
+        script: 'tsc --noEmit -w',
+        description: 'typescript typecheck 실행(watch)',
+      },
+    },
     storybook: {
       script: 'node storybook.js',
       description: '스토리북 실행',
