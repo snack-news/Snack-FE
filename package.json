@@ -82,7 +82,7 @@
     "@types/react-dom": "^16.8.4",
     "@types/react-router-dom": "^4.3.4",
     "@types/storybook__addon-knobs": "^5.0.1",
-    "@types/styled-components": "^4.1.16",
+    "@types/styled-components": "4.1.8",
     "express": "^4.17.1",
     "html-webpack-template": "^6.2.0",
     "normalize.css": "^8.0.1",
