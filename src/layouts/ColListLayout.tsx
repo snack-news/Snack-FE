@@ -2,7 +2,7 @@
  * 컴포넌트 리스트를 열 정렬을 담당하는 레이아웃 컴포넌트
  */
 
-import React, { ReactNode, CSSProperties, FunctionComponent, ReactElement } from 'react';
+import React, { ReactNode, CSSProperties, FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { BaseLayout } from './BaseLayout';
@@ -34,17 +34,20 @@ const Detail: FunctionComponent<IDetailProps> = ({ items, className, top, bottom
 
   return (
     <Base className={className} style={{ paddingTop: top, paddingBottom: bottom }}>
-      {items.map(({ el, bottom: itemBottom, key }, i) => (
-        <div style={{ marginBottom: lastIndex === i ? undefined : itemBottom }} key={key || i}>
-          {el}
-        </div>
-      ))}
+      {items.map(
+        ({ el, bottom: itemBottom, key }, i) =>
+          el && (
+            <div style={{ marginBottom: lastIndex === i ? undefined : itemBottom }} key={key || i}>
+              {el}
+            </div>
+          )
+      )}
     </Base>
   );
 };
 
 interface IRepeatProps {
-  children: (ReactElement | string | null | undefined)[];
+  children: ReactNode[];
   interval?: CSSProperties['marginBottom'];
   className?: string;
   top?: CSSLength;
