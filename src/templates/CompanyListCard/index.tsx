@@ -5,7 +5,7 @@ import { getCompanyList } from 'Api/index';
 
 import { ColListLayout, RowListLayout, CardSimpleLayout, Center } from 'Layouts/index';
 
-const CompanyListCard = () => {
+export const CompanyListCard = () => {
   const companyList = getCompanyList();
 
   return (
@@ -79,5 +79,3 @@ const CompanyBoxLabel = styled.div`
   font-size: 12px;
   color: #595966;
 `;
-
-export default CompanyListCard;

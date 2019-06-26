@@ -5,7 +5,7 @@ import { BothMarginWrapper, ColListLayout } from 'Layouts/index';
 import { FooterLinkList, SocialIconList, Copyright } from './components';
 
 /* Footer 컴포넌트 */
-const Footer = () => (
+export const Footer = () => (
   <FooterStyleWrapper>
     <FooterLayout>
       {{
@@ -51,5 +51,3 @@ const FooterLayout: SFC<IFooterLayoutProps> = ({ children }) => (
     ]}
   />
 );
-
-export default Footer;

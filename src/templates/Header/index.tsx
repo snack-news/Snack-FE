@@ -10,7 +10,7 @@ interface IHeaderProps {
   title?: string;
 }
 
-const Header: React.SFC<IHeaderProps> = ({ title }) => {
+export const Header: React.SFC<IHeaderProps> = ({ title }) => {
   return (
     <HeaderLayout>
       {{
@@ -22,8 +22,6 @@ const Header: React.SFC<IHeaderProps> = ({ title }) => {
     </HeaderLayout>
   );
 };
-
-export default Header;
 
 // HeaderLayout 컴포넌트
 interface IHeaderLayoutProps {

@@ -20,7 +20,7 @@ const NEWS_LIST_DEFAULT_PROPS = {
   isRenderRecommendNewsList: false,
 };
 
-const NewsList: FunctionComponent<INewsListProps> = props => {
+export const NewsList: FunctionComponent<INewsListProps> = props => {
   const {
     newsOptionProps,
     isRenderCompanyListCard,
@@ -74,5 +74,3 @@ const NewsList: FunctionComponent<INewsListProps> = props => {
     </ColListLayout.Repeat>
   );
 };
-
-export default NewsList;

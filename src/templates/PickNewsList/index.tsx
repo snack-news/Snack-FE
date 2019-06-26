@@ -9,7 +9,7 @@ import { ExternalLinkWithImage } from 'Components/index';
 // PickNewsList 컴포넌트
 interface IPickNewsListProps {}
 
-const PickNewsList: SFC<IPickNewsListProps> = () => {
+export const PickNewsList: SFC<IPickNewsListProps> = () => {
   const pickNewsList = getPickNewsList();
 
   return (
@@ -23,5 +23,3 @@ const PickNewsList: SFC<IPickNewsListProps> = () => {
     </ColListLayout.Repeat>
   );
 };
-
-export default PickNewsList;

@@ -7,7 +7,7 @@ import { HorizontalDivider } from 'Templates/index';
 import CompanyItem from './CompanyItem';
 
 /* CompanyList 컴포넌트 */
-const CompanyList = () => {
+export const CompanyList = () => {
   const companyList = getCompanyList();
 
   return (
@@ -21,5 +21,3 @@ const CompanyList = () => {
     </ColListLayout.Repeat>
   );
 };
-
-export default CompanyList;

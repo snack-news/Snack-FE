@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { ColListLayout, RowListLayout, CardSimpleLayout } from 'Layouts/index';
 import { getRecommendNewsList } from 'Api/index';
 
-const RecommendNewsList = () => {
+export const RecommendNewsList = () => {
   const recommendNewsList = getRecommendNewsList();
 
   return (
@@ -46,5 +46,3 @@ const RecommendNewsTitle = styled.div`
   line-height: 1.25;
   color: #121111;
 `;
-
-export default RecommendNewsList;

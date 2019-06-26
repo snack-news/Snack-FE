@@ -28,5 +28,3 @@ export const SelectBox: React.SFC<ISelectBoxProps> = () => {
     </SelectBoxWrapper>
   );
 };
-
-export default SelectBox;

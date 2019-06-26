@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { ColListLayout, BothMarginWrapper } from 'Layouts/index';
 
-const TextCard = () => (
+export const TextCard = () => (
   <BothMarginWrapper>
     <ColListLayout.Repeat interval="8px" top="15px" bottom="15px">
       <Title>개발 읽기</Title>
@@ -24,5 +24,3 @@ const Text = styled.div`
   font-size: 13px;
   color: #595966;
 `;
-
-export default TextCard;
