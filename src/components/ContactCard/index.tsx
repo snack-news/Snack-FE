@@ -1,11 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { RowListLayout } from 'Layouts/index';
+import { RowListLayout, CardSimpleLayout } from 'Layouts/index';
 
-import CardSimpleLayout from './CardSimpleLayout';
-
-const ContactCard = () => (
+export const ContactCard = () => (
   <CardSimpleLayout>
     {{
       header: <ContactCardLinks />,
@@ -43,5 +41,3 @@ const LinkDivider = styled.div`
   height: 17px;
   background-color: #93939f;
 `;
-
-export default ContactCard;

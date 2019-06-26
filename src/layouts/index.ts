@@ -3,3 +3,4 @@ export * from './Center';
 export * from './ColListLayout';
 export * from './RowListLayout';
 export * from './PageLayout';
+export * from './CardSimpleLayout';

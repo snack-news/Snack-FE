@@ -3,9 +3,7 @@ import styled from 'styled-components';
 
 import { getCompanyList } from 'Api/index';
 
-import { ColListLayout, RowListLayout, Center } from 'Layouts/index';
-
-import CardSimpleLayout from './CardSimpleLayout';
+import { ColListLayout, RowListLayout, CardSimpleLayout, Center } from 'Layouts/index';
 
 const CompanyListCard = () => {
   const companyList = getCompanyList();

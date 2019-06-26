@@ -16,7 +16,15 @@ const HomePage = () => (
           <HorizontalDivider thick />
         </React.Fragment>
       ),
-      body: <NewsList />,
+      body: (
+        <NewsList
+          newsOptionProps={{ isRenderHighlightTag: true }}
+          isRenderCompanyListCard
+          isRenderContactCard
+          isRenderPlatformListCard
+          isRenderRecommendNewsList
+        />
+      ),
       footer: <Footer />,
     }}
   </PageLayout>
