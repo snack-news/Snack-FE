@@ -1,4 +1,4 @@
-import React, { FunctionComponent, Fragment } from 'react';
+import React, { Fragment, FunctionComponent } from 'react';
 
 import { ColListLayout } from 'Layouts/index';
 

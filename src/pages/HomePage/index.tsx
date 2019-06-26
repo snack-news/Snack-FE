@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import { Header, Tabs, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
@@ -7,14 +7,14 @@ export const HomePage = () => (
   <PageLayout>
     {{
       header: (
-        <Fragment>
+        <>
           <Header />
           <HorizontalDivider />
           <Tabs />
           <HorizontalDivider thick />
           <SelectBox />
           <HorizontalDivider thick />
-        </Fragment>
+        </>
       ),
       body: (
         <NewsList

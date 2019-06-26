@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import { Header, HorizontalDivider, Footer } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
@@ -11,10 +11,10 @@ export const NewsPage = () => (
   <PageLayout>
     {{
       header: (
-        <Fragment>
+        <>
           <Header title="기사보기" />
           <HorizontalDivider />
-        </Fragment>
+        </>
       ),
       body: (
         <News
