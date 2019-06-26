@@ -1,3 +1,5 @@
+// TODO 목적별 분리 필요.
+
 interface ICompany {
   logoImg: string;
   companyName: string;
@@ -11,7 +13,7 @@ interface IExternalLink {
 }
 
 interface ITag {
-  highlight?: boolean;
+  highlight: boolean;
   children: string;
   key: string;
 }
@@ -21,6 +23,7 @@ interface INews {
   content: string;
   tags: ITag[];
   link: IExternalLink;
+  createdDate: number;
   key: string;
 }
 
