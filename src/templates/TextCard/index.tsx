@@ -6,34 +6,33 @@ import { ColListLayout, BothMarginWrapper } from 'Layouts/index';
 interface ITextCardProps {
   title: string;
   text?: string;
+  titleSize: string;
+  textSize: string;
 }
 
-const TextCard: React.FunctionComponent<ITextCardProps> = (
-  {
-    title,
-    text
-  }
-) => (
+const TextCard: React.FunctionComponent<ITextCardProps> & {
+  defaultProps: Partial<ITextCardProps>;
+} = ({ title, text, titleSize, textSize }) => (
   <BothMarginWrapper>
     <ColListLayout.Repeat interval="8px" top="15px" bottom="15px">
-      <Title>{title}</Title>
-      {text && (
-        <Text>{text}</Text>
-      )}
+      <Title style={{ fontSize: titleSize }}>{title}</Title>
+      {text && <Text style={{ fontSize: textSize }}>{text}</Text>}
     </ColListLayout.Repeat>
   </BothMarginWrapper>
 );
 
+TextCard.defaultProps = {
+  titleSize: '17px',
+  textSize: '13px',
+};
 const Title = styled.div`
   font-family: SFProDisplay;
-  font-size: 17px;
   font-weight: 600;
   color: #121111;
 `;
 
 const Text = styled.div`
   font-family: SFProDisplay;
-  font-size: 13px;
   color: #595966;
 `;
 
