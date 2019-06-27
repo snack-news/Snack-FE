@@ -1,7 +1,7 @@
 import React, { SFC } from 'react';
 import styled from 'styled-components';
 
-import { Center, ColListLayout, RowListLayout } from 'Layouts/index';
+import { ColListLayout, RowListLayout } from 'Layouts/index';
 import { getRecommendNewsList } from 'Api/index';
 
 import CardSimpleLayout from './CardSimpleLayout';
