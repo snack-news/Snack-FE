@@ -19,7 +19,7 @@ const PicksPage = () => (
     <HorizontalDivider />
     <Tabs />
     <PickCategoryList />
-    <TextCard />
+    <TextCard title="개발 읽기" text="바로 링크로 이동합니다." />
     <HorizontalDivider thick />
     <PickNewsList />
     <Footer />

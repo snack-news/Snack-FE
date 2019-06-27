@@ -6,7 +6,7 @@ import { BothMarginWrapper, Center, RowListLayout } from 'Layouts/index';
 import { arrowLinkImg } from 'Resources/index';
 
 /* CompanyItem 컴포넌트 */
-const CompanyItem: SFC<Company> = ({ companyName, logoImg }) => (
+const CompanyItem: SFC<ICompany> = ({ companyName, logoImg }) => (
   <CompanyItemLayout>
     {{
       companyIcon: <CompanyIcon src={logoImg} />,
