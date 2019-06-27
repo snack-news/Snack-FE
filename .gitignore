@@ -292,3 +292,4 @@ lerna-debug.log
 
 ./public/dist
 .storybook-static
+.idea
