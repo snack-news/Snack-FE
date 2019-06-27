@@ -1,23 +1,25 @@
 import React from 'react';
 
-import { Header, NewsCard, HorizontalDivider, Footer } from 'Templates/index';
+import { Header, HorizontalDivider, Footer } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
+import { News } from 'Components/News';
 
 import linkMock from 'Resources/mock/linkMock.jpg';
 
 // TODO news의 id값만 받고 캐싱된값을 쓰거나 없으면 loading 화면을 보여주며, API 요청을 통해 값을 가져오는 형태로 변경
-const NewsPage = () => (
+export const NewsPage = () => (
   <PageLayout>
     {{
       header: (
-        <React.Fragment>
+        <>
           <Header title="기사보기" />
           <HorizontalDivider />
-        </React.Fragment>
+        </>
       ),
       body: (
-        <NewsCard
+        <News
           expanded
+          isRenderHighlightTag
           {...{
             title: '애플 주가 7% 상승',
             content: `☀️ 삼성전자가 20여년 만에 디자인 철학을 재정립했습니다.
@@ -36,7 +38,7 @@ const NewsPage = () => (
               이번 4월에 이탈리아 밀라노에서 열릴 '밀라노 디자인 위크( Milano Design Week)'에서 새로운 디자인 철학을 선포하고 구체적인 포부를 발표할 예정이라고 하네요. `,
             tags: [
               { highlight: true, children: 'TOP3', key: '1' },
-              { children: 'APPLE', key: '2' },
+              { highlight: false, children: 'APPLE', key: '2' },
             ],
             link: {
               href:
@@ -44,6 +46,7 @@ const NewsPage = () => (
               title: '애플 7% 주가 상승했나? 여력있어 보여',
               img: linkMock,
             },
+            createdDate: 1561476141940,
             key: '1',
           }}
         />
@@ -52,5 +55,3 @@ const NewsPage = () => (
     }}
   </PageLayout>
 );
-
-export default NewsPage;

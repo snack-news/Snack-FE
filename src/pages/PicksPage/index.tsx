@@ -13,7 +13,7 @@ import {
 
 const Wrapper = styled.div``;
 
-const PicksPage = () => (
+export const PicksPage = () => (
   <Wrapper>
     <Header />
     <HorizontalDivider />
@@ -25,5 +25,3 @@ const PicksPage = () => (
     <Footer />
   </Wrapper>
 );
-
-export default PicksPage;

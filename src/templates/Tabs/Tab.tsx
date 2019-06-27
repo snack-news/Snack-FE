@@ -1,4 +1,4 @@
-import React, { SFC } from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { ColListLayout } from 'Layouts/index';
@@ -26,7 +26,7 @@ const TabUnderLine = styled.div`
   background-color: #0b66f7;
 `;
 
-const Tab: SFC<ITabProps> = ({ children, selected }) => (
+const Tab: FunctionComponent<ITabProps> = ({ children, selected }) => (
   <ColListLayout.Detail
     top="10px"
     items={[

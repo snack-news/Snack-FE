@@ -1,3 +1,6 @@
+/**
+ * 가운데 정렬 레이아웃 컴포넌트
+ */
 import styled from 'styled-components';
 import { BaseLayout } from './BaseLayout';
 

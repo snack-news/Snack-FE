@@ -1,4 +1,9 @@
-import React from 'react';
+/**
+ * Page 컴포넌트의 기본 부모 컴포넌트
+ *
+ * footer를 고정할수 있는 layout
+ */
+import React, { ReactNode, FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
@@ -15,13 +20,13 @@ const Footer = styled.div``;
 
 interface IPageLayoutProps {
   children: {
-    header?: React.ReactNode;
-    body?: React.ReactNode;
-    footer?: React.ReactNode;
+    header?: ReactNode;
+    body?: ReactNode;
+    footer?: ReactNode;
   };
 }
 
-export const PageLayout: React.FunctionComponent<IPageLayoutProps> = ({
+export const PageLayout: FunctionComponent<IPageLayoutProps> = ({
   children: { header, body, footer },
 }) => (
   <Wrapper>

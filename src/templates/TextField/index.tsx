@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const InputElement = styled.input`
+export const TextField = styled.input`
   width: 100%;
   height: 40px;
   padding: 13px 20px;
@@ -11,5 +11,3 @@ const InputElement = styled.input`
     outline: none;
   }
 `;
-
-export default InputElement;

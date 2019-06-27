@@ -1,4 +1,4 @@
-import React, { ReactElement, SFC } from 'react';
+import React, { ReactElement, FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
@@ -10,7 +10,7 @@ interface IHeaderProps {
   title?: string;
 }
 
-const Header: React.SFC<IHeaderProps> = ({ title }) => {
+export const Header: FunctionComponent<IHeaderProps> = ({ title }) => {
   return (
     <HeaderLayout>
       {{
@@ -23,8 +23,6 @@ const Header: React.SFC<IHeaderProps> = ({ title }) => {
   );
 };
 
-export default Header;
-
 // HeaderLayout 컴포넌트
 interface IHeaderLayoutProps {
   children: {
@@ -35,7 +33,9 @@ interface IHeaderLayoutProps {
   };
 }
 
-const HeaderLayout: SFC<IHeaderLayoutProps> = ({ children: { logo, menu, backArrow, title } }) => {
+const HeaderLayout: FunctionComponent<IHeaderLayoutProps> = ({
+  children: { logo, menu, backArrow, title },
+}) => {
   if (title) {
     return (
       <HeaderLayoutWrapper>

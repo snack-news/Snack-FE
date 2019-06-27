@@ -1,12 +1,10 @@
-import React, { SFC } from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
-import { Center, RowListLayout } from 'Layouts/index';
+import { Center, RowListLayout, CardSimpleLayout } from 'Layouts/index';
 import { platformList } from 'Constants';
 
-import CardSimpleLayout from './CardSimpleLayout';
-
-const PlatformListCard = () => (
+export const PlatformListCard = () => (
   <CardSimpleLayout>
     {{
       header: <PlatformListCardTitle />,
@@ -37,7 +35,12 @@ interface IPlatformCardProps {
   link: string;
 }
 
-const PlatformCard: SFC<IPlatformCardProps> = ({ platformName, backgroundColor, color, link }) => (
+const PlatformCard: FunctionComponent<IPlatformCardProps> = ({
+  platformName,
+  backgroundColor,
+  color,
+  link,
+}) => (
   <PlatformCardWrapper style={{ backgroundColor, color }} href={link}>
     <Center>
       <PlatformCardLabel>
@@ -65,5 +68,3 @@ const PlatformCardLabel = styled.div`
   font-weight: 500;
   text-align: center;
 `;
-
-export default PlatformListCard;

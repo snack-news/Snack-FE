@@ -1,4 +1,4 @@
-import React, { SFC } from 'react';
+import React, { Fragment, FunctionComponent } from 'react';
 
 import { ColListLayout } from 'Layouts/index';
 
@@ -9,19 +9,17 @@ import { ExternalLinkWithImage } from 'Components/index';
 // PickNewsList 컴포넌트
 interface IPickNewsListProps {}
 
-const PickNewsList: SFC<IPickNewsListProps> = () => {
+export const PickNewsList: FunctionComponent<IPickNewsListProps> = () => {
   const pickNewsList = getPickNewsList();
 
   return (
     <ColListLayout.Repeat>
       {pickNewsList.map(pickNewsProps => (
-        <React.Fragment key={pickNewsProps.key}>
+        <Fragment key={pickNewsProps.key}>
           <ExternalLinkWithImage {...pickNewsProps.link} />
           <HorizontalDivider thick />
-        </React.Fragment>
+        </Fragment>
       ))}
     </ColListLayout.Repeat>
   );
 };
-
-export default PickNewsList;
