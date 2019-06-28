@@ -73,7 +73,7 @@ module.exports = {
         '@typescript-eslint/explicit-function-return-type': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
         indent: 'off',
-        '@typescript-eslint/indent': airbnbBaseStyleRules.indent,
+        '@typescript-eslint/indent': 'off',
         '@typescript-eslint/interface-name-prefix': ['error', 'always'],
         '@typescript-eslint/member-delimiter-style': 'off',
         '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
