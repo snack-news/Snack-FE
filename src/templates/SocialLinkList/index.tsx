@@ -7,11 +7,11 @@ import { footerSocialList } from 'Constants';
 
 interface ISocialLinkListProps {
   imgBgType: 'white' | 'blue';
-  align: 'Between' | 'Left';
+  align: 'JustifyAlign' | 'Left';
 }
 
 const Layouts = {
-  Between: RowListLayout.Between,
+  JustifyAlign: RowListLayout.JustifyAlign,
   Left: ({ children }: { children: ReactNode[] }) => (
     <RowListLayout.Repeat interval="10px">{children}</RowListLayout.Repeat>
   ),

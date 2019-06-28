@@ -6,11 +6,11 @@ import { footerLinks } from 'Constants';
 
 /* FooterLinkList 컴포넌트 */
 export const FooterLinkList = () => (
-  <RowListLayout.Between>
+  <RowListLayout.JustifyAlign>
     {footerLinks.map(footerLinkProps => (
       <FooterLink {...footerLinkProps} />
     ))}
-  </RowListLayout.Between>
+  </RowListLayout.JustifyAlign>
 );
 
 /* FooterLink 컴포넌트 */

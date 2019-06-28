@@ -9,12 +9,12 @@ interface ITabsProps {}
 
 export const Tabs: FunctionComponent<ITabsProps> = () => {
   return (
-    <RowListLayout.Between>
+    <RowListLayout.JustifyAlign>
       {tabs.map(({ label, key }) => (
         <Tab selected={key === tabs[0].key} key={key}>
           {label}
         </Tab>
       ))}
-    </RowListLayout.Between>
+    </RowListLayout.JustifyAlign>
   );
 };

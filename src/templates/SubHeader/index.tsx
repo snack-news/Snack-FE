@@ -7,10 +7,10 @@ import { downarrowFilterImg } from 'Resources/index';
 
 export const SubHeader = () => (
   <SubHeaderWrapper>
-    <RowListLayout.Between>
+    <RowListLayout.JustifyAlign>
       <Title>전체</Title>
       <SortButton />
-    </RowListLayout.Between>
+    </RowListLayout.JustifyAlign>
   </SubHeaderWrapper>
 );
 

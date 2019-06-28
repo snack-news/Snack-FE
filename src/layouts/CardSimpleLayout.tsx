@@ -20,10 +20,10 @@ export const CardSimpleLayout: FunctionComponent<ICardSimpleLayoutProps> = ({
       {
         el: (
           <BothMarginWrapper>
-            <RowListLayout.Between>
+            <RowListLayout.JustifyAlign>
               {header}
               {nav}
-            </RowListLayout.Between>
+            </RowListLayout.JustifyAlign>
           </BothMarginWrapper>
         ),
         bottom: '20px',
