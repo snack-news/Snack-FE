@@ -9,6 +9,12 @@ import {
   emailWhiteImg,
 } from 'Resources/index';
 
+/**
+ * TODO
+ * - 메뉴페이지의 메뉴와 Footer의 일부 링크가 겹치는 사항 상수로 처리 필요
+ * - externalLinks와 footerSocialList, platformList 중복사항 처리 필요
+ */
+
 export const footerSocialList = [
   {
     link: 'https://www.facebook.com/',

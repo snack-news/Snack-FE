@@ -29,21 +29,14 @@ const MenuLayout: FunctionComponent<IMenuLayoutProps> = ({
   children: { header, body, footer },
 }) => {
   return (
-    <ColListLayout.Detail
-      items={[
-        {
-          el: (
-            <HeaderWrapper>
-              <BothMarginWrapper>{header}</BothMarginWrapper>
-            </HeaderWrapper>
-          ),
-          bottom: '25px',
-        },
-        { el: <BothMarginWrapper>{body}</BothMarginWrapper>, bottom: '25px' },
-        { el: <HorizontalDivider />, bottom: '25px' },
-        { el: <BothMarginWrapper depth={2}>{footer}</BothMarginWrapper>, bottom: '25px' },
-      ]}
-    />
+    <ColListLayout.Repeat interval="25px">
+      <HeaderWrapper>
+        <BothMarginWrapper>{header}</BothMarginWrapper>
+      </HeaderWrapper>
+      <BothMarginWrapper>{body}</BothMarginWrapper>
+      <HorizontalDivider />
+      <BothMarginWrapper depth={2}>{footer}</BothMarginWrapper>
+    </ColListLayout.Repeat>
   );
 };
 
@@ -97,9 +90,6 @@ const MenuLink = styled.div`
   font-family: SFProDisplay;
   font-size: 24px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: normal;
-  letter-spacing: normal;
   color: #1e1e25;
 `;
