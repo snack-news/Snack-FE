@@ -1,10 +1,10 @@
-import React, { SFC } from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { ColListLayout } from 'Layouts/index';
 import { getHostName } from 'Utils';
 
-export const ExternalLinkWithImage: SFC<IExternalLink> = ({ href, title, img }) => {
+export const ExternalLinkWithImage: FunctionComponent<IExternalLink> = ({ href, title, img }) => {
   return (
     <ColListLayout.Repeat>
       {img && <LinkImg src={img} />}
@@ -13,10 +13,11 @@ export const ExternalLinkWithImage: SFC<IExternalLink> = ({ href, title, img }) 
   );
 };
 
-export const ExternalLink: SFC<IExternalLink> = ({ href, title }) => {
+export const ExternalLink: FunctionComponent<IExternalLink> = ({ href, title }) => {
   return (
     <ExternalLinkWrapper>
       <LinkHrefWrapper>{getHostName(href)}</LinkHrefWrapper>
+      {/* TODO 코드의 일관성을 위해 ColListLayout 으로 변경 필요 */}
       <div style={{ height: '5px' }} />
       <LinkTitleWrapper>{title}</LinkTitleWrapper>
     </ExternalLinkWrapper>

@@ -10,7 +10,7 @@ interface ITextCardProps {
   textSize: string;
 }
 
-const TextCard: React.FunctionComponent<ITextCardProps> & {
+export const TextCard: React.FunctionComponent<ITextCardProps> & {
   defaultProps: Partial<ITextCardProps>;
 } = ({ title, text, titleSize, textSize }) => (
   <BothMarginWrapper>
@@ -25,6 +25,7 @@ TextCard.defaultProps = {
   titleSize: '17px',
   textSize: '13px',
 };
+
 const Title = styled.div`
   font-family: SFProDisplay;
   font-weight: 600;
@@ -35,5 +36,3 @@ const Text = styled.div`
   font-family: SFProDisplay;
   color: #595966;
 `;
-
-export default TextCard;

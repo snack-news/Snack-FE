@@ -7,7 +7,7 @@ import Button from 'Templates/Button';
 
 const Wrapper = styled.div``;
 
-const PicksPage = () => (
+export const IntroduceFormPage = () => (
   <Wrapper>
     <Header />
     <HorizontalDivider thick />
@@ -44,5 +44,3 @@ const PicksPage = () => (
     <Footer />
   </Wrapper>
 );
-
-export default PicksPage;

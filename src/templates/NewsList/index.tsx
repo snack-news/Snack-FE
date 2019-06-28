@@ -1,19 +1,40 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, FunctionComponent } from 'react';
 
 import { getNewsList } from 'Api/index';
 import { ColListLayout } from 'Layouts/index';
-import { HorizontalDivider, NewsCard } from 'Templates/index';
+import { HorizontalDivider, CompanyListCard, RecommendNewsList } from 'Templates/index';
+import { News, INewsOptionProps, ContactCard, PlatformListCard } from 'Components/index';
+import { ICompanyListCardProps } from 'Templates/CompanyListCard';
 
-import CompanyListCard from './CompanyListCard';
-import ContactCard from './ContactCard';
-import PlatformListCard from './PlatformListCard';
-import RecommendNewsCard from './RecommendNewsCard';
+interface INewsListProps {
+  newsOptionProps?: INewsOptionProps;
+  isRenderCompanyListCard?: boolean;
+  isRenderContactCard?: boolean;
+  isRenderPlatformListCard?: boolean;
+  isRenderRecommendNewsList?: boolean;
+  companyListCardProps?: ICompanyListCardProps;
+}
 
-const NewsList = () => {
+const NEWS_LIST_DEFAULT_PROPS = {
+  isRenderCompanyListCard: false,
+  isRenderContactCard: false,
+  isRenderPlatformListCard: false,
+  isRenderRecommendNewsList: false,
+};
+
+export const NewsList: FunctionComponent<INewsListProps> = props => {
+  const {
+    newsOptionProps,
+    isRenderCompanyListCard,
+    isRenderContactCard,
+    isRenderPlatformListCard,
+    isRenderRecommendNewsList,
+    companyListCardProps,
+  } = { ...NEWS_LIST_DEFAULT_PROPS, ...props };
   const newsList = getNewsList();
-  const newsCardComponents = newsList.map(newsCardProps => (
-    <Fragment key={newsCardProps.key}>
-      <NewsCard {...newsCardProps} />
+  const newsComponents = newsList.map(newsProps => (
+    <Fragment key={newsProps.key}>
+      <News {...newsProps} {...newsOptionProps} />
       <HorizontalDivider />
     </Fragment>
   ));
@@ -21,32 +42,38 @@ const NewsList = () => {
   return (
     <ColListLayout.Repeat>
       {[
-        ...newsCardComponents.slice(0, 3),
-        <Fragment key="CompanyListCard">
-          <HorizontalDivider thick />
-          <CompanyListCard />
-          <HorizontalDivider thick />
-        </Fragment>,
-        ...newsCardComponents.slice(3, 5),
-        <Fragment key="ContactCard">
-          <HorizontalDivider thick />
-          <ContactCard />
-          <HorizontalDivider thick />
-        </Fragment>,
-        ...newsCardComponents.slice(5, 6),
-        <Fragment key="PlatformListCard">
-          <HorizontalDivider thick />
-          <PlatformListCard />
-          <HorizontalDivider thick />
-        </Fragment>,
-        <Fragment key="RecommendNewsCard">
-          <RecommendNewsCard />
-          <HorizontalDivider />
-        </Fragment>,
-        ...newsCardComponents.slice(6),
+        ...newsComponents.slice(0, 3),
+        isRenderCompanyListCard && (
+          <Fragment key="CompanyListCard">
+            <HorizontalDivider thick />
+            <CompanyListCard {...companyListCardProps} />
+            <HorizontalDivider thick />
+          </Fragment>
+        ),
+        ...newsComponents.slice(3, 5),
+        isRenderContactCard && (
+          <Fragment key="ContactCard">
+            <HorizontalDivider thick />
+            <ContactCard />
+            <HorizontalDivider thick />
+          </Fragment>
+        ),
+        ...newsComponents.slice(5, 6),
+        isRenderPlatformListCard && (
+          <Fragment key="PlatformListCard">
+            <HorizontalDivider thick />
+            <PlatformListCard />
+            <HorizontalDivider thick />
+          </Fragment>
+        ),
+        isRenderRecommendNewsList && (
+          <Fragment key="RecommendNewsList">
+            <RecommendNewsList />
+            <HorizontalDivider />
+          </Fragment>
+        ),
+        ...newsComponents.slice(6),
       ]}
     </ColListLayout.Repeat>
   );
 };
-
-export default NewsList;

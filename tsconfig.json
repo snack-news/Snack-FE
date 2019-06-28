@@ -48,7 +48,7 @@
 
     /////////// React ///////////
     "jsx": "react", // jsx 지원
-    "jsxFactory": "React.createElement", // jsx 팩토리 함수 설정,
+    // "jsxFactory": "React.createElement", // jsx 팩토리 함수 설정,
 
     /////////// JS ///////////
     // "allowJs": false, // 자바스크립트 파일 컴파일 허용 여부.

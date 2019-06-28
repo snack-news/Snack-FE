@@ -8,6 +8,14 @@ const iPhone = devices['iPhone 6'];
 
 const customizePage = page => page.emulate(iPhone);
 
+const getScreenshotOptions = () => ({
+  fullPage: true,
+});
+
+const getGotoOptions = () => ({
+  waitUntil: 'networkidle2',
+});
+
 // React renederer 테스트
 initStoryshots();
 
@@ -17,5 +25,7 @@ initStoryshots({
   test: imageSnapshot({
     storybookUrl: `http://${config.storybook.host}:${config.storybook.port}`,
     customizePage,
+    getScreenshotOptions,
+    getGotoOptions,
   }),
 });

@@ -5,3 +5,13 @@ export const getHostName = (url: string) => {
   }
   return null;
 };
+
+/**
+ * 달의 몇번째 주인지 구한다.
+ * 월요일을 한주의 시작으로 본다.
+ */
+export const getWeekNumberOfMonth = (dateObj: Date) => {
+  const date = dateObj.getDate();
+  const day = dateObj.getDay();
+  return Math.floor((date - day) / 7) + 1;
+};
