@@ -17,7 +17,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.[tj]sx?$/,
+        test: /\.(js|jsx|ts|tsx)?$/,
         exclude: /(node_modules|bower_components)/,
         use: {
           loader: 'babel-loader',
@@ -48,13 +48,6 @@ module.exports = {
               sourceMap: true,
             },
           },
-        ],
-      },
-      {
-        test: /\.css$/,
-        use: [
-          'style-loader', // creates style nodes from JS strings
-          'css-loader', // translates CSS into CommonJS
         ],
       },
       {

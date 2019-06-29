@@ -1,26 +1,5 @@
-const babelConfig = require('../babel.config.storybook');
-const webpackConfig = require('../webpack.config.prod');
+const webpackConfig = require('../webpack.config.common');
 
-module.exports = ({ config, mode }) => {
-  config.module.rules.push({
-    test: /\.(ts|tsx)$/,
-    use: [{
-      loader: require.resolve('babel-loader'),
-      options: {
-        ...babelConfig,
-      },
-    }]
-    // }, {
-    //   loader: require.resolve('react-docgen-typescript-loader'),
-    // }]
-    
-  });
-
-  config.resolve.extensions.push('.ts', '.tsx');
-  config.resolve.alias = {
-    ...config.resolve.alias,
-    ...webpackConfig.resolve.alias,
-  }
-
-  return config;
-};
+module.exports = {
+  module: webpackConfig.module, resolve:webpackConfig.resolve
+}
