@@ -3,15 +3,23 @@
  */
 
 import React, { ReactNode, CSSProperties, FunctionComponent } from 'react';
-import styled from 'styled-components';
 
-import { BaseLayout } from './BaseLayout';
+import { BaseLayout, IBaseLayoutProps } from './BaseLayout';
 
 type CSSLength = CSSProperties['marginBottom'];
 
-const Base = styled(BaseLayout)`
-  flex-direction: column;
-`;
+const Base: FunctionComponent<IBaseLayoutProps> = props => {
+  const { style } = props;
+  return (
+    <BaseLayout
+      {...props}
+      style={{
+        flexDirection: 'column',
+        ...style,
+      }}
+    />
+  );
+};
 
 interface IColItem {
   el: ReactNode;
@@ -19,21 +27,19 @@ interface IColItem {
   key?: string;
 }
 
-interface IDetailProps {
+interface IDetailProps extends IBaseLayoutProps {
   items: IColItem[];
-  className?: string;
-  top?: CSSLength;
-  bottom?: CSSLength;
 }
 
 /**
  * 아이템마다 간격을 설정할수 있는 레이아웃
  */
-const Detail: FunctionComponent<IDetailProps> = ({ items, className, top, bottom }) => {
+const Detail: FunctionComponent<IDetailProps> = props => {
+  const { items, ...baseProps } = props;
   const lastIndex = items.length - 1;
 
   return (
-    <Base className={className} style={{ paddingTop: top, paddingBottom: bottom }}>
+    <Base {...baseProps}>
       {items.map(
         ({ el, bottom: itemBottom, key }, i) =>
           el && (
@@ -46,31 +52,26 @@ const Detail: FunctionComponent<IDetailProps> = ({ items, className, top, bottom
   );
 };
 
-interface IRepeatProps {
+interface IRepeatProps extends IBaseLayoutProps {
   children: ReactNode[];
   interval?: CSSProperties['marginBottom'];
-  className?: string;
-  top?: CSSLength;
-  bottom?: CSSLength;
 }
 
 /**
  * 아이템마다 간격이 일정하면 사용하는 레이아웃 컴포넌트
  */
-const Repeat: FunctionComponent<IRepeatProps> = ({
-  children,
-  interval,
-  className,
-  top,
-  bottom,
-}) => (
-  <Detail
-    {...{ className, top, bottom }}
-    items={children.map(child => ({
-      el: child,
-      bottom: interval,
-    }))}
-  />
-);
+const Repeat: FunctionComponent<IRepeatProps> = props => {
+  const { children, interval, ...baseProps } = props;
+
+  return (
+    <Detail
+      {...baseProps}
+      items={children.map(child => ({
+        el: child,
+        bottom: interval,
+      }))}
+    />
+  );
+};
 
 export const ColListLayout = { Repeat, Detail };
