@@ -21,10 +21,10 @@ const SelectBoxWrapper = styled(BothMarginWrapper)`
 export const SelectBox: FunctionComponent<ISelectBoxProps> = () => {
   return (
     <SelectBoxWrapper>
-      <RowListLayout.Between>
+      <RowListLayout.JustifyAlign>
         <Label text="1월 2주" />
         <ContentIcon />
-      </RowListLayout.Between>
+      </RowListLayout.JustifyAlign>
     </SelectBoxWrapper>
   );
 };

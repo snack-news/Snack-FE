@@ -20,7 +20,7 @@ const Base = styled(BaseLayout)<IBaseProps>`
 /**
  * 아이템 사이의 간격을 일정하게 맞춰주는 행 레이아웃 컴포넌트
  */
-const Between = styled(Base)`
+const JustifyAlign = styled(Base)`
   justify-content: space-between;
 `;
 
@@ -88,4 +88,4 @@ const Repeat: FunctionComponent<IRepeatProps> = ({
   />
 );
 
-export const RowListLayout = { Detail, Between, Repeat };
+export const RowListLayout = { Detail, JustifyAlign, Repeat };

@@ -12,3 +12,4 @@ export * from './CompanyListCard';
 export * from './RecommendNewsList';
 export * from './NewsList';
 export * from './TextField';
+export * from './SocialLinkList';

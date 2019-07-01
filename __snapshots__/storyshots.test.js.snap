@@ -11,7 +11,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
       className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gHoAgy"
     >
       <div
-        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
       >
         <img
           className="Header__Logo-s5p83t-2 hjPzXf"
@@ -260,7 +260,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -567,7 +567,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -875,7 +875,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -1183,7 +1183,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -1490,7 +1490,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -1798,7 +1798,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -2106,7 +2106,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -2413,7 +2413,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -2721,7 +2721,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -2835,7 +2835,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div
               className="CompanyListCard__CompanyListCardTitle-wgs2mq-0 leZyqt"
@@ -3210,7 +3210,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
           >
             <div
-              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
             >
               <a
                 className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
@@ -3244,13 +3244,13 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
           >
             <div
-              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
             >
               <a
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -3258,7 +3258,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -3266,7 +3266,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -3274,7 +3274,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -3310,7 +3310,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
       className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gHoAgy"
     >
       <div
-        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
       >
         <img
           className="Header__Logo-s5p83t-2 hjPzXf"
@@ -3329,7 +3329,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
       className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 SubHeader__SubHeaderWrapper-sc-1cmnn6w-2 icKyXF"
     >
       <div
-        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
       >
         <div
           className="SubHeader__Title-sc-1cmnn6w-0 eQkrjm"
@@ -3954,7 +3954,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
       className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gHoAgy"
     >
       <div
-        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
       >
         <img
           className="Header__Logo-s5p83t-2 hjPzXf"
@@ -3970,7 +3970,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
       className="HorizontalDivider-sc-1usz3tx-0 gqNNjK"
     />
     <div
-      className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+      className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
     >
       <div
         className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"
@@ -4039,7 +4039,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
       className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 SelectBox__SelectBoxWrapper-sc-1f02b0y-1 fMDURT"
     >
       <div
-        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
       >
         <div
           className="Label-sc-50v5u5-2 bmsGXh"
@@ -4285,7 +4285,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -4569,7 +4569,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -4868,7 +4868,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -4988,7 +4988,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div
                   className="CompanyListCard__CompanyListCardTitle-wgs2mq-0 leZyqt"
@@ -5551,7 +5551,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -5835,7 +5835,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -5955,7 +5955,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div
                   className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 dQzoHj"
@@ -6267,7 +6267,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -6387,7 +6387,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div
                   className="PlatformListCard__PlatformListCardTitle-ypr0fc-0 dYGIdr"
@@ -6575,7 +6575,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div
                   className="RecommendNewsList__RecommendNewsListTitle-sc-1vikmv3-0 fWpJnM"
@@ -6911,7 +6911,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -7195,7 +7195,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -7494,7 +7494,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
             >
               <div
-                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+                className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
               >
                 <div>
                   <div
@@ -7612,7 +7612,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
           >
             <div
-              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
             >
               <a
                 className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
@@ -7646,13 +7646,13 @@ exports[`Storyshots pages/HomePage default 1`] = `
             className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
           >
             <div
-              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
             >
               <a
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -7660,7 +7660,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -7668,7 +7668,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -7676,7 +7676,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -7709,7 +7709,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
     className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gHoAgy"
   >
     <div
-      className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+      className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
     >
       <img
         className="Header__Logo-s5p83t-2 hjPzXf"
@@ -7853,7 +7853,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <a
               className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
@@ -7887,13 +7887,13 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <a
               href="https://www.facebook.com/"
             >
               <img
-                className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                 src=""
               />
             </a>
@@ -7901,7 +7901,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
               href="https://www.facebook.com/"
             >
               <img
-                className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                 src=""
               />
             </a>
@@ -7909,7 +7909,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
               href="https://www.facebook.com/"
             >
               <img
-                className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                 src=""
               />
             </a>
@@ -7917,7 +7917,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
               href="https://www.facebook.com/"
             >
               <img
-                className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                 src=""
               />
             </a>
@@ -7941,6 +7941,271 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
 </div>
 `;
 
+exports[`Storyshots pages/MenuPage default 1`] = `
+<div
+  className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"
+  style={
+    Object {
+      "paddingBottom": undefined,
+      "paddingTop": undefined,
+    }
+  }
+>
+  <div
+    style={
+      Object {
+        "marginBottom": "25px",
+      }
+    }
+  >
+    <div
+      className="Menu__HeaderWrapper-skz02a-0 eaEAun"
+    >
+      <div
+        className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
+      >
+        <div
+          className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"
+          style={
+            Object {
+              "paddingBottom": "25px",
+              "paddingTop": "25px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "marginBottom": "52px",
+              }
+            }
+          >
+            <img
+              className="Menu__CloseButton-skz02a-1 hQssIn"
+              src=""
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "marginBottom": undefined,
+              }
+            }
+          >
+            <div
+              className="Menu__MenuTitle-skz02a-2 hcewaX"
+            >
+              Menu
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "marginBottom": "25px",
+      }
+    }
+  >
+    <div
+      className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 JjMJr"
+    >
+      <div
+        className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"
+        style={
+          Object {
+            "paddingBottom": undefined,
+            "paddingTop": undefined,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        >
+          <div
+            className="Menu__MenuLink-skz02a-3 eOpkTP"
+          >
+            홈
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        >
+          <div
+            className="Menu__MenuLink-skz02a-3 eOpkTP"
+          >
+            토픽 모아보기
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        >
+          <div
+            className="Menu__MenuLink-skz02a-3 eOpkTP"
+          >
+            서비스 안내
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        >
+          <div
+            className="Menu__MenuLink-skz02a-3 eOpkTP"
+          >
+            공지사항
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": "20px",
+            }
+          }
+        >
+          <div
+            className="Menu__MenuLink-skz02a-3 eOpkTP"
+          >
+            제안하기
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": undefined,
+            }
+          }
+        >
+          <div
+            className="Menu__MenuLink-skz02a-3 eOpkTP"
+          >
+            문의하기
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "marginBottom": "25px",
+      }
+    }
+  >
+    <div
+      className="HorizontalDivider-sc-1usz3tx-0 gqNNjK"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "marginBottom": undefined,
+      }
+    }
+  >
+    <div
+      className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
+    >
+      <div
+        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 dQzoHj"
+        style={
+          Object {
+            "paddingLeft": undefined,
+            "paddingRight": undefined,
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "flex": undefined,
+              "marginRight": "10px",
+            }
+          }
+        >
+          <a
+            href="https://www.facebook.com/"
+          >
+            <img
+              className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
+              src=""
+            />
+          </a>
+        </div>
+        <div
+          style={
+            Object {
+              "flex": undefined,
+              "marginRight": "10px",
+            }
+          }
+        >
+          <a
+            href="https://www.facebook.com/"
+          >
+            <img
+              className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
+              src=""
+            />
+          </a>
+        </div>
+        <div
+          style={
+            Object {
+              "flex": undefined,
+              "marginRight": "10px",
+            }
+          }
+        >
+          <a
+            href="https://www.facebook.com/"
+          >
+            <img
+              className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
+              src=""
+            />
+          </a>
+        </div>
+        <div
+          style={
+            Object {
+              "flex": undefined,
+              "marginRight": undefined,
+            }
+          }
+        >
+          <a
+            href="https://www.facebook.com/"
+          >
+            <img
+              className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
+              src=""
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots pages/NewsPage default 1`] = `
 <div
   className="PageLayout__Wrapper-sc-1863d3j-0 fJDPvG"
@@ -7952,7 +8217,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
       className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gHoAgy"
     >
       <div
-        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+        className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
       >
         <img
           className="Header__BackArrow-s5p83t-1 eWrcwg"
@@ -8174,7 +8439,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -8287,7 +8552,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
             className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
           >
             <div
-              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
             >
               <a
                 className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
@@ -8321,13 +8586,13 @@ exports[`Storyshots pages/NewsPage default 1`] = `
             className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
           >
             <div
-              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+              className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
             >
               <a
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -8335,7 +8600,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -8343,7 +8608,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -8351,7 +8616,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                 href="https://www.facebook.com/"
               >
                 <img
-                  className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                  className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                   src=""
                 />
               </a>
@@ -8384,7 +8649,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
     className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gHoAgy"
   >
     <div
-      className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+      className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
     >
       <img
         className="Header__Logo-s5p83t-2 hjPzXf"
@@ -8400,7 +8665,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
     className="HorizontalDivider-sc-1usz3tx-0 gqNNjK"
   />
   <div
-    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
   >
     <div
       className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"
@@ -8785,7 +9050,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <a
               className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
@@ -8819,13 +9084,13 @@ exports[`Storyshots pages/PicksPage default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <a
               href="https://www.facebook.com/"
             >
               <img
-                className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                 src=""
               />
             </a>
@@ -8833,7 +9098,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
               href="https://www.facebook.com/"
             >
               <img
-                className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                 src=""
               />
             </a>
@@ -8841,7 +9106,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
               href="https://www.facebook.com/"
             >
               <img
-                className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                 src=""
               />
             </a>
@@ -8849,7 +9114,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
               href="https://www.facebook.com/"
             >
               <img
-                className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+                className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
                 src=""
               />
             </a>
@@ -9472,7 +9737,7 @@ exports[`Storyshots templates/Footer FooterLinkList 1`] = `
   className="Outline-sc-1in0ohj-0 kSvYGn"
 >
   <div
-    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
   >
     <a
       className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
@@ -9491,49 +9756,6 @@ exports[`Storyshots templates/Footer FooterLinkList 1`] = `
       href="https://www.facebook.com/"
     >
       문의하기
-    </a>
-  </div>
-</div>
-`;
-
-exports[`Storyshots templates/Footer SocialIconList 1`] = `
-<div
-  className="Outline-sc-1in0ohj-0 kSvYGn"
->
-  <div
-    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
-  >
-    <a
-      href="https://www.facebook.com/"
-    >
-      <img
-        className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
-        src=""
-      />
-    </a>
-    <a
-      href="https://www.facebook.com/"
-    >
-      <img
-        className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
-        src=""
-      />
-    </a>
-    <a
-      href="https://www.facebook.com/"
-    >
-      <img
-        className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
-        src=""
-      />
-    </a>
-    <a
-      href="https://www.facebook.com/"
-    >
-      <img
-        className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
-        src=""
-      />
     </a>
   </div>
 </div>
@@ -9563,7 +9785,7 @@ exports[`Storyshots templates/Footer default 1`] = `
         className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
       >
         <div
-          className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+          className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
         >
           <a
             className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
@@ -9597,13 +9819,13 @@ exports[`Storyshots templates/Footer default 1`] = `
         className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 ipcEod"
       >
         <div
-          className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+          className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
         >
           <a
             href="https://www.facebook.com/"
           >
             <img
-              className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+              className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
               src=""
             />
           </a>
@@ -9611,7 +9833,7 @@ exports[`Storyshots templates/Footer default 1`] = `
             href="https://www.facebook.com/"
           >
             <img
-              className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+              className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
               src=""
             />
           </a>
@@ -9619,7 +9841,7 @@ exports[`Storyshots templates/Footer default 1`] = `
             href="https://www.facebook.com/"
           >
             <img
-              className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+              className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
               src=""
             />
           </a>
@@ -9627,7 +9849,7 @@ exports[`Storyshots templates/Footer default 1`] = `
             href="https://www.facebook.com/"
           >
             <img
-              className="SocialIconList__SocialIcon-sc-1ur9qus-0 cAsKRA"
+              className="SocialLinkList__SocialLinkIcon-t0xxdj-0 fNFjPo"
               src=""
             />
           </a>
@@ -9655,7 +9877,7 @@ exports[`Storyshots templates/Header default 1`] = `
   className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gHoAgy"
 >
   <div
-    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
   >
     <img
       className="Header__Logo-s5p83t-2 hjPzXf"
@@ -9884,7 +10106,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -10168,7 +10390,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -10453,7 +10675,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -10738,7 +10960,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -11022,7 +11244,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -11307,7 +11529,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -11592,7 +11814,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -11876,7 +12098,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -12161,7 +12383,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 iyvmGH"
         >
           <div
-            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+            className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
           >
             <div>
               <div
@@ -12259,7 +12481,7 @@ exports[`Storyshots templates/SelectBox default 1`] = `
   className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 SelectBox__SelectBoxWrapper-sc-1f02b0y-1 fMDURT"
 >
   <div
-    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
   >
     <div
       className="Label-sc-50v5u5-2 bmsGXh"
@@ -12287,7 +12509,7 @@ exports[`Storyshots templates/SubHeader default 1`] = `
   className="BaseLayout-sc-1pccl92-0 BothMarginWrapper-lhty9r-0 SubHeader__SubHeaderWrapper-sc-1cmnn6w-2 icKyXF"
 >
   <div
-    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+    className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
   >
     <div
       className="SubHeader__Title-sc-1cmnn6w-0 eQkrjm"
@@ -12311,7 +12533,7 @@ exports[`Storyshots templates/SubHeader default 1`] = `
 
 exports[`Storyshots templates/Tabs default 1`] = `
 <div
-  className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__Between-q6dhnv-1 hdzkEP"
+  className="BaseLayout-sc-1pccl92-0 RowListLayout__Base-q6dhnv-0 RowListLayout__JustifyAlign-q6dhnv-1 bfjwrH"
 >
   <div
     className="BaseLayout-sc-1pccl92-0 ColListLayout__Base-sc-1fpiyig-0 dWnIuQ"

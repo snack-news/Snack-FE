@@ -1,0 +1,13 @@
+{
+  "baseUrl": ".",
+  "paths": {
+    "Api/*": ["./src/api/*"],
+    "Components/*": ["./src/components/*"],
+    "Layouts/*": ["./src/layouts/*"],
+    "Pages/*": ["./src/pages/*"],
+    "Resources/*": ["./src/resources/*"],
+    "Templates/*": ["./src/templates/*"],
+    "Constants": ["./src/constants.ts"],
+    "Utils": ["./src/utils.ts"],
+  },
+}

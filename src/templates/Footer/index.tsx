@@ -2,7 +2,8 @@ import React, { FunctionComponent, ReactNode } from 'react';
 import styled from 'styled-components';
 
 import { BothMarginWrapper, ColListLayout } from 'Layouts/index';
-import { FooterLinkList, SocialIconList, Copyright } from './components';
+import { SocialLinkList } from 'Templates/index';
+import { FooterLinkList, Copyright } from './components';
 
 /* Footer 컴포넌트 */
 export const Footer = () => (
@@ -10,7 +11,7 @@ export const Footer = () => (
     <FooterLayout>
       {{
         linkList: <FooterLinkList />,
-        socialList: <SocialIconList />,
+        socialList: <SocialLinkList imgBgType="blue" align="JustifyAlign" />,
         copyright: <Copyright />,
       }}
     </FooterLayout>
