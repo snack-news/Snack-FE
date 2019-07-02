@@ -62,11 +62,12 @@ interface IRepeatProps extends IBaseLayoutProps {
  */
 const Repeat: FunctionComponent<IRepeatProps> = props => {
   const { children, interval, ...baseProps } = props;
+  const filteredChildren = children.filter(child => child);
 
   return (
     <Detail
       {...baseProps}
-      items={children.map(child => ({
+      items={filteredChildren.map(child => ({
         el: child,
         bottom: interval,
       }))}
