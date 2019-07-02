@@ -6,12 +6,33 @@ export const getHostName = (url: string) => {
   return null;
 };
 
+const GET_DATE_FORMAT: { [formatKey: string]: (date: Date) => string } = {
+  YYYY: date => `${date.getFullYear()}`,
+  MM: date => `${date.getMonth() + 1}`.padStart(2, '0'),
+  DD: date => `${date.getDate()}`.padStart(2, '0'),
+  WEEK_NAME: date =>
+    ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'][date.getDay()],
+  WEEK_NUM: date => `${Math.floor((date.getDate() - date.getDay()) / 7) + 1}`,
+  HH: date => `${date.getHours()}`.padStart(2, '0'),
+  hh: date => `${(date.getHours() + 12) % 12}`.padStart(2, '0'),
+  mm: date => `${date.getMinutes()}`.padStart(2, '0'),
+  ss: date => `${date.getSeconds()}`.padStart(2, '0'),
+  AM_PM: date => (date.getHours() < 12 ? '오전' : '오후'),
+};
+
 /**
- * 달의 몇번째 주인지 구한다.
- * 월요일을 한주의 시작으로 본다.
+ * 포멧 형식에 맞춰서 날짜를 문자열로 반환
+ *
+ * @param date 출력할 날짜
+ * @param format 출력할 포메팅 양식 ( ex)YYYY년 MM월 WEEK_NUM주)
+ * @example getDateFormat(new Date(), 'YYYY년 MM월 WEEK_NUM주')
  */
-export const getWeekNumberOfMonth = (dateObj: Date) => {
-  const date = dateObj.getDate();
-  const day = dateObj.getDay();
-  return Math.floor((date - day) / 7) + 1;
+export const getDateFormat = (date: Date, format: string) => {
+  let result = format;
+
+  Object.keys(GET_DATE_FORMAT).forEach(formatKey => {
+    result = result.replace(formatKey, GET_DATE_FORMAT[formatKey](date));
+  });
+
+  return result;
 };

@@ -3,26 +3,40 @@
  */
 
 import React, { ReactNode, CSSProperties, FunctionComponent } from 'react';
-import styled from 'styled-components';
-import { BaseLayout } from './BaseLayout';
+import { BaseLayout, IBaseLayoutProps } from './BaseLayout';
 
 type CSSLength = CSSProperties['marginBottom'];
 
-interface IBaseProps {
-  children: ReactNode[];
-}
-
-const Base = styled(BaseLayout)<IBaseProps>`
-  /* 수평 가운데 정렬 */
-  align-items: center;
-`;
+const Base: FunctionComponent<IBaseLayoutProps> = props => {
+  const { style } = props;
+  return (
+    <BaseLayout
+      {...props}
+      style={{
+        flexDirection: 'row',
+        alignItems: 'center',
+        ...style,
+      }}
+    />
+  );
+};
 
 /**
  * 아이템 사이의 간격을 일정하게 맞춰주는 행 레이아웃 컴포넌트
  */
-const JustifyAlign = styled(Base)`
-  justify-content: space-between;
-`;
+const JustifyAlign: FunctionComponent<IBaseLayoutProps> = props => {
+  const { style } = props;
+
+  return (
+    <Base
+      {...props}
+      style={{
+        justifyContent: 'space-between',
+        ...style,
+      }}
+    />
+  );
+};
 
 interface IRowItem {
   el: ReactNode;
@@ -31,21 +45,19 @@ interface IRowItem {
   key?: string;
 }
 
-interface IDetailProps {
+interface IDetailProps extends IBaseLayoutProps {
   items: IRowItem[];
-  className?: string;
-  left?: CSSLength;
-  right?: CSSLength;
 }
 
 /**
  * 간격을 설정할수 잇는 행 레이아웃 컴포넌트
  */
-const Detail: FunctionComponent<IDetailProps> = ({ items, className, left, right }) => {
+const Detail: FunctionComponent<IDetailProps> = props => {
+  const { items, ...baseProps } = props;
   const lastIndex = items.length - 1;
 
   return (
-    <Base className={className} style={{ paddingLeft: left, paddingRight: right }}>
+    <Base {...baseProps}>
       {items.map(
         ({ el, right: itemRight, flex, key }, i) =>
           el && (
@@ -61,31 +73,26 @@ const Detail: FunctionComponent<IDetailProps> = ({ items, className, left, right
   );
 };
 
-interface IRepeatProps {
+interface IRepeatProps extends IBaseLayoutProps {
   children: ReactNode[];
   interval?: CSSLength;
-  className?: string;
-  left?: CSSLength;
-  right?: CSSLength;
 }
 
 /**
  * 동일한 간격을 가진 행 레이아웃 컴포넌트
  */
-const Repeat: FunctionComponent<IRepeatProps> = ({
-  children,
-  interval,
-  className,
-  left,
-  right,
-}) => (
-  <Detail
-    {...{ className, left, right }}
-    items={children.map(child => ({
-      el: child,
-      right: interval,
-    }))}
-  />
-);
+const Repeat: FunctionComponent<IRepeatProps> = props => {
+  const { children, interval, ...baseProps } = props;
+
+  return (
+    <Detail
+      {...baseProps}
+      items={children.map(child => ({
+        el: child,
+        right: interval,
+      }))}
+    />
+  );
+};
 
 export const RowListLayout = { Detail, JustifyAlign, Repeat };

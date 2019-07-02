@@ -4,9 +4,21 @@
 module.exports = {
   presets: ['@babel/typescript', '@babel/preset-react'],
   plugins: [
-    'require-context-hook',
     '@babel/proposal-class-properties',
     'babel-plugin-styled-components',
+    [
+      '@babel/plugin-transform-runtime',
+      {
+        absoluteRuntime: false,
+        corejs: {
+          version: 3,
+          proposals: true,
+        },
+        helpers: true,
+        regenerator: true,
+        useESModules: false,
+      },
+    ],
   ],
   inputSourceMap: true,
   sourceMaps: true,

@@ -12,6 +12,7 @@ interface IBothMarginWrapperProps {
 
 export const BothMarginWrapper = styled(BaseLayout)<IBothMarginWrapperProps>`
   overflow: auto;
+  margin: 0 auto;
   padding-right: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
   padding-left: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
   max-width: ${({ depth = 1 }) => `${theme.maxWidth - theme.depthWidth * depth}px`};

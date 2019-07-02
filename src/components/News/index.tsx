@@ -5,7 +5,7 @@ import { ExternalLinkWithImage } from 'Components/index';
 import { HorizontalDivider } from 'Templates/index';
 import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import { shareImg, copyImg } from 'Resources/index';
-import { getWeekNumberOfMonth } from 'Utils';
+import { getDateFormat } from 'Utils';
 
 import Tags from './Tags';
 
@@ -121,16 +121,9 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
 );
 
 const CreatedWeekLabel: FunctionComponent<{ date: number }> = ({ date }) => {
-  const dateObj = new Date(date);
-  const year = dateObj.getFullYear();
-  const month = dateObj.getMonth() + 1;
-  const weekNumOfMonth = getWeekNumberOfMonth(dateObj);
-
-  const dateFormat = `${year}년 ${month}월 ${weekNumOfMonth}주`;
-
   return (
     <div style={{ fontFamily: 'SFProDisplay', fontSize: '15px', color: '#0b66f7' }}>
-      {dateFormat}
+      {getDateFormat(new Date(date), 'YYYY년 MM월 WEEK_NUM주')}
     </div>
   );
 };
