@@ -6,7 +6,7 @@ module.exports = {
     '^.+\\.[jt]sx?$': path.resolve(__dirname, './jest.config.babel.js'),
   },
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$',
-  collectCoverageFrom: ['./src/**/*.[jt]s?(x)'],
+  collectCoverageFrom: ['./src/**/*.(js|jsx|ts|tsx)'],
   coverageThreshold: {
     global: {
       statements: 0,
@@ -15,6 +15,8 @@ module.exports = {
       functions: 0,
     },
   },
+  coverageDirectory: './coverage/',
+  collectCoverage: true,
   modulePathIgnorePatterns: ['__mocks__'],
   setupFilesAfterEnv: [path.resolve(__dirname, './jest.setup.js')],
   moduleNameMapper: {
