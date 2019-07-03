@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
 import { RowListLayout } from 'Layouts/index';
-import { tabs } from 'Constants';
+import { tabs } from 'Config/index';
 
 import Tab from './Tab';
 
