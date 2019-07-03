@@ -24,6 +24,7 @@ module.exports = {
     ),
     '\\.(css|less)$': path.resolve(__dirname, './__mocks__/fileMock.js'),
   },
+  globalSetup: path.resolve(__dirname, 'jest.global.setup.js'),
   // notify: true, // TODO 아래 이슈가 해결되고 사용해야 되는 옵션이다.
   // https://github.com/facebook/jest/issues/8036
 };

@@ -23,7 +23,7 @@ initStoryshots();
 initStoryshots({
   suite: 'Image storyshots',
   test: imageSnapshot({
-    storybookUrl: `http://${config.storybook.host}:${config.storybook.port}`,
+    storybookUrl: `file://${config.storybook.outputDir}`,
     customizePage,
     getScreenshotOptions,
     getGotoOptions,
