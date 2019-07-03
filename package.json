@@ -6,9 +6,9 @@
   "scripts": {
     "start": "nps",
     "build": "nps build",
-    "storybook": "start-storybook",
-    "build-storybook": "build-storybook -c .storybook -o .storybook-static",
-    "test": "jest --watchAll"
+    "storybook": "nps storybook.dev",
+    "build-storybook": "nps storybook.build",
+    "check:all": "nps check"
   },
   "author": "",
   "license": "UNLICENSED",

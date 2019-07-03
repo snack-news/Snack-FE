@@ -17,44 +17,58 @@ module.exports = {
         description: '노드 개발 서버 시작',
       },
     },
-    eslint: {
+    check: {
       default: {
-        script:
-          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --color',
-        description: 'eslint 스크립트 실행',
+        script: concurrent.nps('check.eslint', 'check.typecheck', 'check.test'),
+        description: '모든 코드 체크 스크립트 실행',
       },
-      watch: {
-        script:
-          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore -w --color --clear',
-        description: 'eslint 스크립트 실행',
+      eslint: {
+        default: {
+          script:
+            'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --color',
+          description: 'eslint 스크립트 실행',
+        },
+        watch: {
+          script:
+            'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore -w --color --clear',
+          description: 'eslint 스크립트 실행',
+        },
+        autoFix: {
+          script:
+            'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --fix --color',
+          description: 'eslint 스크립트 실행',
+        },
       },
-      autoFix: {
-        script:
-          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --fix --color',
-        description: 'eslint 스크립트 실행',
+      typecheck: {
+        default: {
+          script: 'tsc --noEmit',
+          description: 'typescript typecheck 실행',
+        },
+        watch: {
+          script: 'tsc --noEmit -w',
+          description: 'typescript typecheck 실행(watch)',
+        },
       },
-    },
-    typecheck: {
-      default: {
-        script: 'tsc --noEmit',
-        description: 'typescript typecheck 실행',
-      },
-      watch: {
-        script: 'tsc --noEmit -w',
-        description: 'typescript typecheck 실행(watch)',
+      test: {
+        default: {
+          script: 'jest',
+          description: '테스트',
+        },
+        watch: {
+          script: 'jest --watchAll',
+          description: '테스트(watch)',
+        },
       },
     },
     storybook: {
-      script: 'node storybook.js',
-      description: '스토리북 실행',
-    },
-    test: {
-      script: 'jest --watchAll',
-      description: '테스트',
-    },
-    dev: {
-      script: concurrent.nps('server.dev', 'test'),
-      description: '개발 환경',
+      dev: {
+        script: 'node storybook.js',
+        description: '스토리북 dev server 실행',
+      },
+      build: {
+        script: 'build-storybook -c .storybook -o .storybook-static',
+        description: '스토리북 빌드',
+      },
     },
   },
 };
