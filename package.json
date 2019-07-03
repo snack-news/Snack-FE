@@ -8,7 +8,7 @@
     "build": "nps build",
     "storybook": "nps storybook.dev",
     "build-storybook": "nps storybook.build",
-    "check:all": "nps check"
+    "test": "nps check"
   },
   "author": "",
   "license": "UNLICENSED",
