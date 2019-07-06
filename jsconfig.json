@@ -7,7 +7,7 @@
     "Pages/*": ["./src/pages/*"],
     "Resources/*": ["./src/resources/*"],
     "Templates/*": ["./src/templates/*"],
-    "Constants": ["./src/constants.ts"],
+    "Config": ["./src/config/*"],
     "Utils": ["./src/utils.ts"],
   },
 }

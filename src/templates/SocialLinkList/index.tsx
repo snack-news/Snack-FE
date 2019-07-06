@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { RowListLayout } from 'Layouts/index';
 
-import { footerSocialList } from 'Constants';
+import { footerSocialList } from 'Config/index';
 
 interface ISocialLinkListProps {
   imgBgType: 'white' | 'blue';

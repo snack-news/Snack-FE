@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { RowListLayout } from 'Layouts/index';
-import { footerLinks } from 'Constants';
+import { footerLinks } from 'Config/index';
 
 /* FooterLinkList 컴포넌트 */
 export const FooterLinkList = () => (

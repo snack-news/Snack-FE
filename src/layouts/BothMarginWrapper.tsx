@@ -3,7 +3,7 @@
  */
 
 import styled from 'styled-components';
-import { theme } from 'Constants';
+import { theme } from 'Config/index';
 import { BaseLayout } from './BaseLayout';
 
 interface IBothMarginWrapperProps {

@@ -85,7 +85,7 @@ module.exports = {
       Pages: path.resolve(SRC_PATH, 'pages/'),
       Resources: path.resolve(SRC_PATH, 'resources/'),
       Templates: path.resolve(SRC_PATH, 'templates/'),
-      Constants: path.resolve(SRC_PATH, 'constants.ts'),
+      Config: path.resolve(SRC_PATH, 'config/'),
       Utils: path.resolve(SRC_PATH, 'utils.ts'),
     },
   },
