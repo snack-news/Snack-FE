@@ -7,11 +7,13 @@ import { footerSocialList } from 'Config/index';
 
 interface ISocialLinkListProps {
   imgBgType: 'white' | 'blue';
-  align: 'JustifyAlign' | 'Left';
+  align: 'justify' | 'Left';
 }
 
 const Layouts = {
-  JustifyAlign: RowListLayout.JustifyAlign,
+  justify: ({ children }: { children: ReactNode[] }) => (
+    <RowListLayout.Align type="justify">{children}</RowListLayout.Align>
+  ),
   Left: ({ children }: { children: ReactNode[] }) => (
     <RowListLayout.Repeat interval="10px">{children}</RowListLayout.Repeat>
   ),

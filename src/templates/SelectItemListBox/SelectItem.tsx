@@ -12,10 +12,10 @@ interface ISelectItemProps {
 
 const SelectItem: FunctionComponent<ISelectItemProps> = ({ label, selected }) => {
   return (
-    <RowListLayout.JustifyAlign>
+    <RowListLayout.Align type="justify">
       <SelectItemLabel>{label}</SelectItemLabel>
       {selected && <CheckmarkIcon />}
-    </RowListLayout.JustifyAlign>
+    </RowListLayout.Align>
   );
 };
 

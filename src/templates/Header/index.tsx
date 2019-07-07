@@ -39,21 +39,21 @@ const HeaderLayout: FunctionComponent<IHeaderLayoutProps> = ({
   if (title) {
     return (
       <HeaderLayoutWrapper>
-        <RowListLayout.JustifyAlign>
+        <RowListLayout.Align type="justify">
           {backArrow}
           {title}
           {menu}
-        </RowListLayout.JustifyAlign>
+        </RowListLayout.Align>
       </HeaderLayoutWrapper>
     );
   }
 
   return (
     <HeaderLayoutWrapper>
-      <RowListLayout.JustifyAlign>
+      <RowListLayout.Align type="justify">
         {logo}
         {menu}
-      </RowListLayout.JustifyAlign>
+      </RowListLayout.Align>
     </HeaderLayoutWrapper>
   );
 };
