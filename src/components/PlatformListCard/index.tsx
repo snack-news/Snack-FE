@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { Center, RowListLayout, CardSimpleLayout } from 'Layouts/index';
-import { platformList } from 'Constants';
+import { platformList } from 'Config/index';
 
 export const PlatformListCard = () => (
   <CardSimpleLayout>
