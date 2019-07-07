@@ -36,9 +36,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
         }
       >
         <img
-          className="Header__Logo-s5p83t-2 hjPzXf"
+          className="Header__BackArrow-s5p83t-1 eWrcwg"
           src=""
         />
+        애플 뉴스 모아보기
         <img
           className="Header__Menu-s5p83t-3 bdvXaa"
           src=""
