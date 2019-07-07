@@ -3,8 +3,9 @@
  */
 
 import styled from 'styled-components';
-import { theme } from 'Config/index';
 import { BaseLayout } from './BaseLayout';
+
+const DEPTH_WIDTH = 20;
 
 interface IBothMarginWrapperProps {
   depth?: number;
@@ -12,8 +13,6 @@ interface IBothMarginWrapperProps {
 
 export const BothMarginWrapper = styled(BaseLayout)<IBothMarginWrapperProps>`
   overflow: auto;
-  margin: 0 auto;
-  padding-right: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
-  padding-left: ${({ depth = 1 }) => `${theme.depthWidth * depth}px`};
-  max-width: ${({ depth = 1 }) => `${theme.maxWidth - theme.depthWidth * depth}px`};
+  padding-right: ${({ depth = 1 }) => `${DEPTH_WIDTH * depth}px`};
+  padding-left: ${({ depth = 1 }) => `${DEPTH_WIDTH * depth}px`};
 `;

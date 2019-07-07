@@ -2,13 +2,13 @@
 
 exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
 <div
-  className="PageLayout__Wrapper-sc-1863d3j-0 fJDPvG"
+  className="PageLayout__Wrapper-sc-1863d3j-0 btiBVI"
 >
   <div
     className="PageLayout__Header-sc-1863d3j-1 hVreyq"
   >
     <div
-      className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 hRZblj"
+      className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gWYLmh"
       style={
         Object {
           "display": "flex",
@@ -96,7 +96,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -129,7 +129,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -180,7 +180,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -207,7 +207,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -269,10 +269,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -281,47 +281,33 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -335,7 +321,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -360,7 +346,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -513,7 +499,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -546,7 +532,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -597,7 +583,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -624,7 +610,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -686,10 +672,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -701,43 +687,29 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      사진이 없는 링크
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    사진이 없는 링크
                   </div>
                 </div>
               </div>
@@ -751,7 +723,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -776,7 +748,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -929,7 +901,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -962,7 +934,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1013,7 +985,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1040,7 +1012,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1102,10 +1074,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -1114,47 +1086,33 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -1168,7 +1126,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1193,7 +1151,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -1346,7 +1304,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1379,7 +1337,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1430,7 +1388,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1457,7 +1415,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1519,10 +1477,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -1531,47 +1489,33 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -1585,7 +1529,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1610,7 +1554,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -1763,7 +1707,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1796,7 +1740,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1847,7 +1791,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1874,7 +1818,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -1936,10 +1880,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -1951,43 +1895,29 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      사진이 없는 링크
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    사진이 없는 링크
                   </div>
                 </div>
               </div>
@@ -2001,7 +1931,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2026,7 +1956,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -2179,7 +2109,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2212,7 +2142,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2263,7 +2193,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2290,7 +2220,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2352,10 +2282,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -2364,47 +2294,33 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -2418,7 +2334,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2443,7 +2359,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -2596,7 +2512,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2629,7 +2545,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2680,7 +2596,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2707,7 +2623,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2769,10 +2685,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -2781,47 +2697,33 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -2835,7 +2737,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -2860,7 +2762,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -3013,7 +2915,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3046,7 +2948,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3097,7 +2999,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3124,7 +3026,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3186,10 +3088,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -3201,43 +3103,29 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      사진이 없는 링크
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    사진이 없는 링크
                   </div>
                 </div>
               </div>
@@ -3251,7 +3139,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3276,7 +3164,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -3429,7 +3317,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3462,7 +3350,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3513,7 +3401,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3540,7 +3428,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3602,10 +3490,10 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -3614,47 +3502,33 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -3668,7 +3542,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -3693,7 +3567,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -3843,7 +3717,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -3886,7 +3760,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -4409,7 +4283,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
           }
         >
           <div
-            className="BothMarginWrapper-lhty9r-0 jNcVRS"
+            className="BothMarginWrapper-lhty9r-0 fEeLJa"
             style={
               Object {
                 "display": "flex",
@@ -4465,7 +4339,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
           }
         >
           <div
-            className="BothMarginWrapper-lhty9r-0 jNcVRS"
+            className="BothMarginWrapper-lhty9r-0 fEeLJa"
             style={
               Object {
                 "display": "flex",
@@ -4547,13 +4421,13 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
 
 exports[`Storyshots pages/CompanySelectPage default 1`] = `
 <div
-  className="PageLayout__Wrapper-sc-1863d3j-0 fJDPvG"
+  className="PageLayout__Wrapper-sc-1863d3j-0 btiBVI"
 >
   <div
     className="PageLayout__Header-sc-1863d3j-1 hVreyq"
   >
     <div
-      className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 hRZblj"
+      className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gWYLmh"
       style={
         Object {
           "display": "flex",
@@ -4594,7 +4468,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
       className="HorizontalDivider-sc-1usz3tx-0 dfTmxB"
     />
     <div
-      className="BothMarginWrapper-lhty9r-0 SubHeader__SubHeaderWrapper-sc-1cmnn6w-2 dIAOEJ"
+      className="BothMarginWrapper-lhty9r-0 SubHeader__SubHeaderWrapper-sc-1cmnn6w-2 jtuaFr"
       style={
         Object {
           "display": "flex",
@@ -4687,7 +4561,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
               style={
                 Object {
                   "display": "flex",
@@ -4811,7 +4685,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
               style={
                 Object {
                   "display": "flex",
@@ -4935,7 +4809,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
               style={
                 Object {
                   "display": "flex",
@@ -5059,7 +4933,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
               style={
                 Object {
                   "display": "flex",
@@ -5183,7 +5057,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
               style={
                 Object {
                   "display": "flex",
@@ -5307,7 +5181,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+              className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
               style={
                 Object {
                   "display": "flex",
@@ -5413,13 +5287,13 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
 
 exports[`Storyshots pages/HomePage default 1`] = `
 <div
-  className="PageLayout__Wrapper-sc-1863d3j-0 fJDPvG"
+  className="PageLayout__Wrapper-sc-1863d3j-0 btiBVI"
 >
   <div
     className="PageLayout__Header-sc-1863d3j-1 hVreyq"
   >
     <div
-      className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 hRZblj"
+      className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gWYLmh"
       style={
         Object {
           "display": "flex",
@@ -5546,7 +5420,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
       className="HorizontalDivider-sc-1usz3tx-0 iflsBY"
     />
     <div
-      className="BothMarginWrapper-lhty9r-0 SelectBox__SelectBoxWrapper-sc-1f02b0y-1 jmlzau"
+      className="BothMarginWrapper-lhty9r-0 SelectBox__SelectBoxWrapper-sc-1f02b0y-1 kGVJHB"
       style={
         Object {
           "display": "flex",
@@ -5640,7 +5514,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -5705,7 +5579,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -5732,7 +5606,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -5794,10 +5668,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -5806,47 +5680,33 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -5860,7 +5720,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -5885,7 +5745,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -6038,7 +5898,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6089,7 +5949,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6116,7 +5976,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6178,10 +6038,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -6193,43 +6053,29 @@ exports[`Storyshots pages/HomePage default 1`] = `
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      사진이 없는 링크
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    사진이 없는 링크
                   </div>
                 </div>
               </div>
@@ -6243,7 +6089,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6268,7 +6114,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -6421,7 +6267,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6486,7 +6332,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6513,7 +6359,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6575,10 +6421,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -6587,47 +6433,33 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -6641,7 +6473,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6666,7 +6498,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -6822,7 +6654,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -6870,7 +6702,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -7394,7 +7226,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -7459,7 +7291,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -7486,7 +7318,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -7548,10 +7380,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -7560,47 +7392,33 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -7614,7 +7432,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -7639,7 +7457,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -7792,7 +7610,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -7843,7 +7661,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -7870,7 +7688,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -7932,10 +7750,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -7947,43 +7765,29 @@ exports[`Storyshots pages/HomePage default 1`] = `
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      사진이 없는 링크
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    사진이 없는 링크
                   </div>
                 </div>
               </div>
@@ -7997,7 +7801,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -8022,7 +7826,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -8178,7 +7982,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -8297,7 +8101,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -8349,7 +8153,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -8414,7 +8218,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -8441,7 +8245,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -8503,10 +8307,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -8515,47 +8319,33 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -8569,7 +8359,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -8594,7 +8384,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -8750,7 +8540,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -8793,7 +8583,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9019,7 +8809,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9062,7 +8852,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9223,7 +9013,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9288,7 +9078,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9315,7 +9105,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9377,10 +9167,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -9389,47 +9179,33 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -9443,7 +9219,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9468,7 +9244,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -9621,7 +9397,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9672,7 +9448,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9699,7 +9475,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9761,10 +9537,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -9776,43 +9552,29 @@ exports[`Storyshots pages/HomePage default 1`] = `
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      사진이 없는 링크
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    사진이 없는 링크
                   </div>
                 </div>
               </div>
@@ -9826,7 +9588,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -9851,7 +9613,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -10004,7 +9766,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -10069,7 +9831,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -10096,7 +9858,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -10158,10 +9920,10 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 kMOce"
               style={
                 Object {
                   "display": "flex",
+                  "flexDirection": "column",
                   "flexGrow": 1,
                   "paddingBottom": undefined,
                   "paddingLeft": undefined,
@@ -10170,47 +9932,33 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               }
             >
+              
               <div
                 style={
                   Object {
-                    "display": "flex",
-                    "flexDirection": "column",
-                    "flexGrow": 1,
-                    "paddingBottom": undefined,
-                    "paddingLeft": undefined,
-                    "paddingRight": undefined,
-                    "paddingTop": undefined,
+                    "marginBottom": undefined,
                   }
                 }
               >
-                
                 <div
-                  style={
-                    Object {
-                      "marginBottom": undefined,
-                    }
-                  }
+                  className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                   >
-                    <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                    >
-                      technobezz.com
-                    </div>
-                    <div
-                      style={
-                        Object {
-                          "height": "5px",
-                        }
+                    technobezz.com
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "height": "5px",
                       }
-                    />
-                    <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                    >
-                      애플 7% 주가 상승했나? 여력있어 보여
-                    </div>
+                    }
+                  />
+                  <div
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                  >
+                    애플 7% 주가 상승했나? 여력있어 보여
                   </div>
                 </div>
               </div>
@@ -10224,7 +9972,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 cITFxX"
+              className="BothMarginWrapper-lhty9r-0 hpUuTg"
               style={
                 Object {
                   "display": "flex",
@@ -10249,7 +9997,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 beEjWW"
+              className="BothMarginWrapper-lhty9r-0 bqouRI"
               style={
                 Object {
                   "display": "flex",
@@ -10403,7 +10151,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
           }
         >
           <div
-            className="BothMarginWrapper-lhty9r-0 jNcVRS"
+            className="BothMarginWrapper-lhty9r-0 fEeLJa"
             style={
               Object {
                 "display": "flex",
@@ -10459,7 +10207,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
           }
         >
           <div
-            className="BothMarginWrapper-lhty9r-0 jNcVRS"
+            className="BothMarginWrapper-lhty9r-0 fEeLJa"
             style={
               Object {
                 "display": "flex",
@@ -10542,13 +10290,13 @@ exports[`Storyshots pages/HomePage default 1`] = `
 exports[`Storyshots pages/HomePage with SelectItemListBox 1`] = `
 Array [
   <div
-    className="PageLayout__Wrapper-sc-1863d3j-0 fJDPvG"
+    className="PageLayout__Wrapper-sc-1863d3j-0 btiBVI"
   >
     <div
       className="PageLayout__Header-sc-1863d3j-1 hVreyq"
     >
       <div
-        className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 hRZblj"
+        className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gWYLmh"
         style={
           Object {
             "display": "flex",
@@ -10675,7 +10423,7 @@ Array [
         className="HorizontalDivider-sc-1usz3tx-0 iflsBY"
       />
       <div
-        className="BothMarginWrapper-lhty9r-0 SelectBox__SelectBoxWrapper-sc-1f02b0y-1 jmlzau"
+        className="BothMarginWrapper-lhty9r-0 SelectBox__SelectBoxWrapper-sc-1f02b0y-1 kGVJHB"
         style={
           Object {
             "display": "flex",
@@ -10769,7 +10517,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -10834,7 +10582,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -10861,7 +10609,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -10923,10 +10671,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -10935,47 +10683,33 @@ Array [
                   }
                 }
               >
+                
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
-                  
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        애플 7% 주가 상승했나? 여력있어 보여
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      애플 7% 주가 상승했나? 여력있어 보여
                     </div>
                   </div>
                 </div>
@@ -10989,7 +10723,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11014,7 +10748,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -11167,7 +10901,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11218,7 +10952,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11245,7 +10979,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11307,10 +11041,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -11322,43 +11056,29 @@ Array [
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        사진이 없는 링크
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      사진이 없는 링크
                     </div>
                   </div>
                 </div>
@@ -11372,7 +11092,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11397,7 +11117,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -11550,7 +11270,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11615,7 +11335,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11642,7 +11362,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11704,10 +11424,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -11716,47 +11436,33 @@ Array [
                   }
                 }
               >
+                
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
-                  
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        애플 7% 주가 상승했나? 여력있어 보여
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      애플 7% 주가 상승했나? 여력있어 보여
                     </div>
                   </div>
                 </div>
@@ -11770,7 +11476,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11795,7 +11501,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -11951,7 +11657,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -11999,7 +11705,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -12523,7 +12229,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -12588,7 +12294,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -12615,7 +12321,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -12677,10 +12383,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -12689,47 +12395,33 @@ Array [
                   }
                 }
               >
+                
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
-                  
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        애플 7% 주가 상승했나? 여력있어 보여
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      애플 7% 주가 상승했나? 여력있어 보여
                     </div>
                   </div>
                 </div>
@@ -12743,7 +12435,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -12768,7 +12460,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -12921,7 +12613,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -12972,7 +12664,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -12999,7 +12691,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13061,10 +12753,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -13076,43 +12768,29 @@ Array [
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        사진이 없는 링크
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      사진이 없는 링크
                     </div>
                   </div>
                 </div>
@@ -13126,7 +12804,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13151,7 +12829,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -13307,7 +12985,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13426,7 +13104,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13478,7 +13156,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13543,7 +13221,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13570,7 +13248,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13632,10 +13310,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -13644,47 +13322,33 @@ Array [
                   }
                 }
               >
+                
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
-                  
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        애플 7% 주가 상승했나? 여력있어 보여
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      애플 7% 주가 상승했나? 여력있어 보여
                     </div>
                   </div>
                 </div>
@@ -13698,7 +13362,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13723,7 +13387,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -13879,7 +13543,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -13922,7 +13586,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14148,7 +13812,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14191,7 +13855,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14352,7 +14016,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14417,7 +14081,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14444,7 +14108,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14506,10 +14170,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -14518,47 +14182,33 @@ Array [
                   }
                 }
               >
+                
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
-                  
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        애플 7% 주가 상승했나? 여력있어 보여
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      애플 7% 주가 상승했나? 여력있어 보여
                     </div>
                   </div>
                 </div>
@@ -14572,7 +14222,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14597,7 +14247,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -14750,7 +14400,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14801,7 +14451,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14828,7 +14478,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14890,10 +14540,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -14905,43 +14555,29 @@ Array [
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        사진이 없는 링크
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      사진이 없는 링크
                     </div>
                   </div>
                 </div>
@@ -14955,7 +14591,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -14980,7 +14616,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -15133,7 +14769,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -15198,7 +14834,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -15225,7 +14861,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -15287,10 +14923,10 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 kMOce"
                 style={
                   Object {
                     "display": "flex",
+                    "flexDirection": "column",
                     "flexGrow": 1,
                     "paddingBottom": undefined,
                     "paddingLeft": undefined,
@@ -15299,47 +14935,33 @@ Array [
                   }
                 }
               >
+                
                 <div
                   style={
                     Object {
-                      "display": "flex",
-                      "flexDirection": "column",
-                      "flexGrow": 1,
-                      "paddingBottom": undefined,
-                      "paddingLeft": undefined,
-                      "paddingRight": undefined,
-                      "paddingTop": undefined,
+                      "marginBottom": undefined,
                     }
                   }
                 >
-                  
                   <div
-                    style={
-                      Object {
-                        "marginBottom": undefined,
-                      }
-                    }
+                    className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
                     >
-                      <div
-                        className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                      >
-                        technobezz.com
-                      </div>
-                      <div
-                        style={
-                          Object {
-                            "height": "5px",
-                          }
+                      technobezz.com
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "height": "5px",
                         }
-                      />
-                      <div
-                        className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                      >
-                        애플 7% 주가 상승했나? 여력있어 보여
-                      </div>
+                      }
+                    />
+                    <div
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    >
+                      애플 7% 주가 상승했나? 여력있어 보여
                     </div>
                   </div>
                 </div>
@@ -15353,7 +14975,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 cITFxX"
+                className="BothMarginWrapper-lhty9r-0 hpUuTg"
                 style={
                   Object {
                     "display": "flex",
@@ -15378,7 +15000,7 @@ Array [
               }
             >
               <div
-                className="BothMarginWrapper-lhty9r-0 beEjWW"
+                className="BothMarginWrapper-lhty9r-0 bqouRI"
                 style={
                   Object {
                     "display": "flex",
@@ -15532,7 +15154,7 @@ Array [
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 jNcVRS"
+              className="BothMarginWrapper-lhty9r-0 fEeLJa"
               style={
                 Object {
                   "display": "flex",
@@ -15588,7 +15210,7 @@ Array [
             }
           >
             <div
-              className="BothMarginWrapper-lhty9r-0 jNcVRS"
+              className="BothMarginWrapper-lhty9r-0 fEeLJa"
               style={
                 Object {
                   "display": "flex",
@@ -15710,7 +15332,7 @@ Array [
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -15768,7 +15390,7 @@ Array [
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -16565,7 +16187,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
   className="IntroduceFormPage__Wrapper-tvrg6x-0 fGLjUF"
 >
   <div
-    className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 hRZblj"
+    className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gWYLmh"
     style={
       Object {
         "display": "flex",
@@ -16606,7 +16228,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
     className="HorizontalDivider-sc-1usz3tx-0 iflsBY"
   />
   <div
-    className="BothMarginWrapper-lhty9r-0 cITFxX"
+    className="BothMarginWrapper-lhty9r-0 hpUuTg"
     style={
       Object {
         "display": "flex",
@@ -16655,7 +16277,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
     className="HorizontalDivider-sc-1usz3tx-0 iflsBY"
   />
   <div
-    className="BothMarginWrapper-lhty9r-0 jNcVRS"
+    className="BothMarginWrapper-lhty9r-0 fEeLJa"
     style={
       Object {
         "display": "flex",
@@ -16773,7 +16395,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 jNcVRS"
+          className="BothMarginWrapper-lhty9r-0 fEeLJa"
           style={
             Object {
               "display": "flex",
@@ -16829,7 +16451,7 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 jNcVRS"
+          className="BothMarginWrapper-lhty9r-0 fEeLJa"
           style={
             Object {
               "display": "flex",
@@ -16933,7 +16555,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
       className="Menu__HeaderWrapper-skz02a-0 eaEAun"
     >
       <div
-        className="BothMarginWrapper-lhty9r-0 cITFxX"
+        className="BothMarginWrapper-lhty9r-0 hpUuTg"
         style={
           Object {
             "display": "flex",
@@ -16995,7 +16617,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
     }
   >
     <div
-      className="BothMarginWrapper-lhty9r-0 cITFxX"
+      className="BothMarginWrapper-lhty9r-0 hpUuTg"
       style={
         Object {
           "display": "flex",
@@ -17120,7 +16742,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
     }
   >
     <div
-      className="BothMarginWrapper-lhty9r-0 jNcVRS"
+      className="BothMarginWrapper-lhty9r-0 fEeLJa"
       style={
         Object {
           "display": "flex",
@@ -17222,13 +16844,13 @@ exports[`Storyshots pages/MenuPage default 1`] = `
 
 exports[`Storyshots pages/NewsPage default 1`] = `
 <div
-  className="PageLayout__Wrapper-sc-1863d3j-0 fJDPvG"
+  className="PageLayout__Wrapper-sc-1863d3j-0 btiBVI"
 >
   <div
     className="PageLayout__Header-sc-1863d3j-1 hVreyq"
   >
     <div
-      className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 hRZblj"
+      className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gWYLmh"
       style={
         Object {
           "display": "flex",
@@ -17294,7 +16916,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -17359,7 +16981,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -17386,7 +17008,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -17448,10 +17070,10 @@ exports[`Storyshots pages/NewsPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -17460,47 +17082,33 @@ exports[`Storyshots pages/NewsPage default 1`] = `
             }
           }
         >
+          
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
-            
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  애플 7% 주가 상승했나? 여력있어 보여
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                애플 7% 주가 상승했나? 여력있어 보여
               </div>
             </div>
           </div>
@@ -17514,7 +17122,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -17539,7 +17147,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -17688,7 +17296,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
           }
         >
           <div
-            className="BothMarginWrapper-lhty9r-0 jNcVRS"
+            className="BothMarginWrapper-lhty9r-0 fEeLJa"
             style={
               Object {
                 "display": "flex",
@@ -17744,7 +17352,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
           }
         >
           <div
-            className="BothMarginWrapper-lhty9r-0 jNcVRS"
+            className="BothMarginWrapper-lhty9r-0 fEeLJa"
             style={
               Object {
                 "display": "flex",
@@ -17829,7 +17437,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
   className="PicksPage__Wrapper-ylexl5-0 lglhsI"
 >
   <div
-    className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 hRZblj"
+    className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gWYLmh"
     style={
       Object {
         "display": "flex",
@@ -17953,7 +17561,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
     </div>
   </div>
   <div
-    className="BothMarginWrapper-lhty9r-0 PickCategoryList__PickCategoryListWrapper-sc-1ea8rb1-0 kieNCP"
+    className="BothMarginWrapper-lhty9r-0 PickCategoryList__PickCategoryListWrapper-sc-1ea8rb1-0 jblGND"
     style={
       Object {
         "display": "flex",
@@ -18052,7 +17660,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
     </div>
   </div>
   <div
-    className="BothMarginWrapper-lhty9r-0 cITFxX"
+    className="BothMarginWrapper-lhty9r-0 hpUuTg"
     style={
       Object {
         "display": "flex",
@@ -18321,7 +17929,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 jNcVRS"
+          className="BothMarginWrapper-lhty9r-0 fEeLJa"
           style={
             Object {
               "display": "flex",
@@ -18377,7 +17985,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 jNcVRS"
+          className="BothMarginWrapper-lhty9r-0 fEeLJa"
           style={
             Object {
               "display": "flex",
@@ -18498,7 +18106,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
           style={
             Object {
               "display": "flex",
@@ -18622,7 +18230,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
           style={
             Object {
               "display": "flex",
@@ -18746,7 +18354,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
           style={
             Object {
               "display": "flex",
@@ -18870,7 +18478,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
           style={
             Object {
               "display": "flex",
@@ -18994,7 +18602,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
           style={
             Object {
               "display": "flex",
@@ -19118,7 +18726,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 eoYLza"
+          className="BothMarginWrapper-lhty9r-0 CompanyItem__CompanyItemLayoutWrapper-jih395-0 dzFoNl"
           style={
             Object {
               "display": "flex",
@@ -19294,7 +18902,7 @@ exports[`Storyshots templates/Footer default 1`] = `
       }
     >
       <div
-        className="BothMarginWrapper-lhty9r-0 jNcVRS"
+        className="BothMarginWrapper-lhty9r-0 fEeLJa"
         style={
           Object {
             "display": "flex",
@@ -19350,7 +18958,7 @@ exports[`Storyshots templates/Footer default 1`] = `
       }
     >
       <div
-        className="BothMarginWrapper-lhty9r-0 jNcVRS"
+        className="BothMarginWrapper-lhty9r-0 fEeLJa"
         style={
           Object {
             "display": "flex",
@@ -19430,7 +19038,7 @@ exports[`Storyshots templates/Footer default 1`] = `
 
 exports[`Storyshots templates/Header default 1`] = `
 <div
-  className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 hRZblj"
+  className="BothMarginWrapper-lhty9r-0 Header__HeaderLayoutWrapper-s5p83t-0 gWYLmh"
   style={
     Object {
       "display": "flex",
@@ -19521,7 +19129,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -19572,7 +19180,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -19599,7 +19207,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -19661,10 +19269,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -19673,47 +19281,33 @@ exports[`Storyshots templates/NewsList default 1`] = `
             }
           }
         >
+          
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
-            
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  애플 7% 주가 상승했나? 여력있어 보여
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                애플 7% 주가 상승했나? 여력있어 보여
               </div>
             </div>
           </div>
@@ -19727,7 +19321,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -19752,7 +19346,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -19905,7 +19499,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -19956,7 +19550,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -19983,7 +19577,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20045,10 +19639,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -20060,43 +19654,29 @@ exports[`Storyshots templates/NewsList default 1`] = `
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  사진이 없는 링크
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                사진이 없는 링크
               </div>
             </div>
           </div>
@@ -20110,7 +19690,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20135,7 +19715,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -20288,7 +19868,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20339,7 +19919,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20366,7 +19946,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20428,10 +20008,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -20440,47 +20020,33 @@ exports[`Storyshots templates/NewsList default 1`] = `
             }
           }
         >
+          
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
-            
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  애플 7% 주가 상승했나? 여력있어 보여
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                애플 7% 주가 상승했나? 여력있어 보여
               </div>
             </div>
           </div>
@@ -20494,7 +20060,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20519,7 +20085,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -20672,7 +20238,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20723,7 +20289,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20750,7 +20316,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20812,10 +20378,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -20824,47 +20390,33 @@ exports[`Storyshots templates/NewsList default 1`] = `
             }
           }
         >
+          
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
-            
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  애플 7% 주가 상승했나? 여력있어 보여
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                애플 7% 주가 상승했나? 여력있어 보여
               </div>
             </div>
           </div>
@@ -20878,7 +20430,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -20903,7 +20455,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -21056,7 +20608,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21107,7 +20659,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21134,7 +20686,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21196,10 +20748,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -21211,43 +20763,29 @@ exports[`Storyshots templates/NewsList default 1`] = `
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  사진이 없는 링크
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                사진이 없는 링크
               </div>
             </div>
           </div>
@@ -21261,7 +20799,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21286,7 +20824,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -21439,7 +20977,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21490,7 +21028,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21517,7 +21055,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21579,10 +21117,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -21591,47 +21129,33 @@ exports[`Storyshots templates/NewsList default 1`] = `
             }
           }
         >
+          
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
-            
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  애플 7% 주가 상승했나? 여력있어 보여
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                애플 7% 주가 상승했나? 여력있어 보여
               </div>
             </div>
           </div>
@@ -21645,7 +21169,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21670,7 +21194,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -21823,7 +21347,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21874,7 +21398,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21901,7 +21425,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -21963,10 +21487,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -21975,47 +21499,33 @@ exports[`Storyshots templates/NewsList default 1`] = `
             }
           }
         >
+          
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
-            
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  애플 7% 주가 상승했나? 여력있어 보여
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                애플 7% 주가 상승했나? 여력있어 보여
               </div>
             </div>
           </div>
@@ -22029,7 +21539,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22054,7 +21564,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -22207,7 +21717,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22258,7 +21768,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22285,7 +21795,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22347,10 +21857,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -22362,43 +21872,29 @@ exports[`Storyshots templates/NewsList default 1`] = `
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  사진이 없는 링크
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                사진이 없는 링크
               </div>
             </div>
           </div>
@@ -22412,7 +21908,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22437,7 +21933,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -22590,7 +22086,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22641,7 +22137,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22668,7 +22164,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22730,10 +22226,10 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 kMOce"
           style={
             Object {
               "display": "flex",
+              "flexDirection": "column",
               "flexGrow": 1,
               "paddingBottom": undefined,
               "paddingLeft": undefined,
@@ -22742,47 +22238,33 @@ exports[`Storyshots templates/NewsList default 1`] = `
             }
           }
         >
+          
           <div
             style={
               Object {
-                "display": "flex",
-                "flexDirection": "column",
-                "flexGrow": 1,
-                "paddingBottom": undefined,
-                "paddingLeft": undefined,
-                "paddingRight": undefined,
-                "paddingTop": undefined,
+                "marginBottom": undefined,
               }
             }
           >
-            
             <div
-              style={
-                Object {
-                  "marginBottom": undefined,
-                }
-              }
+              className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
               >
-                <div
-                  className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
-                >
-                  technobezz.com
-                </div>
-                <div
-                  style={
-                    Object {
-                      "height": "5px",
-                    }
+                technobezz.com
+              </div>
+              <div
+                style={
+                  Object {
+                    "height": "5px",
                   }
-                />
-                <div
-                  className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
-                >
-                  애플 7% 주가 상승했나? 여력있어 보여
-                </div>
+                }
+              />
+              <div
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              >
+                애플 7% 주가 상승했나? 여력있어 보여
               </div>
             </div>
           </div>
@@ -22796,7 +22278,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -22821,7 +22303,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 beEjWW"
+          className="BothMarginWrapper-lhty9r-0 bqouRI"
           style={
             Object {
               "display": "flex",
@@ -22951,7 +22433,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
 
 exports[`Storyshots templates/SelectBox default 1`] = `
 <div
-  className="BothMarginWrapper-lhty9r-0 SelectBox__SelectBoxWrapper-sc-1f02b0y-1 jmlzau"
+  className="BothMarginWrapper-lhty9r-0 SelectBox__SelectBoxWrapper-sc-1f02b0y-1 kGVJHB"
   style={
     Object {
       "display": "flex",
@@ -23045,7 +22527,7 @@ Array [
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -23103,7 +22585,7 @@ Array [
         }
       >
         <div
-          className="BothMarginWrapper-lhty9r-0 cITFxX"
+          className="BothMarginWrapper-lhty9r-0 hpUuTg"
           style={
             Object {
               "display": "flex",
@@ -23897,7 +23379,7 @@ Array [
 
 exports[`Storyshots templates/SubHeader default 1`] = `
 <div
-  className="BothMarginWrapper-lhty9r-0 SubHeader__SubHeaderWrapper-sc-1cmnn6w-2 dIAOEJ"
+  className="BothMarginWrapper-lhty9r-0 SubHeader__SubHeaderWrapper-sc-1cmnn6w-2 jtuaFr"
   style={
     Object {
       "display": "flex",

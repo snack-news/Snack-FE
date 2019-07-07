@@ -102,7 +102,7 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
         bottom: '25px',
       },
       {
-        el: <BothMarginWrapper depth={0}>{externalLink}</BothMarginWrapper>,
+        el: externalLink,
         bottom: '10px',
       },
       {
