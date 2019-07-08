@@ -13,7 +13,6 @@ const TabLabel = styled.div<Pick<ITabProps, 'selected'>>`
   align-items: center;
   justify-content: center;
 
-  font-family: SFProDisplay;
   font-size: 16px;
   font-weight: 600;
 

@@ -20,7 +20,6 @@ const SelectItem: FunctionComponent<ISelectItemProps> = ({ label, selected }) =>
 };
 
 const SelectItemLabel = styled.div`
-  font-family: SFProText;
   font-size: 15px;
   font-weight: 500;
   color: #121111;

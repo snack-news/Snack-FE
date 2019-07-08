@@ -129,7 +129,6 @@ const CreatedWeekLabel: FunctionComponent<{ date: number }> = ({ date }) => {
 };
 
 const Title = styled.div`
-  font-family: SFProDisplay;
   font-size: 19px;
   font-weight: 600;
   color: #121111;
@@ -141,7 +140,6 @@ const Title = styled.div`
 `;
 
 const Content = styled.div<{ expanded?: boolean }>`
-  font-family: AppleSDGothicNeo;
   font-size: 14px;
   line-height: 1.43;
   color: #121111;
@@ -160,7 +158,6 @@ const Content = styled.div<{ expanded?: boolean }>`
 `;
 
 const MoreButton = styled.div.attrs({ children: '더보기' })`
-  font-family: SFProDisplay;
   font-size: 14px;
   line-height: 2.4;
   color: #b6b6c0;
@@ -176,7 +173,6 @@ const IconLabelImg = styled.img`
 `;
 
 const IconLabelText = styled.span`
-  font-family: SFProText;
   font-size: 13px;
   color: #595966;
 `;

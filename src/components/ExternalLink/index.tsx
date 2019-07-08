@@ -29,7 +29,6 @@ const LinkImg = styled.img`
 `;
 
 const LinkHrefWrapper = styled.div`
-  font-family: SFProDisplay;
   font-size: 12px;
   color: #756e6e;
 `;
@@ -41,7 +40,6 @@ const ExternalLinkWrapper = styled.div`
 `;
 
 const LinkTitleWrapper = styled.div`
-  font-family: SFProDisplay;
   font-size: 14px;
   font-weight: 500;
   color: #121111;

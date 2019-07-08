@@ -15,14 +15,12 @@ export const SubHeader = () => (
 );
 
 const Title = styled.div`
-  font-family: AppleSDGothicNeo;
   font-size: 13px;
   font-weight: 500;
   color: #121111;
 `;
 
 const SortLabel = styled.span`
-  font-family: AppleSDGothicNeo;
   font-size: 11px;
   font-weight: 500;
   color: #6d6f72;

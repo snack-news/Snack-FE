@@ -53,7 +53,6 @@ const SelectItemListBoxHeader = () => {
 };
 
 const SelectItemListBoxTitle = styled.div.attrs({ children: '조회할 주 선택' })`
-  font-family: SFProDisplay;
   font-size: 17px;
   color: #121111;
 `;

@@ -37,14 +37,12 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props =
 };
 
 const CompanyListCardTitle = styled.div`
-  font-family: SFProDisplay;
   font-size: 17px;
   font-weight: 600;
   color: #000000;
 `;
 
 const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
-  font-family: AppleSDGothicNeo;
   font-size: 13px;
   color: #0b66f7;
 `;
@@ -95,7 +93,6 @@ const CompanyBoxLogo = styled.img`
 `;
 
 const CompanyBoxLabel = styled.div`
-  font-family: AppleSDGothicNeo;
   font-size: 12px;
   color: #595966;
 `;

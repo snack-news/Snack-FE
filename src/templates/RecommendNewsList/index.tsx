@@ -29,7 +29,6 @@ export const RecommendNewsList = () => {
 const RecommendNewsListTitle = styled.div.attrs({
   children: '커머스, 이런 기사도 읽어보세요.',
 })`
-  font-family: SFProDisplay;
   font-size: 17px;
   font-weight: 500;
   color: #121111;
@@ -41,7 +40,6 @@ const RecommendNewsThumbnail = styled.img`
 `;
 
 const RecommendNewsTitle = styled.div`
-  font-family: SFProDisplay;
   font-size: 16px;
   line-height: 1.25;
   color: #121111;
