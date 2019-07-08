@@ -35,7 +35,8 @@ interface IDetailProps extends IBaseLayoutProps {
  * 아이템마다 간격을 설정할수 있는 레이아웃
  */
 const Detail: FunctionComponent<IDetailProps> = props => {
-  const { items, ...baseProps } = props;
+  const {  ...baseProps } = props;
+  const items = props.items.filter(item => item.el !== undefined);
   const lastIndex = items.length - 1;
 
   return (
