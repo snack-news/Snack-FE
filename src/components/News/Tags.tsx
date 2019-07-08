@@ -16,7 +16,6 @@ const Tags: FunctionComponent<ITagsProps> = ({ tags }) => (
 );
 
 const Tag = styled.div<ITag>`
-  font-family: SFProDisplay;
   font-size: 11px;
   font-weight: 500;
   color: #fefefe;

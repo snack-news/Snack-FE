@@ -23,13 +23,11 @@ const ContactCardLinks = () => (
 );
 
 const ContactCardCopyright = styled.span.attrs({ children: '© 2019 Snack Project' })`
-  font-family: SFProDisplay;
   font-size: 12px;
   color: #93939f;
 `;
 
 const ContactCardLink = styled.div`
-  font-family: SFProDisplay;
   font-size: 16px;
   font-weight: 500;
   text-align: center;

@@ -87,7 +87,6 @@ const CompanyIconImg = styled.img`
 
 /* CompanyLabel 컴포넌트 */
 const CompanyLabel = styled.span`
-  font-family: SFProDisplay;
   font-size: 14px;
   font-weight: 500;
   color: #121111;

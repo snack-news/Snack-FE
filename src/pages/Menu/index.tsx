@@ -67,7 +67,6 @@ const CloseButton = styled.img.attrs({ src: cancelWhite })`
 `;
 
 const MenuTitle = styled.div.attrs({ children: 'Menu' })`
-  font-family: Gelion;
   font-size: 24px;
   font-weight: 600;
   color: #fefefe;
@@ -87,7 +86,6 @@ const MenuLinkList = () => {
 };
 
 const MenuLink = styled.div`
-  font-family: SFProDisplay;
   font-size: 24px;
   font-weight: bold;
   line-height: normal;

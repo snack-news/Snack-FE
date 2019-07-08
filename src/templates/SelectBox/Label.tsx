@@ -22,7 +22,6 @@ const Label = styled.div.attrs<{ text: string }>(({ text }) => ({
     </LabelWrapper>
   ),
 }))<{ text: string }>`
-  font-family: SFProDisplay;
   font-size: 17px;
   font-weight: 600;
   color: #121111;

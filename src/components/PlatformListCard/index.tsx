@@ -22,7 +22,6 @@ export const PlatformListCard = () => (
 const PlatformListCardTitle = styled.div.attrs({
   children: '스낵뉴스를 원하는 플랫폼에서 챙겨보세요',
 })`
-  font-family: SFProDisplay;
   font-size: 17px;
   font-weight: 600;
   color: #000000;
@@ -63,7 +62,6 @@ const PlatformCardWrapper = styled.a`
 `;
 
 const PlatformCardLabel = styled.div`
-  font-family: SFProDisplay;
   font-size: 12px;
   font-weight: 500;
   text-align: center;

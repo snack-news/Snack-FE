@@ -27,12 +27,10 @@ TextCard.defaultProps = {
 };
 
 const Title = styled.div`
-  font-family: SFProDisplay;
   font-weight: 600;
   color: #121111;
 `;
 
 const Text = styled.div`
-  font-family: SFProDisplay;
   color: #595966;
 `;

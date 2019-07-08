@@ -37,14 +37,12 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props =
 };
 
 const CompanyListCardTitle = styled.div`
-  font-family: SFProDisplay;
   font-size: 17px;
   font-weight: 600;
   color: #000000;
 `;
 
 const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
-  font-family: AppleSDGothicNeo;
   font-size: 13px;
   color: #0b66f7;
 `;
@@ -57,7 +55,9 @@ const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
       {
         el: (
           <Center>
-            <CompanyBoxLogo src={logoImg} />
+            <CompanyBoxDiv>
+              <CompanyBoxLogo src={logoImg} />
+            </CompanyBoxDiv>
           </Center>
         ),
         bottom: '12px',
@@ -80,13 +80,19 @@ const CompanyBoxWrapper = styled(ColListLayout.Detail)`
   border: solid 0.5px #d6d6db;
 `;
 
+const CompanyBoxDiv = styled.div`
+  display: flex;
+  max-width: 72px;
+  max-height: 35px;
+  min-height: 35px;
+  align-items: center;
+  justify-content: center;
+`;
 const CompanyBoxLogo = styled.img`
-  width: 70.6px;
-  height: 27.2px;
+  width: 100%;
 `;
 
 const CompanyBoxLabel = styled.div`
-  font-family: AppleSDGothicNeo;
   font-size: 12px;
   color: #595966;
 `;

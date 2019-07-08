@@ -15,8 +15,6 @@ export const FooterLinkList = () => (
 
 /* FooterLink 컴포넌트 */
 const FooterLink = styled.a`
-  width: 65px;
-  font-family: SFProDisplay;
   font-size: 13px;
   font-weight: 500;
   text-align: center;
