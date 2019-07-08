@@ -35,7 +35,7 @@ const ContactCardLink = styled.div`
 `;
 
 const LinkDivider = styled.div`
-  width: 0.5px;
+  width: 1px;
   height: 17px;
   background-color: #93939f;
 `;

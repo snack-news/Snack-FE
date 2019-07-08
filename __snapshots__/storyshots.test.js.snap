@@ -165,7 +165,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -194,7 +194,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -241,7 +241,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -254,7 +254,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -294,7 +294,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -306,7 +306,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -412,7 +412,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -457,7 +457,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -568,7 +568,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     GOOGLE
                   </div>
@@ -597,7 +597,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
               </div>
@@ -644,7 +644,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -657,7 +657,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -696,7 +696,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -708,7 +708,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     사진이 없는 링크
                   </div>
@@ -814,7 +814,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -859,7 +859,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -970,7 +970,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -999,7 +999,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -1046,7 +1046,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -1059,7 +1059,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -1099,7 +1099,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -1111,7 +1111,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -1217,7 +1217,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -1262,7 +1262,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -1373,7 +1373,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -1402,7 +1402,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -1449,7 +1449,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -1462,7 +1462,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -1502,7 +1502,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -1514,7 +1514,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -1620,7 +1620,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -1665,7 +1665,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -1776,7 +1776,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     GOOGLE
                   </div>
@@ -1805,7 +1805,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
               </div>
@@ -1852,7 +1852,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -1865,7 +1865,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -1904,7 +1904,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -1916,7 +1916,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     사진이 없는 링크
                   </div>
@@ -2022,7 +2022,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -2067,7 +2067,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -2178,7 +2178,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -2207,7 +2207,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -2254,7 +2254,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -2267,7 +2267,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -2307,7 +2307,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -2319,7 +2319,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -2425,7 +2425,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -2470,7 +2470,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -2581,7 +2581,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -2610,7 +2610,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -2657,7 +2657,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -2670,7 +2670,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -2710,7 +2710,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -2722,7 +2722,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -2828,7 +2828,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -2873,7 +2873,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -2984,7 +2984,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     GOOGLE
                   </div>
@@ -3013,7 +3013,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
               </div>
@@ -3060,7 +3060,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -3073,7 +3073,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -3112,7 +3112,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -3124,7 +3124,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     사진이 없는 링크
                   </div>
@@ -3230,7 +3230,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -3275,7 +3275,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -3386,7 +3386,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -3415,7 +3415,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -3462,7 +3462,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -3475,7 +3475,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -3515,7 +3515,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -3527,7 +3527,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -3633,7 +3633,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -3678,7 +3678,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -3746,7 +3746,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
             }
           >
             <div
-              className="CompanyListCard__CompanyListCardTitle-wgs2mq-0 leZyqt"
+              className="CompanyListCard__CompanyListCardTitle-wgs2mq-0 gXFFUd"
             >
               애플말고 이런 회사 소식은 어떠세요?
             </div>
@@ -3829,10 +3829,14 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     }
                   >
-                    <img
-                      className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                      src=""
-                    />
+                    <div
+                      className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                    >
+                      <img
+                        className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                        src=""
+                      />
+                    </div>
                   </div>
                 </div>
                 <div
@@ -3856,7 +3860,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   >
                     <div
-                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                     >
                       아마존
                     </div>
@@ -3906,10 +3910,14 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     }
                   >
-                    <img
-                      className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                      src=""
-                    />
+                    <div
+                      className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                    >
+                      <img
+                        className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                        src=""
+                      />
+                    </div>
                   </div>
                 </div>
                 <div
@@ -3933,7 +3941,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   >
                     <div
-                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                     >
                       쿠팡
                     </div>
@@ -3983,10 +3991,14 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     }
                   >
-                    <img
-                      className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                      src=""
-                    />
+                    <div
+                      className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                    >
+                      <img
+                        className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                        src=""
+                      />
+                    </div>
                   </div>
                 </div>
                 <div
@@ -4010,7 +4022,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   >
                     <div
-                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                     >
                       페이스북
                     </div>
@@ -4060,10 +4072,14 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     }
                   >
-                    <img
-                      className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                      src=""
-                    />
+                    <div
+                      className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                    >
+                      <img
+                        className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                        src=""
+                      />
+                    </div>
                   </div>
                 </div>
                 <div
@@ -4087,7 +4103,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   >
                     <div
-                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                     >
                       삼성
                     </div>
@@ -4137,10 +4153,14 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     }
                   >
-                    <img
-                      className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                      src=""
-                    />
+                    <div
+                      className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                    >
+                      <img
+                        className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                        src=""
+                      />
+                    </div>
                   </div>
                 </div>
                 <div
@@ -4164,7 +4184,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   >
                     <div
-                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                     >
                       테슬라
                     </div>
@@ -4214,10 +4234,14 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                       }
                     }
                   >
-                    <img
-                      className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                      src=""
-                    />
+                    <div
+                      className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                    >
+                      <img
+                        className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                        src=""
+                      />
+                    </div>
                   </div>
                 </div>
                 <div
@@ -4241,7 +4265,7 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
                     }
                   >
                     <div
-                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                      className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                     >
                       이커머스
                     </div>
@@ -4312,19 +4336,19 @@ exports[`Storyshots pages/CompanyNewsListPage default 1`] = `
               }
             >
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 서비스 안내
               </a>
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 제안하기
               </a>
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 문의하기
@@ -4497,13 +4521,13 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
         }
       >
         <div
-          className="SubHeader__Title-sc-1cmnn6w-0 eQkrjm"
+          className="SubHeader__Title-sc-1cmnn6w-0 TQWeS"
         >
           전체
         </div>
         <div>
           <span
-            className="SubHeader__SortLabel-sc-1cmnn6w-1 jtWaGg"
+            className="SubHeader__SortLabel-sc-1cmnn6w-1 bgiJYs"
           >
             가나다 순
           </span>
@@ -4624,7 +4648,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
                   }
                 >
                   <span
-                    className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                    className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
                   >
                     아마존
                   </span>
@@ -4748,7 +4772,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
                   }
                 >
                   <span
-                    className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                    className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
                   >
                     쿠팡
                   </span>
@@ -4872,7 +4896,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
                   }
                 >
                   <span
-                    className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                    className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
                   >
                     페이스북
                   </span>
@@ -4996,7 +5020,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
                   }
                 >
                   <span
-                    className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                    className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
                   >
                     삼성
                   </span>
@@ -5120,7 +5144,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
                   }
                 >
                   <span
-                    className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                    className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
                   >
                     테슬라
                   </span>
@@ -5244,7 +5268,7 @@ exports[`Storyshots pages/CompanySelectPage default 1`] = `
                   }
                 >
                   <span
-                    className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                    className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
                   >
                     이커머스
                   </span>
@@ -5370,7 +5394,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
           }
         >
           <div
-            className="Tab__TabLabel-sc-1r0ik65-0 jQUaFv"
+            className="Tab__TabLabel-sc-1r0ik65-0 ZWVcn"
             selected={true}
           >
             News
@@ -5409,7 +5433,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
           }
         >
           <div
-            className="Tab__TabLabel-sc-1r0ik65-0 bJolew"
+            className="Tab__TabLabel-sc-1r0ik65-0 CkFrg"
             selected={false}
           >
             Picks
@@ -5449,7 +5473,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
         }
       >
         <div
-          className="Label-sc-50v5u5-2 bmsGXh"
+          className="Label-sc-50v5u5-2 YbzKy"
         >
           <div
             className="Label__LabelWrapper-sc-50v5u5-1 fvhEYX"
@@ -5550,7 +5574,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                    className="Tags__Tag-sc-1k866if-0 liZDpE"
                   >
                     TOP3
                   </div>
@@ -5564,7 +5588,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -5593,7 +5617,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -5640,7 +5664,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -5653,7 +5677,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -5693,7 +5717,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -5705,7 +5729,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -5811,7 +5835,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -5856,7 +5880,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -5934,7 +5958,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     GOOGLE
                   </div>
@@ -5963,7 +5987,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
               </div>
@@ -6010,7 +6034,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -6023,7 +6047,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -6062,7 +6086,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -6074,7 +6098,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     사진이 없는 링크
                   </div>
@@ -6180,7 +6204,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -6225,7 +6249,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -6303,7 +6327,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                    className="Tags__Tag-sc-1k866if-0 liZDpE"
                   >
                     TOP3
                   </div>
@@ -6317,7 +6341,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -6346,7 +6370,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -6393,7 +6417,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -6406,7 +6430,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -6446,7 +6470,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -6458,7 +6482,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -6564,7 +6588,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -6609,7 +6633,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -6683,12 +6707,12 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               >
                 <div
-                  className="CompanyListCard__CompanyListCardTitle-wgs2mq-0 leZyqt"
+                  className="CompanyListCard__CompanyListCardTitle-wgs2mq-0 gXFFUd"
                 >
                   회사별 뉴스 모아보기
                 </div>
                 <div
-                  className="CompanyListCard__CompanyListCardMoreLink-wgs2mq-1 dOWCdc"
+                  className="CompanyListCard__CompanyListCardMoreLink-wgs2mq-1 hqpkLi"
                 >
                   모두보기
                 </div>
@@ -6771,10 +6795,14 @@ exports[`Storyshots pages/HomePage default 1`] = `
                           }
                         }
                       >
-                        <img
-                          className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                          src=""
-                        />
+                        <div
+                          className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                        >
+                          <img
+                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                            src=""
+                          />
+                        </div>
                       </div>
                     </div>
                     <div
@@ -6798,7 +6826,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                         }
                       >
                         <div
-                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                         >
                           아마존
                         </div>
@@ -6848,10 +6876,14 @@ exports[`Storyshots pages/HomePage default 1`] = `
                           }
                         }
                       >
-                        <img
-                          className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                          src=""
-                        />
+                        <div
+                          className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                        >
+                          <img
+                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                            src=""
+                          />
+                        </div>
                       </div>
                     </div>
                     <div
@@ -6875,7 +6907,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                         }
                       >
                         <div
-                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                         >
                           쿠팡
                         </div>
@@ -6925,10 +6957,14 @@ exports[`Storyshots pages/HomePage default 1`] = `
                           }
                         }
                       >
-                        <img
-                          className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                          src=""
-                        />
+                        <div
+                          className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                        >
+                          <img
+                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                            src=""
+                          />
+                        </div>
                       </div>
                     </div>
                     <div
@@ -6952,7 +6988,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                         }
                       >
                         <div
-                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                         >
                           페이스북
                         </div>
@@ -7002,10 +7038,14 @@ exports[`Storyshots pages/HomePage default 1`] = `
                           }
                         }
                       >
-                        <img
-                          className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                          src=""
-                        />
+                        <div
+                          className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                        >
+                          <img
+                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                            src=""
+                          />
+                        </div>
                       </div>
                     </div>
                     <div
@@ -7029,7 +7069,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                         }
                       >
                         <div
-                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                         >
                           삼성
                         </div>
@@ -7079,10 +7119,14 @@ exports[`Storyshots pages/HomePage default 1`] = `
                           }
                         }
                       >
-                        <img
-                          className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                          src=""
-                        />
+                        <div
+                          className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                        >
+                          <img
+                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                            src=""
+                          />
+                        </div>
                       </div>
                     </div>
                     <div
@@ -7106,7 +7150,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                         }
                       >
                         <div
-                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                         >
                           테슬라
                         </div>
@@ -7156,10 +7200,14 @@ exports[`Storyshots pages/HomePage default 1`] = `
                           }
                         }
                       >
-                        <img
-                          className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                          src=""
-                        />
+                        <div
+                          className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                        >
+                          <img
+                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                            src=""
+                          />
+                        </div>
                       </div>
                     </div>
                     <div
@@ -7183,7 +7231,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                         }
                       >
                         <div
-                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                          className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                         >
                           이커머스
                         </div>
@@ -7262,7 +7310,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                    className="Tags__Tag-sc-1k866if-0 liZDpE"
                   >
                     TOP3
                   </div>
@@ -7276,7 +7324,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -7305,7 +7353,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -7352,7 +7400,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -7365,7 +7413,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -7405,7 +7453,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -7417,7 +7465,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -7523,7 +7571,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -7568,7 +7616,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -7646,7 +7694,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     GOOGLE
                   </div>
@@ -7675,7 +7723,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
               </div>
@@ -7722,7 +7770,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -7735,7 +7783,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -7774,7 +7822,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -7786,7 +7834,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     사진이 없는 링크
                   </div>
@@ -7892,7 +7940,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -7937,7 +7985,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -8033,7 +8081,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   >
                     <div
-                      className="ContactCard__ContactCardLink-sc-1i8sqju-1 jQNcLJ"
+                      className="ContactCard__ContactCardLink-sc-1i8sqju-1 bOEOcI"
                     >
                       서비스 안내
                     </div>
@@ -8047,7 +8095,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   >
                     <div
-                      className="ContactCard__LinkDivider-sc-1i8sqju-2 kVOzUH"
+                      className="ContactCard__LinkDivider-sc-1i8sqju-2 fiyQMw"
                     />
                   </div>
                   <div
@@ -8059,7 +8107,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   >
                     <div
-                      className="ContactCard__ContactCardLink-sc-1i8sqju-1 jQNcLJ"
+                      className="ContactCard__ContactCardLink-sc-1i8sqju-1 bOEOcI"
                     >
                       제안하기
                     </div>
@@ -8073,7 +8121,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   >
                     <div
-                      className="ContactCard__LinkDivider-sc-1i8sqju-2 kVOzUH"
+                      className="ContactCard__LinkDivider-sc-1i8sqju-2 fiyQMw"
                     />
                   </div>
                   <div
@@ -8085,7 +8133,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   >
                     <div
-                      className="ContactCard__ContactCardLink-sc-1i8sqju-1 jQNcLJ"
+                      className="ContactCard__ContactCardLink-sc-1i8sqju-1 bOEOcI"
                     >
                       문의하기
                     </div>
@@ -8115,7 +8163,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <span
-                className="ContactCard__ContactCardCopyright-sc-1i8sqju-0 hRLgra"
+                className="ContactCard__ContactCardCopyright-sc-1i8sqju-0 cSMwac"
               >
                 © 2019 Snack Project
               </span>
@@ -8189,7 +8237,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                    className="Tags__Tag-sc-1k866if-0 liZDpE"
                   >
                     TOP3
                   </div>
@@ -8203,7 +8251,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -8232,7 +8280,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -8279,7 +8327,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -8292,7 +8340,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -8332,7 +8380,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -8344,7 +8392,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -8450,7 +8498,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -8495,7 +8543,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -8569,7 +8617,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               >
                 <div
-                  className="PlatformListCard__PlatformListCardTitle-ypr0fc-0 dYGIdr"
+                  className="PlatformListCard__PlatformListCardTitle-ypr0fc-0 citOUZ"
                 >
                   스낵뉴스를 원하는 플랫폼에서 챙겨보세요
                 </div>
@@ -8642,7 +8690,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <div
-                        className="PlatformListCard__PlatformCardLabel-ypr0fc-2 fTrVFS"
+                        className="PlatformListCard__PlatformCardLabel-ypr0fc-2 ktjNaw"
                       >
                         Facebook
                         <br />
@@ -8683,7 +8731,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <div
-                        className="PlatformListCard__PlatformCardLabel-ypr0fc-2 fTrVFS"
+                        className="PlatformListCard__PlatformCardLabel-ypr0fc-2 ktjNaw"
                       >
                         KakaoTalk
                         <br />
@@ -8724,7 +8772,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <div
-                        className="PlatformListCard__PlatformCardLabel-ypr0fc-2 fTrVFS"
+                        className="PlatformListCard__PlatformCardLabel-ypr0fc-2 ktjNaw"
                       >
                         Twitter
                         <br />
@@ -8765,7 +8813,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <div
-                        className="PlatformListCard__PlatformCardLabel-ypr0fc-2 fTrVFS"
+                        className="PlatformListCard__PlatformCardLabel-ypr0fc-2 ktjNaw"
                       >
                         Linkedin
                         <br />
@@ -8838,7 +8886,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                 }
               >
                 <div
-                  className="RecommendNewsList__RecommendNewsListTitle-sc-1vikmv3-0 fWpJnM"
+                  className="RecommendNewsList__RecommendNewsListTitle-sc-1vikmv3-0 cCZGxh"
                 >
                   커머스, 이런 기사도 읽어보세요.
                 </div>
@@ -8921,7 +8969,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <div
-                        className="RecommendNewsList__RecommendNewsTitle-sc-1vikmv3-2 hjcfME"
+                        className="RecommendNewsList__RecommendNewsTitle-sc-1vikmv3-2 hChxCc"
                       >
                         공유주방 스타트업 ‘고스트키친’ 21억 규모 투자유치
                       </div>
@@ -8971,7 +9019,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <div
-                        className="RecommendNewsList__RecommendNewsTitle-sc-1vikmv3-2 hjcfME"
+                        className="RecommendNewsList__RecommendNewsTitle-sc-1vikmv3-2 hChxCc"
                       >
                         LG이노텍, 아이폰 트리플 카메라 위해 2800억 투자
                       </div>
@@ -9049,7 +9097,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                    className="Tags__Tag-sc-1k866if-0 liZDpE"
                   >
                     TOP3
                   </div>
@@ -9063,7 +9111,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -9092,7 +9140,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -9139,7 +9187,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -9152,7 +9200,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -9192,7 +9240,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -9204,7 +9252,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -9310,7 +9358,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -9355,7 +9403,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -9433,7 +9481,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     GOOGLE
                   </div>
@@ -9462,7 +9510,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
               </div>
@@ -9509,7 +9557,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -9522,7 +9570,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -9561,7 +9609,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -9573,7 +9621,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     사진이 없는 링크
                   </div>
@@ -9679,7 +9727,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -9724,7 +9772,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -9802,7 +9850,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                    className="Tags__Tag-sc-1k866if-0 liZDpE"
                   >
                     TOP3
                   </div>
@@ -9816,7 +9864,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                    className="Tags__Tag-sc-1k866if-0 jmyglN"
                   >
                     APPLE
                   </div>
@@ -9845,7 +9893,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <div
-                className="News__Title-k6xkp4-0 fpMrQj"
+                className="News__Title-k6xkp4-0 cLcnGB"
               >
                 애플 주가 7% 상승
               </div>
@@ -9892,7 +9940,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__Content-k6xkp4-1 eFThUo"
+                    className="News__Content-k6xkp4-1 fAOExx"
                   >
                     보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                   </div>
@@ -9905,7 +9953,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   }
                 >
                   <div
-                    className="News__MoreButton-k6xkp4-2 iMEAmn"
+                    className="News__MoreButton-k6xkp4-2 hFpFWp"
                   >
                     더보기
                   </div>
@@ -9945,7 +9993,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                   className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                 >
                   <div
-                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                    className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                   >
                     technobezz.com
                   </div>
@@ -9957,7 +10005,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   />
                   <div
-                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                    className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                   >
                     애플 7% 주가 상승했나? 여력있어 보여
                   </div>
@@ -10063,7 +10111,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         공유하기
                       </span>
@@ -10108,7 +10156,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                       }
                     >
                       <span
-                        className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                        className="News__IconLabelText-k6xkp4-4 jHQfAb"
                       >
                         링크복사
                       </span>
@@ -10180,19 +10228,19 @@ exports[`Storyshots pages/HomePage default 1`] = `
               }
             >
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 서비스 안내
               </a>
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 제안하기
               </a>
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 문의하기
@@ -10373,7 +10421,7 @@ Array [
             }
           >
             <div
-              className="Tab__TabLabel-sc-1r0ik65-0 jQUaFv"
+              className="Tab__TabLabel-sc-1r0ik65-0 ZWVcn"
               selected={true}
             >
               News
@@ -10412,7 +10460,7 @@ Array [
             }
           >
             <div
-              className="Tab__TabLabel-sc-1r0ik65-0 bJolew"
+              className="Tab__TabLabel-sc-1r0ik65-0 CkFrg"
               selected={false}
             >
               Picks
@@ -10452,7 +10500,7 @@ Array [
           }
         >
           <div
-            className="Label-sc-50v5u5-2 bmsGXh"
+            className="Label-sc-50v5u5-2 YbzKy"
           >
             <div
               className="Label__LabelWrapper-sc-50v5u5-1 fvhEYX"
@@ -10553,7 +10601,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                      className="Tags__Tag-sc-1k866if-0 liZDpE"
                     >
                       TOP3
                     </div>
@@ -10567,7 +10615,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       APPLE
                     </div>
@@ -10596,7 +10644,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   애플 주가 7% 상승
                 </div>
@@ -10643,7 +10691,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -10656,7 +10704,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -10696,7 +10744,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -10708,7 +10756,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -10814,7 +10862,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -10859,7 +10907,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -10937,7 +10985,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       GOOGLE
                     </div>
@@ -10966,7 +11014,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
                 </div>
@@ -11013,7 +11061,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -11026,7 +11074,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -11065,7 +11113,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -11077,7 +11125,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       사진이 없는 링크
                     </div>
@@ -11183,7 +11231,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -11228,7 +11276,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -11306,7 +11354,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                      className="Tags__Tag-sc-1k866if-0 liZDpE"
                     >
                       TOP3
                     </div>
@@ -11320,7 +11368,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       APPLE
                     </div>
@@ -11349,7 +11397,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   애플 주가 7% 상승
                 </div>
@@ -11396,7 +11444,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -11409,7 +11457,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -11449,7 +11497,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -11461,7 +11509,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -11567,7 +11615,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -11612,7 +11660,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -11686,12 +11734,12 @@ Array [
                   }
                 >
                   <div
-                    className="CompanyListCard__CompanyListCardTitle-wgs2mq-0 leZyqt"
+                    className="CompanyListCard__CompanyListCardTitle-wgs2mq-0 gXFFUd"
                   >
                     회사별 뉴스 모아보기
                   </div>
                   <div
-                    className="CompanyListCard__CompanyListCardMoreLink-wgs2mq-1 dOWCdc"
+                    className="CompanyListCard__CompanyListCardMoreLink-wgs2mq-1 hqpkLi"
                   >
                     모두보기
                   </div>
@@ -11774,10 +11822,14 @@ Array [
                             }
                           }
                         >
-                          <img
-                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                            src=""
-                          />
+                          <div
+                            className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                          >
+                            <img
+                              className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                              src=""
+                            />
+                          </div>
                         </div>
                       </div>
                       <div
@@ -11801,7 +11853,7 @@ Array [
                           }
                         >
                           <div
-                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                           >
                             아마존
                           </div>
@@ -11851,10 +11903,14 @@ Array [
                             }
                           }
                         >
-                          <img
-                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                            src=""
-                          />
+                          <div
+                            className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                          >
+                            <img
+                              className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                              src=""
+                            />
+                          </div>
                         </div>
                       </div>
                       <div
@@ -11878,7 +11934,7 @@ Array [
                           }
                         >
                           <div
-                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                           >
                             쿠팡
                           </div>
@@ -11928,10 +11984,14 @@ Array [
                             }
                           }
                         >
-                          <img
-                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                            src=""
-                          />
+                          <div
+                            className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                          >
+                            <img
+                              className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                              src=""
+                            />
+                          </div>
                         </div>
                       </div>
                       <div
@@ -11955,7 +12015,7 @@ Array [
                           }
                         >
                           <div
-                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                           >
                             페이스북
                           </div>
@@ -12005,10 +12065,14 @@ Array [
                             }
                           }
                         >
-                          <img
-                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                            src=""
-                          />
+                          <div
+                            className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                          >
+                            <img
+                              className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                              src=""
+                            />
+                          </div>
                         </div>
                       </div>
                       <div
@@ -12032,7 +12096,7 @@ Array [
                           }
                         >
                           <div
-                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                           >
                             삼성
                           </div>
@@ -12082,10 +12146,14 @@ Array [
                             }
                           }
                         >
-                          <img
-                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                            src=""
-                          />
+                          <div
+                            className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                          >
+                            <img
+                              className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                              src=""
+                            />
+                          </div>
                         </div>
                       </div>
                       <div
@@ -12109,7 +12177,7 @@ Array [
                           }
                         >
                           <div
-                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                           >
                             테슬라
                           </div>
@@ -12159,10 +12227,14 @@ Array [
                             }
                           }
                         >
-                          <img
-                            className="CompanyListCard__CompanyBoxLogo-wgs2mq-3 ksBmks"
-                            src=""
-                          />
+                          <div
+                            className="CompanyListCard__CompanyBoxDiv-wgs2mq-3 fmMRmn"
+                          >
+                            <img
+                              className="CompanyListCard__CompanyBoxLogo-wgs2mq-4 gkagPI"
+                              src=""
+                            />
+                          </div>
                         </div>
                       </div>
                       <div
@@ -12186,7 +12258,7 @@ Array [
                           }
                         >
                           <div
-                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-4 bjhAsH"
+                            className="CompanyListCard__CompanyBoxLabel-wgs2mq-5 izaXAk"
                           >
                             이커머스
                           </div>
@@ -12265,7 +12337,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                      className="Tags__Tag-sc-1k866if-0 liZDpE"
                     >
                       TOP3
                     </div>
@@ -12279,7 +12351,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       APPLE
                     </div>
@@ -12308,7 +12380,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   애플 주가 7% 상승
                 </div>
@@ -12355,7 +12427,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -12368,7 +12440,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -12408,7 +12480,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -12420,7 +12492,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -12526,7 +12598,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -12571,7 +12643,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -12649,7 +12721,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       GOOGLE
                     </div>
@@ -12678,7 +12750,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
                 </div>
@@ -12725,7 +12797,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -12738,7 +12810,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -12777,7 +12849,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -12789,7 +12861,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       사진이 없는 링크
                     </div>
@@ -12895,7 +12967,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -12940,7 +13012,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -13036,7 +13108,7 @@ Array [
                       }
                     >
                       <div
-                        className="ContactCard__ContactCardLink-sc-1i8sqju-1 jQNcLJ"
+                        className="ContactCard__ContactCardLink-sc-1i8sqju-1 bOEOcI"
                       >
                         서비스 안내
                       </div>
@@ -13050,7 +13122,7 @@ Array [
                       }
                     >
                       <div
-                        className="ContactCard__LinkDivider-sc-1i8sqju-2 kVOzUH"
+                        className="ContactCard__LinkDivider-sc-1i8sqju-2 fiyQMw"
                       />
                     </div>
                     <div
@@ -13062,7 +13134,7 @@ Array [
                       }
                     >
                       <div
-                        className="ContactCard__ContactCardLink-sc-1i8sqju-1 jQNcLJ"
+                        className="ContactCard__ContactCardLink-sc-1i8sqju-1 bOEOcI"
                       >
                         제안하기
                       </div>
@@ -13076,7 +13148,7 @@ Array [
                       }
                     >
                       <div
-                        className="ContactCard__LinkDivider-sc-1i8sqju-2 kVOzUH"
+                        className="ContactCard__LinkDivider-sc-1i8sqju-2 fiyQMw"
                       />
                     </div>
                     <div
@@ -13088,7 +13160,7 @@ Array [
                       }
                     >
                       <div
-                        className="ContactCard__ContactCardLink-sc-1i8sqju-1 jQNcLJ"
+                        className="ContactCard__ContactCardLink-sc-1i8sqju-1 bOEOcI"
                       >
                         문의하기
                       </div>
@@ -13118,7 +13190,7 @@ Array [
                 }
               >
                 <span
-                  className="ContactCard__ContactCardCopyright-sc-1i8sqju-0 hRLgra"
+                  className="ContactCard__ContactCardCopyright-sc-1i8sqju-0 cSMwac"
                 >
                   © 2019 Snack Project
                 </span>
@@ -13192,7 +13264,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                      className="Tags__Tag-sc-1k866if-0 liZDpE"
                     >
                       TOP3
                     </div>
@@ -13206,7 +13278,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       APPLE
                     </div>
@@ -13235,7 +13307,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   애플 주가 7% 상승
                 </div>
@@ -13282,7 +13354,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -13295,7 +13367,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -13335,7 +13407,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -13347,7 +13419,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -13453,7 +13525,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -13498,7 +13570,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -13572,7 +13644,7 @@ Array [
                   }
                 >
                   <div
-                    className="PlatformListCard__PlatformListCardTitle-ypr0fc-0 dYGIdr"
+                    className="PlatformListCard__PlatformListCardTitle-ypr0fc-0 citOUZ"
                   >
                     스낵뉴스를 원하는 플랫폼에서 챙겨보세요
                   </div>
@@ -13645,7 +13717,7 @@ Array [
                         }
                       >
                         <div
-                          className="PlatformListCard__PlatformCardLabel-ypr0fc-2 fTrVFS"
+                          className="PlatformListCard__PlatformCardLabel-ypr0fc-2 ktjNaw"
                         >
                           Facebook
                           <br />
@@ -13686,7 +13758,7 @@ Array [
                         }
                       >
                         <div
-                          className="PlatformListCard__PlatformCardLabel-ypr0fc-2 fTrVFS"
+                          className="PlatformListCard__PlatformCardLabel-ypr0fc-2 ktjNaw"
                         >
                           KakaoTalk
                           <br />
@@ -13727,7 +13799,7 @@ Array [
                         }
                       >
                         <div
-                          className="PlatformListCard__PlatformCardLabel-ypr0fc-2 fTrVFS"
+                          className="PlatformListCard__PlatformCardLabel-ypr0fc-2 ktjNaw"
                         >
                           Twitter
                           <br />
@@ -13768,7 +13840,7 @@ Array [
                         }
                       >
                         <div
-                          className="PlatformListCard__PlatformCardLabel-ypr0fc-2 fTrVFS"
+                          className="PlatformListCard__PlatformCardLabel-ypr0fc-2 ktjNaw"
                         >
                           Linkedin
                           <br />
@@ -13841,7 +13913,7 @@ Array [
                   }
                 >
                   <div
-                    className="RecommendNewsList__RecommendNewsListTitle-sc-1vikmv3-0 fWpJnM"
+                    className="RecommendNewsList__RecommendNewsListTitle-sc-1vikmv3-0 cCZGxh"
                   >
                     커머스, 이런 기사도 읽어보세요.
                   </div>
@@ -13924,7 +13996,7 @@ Array [
                         }
                       >
                         <div
-                          className="RecommendNewsList__RecommendNewsTitle-sc-1vikmv3-2 hjcfME"
+                          className="RecommendNewsList__RecommendNewsTitle-sc-1vikmv3-2 hChxCc"
                         >
                           공유주방 스타트업 ‘고스트키친’ 21억 규모 투자유치
                         </div>
@@ -13974,7 +14046,7 @@ Array [
                         }
                       >
                         <div
-                          className="RecommendNewsList__RecommendNewsTitle-sc-1vikmv3-2 hjcfME"
+                          className="RecommendNewsList__RecommendNewsTitle-sc-1vikmv3-2 hChxCc"
                         >
                           LG이노텍, 아이폰 트리플 카메라 위해 2800억 투자
                         </div>
@@ -14052,7 +14124,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                      className="Tags__Tag-sc-1k866if-0 liZDpE"
                     >
                       TOP3
                     </div>
@@ -14066,7 +14138,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       APPLE
                     </div>
@@ -14095,7 +14167,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   애플 주가 7% 상승
                 </div>
@@ -14142,7 +14214,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -14155,7 +14227,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -14195,7 +14267,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -14207,7 +14279,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -14313,7 +14385,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -14358,7 +14430,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -14436,7 +14508,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       GOOGLE
                     </div>
@@ -14465,7 +14537,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
                 </div>
@@ -14512,7 +14584,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -14525,7 +14597,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -14564,7 +14636,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -14576,7 +14648,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       사진이 없는 링크
                     </div>
@@ -14682,7 +14754,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -14727,7 +14799,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -14805,7 +14877,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                      className="Tags__Tag-sc-1k866if-0 liZDpE"
                     >
                       TOP3
                     </div>
@@ -14819,7 +14891,7 @@ Array [
                     }
                   >
                     <div
-                      className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                      className="Tags__Tag-sc-1k866if-0 jmyglN"
                     >
                       APPLE
                     </div>
@@ -14848,7 +14920,7 @@ Array [
                 }
               >
                 <div
-                  className="News__Title-k6xkp4-0 fpMrQj"
+                  className="News__Title-k6xkp4-0 cLcnGB"
                 >
                   애플 주가 7% 상승
                 </div>
@@ -14895,7 +14967,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__Content-k6xkp4-1 eFThUo"
+                      className="News__Content-k6xkp4-1 fAOExx"
                     >
                       보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
                     </div>
@@ -14908,7 +14980,7 @@ Array [
                     }
                   >
                     <div
-                      className="News__MoreButton-k6xkp4-2 iMEAmn"
+                      className="News__MoreButton-k6xkp4-2 hFpFWp"
                     >
                       더보기
                     </div>
@@ -14948,7 +15020,7 @@ Array [
                     className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
                   >
                     <div
-                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                      className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
                     >
                       technobezz.com
                     </div>
@@ -14960,7 +15032,7 @@ Array [
                       }
                     />
                     <div
-                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                      className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
                     >
                       애플 7% 주가 상승했나? 여력있어 보여
                     </div>
@@ -15066,7 +15138,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           공유하기
                         </span>
@@ -15111,7 +15183,7 @@ Array [
                         }
                       >
                         <span
-                          className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                          className="News__IconLabelText-k6xkp4-4 jHQfAb"
                         >
                           링크복사
                         </span>
@@ -15183,19 +15255,19 @@ Array [
                 }
               >
                 <a
-                  className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                  className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                   href="https://www.facebook.com/"
                 >
                   서비스 안내
                 </a>
                 <a
-                  className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                  className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                   href="https://www.facebook.com/"
                 >
                   제안하기
                 </a>
                 <a
-                  className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                  className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                   href="https://www.facebook.com/"
                 >
                   문의하기
@@ -15361,7 +15433,7 @@ Array [
             }
           >
             <div
-              className="SelectItemListBox__SelectItemListBoxTitle-aqvguz-0 hYAhZQ"
+              className="SelectItemListBox__SelectItemListBoxTitle-aqvguz-0 iYvdsI"
             >
               조회할 주 선택
             </div>
@@ -15440,7 +15512,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15473,7 +15545,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15502,7 +15574,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15531,7 +15603,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15560,7 +15632,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15589,7 +15661,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15618,7 +15690,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15647,7 +15719,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15676,7 +15748,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15705,7 +15777,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15734,7 +15806,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15763,7 +15835,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15792,7 +15864,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15821,7 +15893,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15850,7 +15922,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15879,7 +15951,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15908,7 +15980,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15937,7 +16009,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15966,7 +16038,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -15995,7 +16067,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -16024,7 +16096,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -16053,7 +16125,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -16082,7 +16154,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -16111,7 +16183,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -16140,7 +16212,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -16169,7 +16241,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -16257,12 +16329,12 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
       <div
         style={
           Object {
-            "marginBottom": "8px",
+            "marginBottom": undefined,
           }
         }
       >
         <div
-          className="TextCard__Title-sc-1tij650-0 jTLFIq"
+          className="TextCard__Title-sc-1tij650-0 hUWIeR"
           style={
             Object {
               "fontSize": "14px",
@@ -16424,19 +16496,19 @@ exports[`Storyshots pages/IntroduceFormPage default 1`] = `
             }
           >
             <a
-              className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+              className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
               href="https://www.facebook.com/"
             >
               서비스 안내
             </a>
             <a
-              className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+              className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
               href="https://www.facebook.com/"
             >
               제안하기
             </a>
             <a
-              className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+              className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
               href="https://www.facebook.com/"
             >
               문의하기
@@ -16601,7 +16673,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
             }
           >
             <div
-              className="Menu__MenuTitle-skz02a-2 hcewaX"
+              className="Menu__MenuTitle-skz02a-2 hzPWWF"
             >
               Menu
             </div>
@@ -16651,7 +16723,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
           }
         >
           <div
-            className="Menu__MenuLink-skz02a-3 eOpkTP"
+            className="Menu__MenuLink-skz02a-3 gwQAHx"
           >
             홈
           </div>
@@ -16664,7 +16736,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
           }
         >
           <div
-            className="Menu__MenuLink-skz02a-3 eOpkTP"
+            className="Menu__MenuLink-skz02a-3 gwQAHx"
           >
             토픽 모아보기
           </div>
@@ -16677,7 +16749,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
           }
         >
           <div
-            className="Menu__MenuLink-skz02a-3 eOpkTP"
+            className="Menu__MenuLink-skz02a-3 gwQAHx"
           >
             서비스 안내
           </div>
@@ -16690,7 +16762,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
           }
         >
           <div
-            className="Menu__MenuLink-skz02a-3 eOpkTP"
+            className="Menu__MenuLink-skz02a-3 gwQAHx"
           >
             공지사항
           </div>
@@ -16703,7 +16775,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
           }
         >
           <div
-            className="Menu__MenuLink-skz02a-3 eOpkTP"
+            className="Menu__MenuLink-skz02a-3 gwQAHx"
           >
             제안하기
           </div>
@@ -16716,7 +16788,7 @@ exports[`Storyshots pages/MenuPage default 1`] = `
           }
         >
           <div
-            className="Menu__MenuLink-skz02a-3 eOpkTP"
+            className="Menu__MenuLink-skz02a-3 gwQAHx"
           >
             문의하기
           </div>
@@ -16952,7 +17024,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 jQcsSh"
+                className="Tags__Tag-sc-1k866if-0 liZDpE"
               >
                 TOP3
               </div>
@@ -16966,7 +17038,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 APPLE
               </div>
@@ -16995,7 +17067,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             애플 주가 7% 상승
           </div>
@@ -17042,7 +17114,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 fKYCKF"
+                className="News__Content-k6xkp4-1 hczhWo"
               >
                 ☀️ 삼성전자가 20여년 만에 디자인 철학을 재정립했습니다.
 
@@ -17095,7 +17167,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -17107,7 +17179,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 애플 7% 주가 상승했나? 여력있어 보여
               </div>
@@ -17213,7 +17285,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -17258,7 +17330,7 @@ exports[`Storyshots pages/NewsPage default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -17325,19 +17397,19 @@ exports[`Storyshots pages/NewsPage default 1`] = `
               }
             >
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 서비스 안내
               </a>
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 제안하기
               </a>
               <a
-                className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+                className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
                 href="https://www.facebook.com/"
               >
                 문의하기
@@ -17514,7 +17586,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         }
       >
         <div
-          className="Tab__TabLabel-sc-1r0ik65-0 jQUaFv"
+          className="Tab__TabLabel-sc-1r0ik65-0 ZWVcn"
           selected={true}
         >
           News
@@ -17553,7 +17625,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         }
       >
         <div
-          className="Tab__TabLabel-sc-1r0ik65-0 bJolew"
+          className="Tab__TabLabel-sc-1r0ik65-0 CkFrg"
           selected={false}
         >
           Picks
@@ -17694,7 +17766,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         }
       >
         <div
-          className="TextCard__Title-sc-1tij650-0 jTLFIq"
+          className="TextCard__Title-sc-1tij650-0 hUWIeR"
           style={
             Object {
               "fontSize": "17px",
@@ -17712,7 +17784,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
         }
       >
         <div
-          className="TextCard__Text-sc-1tij650-1 PDsgg"
+          className="TextCard__Text-sc-1tij650-1 kHjhJR"
           style={
             Object {
               "fontSize": "13px",
@@ -17772,7 +17844,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
             className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
           >
             <div
-              className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+              className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
             >
               technobezz.com
             </div>
@@ -17784,7 +17856,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
               }
             />
             <div
-              className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
             >
               애플 7% 주가 상승했나? 여력있어 보여
             </div>
@@ -17827,7 +17899,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
             className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
           >
             <div
-              className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+              className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
             >
               technobezz.com
             </div>
@@ -17839,7 +17911,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
               }
             />
             <div
-              className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
             >
               애플 7% 주가 상승했나? 여력있어 보여
             </div>
@@ -17882,7 +17954,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
             className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
           >
             <div
-              className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+              className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
             >
               technobezz.com
             </div>
@@ -17894,7 +17966,7 @@ exports[`Storyshots pages/PicksPage default 1`] = `
               }
             />
             <div
-              className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+              className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
             >
               애플 7% 주가 상승했나? 여력있어 보여
             </div>
@@ -17958,19 +18030,19 @@ exports[`Storyshots pages/PicksPage default 1`] = `
             }
           >
             <a
-              className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+              className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
               href="https://www.facebook.com/"
             >
               서비스 안내
             </a>
             <a
-              className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+              className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
               href="https://www.facebook.com/"
             >
               제안하기
             </a>
             <a
-              className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+              className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
               href="https://www.facebook.com/"
             >
               문의하기
@@ -18169,7 +18241,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
               }
             >
               <span
-                className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
               >
                 아마존
               </span>
@@ -18293,7 +18365,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
               }
             >
               <span
-                className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
               >
                 쿠팡
               </span>
@@ -18417,7 +18489,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
               }
             >
               <span
-                className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
               >
                 페이스북
               </span>
@@ -18541,7 +18613,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
               }
             >
               <span
-                className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
               >
                 삼성
               </span>
@@ -18665,7 +18737,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
               }
             >
               <span
-                className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
               >
                 테슬라
               </span>
@@ -18789,7 +18861,7 @@ exports[`Storyshots templates/CompanyList default 1`] = `
               }
             >
               <span
-                className="CompanyItem__CompanyLabel-jih395-3 dLHQYv"
+                className="CompanyItem__CompanyLabel-jih395-3 iWnyjP"
               >
                 이커머스
               </span>
@@ -18857,19 +18929,19 @@ exports[`Storyshots templates/Footer FooterLinkList 1`] = `
     }
   >
     <a
-      className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+      className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
       href="https://www.facebook.com/"
     >
       서비스 안내
     </a>
     <a
-      className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+      className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
       href="https://www.facebook.com/"
     >
       제안하기
     </a>
     <a
-      className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+      className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
       href="https://www.facebook.com/"
     >
       문의하기
@@ -18931,19 +19003,19 @@ exports[`Storyshots templates/Footer default 1`] = `
           }
         >
           <a
-            className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+            className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
             href="https://www.facebook.com/"
           >
             서비스 안내
           </a>
           <a
-            className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+            className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
             href="https://www.facebook.com/"
           >
             제안하기
           </a>
           <a
-            className="FooterLinkList__FooterLink-sc-7fzmot-0 goSvJR"
+            className="FooterLinkList__FooterLink-sc-7fzmot-0 crgjYA"
             href="https://www.facebook.com/"
           >
             문의하기
@@ -19165,7 +19237,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 APPLE
               </div>
@@ -19194,7 +19266,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             애플 주가 7% 상승
           </div>
@@ -19241,7 +19313,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -19254,7 +19326,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -19294,7 +19366,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -19306,7 +19378,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 애플 7% 주가 상승했나? 여력있어 보여
               </div>
@@ -19412,7 +19484,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -19457,7 +19529,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -19535,7 +19607,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 GOOGLE
               </div>
@@ -19564,7 +19636,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
           </div>
@@ -19611,7 +19683,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -19624,7 +19696,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -19663,7 +19735,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -19675,7 +19747,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 사진이 없는 링크
               </div>
@@ -19781,7 +19853,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -19826,7 +19898,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -19904,7 +19976,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 APPLE
               </div>
@@ -19933,7 +20005,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             애플 주가 7% 상승
           </div>
@@ -19980,7 +20052,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -19993,7 +20065,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -20033,7 +20105,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -20045,7 +20117,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 애플 7% 주가 상승했나? 여력있어 보여
               </div>
@@ -20151,7 +20223,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -20196,7 +20268,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -20274,7 +20346,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 APPLE
               </div>
@@ -20303,7 +20375,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             애플 주가 7% 상승
           </div>
@@ -20350,7 +20422,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -20363,7 +20435,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -20403,7 +20475,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -20415,7 +20487,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 애플 7% 주가 상승했나? 여력있어 보여
               </div>
@@ -20521,7 +20593,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -20566,7 +20638,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -20644,7 +20716,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 GOOGLE
               </div>
@@ -20673,7 +20745,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
           </div>
@@ -20720,7 +20792,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -20733,7 +20805,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -20772,7 +20844,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -20784,7 +20856,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 사진이 없는 링크
               </div>
@@ -20890,7 +20962,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -20935,7 +21007,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -21013,7 +21085,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 APPLE
               </div>
@@ -21042,7 +21114,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             애플 주가 7% 상승
           </div>
@@ -21089,7 +21161,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -21102,7 +21174,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -21142,7 +21214,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -21154,7 +21226,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 애플 7% 주가 상승했나? 여력있어 보여
               </div>
@@ -21260,7 +21332,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -21305,7 +21377,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -21383,7 +21455,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 APPLE
               </div>
@@ -21412,7 +21484,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             애플 주가 7% 상승
           </div>
@@ -21459,7 +21531,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -21472,7 +21544,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -21512,7 +21584,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -21524,7 +21596,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 애플 7% 주가 상승했나? 여력있어 보여
               </div>
@@ -21630,7 +21702,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -21675,7 +21747,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -21753,7 +21825,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 GOOGLE
               </div>
@@ -21782,7 +21854,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             긴 구글 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목 제목
           </div>
@@ -21829,7 +21901,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -21842,7 +21914,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -21881,7 +21953,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -21893,7 +21965,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 사진이 없는 링크
               </div>
@@ -21999,7 +22071,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -22044,7 +22116,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -22122,7 +22194,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="Tags__Tag-sc-1k866if-0 gBsHpJ"
+                className="Tags__Tag-sc-1k866if-0 jmyglN"
               >
                 APPLE
               </div>
@@ -22151,7 +22223,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
           }
         >
           <div
-            className="News__Title-k6xkp4-0 fpMrQj"
+            className="News__Title-k6xkp4-0 cLcnGB"
           >
             애플 주가 7% 상승
           </div>
@@ -22198,7 +22270,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__Content-k6xkp4-1 eFThUo"
+                className="News__Content-k6xkp4-1 fAOExx"
               >
                 보고서에 따르면 월 별 숙박 예약 비중은 8월이 연간 예약량의 약 11.3%를 차지, 전통적인 여름여름여름여름여름여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름. 여름여름여름여름여름여름여름여여름. 여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름여름
               </div>
@@ -22211,7 +22283,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               }
             >
               <div
-                className="News__MoreButton-k6xkp4-2 iMEAmn"
+                className="News__MoreButton-k6xkp4-2 hFpFWp"
               >
                 더보기
               </div>
@@ -22251,7 +22323,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
               className="ExternalLink__ExternalLinkWrapper-sc-1q8p3jg-2 GgLdi"
             >
               <div
-                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 jeencJ"
+                className="ExternalLink__LinkHrefWrapper-sc-1q8p3jg-1 hUEMHy"
               >
                 technobezz.com
               </div>
@@ -22263,7 +22335,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                 }
               />
               <div
-                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 YmXEY"
+                className="ExternalLink__LinkTitleWrapper-sc-1q8p3jg-3 hgQZyV"
               >
                 애플 7% 주가 상승했나? 여력있어 보여
               </div>
@@ -22369,7 +22441,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     공유하기
                   </span>
@@ -22414,7 +22486,7 @@ exports[`Storyshots templates/NewsList default 1`] = `
                   }
                 >
                   <span
-                    className="News__IconLabelText-k6xkp4-4 fQGpaN"
+                    className="News__IconLabelText-k6xkp4-4 jHQfAb"
                   >
                     링크복사
                   </span>
@@ -22462,7 +22534,7 @@ exports[`Storyshots templates/SelectBox default 1`] = `
     }
   >
     <div
-      className="Label-sc-50v5u5-2 bmsGXh"
+      className="Label-sc-50v5u5-2 YbzKy"
     >
       <div
         className="Label__LabelWrapper-sc-50v5u5-1 fvhEYX"
@@ -22556,7 +22628,7 @@ Array [
             }
           >
             <div
-              className="SelectItemListBox__SelectItemListBoxTitle-aqvguz-0 hYAhZQ"
+              className="SelectItemListBox__SelectItemListBoxTitle-aqvguz-0 iYvdsI"
             >
               조회할 주 선택
             </div>
@@ -22635,7 +22707,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22668,7 +22740,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22697,7 +22769,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22726,7 +22798,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22755,7 +22827,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22784,7 +22856,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22813,7 +22885,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22842,7 +22914,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22871,7 +22943,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22900,7 +22972,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22929,7 +23001,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22958,7 +23030,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -22987,7 +23059,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23016,7 +23088,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23045,7 +23117,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23074,7 +23146,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23103,7 +23175,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23132,7 +23204,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23161,7 +23233,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23190,7 +23262,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23219,7 +23291,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23248,7 +23320,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23277,7 +23349,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23306,7 +23378,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23335,7 +23407,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23364,7 +23436,7 @@ Array [
                 }
               >
                 <div
-                  className="SelectItem__SelectItemLabel-ushhsi-0 dJOonO"
+                  className="SelectItem__SelectItemLabel-ushhsi-0 bEhgOE"
                 >
                   2019년 1월 2주
                 </div>
@@ -23408,13 +23480,13 @@ exports[`Storyshots templates/SubHeader default 1`] = `
     }
   >
     <div
-      className="SubHeader__Title-sc-1cmnn6w-0 eQkrjm"
+      className="SubHeader__Title-sc-1cmnn6w-0 TQWeS"
     >
       전체
     </div>
     <div>
       <span
-        className="SubHeader__SortLabel-sc-1cmnn6w-1 jtWaGg"
+        className="SubHeader__SortLabel-sc-1cmnn6w-1 bgiJYs"
       >
         가나다 순
       </span>
@@ -23464,7 +23536,7 @@ exports[`Storyshots templates/Tabs default 1`] = `
       }
     >
       <div
-        className="Tab__TabLabel-sc-1r0ik65-0 jQUaFv"
+        className="Tab__TabLabel-sc-1r0ik65-0 ZWVcn"
         selected={true}
       >
         News
@@ -23503,7 +23575,7 @@ exports[`Storyshots templates/Tabs default 1`] = `
       }
     >
       <div
-        className="Tab__TabLabel-sc-1r0ik65-0 bJolew"
+        className="Tab__TabLabel-sc-1r0ik65-0 CkFrg"
         selected={false}
       >
         Picks
