@@ -30,7 +30,7 @@ const RecommendNewsListTitle = styled.div.attrs({
   children: '커머스, 이런 기사도 읽어보세요.',
 })`
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   color: #121111;
 `;
 

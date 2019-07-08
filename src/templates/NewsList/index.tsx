@@ -69,7 +69,7 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
         isRenderRecommendNewsList && (
           <Fragment key="RecommendNewsList">
             <RecommendNewsList />
-            <HorizontalDivider />
+            <HorizontalDivider thick />
           </Fragment>
         ),
         ...newsComponents.slice(6),
