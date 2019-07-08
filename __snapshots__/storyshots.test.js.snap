@@ -8095,7 +8095,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   >
                     <div
-                      className="ContactCard__LinkDivider-sc-1i8sqju-2 kVOzUH"
+                      className="ContactCard__LinkDivider-sc-1i8sqju-2 fiyQMw"
                     />
                   </div>
                   <div
@@ -8121,7 +8121,7 @@ exports[`Storyshots pages/HomePage default 1`] = `
                     }
                   >
                     <div
-                      className="ContactCard__LinkDivider-sc-1i8sqju-2 kVOzUH"
+                      className="ContactCard__LinkDivider-sc-1i8sqju-2 fiyQMw"
                     />
                   </div>
                   <div
@@ -13122,7 +13122,7 @@ Array [
                       }
                     >
                       <div
-                        className="ContactCard__LinkDivider-sc-1i8sqju-2 kVOzUH"
+                        className="ContactCard__LinkDivider-sc-1i8sqju-2 fiyQMw"
                       />
                     </div>
                     <div
@@ -13148,7 +13148,7 @@ Array [
                       }
                     >
                       <div
-                        className="ContactCard__LinkDivider-sc-1i8sqju-2 kVOzUH"
+                        className="ContactCard__LinkDivider-sc-1i8sqju-2 fiyQMw"
                       />
                     </div>
                     <div
