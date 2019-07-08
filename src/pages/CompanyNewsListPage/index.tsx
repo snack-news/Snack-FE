@@ -9,7 +9,7 @@ export const CompanyNewsListPage = () => (
     {{
       header: (
         <>
-          <Header />
+          <Header title="애플 뉴스 모아보기" />
           <HorizontalDivider />
           {/* TODO label 들어갈 자리 */}
           <HorizontalDivider thick />
