@@ -57,10 +57,10 @@ export const News: FunctionComponent<INewsProps> = props => {
         ),
         externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
         footer: (
-          <RowListLayout.JustifyAlign>
+          <RowListLayout.Align type="justify">
             <IconLabel iconImg={shareImg} label="공유하기" />
             <IconLabel iconImg={copyImg} label="링크복사" />
-          </RowListLayout.JustifyAlign>
+          </RowListLayout.Align>
         ),
       }}
     </NewsLayout>

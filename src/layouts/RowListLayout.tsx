@@ -21,21 +21,30 @@ const Base: FunctionComponent<IBaseLayoutProps> = props => {
   );
 };
 
+interface IAlignProps extends IBaseLayoutProps {
+  // TODO 이후 타입 추가시 'justify' | '~' 형태로 추가
+  type: 'justify';
+}
+
 /**
  * 아이템 사이의 간격을 일정하게 맞춰주는 행 레이아웃 컴포넌트
  */
-const JustifyAlign: FunctionComponent<IBaseLayoutProps> = props => {
-  const { style } = props;
+const Align: FunctionComponent<IAlignProps> = props => {
+  const { style, type } = props;
 
-  return (
-    <Base
-      {...props}
-      style={{
-        justifyContent: 'space-between',
-        ...style,
-      }}
-    />
-  );
+  if (type === 'justify') {
+    return (
+      <Base
+        {...props}
+        style={{
+          justifyContent: 'space-between',
+          ...style,
+        }}
+      />
+    );
+  }
+
+  throw new Error('type 이 설정되지 않았습니다.');
 };
 
 interface IRowItem {
@@ -95,4 +104,4 @@ const Repeat: FunctionComponent<IRepeatProps> = props => {
   );
 };
 
-export const RowListLayout = { Detail, JustifyAlign, Repeat };
+export const RowListLayout = { Detail, Align, Repeat };

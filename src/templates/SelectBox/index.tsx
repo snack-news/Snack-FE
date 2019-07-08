@@ -21,11 +21,11 @@ const SelectBoxWrapper = styled(BothMarginWrapper)`
 export const SelectBox: FunctionComponent<ISelectBoxProps> = () => {
   return (
     <SelectBoxWrapper>
-      <RowListLayout.JustifyAlign>
+      <RowListLayout.Align type="justify">
         {/* TODO API 및 getDateFormat 사용 */}
         <Label text="1월 2주" />
         <ContentIcon />
-      </RowListLayout.JustifyAlign>
+      </RowListLayout.Align>
     </SelectBoxWrapper>
   );
 };

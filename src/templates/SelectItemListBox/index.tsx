@@ -45,10 +45,10 @@ export const SelectItemListBox = () => {
 
 const SelectItemListBoxHeader = () => {
   return (
-    <RowListLayout.JustifyAlign>
+    <RowListLayout.Align type="justify">
       <SelectItemListBoxTitle />
       <CloseButton />
-    </RowListLayout.JustifyAlign>
+    </RowListLayout.Align>
   );
 };
 

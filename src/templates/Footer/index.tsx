@@ -11,7 +11,7 @@ export const Footer = () => (
     <FooterLayout>
       {{
         linkList: <FooterLinkList />,
-        socialList: <SocialLinkList imgBgType="blue" align="JustifyAlign" />,
+        socialList: <SocialLinkList imgBgType="blue" align="justify" />,
         copyright: <Copyright />,
       }}
     </FooterLayout>
