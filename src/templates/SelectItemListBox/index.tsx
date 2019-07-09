@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { ColListLayout, RowListLayout, BothMarginWrapper } from 'Layouts/index';
 
-import { cancelGary } from 'Resources/index';
+import { exitImg } from 'Resources/index';
 import { HorizontalDivider } from 'Templates/index';
 
 import { Layer } from 'Components/index';
@@ -57,6 +57,7 @@ const SelectItemListBoxTitle = styled.div.attrs({ children: '조회할 주 선�
   color: #121111;
 `;
 
-const CloseButton = styled.img.attrs({ src: cancelGary })`
-  width: 30px;
+const CloseButton = styled.img.attrs({ src: exitImg })`
+  width: 14px;
+  height: 14px;
 `;

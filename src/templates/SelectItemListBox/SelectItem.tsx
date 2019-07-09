@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { RowListLayout } from 'Layouts/index';
 
-import { checkmark } from 'Resources/index';
+import { checkImg } from 'Resources/index';
 
 interface ISelectItemProps {
   label: string;
@@ -25,8 +25,8 @@ const SelectItemLabel = styled.div`
   color: #121111;
 `;
 
-const CheckmarkIcon = styled.img.attrs({ src: checkmark })`
-  width: 18px;
+const CheckmarkIcon = styled.img.attrs({ src: checkImg })`
+  width: 14px;
 `;
 
 export default SelectItem;
