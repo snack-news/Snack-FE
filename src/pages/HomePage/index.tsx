@@ -11,7 +11,7 @@ export const HomePage = () => (
           <Header />
           <HorizontalDivider />
           <Tabs />
-          <HorizontalDivider thick />
+          <HorizontalDivider thick color="white" />
           <SelectBox />
           <HorizontalDivider thick />
         </>
