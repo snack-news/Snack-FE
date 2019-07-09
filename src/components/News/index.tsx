@@ -169,7 +169,8 @@ interface IIconLabelProps {
 }
 
 const IconLabelImg = styled.img`
-  width: 23px;
+  width: 16px;
+  margin: 2px 4px;
 `;
 
 const IconLabelText = styled.span`
