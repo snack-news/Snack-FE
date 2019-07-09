@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
-import { ColListLayout } from 'Layouts/index';
+import { ColListLayout, BothMarginWrapper } from 'Layouts/index';
 import { getHostName } from 'Utils';
 
 export const ExternalLinkWithImage: FunctionComponent<IExternalLink> = ({ href, title, img }) => {
@@ -14,12 +14,20 @@ export const ExternalLinkWithImage: FunctionComponent<IExternalLink> = ({ href, 
 };
 
 export const ExternalLink: FunctionComponent<IExternalLink> = ({ href, title }) => {
+  const hostname = getHostName(href);
+
+  if (hostname === null) {
+    return null;
+  }
+
   return (
-    <ExternalLinkWrapper>
-      <LinkHrefWrapper>{getHostName(href)}</LinkHrefWrapper>
-      {/* TODO 코드의 일관성을 위해 ColListLayout 으로 변경 필요 */}
-      <div style={{ height: '5px' }} />
-      <LinkTitleWrapper>{title}</LinkTitleWrapper>
+    <ExternalLinkWrapper interval="8px" top="18px" bottom="18px">
+      <BothMarginWrapper>
+        <LinkTitleWrapper>{title}</LinkTitleWrapper>
+      </BothMarginWrapper>
+      <BothMarginWrapper>
+        <LinkHrefWrapper>{hostname.toUpperCase()}</LinkHrefWrapper>
+      </BothMarginWrapper>
     </ExternalLinkWrapper>
   );
 };
@@ -33,10 +41,8 @@ const LinkHrefWrapper = styled.div`
   color: #756e6e;
 `;
 
-const ExternalLinkWrapper = styled.div`
-  width: 100%;
+const ExternalLinkWrapper = styled(ColListLayout.Repeat)`
   background-color: #fafafa;
-  padding: 15px 20px;
 `;
 
 const LinkTitleWrapper = styled.div`
