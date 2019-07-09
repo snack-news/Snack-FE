@@ -1,21 +1,27 @@
 import React, { FunctionComponent } from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
 
 import { getPickCategoryList } from 'Api/index';
 
 // PickCategoryList 컴포넌트
-interface IPickCategoryListProps {}
+interface IPickCategoryListProps {
+  selectCategoryKey: string;
+}
 
-export const PickCategoryList: FunctionComponent<IPickCategoryListProps> = () => {
+export const PickCategoryList: FunctionComponent<IPickCategoryListProps> = ({
+  selectCategoryKey,
+}) => {
   const pickCategoryList = getPickCategoryList();
 
   return (
     <PickCategoryListWrapper>
       <RowListLayout.Repeat interval="15px">
-        {pickCategoryList.map(pickCategory => (
-          <PickCategoryCard key={pickCategory.key}>{pickCategory.name}</PickCategoryCard>
+        {pickCategoryList.map(({ key, name }) => (
+          <PickCategoryCard key={key} select={selectCategoryKey === key}>
+            {name}
+          </PickCategoryCard>
         ))}
       </RowListLayout.Repeat>
     </PickCategoryListWrapper>
@@ -28,10 +34,24 @@ const PickCategoryListWrapper = styled(BothMarginWrapper)`
   padding-bottom: 12px;
 `;
 
-const PickCategoryCard = styled.div`
+interface IPickCategoryCardProps {
+  select?: boolean;
+}
+
+const PickCategoryCard = styled.div<IPickCategoryCardProps>`
   padding: 10px 16px;
   word-break: keep-all;
   border-radius: 3px;
-  border: solid 0.5px rgba(214, 214, 219, 0.5);
-  background-color: #fefefe;
+  ${({ select }) => {
+    if (select) {
+      return css`
+        background-color: #0b66f7;
+      `;
+    }
+
+    return css`
+      border: solid 0.5px rgba(214, 214, 219, 0.5);
+      background-color: #fefefe;
+    `;
+  }}
 `;

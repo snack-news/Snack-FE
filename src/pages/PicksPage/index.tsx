@@ -30,7 +30,7 @@ export const PicksPage = () => (
       ]}
       selectTabKey="Picks"
     />
-    <PickCategoryList />
+    <PickCategoryList selectCategoryKey="1" />
     <TextCard title="개발에 관련된 아티클 모음입니다." text="바로 링크로 이동합니다." />
     <HorizontalDivider thick />
     <PickNewsList />
