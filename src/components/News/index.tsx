@@ -174,6 +174,7 @@ const IconLabelImg = styled.img`
 `;
 
 const IconLabelText = styled.span`
+  display: flex;
   font-size: 13px;
   color: #595966;
 `;
