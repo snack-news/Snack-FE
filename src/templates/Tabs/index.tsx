@@ -1,17 +1,24 @@
 import React, { FunctionComponent } from 'react';
 
 import { RowListLayout } from 'Layouts/index';
-import { tabs } from 'Config/index';
 
 import Tab from './Tab';
 
-interface ITabsProps {}
+interface ITab {
+  label: string;
+  key: string;
+}
 
-export const Tabs: FunctionComponent<ITabsProps> = () => {
+interface ITabsProps {
+  tabs: ITab[];
+  selectTabKey: string;
+}
+
+export const Tabs: FunctionComponent<ITabsProps> = ({ tabs, selectTabKey }) => {
   return (
     <RowListLayout.Align type="justify">
       {tabs.map(({ label, key }) => (
-        <Tab selected={key === tabs[0].key} key={key}>
+        <Tab selected={key === selectTabKey} key={key}>
           {label}
         </Tab>
       ))}
