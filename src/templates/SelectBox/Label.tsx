@@ -12,6 +12,7 @@ const DownArrowIcon = styled.img.attrs({
 
 const LabelWrapper = styled.div`
   align-items: center;
+  padding: 14px 20px;
 `;
 
 const Label = styled.div.attrs<{ text: string }>(({ text }) => ({
