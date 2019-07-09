@@ -20,3 +20,4 @@ export { default as backBlueArrowImg } from './icon/back_blue2x.png';
 export { default as cancelWhite } from './icon/cancel_white2x.png';
 export { default as cancelGary } from './icon/cancel_gray2x.png';
 export { default as checkmark } from './icon/checkmark2x.png';
+export { default as contentImg } from './icon/content3x.png';
