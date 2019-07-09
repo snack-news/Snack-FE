@@ -19,10 +19,10 @@ const TabLabel = styled.div<Pick<ITabProps, 'selected'>>`
   color: ${({ selected }) => (selected ? '#0b66f7' : '#595966')};
 `;
 
-const TabUnderLine = styled.div`
+const TabUnderLine = styled.div<{ selected?: boolean }>`
   display: flex;
   height: 1.5px;
-  background-color: #0b66f7;
+  background-color: ${({ selected }) => (selected ? '#0b66f7' : '#e7e7e7')};
 `;
 
 const Tab: FunctionComponent<ITabProps> = ({ children, selected }) => (
@@ -34,7 +34,7 @@ const Tab: FunctionComponent<ITabProps> = ({ children, selected }) => (
         bottom: '10px',
       },
       {
-        el: selected ? <TabUnderLine /> : null,
+        el: <TabUnderLine selected={selected} />,
       },
     ]}
   />
