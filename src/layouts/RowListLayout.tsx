@@ -30,15 +30,15 @@ interface IAlignProps extends IBaseLayoutProps {
  * 아이템 사이의 간격을 일정하게 맞춰주는 행 레이아웃 컴포넌트
  */
 const Align: FunctionComponent<IAlignProps> = props => {
-  const { style, type } = props;
+  const { type, ...baseProps } = props;
 
   if (type === 'justify') {
     return (
       <Base
-        {...props}
+        {...baseProps}
         style={{
           justifyContent: 'space-between',
-          ...style,
+          ...baseProps.style,
         }}
       />
     );

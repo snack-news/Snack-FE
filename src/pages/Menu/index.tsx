@@ -1,7 +1,7 @@
 import React, { ReactNode, FunctionComponent } from 'react';
 import styled from 'styled-components';
 
-import { ColListLayout, BothMarginWrapper } from 'Layouts/index';
+import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import { cancelWhite } from 'Resources/index';
 import { HorizontalDivider, SocialLinkList } from 'Templates/index';
 
@@ -33,7 +33,7 @@ const MenuLayout: FunctionComponent<IMenuLayoutProps> = ({
       <HeaderWrapper>
         <BothMarginWrapper>{header}</BothMarginWrapper>
       </HeaderWrapper>
-      <BothMarginWrapper>{body}</BothMarginWrapper>
+      <BothMarginWrapper depth={2}>{body}</BothMarginWrapper>
       <HorizontalDivider />
       <BothMarginWrapper depth={2}>{footer}</BothMarginWrapper>
     </ColListLayout.Repeat>
@@ -46,19 +46,10 @@ const HeaderWrapper = styled.div`
 
 const MenuHeader = () => {
   return (
-    <ColListLayout.Detail
-      top="25px"
-      bottom="25px"
-      items={[
-        {
-          el: <CloseButton />,
-          bottom: '52px',
-        },
-        {
-          el: <MenuTitle />,
-        },
-      ]}
-    />
+    <RowListLayout.Align type="justify" left="40px" right="25px" top="40px" bottom="40px">
+      <MenuTitle />
+      <CloseButton />
+    </RowListLayout.Align>
   );
 };
 
