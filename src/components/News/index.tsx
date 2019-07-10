@@ -103,7 +103,7 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
       },
       {
         el: externalLink,
-        bottom: '10px',
+        bottom: '20px',
       },
       {
         el: (
@@ -111,7 +111,7 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
             <HorizontalDivider />
           </BothMarginWrapper>
         ),
-        bottom: '12px',
+        bottom: '15px',
       },
       {
         el: <BothMarginWrapper depth={3}>{footer}</BothMarginWrapper>,
@@ -169,10 +169,12 @@ interface IIconLabelProps {
 }
 
 const IconLabelImg = styled.img`
-  width: 23px;
+  width: 16px;
+  margin: 2px 4px;
 `;
 
 const IconLabelText = styled.span`
+  display: flex;
   font-size: 13px;
   color: #595966;
 `;
