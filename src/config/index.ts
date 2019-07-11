@@ -50,17 +50,6 @@ export const footerSocialList = [
   },
 ];
 
-export const tabs = [
-  {
-    label: 'News',
-    key: 'News',
-  },
-  {
-    label: 'Picks',
-    key: 'Picks',
-  },
-];
-
 export const footerLinks = [
   { children: '서비스 안내', href: 'https://www.facebook.com/', key: '1' },
   { children: '제안하기', href: 'https://www.facebook.com/', key: '2' },

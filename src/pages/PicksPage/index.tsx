@@ -17,9 +17,21 @@ export const PicksPage = () => (
   <Wrapper>
     <Header />
     <HorizontalDivider />
-    <Tabs />
-    <PickCategoryList />
-    <TextCard title="개발 읽기" text="바로 링크로 이동합니다." />
+    <Tabs
+      tabs={[
+        {
+          label: 'News',
+          key: 'News',
+        },
+        {
+          label: 'Picks',
+          key: 'Picks',
+        },
+      ]}
+      selectTabKey="Picks"
+    />
+    <PickCategoryList selectCategoryKey="1" />
+    <TextCard title="개발에 관련된 아티클 모음입니다." text="바로 링크로 이동합니다." />
     <HorizontalDivider thick />
     <PickNewsList />
     <Footer />
