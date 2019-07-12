@@ -1,8 +1,8 @@
 import React, { ReactNode, FunctionComponent } from 'react';
 import styled from 'styled-components';
 
-import { ColListLayout, BothMarginWrapper } from 'Layouts/index';
-import { cancelWhite } from 'Resources/index';
+import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
+import { exitWhite } from 'Resources/index';
 import { HorizontalDivider, SocialLinkList } from 'Templates/index';
 
 export const Menu = () => {
@@ -31,9 +31,9 @@ const MenuLayout: FunctionComponent<IMenuLayoutProps> = ({
   return (
     <ColListLayout.Repeat interval="25px">
       <HeaderWrapper>
-        <BothMarginWrapper>{header}</BothMarginWrapper>
+        <BothMarginWrapper depth={2}>{header}</BothMarginWrapper>
       </HeaderWrapper>
-      <BothMarginWrapper>{body}</BothMarginWrapper>
+      <BothMarginWrapper depth={2}>{body}</BothMarginWrapper>
       <HorizontalDivider />
       <BothMarginWrapper depth={2}>{footer}</BothMarginWrapper>
     </ColListLayout.Repeat>
@@ -46,24 +46,16 @@ const HeaderWrapper = styled.div`
 
 const MenuHeader = () => {
   return (
-    <ColListLayout.Detail
-      top="25px"
-      bottom="25px"
-      items={[
-        {
-          el: <CloseButton />,
-          bottom: '52px',
-        },
-        {
-          el: <MenuTitle />,
-        },
-      ]}
-    />
+    <RowListLayout.Align type="justify" top="40px" bottom="40px">
+      <MenuTitle />
+      <CloseButton />
+    </RowListLayout.Align>
   );
 };
 
-const CloseButton = styled.img.attrs({ src: cancelWhite })`
-  width: 30px;
+const CloseButton = styled.img.attrs({ src: exitWhite })`
+  width: 18px;
+  margin: 6px;
 `;
 
 const MenuTitle = styled.div.attrs({ children: 'Menu' })`

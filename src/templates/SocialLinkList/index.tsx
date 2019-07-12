@@ -15,7 +15,7 @@ const Layouts = {
     <RowListLayout.Align type="justify">{children}</RowListLayout.Align>
   ),
   Left: ({ children }: { children: ReactNode[] }) => (
-    <RowListLayout.Repeat interval="10px">{children}</RowListLayout.Repeat>
+    <RowListLayout.Repeat interval="25px">{children}</RowListLayout.Repeat>
   ),
 };
 
@@ -35,4 +35,7 @@ export const SocialLinkList: FunctionComponent<ISocialLinkListProps> = ({ imgBgT
 };
 
 /* SocialLinkIcon 컴포넌트 */
-const SocialLinkIcon = styled.img``;
+const SocialLinkIcon = styled.img`
+  width: 40px;
+  height: 40px;
+`;
