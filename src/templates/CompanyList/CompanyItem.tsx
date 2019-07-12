@@ -74,7 +74,8 @@ const CompanyIconWrapper = styled(Center)`
   width: ${ICON_WRAPPER_SIZE};
   height: ${ICON_WRAPPER_SIZE};
 
-  background-color: #b7b7b7;
+  border: solid 1px #ececec;
+  background-color: #fefefe;
   border-radius: 1000px;
   font-size: 10px;
 `;
