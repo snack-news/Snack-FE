@@ -46,7 +46,7 @@ const ExternalLinkWrapper = styled(ColListLayout.Repeat)`
 `;
 
 const LinkTitleWrapper = styled.div`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #121111;
 `;
