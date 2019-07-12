@@ -122,7 +122,7 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
 
 const CreatedWeekLabel: FunctionComponent<{ date: number }> = ({ date }) => {
   return (
-    <div style={{ fontFamily: 'SFProDisplay', fontSize: '15px', color: '#0b66f7' }}>
+    <div style={{ fontSize: '15px', color: '#0b66f7' }}>
       {getDateFormat(new Date(date), 'YYYY년 MM월 WEEK_NUM주')}
     </div>
   );
