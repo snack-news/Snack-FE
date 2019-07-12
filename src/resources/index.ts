@@ -18,5 +18,7 @@ export { default as downarrowFilterImg } from './icon/downarrow_filter.png';
 export { default as downarrowImg } from './icon/downarrow.png';
 export { default as backBlueArrowImg } from './icon/back_blue2x.png';
 export { default as cancelWhite } from './icon/cancel_white2x.png';
+export { default as contentImg } from './icon/content3x.png';
 export { default as exitImg } from './icon/exit3x.png';
 export { default as checkImg } from './icon/mark3x.png';
+
