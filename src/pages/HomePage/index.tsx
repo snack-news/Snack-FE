@@ -23,7 +23,7 @@ export const HomePage = () => (
             ]}
             selectTabKey="News"
           />
-          <HorizontalDivider thick />
+          <HorizontalDivider thick color="white" />
           <SelectBox />
           <HorizontalDivider thick />
         </>

@@ -20,3 +20,4 @@ export { default as backBlueArrowImg } from './asset/back@3x.png';
 export { default as exitWhite } from './asset/exit-white@3x.png';
 export { default as exitImg } from './asset/exit@3x.png';
 export { default as checkImg } from './asset/mark@3x.png';
+

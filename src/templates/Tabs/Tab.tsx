@@ -27,11 +27,11 @@ const TabUnderLine = styled.div<{ selected?: boolean }>`
 
 const Tab: FunctionComponent<ITabProps> = ({ children, selected }) => (
   <ColListLayout.Detail
-    top="10px"
+    top="18px"
     items={[
       {
         el: <TabLabel selected={selected}>{children}</TabLabel>,
-        bottom: '10px',
+        bottom: '18px',
       },
       {
         el: <TabUnderLine selected={selected} />,
