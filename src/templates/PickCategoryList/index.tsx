@@ -45,6 +45,7 @@ const PickCategoryCard = styled.div<IPickCategoryCardProps>`
   ${({ select }) => {
     if (select) {
       return css`
+        color: #fefefe;
         background-color: #0b66f7;
       `;
     }
