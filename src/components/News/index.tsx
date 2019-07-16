@@ -111,7 +111,7 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
             <HorizontalDivider />
           </BothMarginWrapper>
         ),
-        bottom: '20px',
+        bottom: '15px',
       },
       {
         el: <BothMarginWrapper depth={3}>{footer}</BothMarginWrapper>,
