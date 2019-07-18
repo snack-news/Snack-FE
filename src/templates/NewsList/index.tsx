@@ -35,7 +35,7 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
   const newsComponents = newsList.map(newsProps => (
     <Fragment key={newsProps.key}>
       <News {...newsProps} {...newsOptionProps} />
-      <HorizontalDivider />
+      <HorizontalDivider thick/>
     </Fragment>
   ));
 

@@ -83,7 +83,7 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
 }) => (
   <ColListLayout.Detail
     top="30px"
-    bottom="22px"
+    bottom="15px"
     items={[
       {
         el: createWeekLabel && <BothMarginWrapper>{createWeekLabel}</BothMarginWrapper>,
