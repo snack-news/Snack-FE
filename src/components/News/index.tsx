@@ -157,10 +157,14 @@ const Content = styled.div<{ expanded?: boolean }>`
         `}
 `;
 
-const MoreButton = styled.div.attrs({ children: '더보기' })`
+const MoreButton = styled.div.attrs({ children: '👇 더보기' })`
+  margin-top: 20px;
   font-size: 14px;
   line-height: 2.4;
   color: #b6b6c0;
+  text-align: center;
+  background-color: #f5f4f5;
+  color: #4a4a4a;
 `;
 
 interface IIconLabelProps {

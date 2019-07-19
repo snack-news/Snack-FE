@@ -19,8 +19,7 @@ const Tag = styled.div<ITag>`
   font-size: 11px;
   font-weight: 500;
   color: #fefefe;
-  padding: 3px 8px;
-
+  padding: 5px 8px;
   background-color: ${({ highlight }) => (highlight ? '#dd2020' : '#6d6f72')};
 `;
 
