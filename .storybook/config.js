@@ -1,6 +1,8 @@
+import React from 'react';
 import { configure, addParameters, addDecorator } from '@storybook/react';
 // import { withPropsTable } from 'storybook-addon-react-docgen';
 import { withKnobs } from '@storybook/addon-knobs';
+import { MemoryRouter } from 'react-router';
 
 import { storiesOf } from '@storybook/react';
 
@@ -13,6 +15,8 @@ import '../src/common';
 // addDecorator(withPropsTable({
 //   propTablesExclude: [Outline]
 // }));
+
+addDecorator(story => <MemoryRouter initialEntries={['/']}>{story()}</MemoryRouter>)
 
 addDecorator(withKnobs)
 
