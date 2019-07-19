@@ -4,8 +4,10 @@ import styled from 'styled-components';
 import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import { exitWhite } from 'Resources/index';
 import { HorizontalDivider, SocialLinkList } from 'Templates/index';
+import { withRouter } from 'react-router';
+import { Link } from 'react-router-dom';
 
-export const Menu = () => {
+export const MenuPage = () => {
   return (
     <MenuLayout>
       {{
@@ -44,14 +46,14 @@ const HeaderWrapper = styled.div`
   background-color: #0b66f7;
 `;
 
-const MenuHeader = () => {
+const MenuHeader = withRouter(({ history }) => {
   return (
     <RowListLayout.Align type="justify" top="40px" bottom="40px">
       <MenuTitle />
-      <CloseButton />
+      <CloseButton onClick={history.goBack} />
     </RowListLayout.Align>
   );
-};
+});
 
 const CloseButton = styled.img.attrs({ src: exitWhite })`
   width: 18px;
@@ -67,19 +69,20 @@ const MenuTitle = styled.div.attrs({ children: 'Menu' })`
 const MenuLinkList = () => {
   return (
     <ColListLayout.Repeat interval="20px">
-      <MenuLink>홈</MenuLink>
-      <MenuLink>토픽 모아보기</MenuLink>
-      <MenuLink>서비스 안내</MenuLink>
-      <MenuLink>공지사항</MenuLink>
-      <MenuLink>제안하기</MenuLink>
-      <MenuLink>문의하기</MenuLink>
+      <MenuLink to="/">홈</MenuLink>
+      <MenuLink to="/company-select/">토픽 모아보기</MenuLink>
+      <MenuLink to="/">서비스 안내</MenuLink>
+      <MenuLink to="/">공지사항</MenuLink>
+      <MenuLink to="/introduce-from">제안하기</MenuLink>
+      <MenuLink to="/">문의하기</MenuLink>
     </ColListLayout.Repeat>
   );
 };
 
-const MenuLink = styled.div`
+const MenuLink = styled(Link)`
   font-size: 24px;
   font-weight: bold;
   line-height: normal;
   color: #1e1e25;
+  text-decoration: none;
 `;
