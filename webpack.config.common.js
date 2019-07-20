@@ -77,7 +77,7 @@ module.exports = {
     }),
   ],
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
     alias: {
       Api: path.resolve(SRC_PATH, 'api/'),
       Components: path.resolve(SRC_PATH, 'components/'),
