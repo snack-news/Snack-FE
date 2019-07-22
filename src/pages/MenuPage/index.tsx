@@ -7,6 +7,8 @@ import { HorizontalDivider, SocialLinkList } from 'Templates/index';
 import { withRouter } from 'react-router';
 import { Link } from 'react-router-dom';
 
+import { routes } from 'Config/routes';
+
 export const MenuPage = () => {
   return (
     <MenuLayout>
@@ -69,11 +71,11 @@ const MenuTitle = styled.div.attrs({ children: 'Menu' })`
 const MenuLinkList = () => {
   return (
     <ColListLayout.Repeat interval="20px">
-      <MenuLink to="/">홈</MenuLink>
-      <MenuLink to="/company-select/">토픽 모아보기</MenuLink>
+      <MenuLink to={routes.homePage}>홈</MenuLink>
+      <MenuLink to={routes.companyNewsListPage}>토픽 모아보기</MenuLink>
       <MenuLink to="/">서비스 안내</MenuLink>
-      <MenuLink to="/">공지사항</MenuLink>
-      <MenuLink to="/introduce-from">제안하기</MenuLink>
+      <MenuLink to={routes.aboutPage}>공지사항</MenuLink>
+      <MenuLink to={routes.introduceFormPage}>제안하기</MenuLink>
       <MenuLink to="/">문의하기</MenuLink>
     </ColListLayout.Repeat>
   );

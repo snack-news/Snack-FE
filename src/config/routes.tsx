@@ -5,4 +5,5 @@ export const routes = {
   introduceFormPage: '/introduce-from/',
   menuPage: '/menu/',
   picksPage: '/picks/',
+  aboutPage: '/about/',
 };
