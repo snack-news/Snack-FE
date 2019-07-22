@@ -5,3 +5,4 @@ export * from './NewsPage';
 export * from './CompanyNewsListPage';
 export * from './IntroduceFormPage';
 export * from './Menu';
+export * from './AboutPage';
