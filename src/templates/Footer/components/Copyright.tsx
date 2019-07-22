@@ -6,6 +6,7 @@ import { LogoWhiteFooterImg } from 'Resources/index';
 export const Copyright = styled.img.attrs({ src: LogoWhiteFooterImg })`
   display: block;
   margin: 0 auto;
+  width: 179px;
 `;
 
 export default Copyright;

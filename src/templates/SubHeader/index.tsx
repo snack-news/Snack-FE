@@ -30,9 +30,14 @@ const SortLabel = styled.span`
 const SortButton = () => (
   <div>
     <SortLabel>가나다 순</SortLabel>
-    <img src={downarrowFilterImg} alt="sort" />
+    <DownArrowFilterImg />
   </div>
 );
+
+const DownArrowFilterImg = styled.img.attrs({ src: downarrowFilterImg })`
+  width: 13px;
+  height: 7px;
+`;
 
 const SubHeaderWrapper = styled(BothMarginWrapper)`
   margin: 15px 0;

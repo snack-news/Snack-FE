@@ -78,4 +78,5 @@ const Logo = styled.img.attrs({ src: logoImg })`
 // Menu 컴포넌트
 const Menu = styled.img.attrs({ src: MenuImg })`
   width: 30px;
+  padding: 8px 7px;
 `;
