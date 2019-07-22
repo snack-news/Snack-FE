@@ -10,20 +10,8 @@ export const HomePage = () => (
         <>
           <Header />
           <HorizontalDivider />
-          <Tabs
-            tabs={[
-              {
-                label: 'News',
-                key: 'News',
-              },
-              {
-                label: 'Picks',
-                key: 'Picks',
-              },
-            ]}
-            selectTabKey="News"
-          />
-          <HorizontalDivider thick color="white" />
+          <Tabs />
+          <HorizontalDivider thick />
           <SelectBox />
           <HorizontalDivider thick />
         </>

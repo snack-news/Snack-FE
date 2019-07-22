@@ -2,25 +2,30 @@ import React, { FunctionComponent } from 'react';
 
 import { RowListLayout } from 'Layouts/index';
 
-import Tab from './Tab';
+import { routes } from 'Config/routes';
 
-interface ITab {
-  label: string;
-  key: string;
-}
+import TabLink from './TabLink';
 
-interface ITabsProps {
-  tabs: ITab[];
-  selectTabKey: string;
-}
+const tabs = [
+  {
+    label: 'News',
+    to: routes.homePage,
+  },
+  {
+    label: 'Picks',
+    to: routes.picksPage,
+  },
+];
 
-export const Tabs: FunctionComponent<ITabsProps> = ({ tabs, selectTabKey }) => {
+interface ITabsProps {}
+
+export const Tabs: FunctionComponent<ITabsProps> = () => {
   return (
     <RowListLayout.Align type="justify">
-      {tabs.map(({ label, key }) => (
-        <Tab selected={key === selectTabKey} key={key}>
+      {tabs.map(({ label, to }) => (
+        <TabLink to={to} key={`${label}_${to}`}>
           {label}
-        </Tab>
+        </TabLink>
       ))}
     </RowListLayout.Align>
   );

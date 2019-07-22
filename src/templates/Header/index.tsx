@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
 
 import { logoImg, MenuImg, backBlueArrowImg } from 'Resources/index';
+import { Link } from 'react-router-dom';
+import { routes } from 'Config/routes';
 
 // Header 컴포넌트
 interface IHeaderProps {
@@ -15,7 +17,11 @@ export const Header: FunctionComponent<IHeaderProps> = ({ title }) => {
     <HeaderLayout>
       {{
         logo: <Logo />,
-        menu: <Menu />,
+        menu: (
+          <Link to={routes.menuPage}>
+            <Menu />
+          </Link>
+        ),
         backArrow: <BackArrow />,
         title,
       }}
