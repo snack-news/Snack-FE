@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { ColListLayout, RowListLayout, BothMarginWrapper } from 'Layouts/index';
@@ -6,13 +6,21 @@ import { ColListLayout, RowListLayout, BothMarginWrapper } from 'Layouts/index';
 import { exitImg } from 'Resources/index';
 import { HorizontalDivider } from 'Templates/index';
 
-import { Layer } from 'Components/index';
+import { Layer } from '../Layer';
 import SelectItemList from './SelectItemList';
 
-export const SelectItemListBox = () => {
+interface ISelectItemListBoxProps {
+  onClickLayer?: () => void;
+  onClickCloseButton?: () => void;
+}
+
+export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
+  onClickLayer,
+  onClickCloseButton,
+}) => {
   return (
     <>
-      <Layer />
+      <Layer onClick={onClickLayer} />
       <div style={{ position: 'fixed', bottom: 0, right: 0, left: 0, backgroundColor: '#fff' }}>
         <ColListLayout.Detail
           top="20px"
@@ -21,7 +29,10 @@ export const SelectItemListBox = () => {
             {
               el: (
                 <BothMarginWrapper>
-                  <SelectItemListBoxHeader />
+                  <RowListLayout.Align type="justify">
+                    <SelectItemListBoxTitle />
+                    <CloseButton onClick={onClickCloseButton} />
+                  </RowListLayout.Align>
                 </BothMarginWrapper>
               ),
               bottom: '15px',
@@ -40,15 +51,6 @@ export const SelectItemListBox = () => {
         />
       </div>
     </>
-  );
-};
-
-const SelectItemListBoxHeader = () => {
-  return (
-    <RowListLayout.Align type="justify">
-      <SelectItemListBoxTitle />
-      <CloseButton />
-    </RowListLayout.Align>
   );
 };
 

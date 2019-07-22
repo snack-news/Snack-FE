@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { FunctionComponent, useState } from 'react';
 import styled from 'styled-components';
 
 import { downarrowImg } from 'Resources/index';
+import { SelectItemListBox } from './SelectItemListBox';
 
 const DownArrowIcon = styled.img.attrs({
   src: downarrowImg,
@@ -11,21 +12,30 @@ const DownArrowIcon = styled.img.attrs({
 `;
 
 const LabelWrapper = styled.div`
+  font-size: 17px;
+  font-weight: 600;
+  color: #121111;
+
   align-items: center;
   padding: 14px 20px;
 `;
 
-const Label = styled.div.attrs<{ text: string }>(({ text }) => ({
-  children: (
-    <LabelWrapper>
-      {text}
-      <DownArrowIcon />
-    </LabelWrapper>
-  ),
-}))<{ text: string }>`
-  font-size: 17px;
-  font-weight: 600;
-  color: #121111;
-`;
+const Label: FunctionComponent<{ text: string }> = ({ text }) => {
+  const [isShowListBox, setShowListBox] = useState(false);
+  const showListBox = () => setShowListBox(true);
+  const hideListBox = () => setShowListBox(false);
+
+  return (
+    <>
+      <LabelWrapper onClick={showListBox}>
+        {text}
+        <DownArrowIcon />
+      </LabelWrapper>
+      {isShowListBox && (
+        <SelectItemListBox onClickCloseButton={hideListBox} onClickLayer={hideListBox} />
+      )}
+    </>
+  );
+};
 
 export default Label;
