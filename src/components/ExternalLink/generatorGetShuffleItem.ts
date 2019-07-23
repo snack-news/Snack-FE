@@ -1,7 +1,7 @@
-const shuffle = (items: unknown[]) => [...items].sort(() => 0.5 - Math.random());
+const shuffle = <ItemType>(items: ItemType[]) => [...items].sort(() => 0.5 - Math.random());
 
-function* generatorGetShuffleItem(items: unknown[]) {
-  const shuffledItems = shuffle(items);
+function* generatorGetShuffleItem<ItemType>(items: ItemType[]) {
+  const shuffledItems = shuffle<ItemType>(items);
   const { length } = shuffledItems;
   let currentIndex = 0;
 
