@@ -13,4 +13,3 @@ export * from './RecommendNewsList';
 export * from './NewsList';
 export * from './TextField';
 export * from './SocialLinkList';
-export * from './SelectItemListBox';

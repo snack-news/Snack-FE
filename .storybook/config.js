@@ -1,6 +1,8 @@
+import React from 'react';
 import { configure, addParameters, addDecorator } from '@storybook/react';
 // import { withPropsTable } from 'storybook-addon-react-docgen';
 import { withKnobs } from '@storybook/addon-knobs';
+import { MemoryRouter } from 'react-router';
 
 import { storiesOf } from '@storybook/react';
 
@@ -13,6 +15,12 @@ import '../src/common';
 // addDecorator(withPropsTable({
 //   propTablesExclude: [Outline]
 // }));
+
+/**
+ * Storybook에서 Router를 가진 컴포넌트를 랜더링 하기 위한 코드
+ * https://github.com/storybookjs/storybook/issues/769
+ */
+addDecorator(story => <MemoryRouter initialEntries={['/']}>{story()}</MemoryRouter>)
 
 addDecorator(withKnobs)
 

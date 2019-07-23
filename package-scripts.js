@@ -53,7 +53,7 @@ module.exports = {
       description: '테스트',
     },
     dev: {
-      script: concurrent.nps('server.dev', 'test'),
+      script: concurrent.nps('server.dev'),
       description: '개발 환경',
     },
   },

@@ -50,12 +50,6 @@ export const footerSocialList = [
   },
 ];
 
-export const footerLinks = [
-  { children: '서비스 안내', href: 'https://www.facebook.com/', key: '1' },
-  { children: '제안하기', href: 'https://www.facebook.com/', key: '2' },
-  { children: '문의하기', href: 'https://www.facebook.com/', key: '3' },
-];
-
 export const externalLinks = {
   facebook: {
     link: 'https://www.facebook.com/',
