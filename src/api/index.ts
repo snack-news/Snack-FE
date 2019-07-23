@@ -137,7 +137,6 @@ export const getPickNewsList = (): INews[] => [
       href:
         'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
       title: '애플 7% 주가 상승했나? 여력있어 보여',
-      img: linkMock,
     },
     createdDate: 1561470457644,
     key: '2',
@@ -154,7 +153,6 @@ export const getPickNewsList = (): INews[] => [
       href:
         'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
       title: '애플 7% 주가 상승했나? 여력있어 보여',
-      img: linkMock,
     },
     createdDate: 1561470457644,
     key: '3',
