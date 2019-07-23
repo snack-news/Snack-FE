@@ -3,12 +3,12 @@ import styled from 'styled-components';
 
 import { ColListLayout, BothMarginWrapper } from 'Layouts/index';
 import { getHostName } from 'Utils';
-import LinkImg from './LinkImg'
+import LinkImg from './LinkImg';
 
 export const ExternalLinkWithImage: FunctionComponent<IExternalLink> = ({ href, title, img }) => {
   return (
     <ColListLayout.Repeat>
-      {img && <LinkImg src={img} />}
+      <LinkImg imgSrc={img} />
       <ExternalLink href={href} title={title} />
     </ColListLayout.Repeat>
   );
