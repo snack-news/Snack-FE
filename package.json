@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nps",
     "build": "nps build",
+    "server": "nps server",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-static",
     "test": "jest --watchAll"
