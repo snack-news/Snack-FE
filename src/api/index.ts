@@ -1,10 +1,11 @@
 // TODO 이후 API 가 많아지면 파일 분리가 필요하다.
 import uberLogo from 'Resources/mock/uber-logo.png';
+import coupangLogo from 'Resources/mock/coupang-logo.png';
 import linkMock from 'Resources/mock/linkMock.jpg';
 
 export const getCompanyList = (): ICompany[] => [
   { companyName: '아마존', key: '1', logoImg: uberLogo },
-  { companyName: '쿠팡', key: '2', logoImg: uberLogo },
+  { companyName: '쿠팡', key: '2', logoImg: coupangLogo },
   { companyName: '페이스북', key: '3', logoImg: uberLogo },
   { companyName: '삼성', key: '4', logoImg: uberLogo },
   { companyName: '테슬라', key: '5', logoImg: uberLogo },
