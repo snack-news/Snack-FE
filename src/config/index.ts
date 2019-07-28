@@ -17,7 +17,7 @@ import {
 
 export const footerSocialList = [
   {
-    link: 'https://www.facebook.com/',
+    link: 'https://www.facebook.com/groups/snacknews/',
     img: {
       blue: facebookBlueImg,
       white: facebookWhiteImg,
@@ -25,7 +25,7 @@ export const footerSocialList = [
     key: 'facebook',
   },
   {
-    link: 'https://www.facebook.com/',
+    link: 'https://twitter.com/techsnacknews',
     img: {
       blue: twitterBlueImg,
       white: twitterWhiteImg,
@@ -33,7 +33,7 @@ export const footerSocialList = [
     key: 'twitter',
   },
   {
-    link: 'https://www.facebook.com/',
+    link: 'https://open.kakao.com/o/gKIXUx0',
     img: {
       blue: kakaoBlueImg,
       white: kakaoWhiteImg,
@@ -41,7 +41,7 @@ export const footerSocialList = [
     key: 'kakao',
   },
   {
-    link: 'https://www.facebook.com/',
+    link: 'teamsnackofficial@gmail.com',
     img: {
       blue: emailBlueImg,
       white: emailWhiteImg,
@@ -52,19 +52,19 @@ export const footerSocialList = [
 
 export const externalLinks = {
   facebook: {
-    link: 'https://www.facebook.com/',
+    link: 'https://www.facebook.com/groups/snacknews/',
   },
   twitter: {
-    link: 'https://www.facebook.com/',
+    link: 'https://twitter.com/techsnacknews',
   },
   kakao: {
-    link: 'https://www.facebook.com/',
+    link: 'https://open.kakao.com/o/gKIXUx0',
   },
   linkedin: {
     link: 'https://www.facebook.com/',
   },
   email: {
-    link: 'https://www.facebook.com/',
+    link: 'teamsnackofficial@gmail.com',
   },
 };
 
