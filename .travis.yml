@@ -1,0 +1,21 @@
+language: node_js
+sudo: false
+node_js:
+  - "8"
+
+branches:
+  only:
+    - master
+
+cache:
+  npm: true
+
+install:
+    - npm install
+
+script:
+    - npm run build
+
+
+notifications:
+  slack: opensourcekr:3wXZfw1QFGKrbPrNR99ZLR10
