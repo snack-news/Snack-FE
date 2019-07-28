@@ -74,9 +74,7 @@ const MenuLinkList = () => {
       <MenuLink to={routes.homePage}>홈</MenuLink>
       <MenuLink to={routes.companyNewsListPage}>토픽 모아보기</MenuLink>
       <MenuLink to="/">서비스 안내</MenuLink>
-      <MenuLink to={routes.aboutPage}>공지사항</MenuLink>
       <MenuLink to={routes.introduceFormPage}>제안하기</MenuLink>
-      <MenuLink to="/">문의하기</MenuLink>
     </ColListLayout.Repeat>
   );
 };
