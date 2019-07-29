@@ -1,7 +1,7 @@
 language: node_js
 sudo: false
 node_js:
-  - "8"
+  - "10"
 
 branches:
   only:
@@ -17,7 +17,7 @@ script:
     - npm run build
 
 before_deploy:
-  - zip -r snack-news-FE *
+  - zip -x node_modules/\* -r snack-news-FE *
   - mkdir -p deploy
   - mv snack-news-FE.zip deploy/snack-news-FE.zip
 
