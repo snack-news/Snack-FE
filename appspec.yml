@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source:  /
-    destination: /home/ec2-user/app/snack-fe/build/
+    destination: /home/ec2-user/snack-fe/build/
 
 hooks:
   AfterInstall:
