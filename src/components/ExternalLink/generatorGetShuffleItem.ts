@@ -1,4 +1,4 @@
-const shuffle = <ItemType>(items: ItemType[]) => [...items].sort(() => 0.5 - Math.random());
+import { shuffle } from 'Utils';
 
 function* generatorGetShuffleItem<ItemType>(items: ItemType[]) {
   const shuffledItems = shuffle<ItemType>(items);
