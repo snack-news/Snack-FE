@@ -31,7 +31,7 @@ fi
 echo "> pm2 stop $IDLE_PROFILE"
 pm2 stop ${IDLE_PROFILE}
 pm2 delete ${IDLE_PROFILE}
-sleep 3
+sleep 2
 
 IDLE_PATH=${BASE_PATH}/${IDLE_PROFILE}
 echo "> 기존에 있던 파일들을 삭제합니다."
@@ -47,13 +47,13 @@ sudo npm install
 
 echo "> 어플리케이션 BUILD"
 sudo npm run build
-sleep 3
+sleep 2
 
 echo "> 어플리케이션 RUN"
 sudo PORT=${IDLE_PORT} pm2 start server/index.js --name ${IDLE_PROFILE}
 
 echo "> Nginx 스위칭"
-sleep 3
+sleep 2
 
 echo "> 전환할 Port: $IDLE_PORT"
 echo "> Port 전환"
@@ -65,4 +65,3 @@ sudo service nginx reload
 echo "> pm2 stop $RUN_PROFILE"
 sudo pm2 stop ${RUN_PROFILE}
 sudo pm2 delete ${RUN_PROFILE}
-sleep 3
