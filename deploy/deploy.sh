@@ -50,7 +50,7 @@ sudo npm run build
 sleep 3
 
 echo "> 어플리케이션 RUN"
-PORT=${IDLE_PORT} pm2 start server/index.js --name ${IDLE_PROFILE}
+sudo PORT=${IDLE_PORT} pm2 start server/index.js --name ${IDLE_PROFILE}
 
 echo "> Nginx 스위칭"
 sleep 3
@@ -63,6 +63,6 @@ sudo service nginx reload
 
 
 echo "> pm2 stop $RUN_PROFILE"
-pm2 stop ${RUN_PROFILE}
-pm2 delete ${RUN_PROFILE}
+sudo pm2 stop ${RUN_PROFILE}
+sudo pm2 delete ${RUN_PROFILE}
 sleep 3
