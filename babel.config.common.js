@@ -4,7 +4,8 @@
 module.exports = {
   presets: ['@babel/typescript', '@babel/preset-react'],
   plugins: [
-    '@babel/proposal-class-properties',
+    ['@babel/plugin-proposal-decorators', { legacy: true }],
+    ['@babel/proposal-class-properties', { loose: true }],
     'babel-plugin-styled-components',
     [
       '@babel/plugin-transform-runtime',
