@@ -16,7 +16,7 @@ export const PickNewsList: FunctionComponent<IPickNewsListProps> = () => {
     <ColListLayout.Repeat>
       {pickNewsList.map(pickNewsProps => (
         <Fragment key={pickNewsProps.key}>
-          <ExternalLinkWithImage {...pickNewsProps.link} />
+          <ExternalLinkWithImage {...pickNewsProps.link} isRenderShuffleBackgroundColorBox />
           <HorizontalDivider thick />
         </Fragment>
       ))}
