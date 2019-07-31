@@ -5,10 +5,19 @@ import { ColListLayout, BothMarginWrapper } from 'Layouts/index';
 import { getHostName } from 'Utils';
 import LinkImg from './LinkImg';
 
-export const ExternalLinkWithImage: FunctionComponent<IExternalLink> = ({ href, title, img }) => {
+interface IExternalLinkWithImageProps extends IExternalLink {
+  isRenderShuffleBackgroundColorBox?: boolean;
+}
+
+export const ExternalLinkWithImage: FunctionComponent<IExternalLinkWithImageProps> = ({
+  href,
+  title,
+  img,
+  isRenderShuffleBackgroundColorBox,
+}) => {
   return (
     <ColListLayout.Repeat>
-      <LinkImg imgSrc={img} />
+      <LinkImg imgSrc={img} isRenderShuffleBackgroundColorBox={isRenderShuffleBackgroundColorBox} />
       <ExternalLink href={href} title={title} />
     </ColListLayout.Repeat>
   );
