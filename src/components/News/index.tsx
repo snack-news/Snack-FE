@@ -2,9 +2,9 @@ import React, { FunctionComponent, ReactNode } from 'react';
 import styled, { css } from 'styled-components';
 
 import { ExternalLinkWithImage } from 'Components/index';
-import { HorizontalDivider } from 'Templates/index';
-import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
-import { shareImg, copyImg } from 'Resources/index';
+// import { HorizontalDivider } from 'Templates/index';
+import { ColListLayout, BothMarginWrapper } from 'Layouts/index';
+// import { shareImg, copyImg } from 'Resources/index';
 import { getDateFormat } from 'Utils';
 
 import Tags from './Tags';
@@ -56,12 +56,12 @@ export const News: FunctionComponent<INewsProps> = props => {
           </ColListLayout.Repeat>
         ),
         externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
-        footer: (
-          <RowListLayout.Align type="justify">
-            <IconLabel iconImg={shareImg} label="공유하기" />
-            <IconLabel iconImg={copyImg} label="링크복사" />
-          </RowListLayout.Align>
-        ),
+        // footer: (
+        //   <RowListLayout.Align type="justify">
+        //     <IconLabel iconImg={shareImg} label="공유하기" />
+        //     <IconLabel iconImg={copyImg} label="링크복사" />
+        //   </RowListLayout.Align>
+        // ),
       }}
     </NewsLayout>
   );
@@ -74,12 +74,12 @@ interface INewsLayoutProps {
     title: ReactNode;
     content: ReactNode;
     externalLink: ReactNode;
-    footer: ReactNode;
+    // footer: ReactNode;
   };
 }
 
 const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
-  children: { createWeekLabel, tags, title, content, externalLink, footer },
+  children: { createWeekLabel, tags, title, content, externalLink },
 }) => (
   <ColListLayout.Detail
     top="30px"
@@ -105,17 +105,17 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
         el: externalLink,
         bottom: '20px',
       },
-      {
-        el: (
-          <BothMarginWrapper>
-            <HorizontalDivider />
-          </BothMarginWrapper>
-        ),
-        bottom: '15px',
-      },
-      {
-        el: <BothMarginWrapper depth={3}>{footer}</BothMarginWrapper>,
-      },
+      // {
+      //   el: (
+      //     <BothMarginWrapper>
+      //       <HorizontalDivider />
+      //     </BothMarginWrapper>
+      //   ),
+      //   bottom: '15px',
+      // },
+      // {
+      //   el: <BothMarginWrapper depth={3}>{footer}</BothMarginWrapper>,
+      // },
     ]}
   />
 );
@@ -167,27 +167,27 @@ const MoreButton = styled.div.attrs({ children: '👇 더보기' })`
   color: #4a4a4a;
 `;
 
-interface IIconLabelProps {
-  iconImg: string;
-  label: string;
-}
+// interface IIconLabelProps {
+//   iconImg: string;
+//   label: string;
+// }
 
-const IconLabelImg = styled.img`
-  width: 16px;
-  margin: 2px 4px;
-`;
+// const IconLabelImg = styled.img`
+//   width: 16px;
+//   margin: 2px 4px;
+// `;
 
-const IconLabelText = styled.span`
-  display: flex;
-  font-size: 13px;
-  color: #595966;
-`;
+// const IconLabelText = styled.span`
+//   display: flex;
+//   font-size: 13px;
+//   color: #595966;
+// `;
 
-const IconLabel: FunctionComponent<IIconLabelProps> = ({ iconImg, label }) => (
-  <div>
-    <RowListLayout.Repeat interval="3px">
-      <IconLabelImg src={iconImg} alt="icon" />
-      <IconLabelText>{label}</IconLabelText>
-    </RowListLayout.Repeat>
-  </div>
-);
+// const IconLabel: FunctionComponent<IIconLabelProps> = ({ iconImg, label }) => (
+//   <div>
+//     <RowListLayout.Repeat interval="3px">
+//       <IconLabelImg src={iconImg} alt="icon" />
+//       <IconLabelText>{label}</IconLabelText>
+//     </RowListLayout.Repeat>
+//   </div>
+// );
