@@ -26,7 +26,6 @@ export const HomePage = inject('store')(
               isRenderCompanyListCard
               isRenderContactCard
               isRenderPlatformListCard
-              isRenderRecommendNewsList
               companyListCardProps={{
                 title: '회사별 뉴스 모아보기',
                 isRenderMoreLink: true,
