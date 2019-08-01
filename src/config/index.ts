@@ -41,7 +41,7 @@ export const footerSocialList = [
     key: 'kakao',
   },
   {
-    link: 'teamsnackofficial@gmail.com',
+    link: 'mailto:teamsnackofficial@gmail.com',
     img: {
       blue: emailBlueImg,
       white: emailWhiteImg,
@@ -61,7 +61,7 @@ export const externalLinks = {
     link: 'https://open.kakao.com/o/gKIXUx0',
   },
   linkedin: {
-    link: 'https://www.facebook.com/',
+    link: 'https://www.linkedin.com/groups/10410693/',
   },
   email: {
     link: 'teamsnackofficial@gmail.com',
