@@ -2,6 +2,13 @@
 
 Snack News FE 코드입니다. [![Build Status](https://travis-ci.org/snack-news/Snack-FE.svg?branch=master)](https://travis-ci.org/snack-news/Snack-FE)
 
+## How to Build & Run
+```
+npm install
+npm run build
+npm run server
+```
+
 ## 마크업 개발환경
 1. `npm i -g nps`
 
