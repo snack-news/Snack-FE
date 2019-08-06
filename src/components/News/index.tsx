@@ -1,4 +1,4 @@
-import React, { FunctionComponent, ReactNode } from 'react';
+import React, { FunctionComponent, ReactNode, useState } from 'react';
 import styled, { css } from 'styled-components';
 
 import { ExternalLinkWithImage } from 'Components/index';
@@ -12,36 +12,29 @@ import Tags from './Tags';
 interface INewsProps extends INews, INewsOptionProps {}
 
 export interface INewsOptionProps {
-  expanded?: boolean;
-  isRenderHighlightTag?: boolean;
-  isRenderWeekNumberOfMonth?: boolean;
+  isRenderHighlightTag: boolean;
+  isRenderWeekNumberOfMonth: boolean;
 }
 
-const NEWS_DEFAULT_PROPS = {
-  expanded: false,
-  isRenderHighlightTag: false,
-  isRenderWeekNumberOfMonth: false,
-};
-
-export const News: FunctionComponent<INewsProps> = props => {
+export const News: FunctionComponent<INewsProps> & {
+  defaultProps: Partial<INewsProps>;
+} = props => {
   const {
     createdDate,
     title,
     content,
     tags,
     link,
-    expanded,
     isRenderHighlightTag,
     isRenderWeekNumberOfMonth,
-  } = {
-    ...NEWS_DEFAULT_PROPS,
-    ...props,
-  };
+  } = props;
 
   let filteredTags = tags;
   if (isRenderHighlightTag === false) {
     filteredTags = tags.filter(({ highlight }) => highlight === false);
   }
+
+  const [expanded, setExpanded] = useState(false);
 
   return (
     <NewsLayout>
@@ -52,7 +45,7 @@ export const News: FunctionComponent<INewsProps> = props => {
         content: (
           <ColListLayout.Repeat>
             <Content expanded={expanded}>{content}</Content>
-            {expanded ? null : <MoreButton />}
+            {expanded ? null : <MoreButton onClick={() => setExpanded(true)} />}
           </ColListLayout.Repeat>
         ),
         externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
@@ -65,6 +58,11 @@ export const News: FunctionComponent<INewsProps> = props => {
       }}
     </NewsLayout>
   );
+};
+
+News.defaultProps = {
+  isRenderHighlightTag: false,
+  isRenderWeekNumberOfMonth: false,
 };
 
 interface INewsLayoutProps {
@@ -157,7 +155,7 @@ const Content = styled.div<{ expanded?: boolean }>`
         `}
 `;
 
-const MoreButton = styled.div.attrs({ children: '👇 더보기' })`
+const MoreButton = styled.button.attrs({ children: '👇 더보기' })`
   margin-top: 20px;
   font-size: 14px;
   line-height: 2.4;
@@ -165,6 +163,9 @@ const MoreButton = styled.div.attrs({ children: '👇 더보기' })`
   text-align: center;
   background-color: #f5f4f5;
   color: #4a4a4a;
+
+  width: 100%;
+  border-width: 0px;
 `;
 
 // interface IIconLabelProps {

@@ -18,7 +18,7 @@ export const NewsPage = () => (
       ),
       body: (
         <News
-          expanded
+          // expanded
           isRenderHighlightTag
           {...{
             title: '애플 주가 7% 상승',
