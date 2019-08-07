@@ -2,30 +2,30 @@
 HOST_NAME=SNACK-FE
 BASE_PATH=/home/ec2-user/snack-fe
 BUILD_PATH=${BASE_PATH}/build
-SET1_PORT=3001
-SET2_PORT=3002
+SNACKFE1_PORT=3001
+SNACKFE2_PORT=3002
 
 
-if [[ $(sudo netstat -ntlp | grep ${SET1_PORT} | wc -l) == 1 ]]
+if [[ $(sudo netstat -ntlp | grep ${SNACKFE1_PORT} | wc -l) == 1 ]]
 then
-    echo "> 사용중인 PROFILE SET1"
-    echo "> 사용가능 PROFILE SET2"
-    IDLE_PROFILE=set2
-    RUN_PROFILE=set1
-    IDLE_PORT=${SET2_PORT}
-    ORIGIN_PROFILE=set1
-elif [[ $(sudo netstat -ntlp | grep ${SET2_PORT} | wc -l) == 1 ]]
+    echo "> 사용중인 PROFILE SNACKFE1"
+    echo "> 사용가능 PROFILE SNACKFE2"
+    IDLE_PROFILE=snackfe2
+    RUN_PROFILE=snackfe1
+    IDLE_PORT=${SNACKFE2_PORT}
+    ORIGIN_PROFILE=snackfe1
+elif [[ $(sudo netstat -ntlp | grep ${SNACKFE2_PORT} | wc -l) == 1 ]]
 then
-    echo "> 사용중인 PROFILE SET2"
-    echo "> 사용가능 PROFILE SET1"
-    IDLE_PROFILE=set1
-    RUN_PROFILE=set2
-    IDLE_PORT=${SET1_PORT}
+    echo "> 사용중인 PROFILE SNACKFE2"
+    echo "> 사용가능 PROFILE SNACKFE1"
+    IDLE_PROFILE=snackfe1
+    RUN_PROFILE=snackfe2
+    IDLE_PORT=${SNACKFE1_PORT}
 else
   echo "> 일치하는 Profile이 없습니다."
-  echo "> set1을 할당합니다. IDLE_PROFILE: set1"
-  IDLE_PROFILE=set1
-  IDLE_PORT=${SET1_PORT}
+  echo "> set1을 할당합니다. IDLE_PROFILE: SNACKFE1"
+  IDLE_PROFILE=snackfe1
+  IDLE_PORT=${SNACKFE1_PORT}
 fi
 
 echo "> pm2 stop $IDLE_PROFILE"
