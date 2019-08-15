@@ -1,10 +1,10 @@
 import React, { Fragment, FunctionComponent } from 'react';
 
-import { getNewsList } from 'Api/index';
 import { ColListLayout } from 'Layouts/index';
 import { HorizontalDivider, CompanyListCard, RecommendNewsList } from 'Templates/index';
 import { News, INewsOptionProps, ContactCard, PlatformListCard } from 'Components/index';
 import { ICompanyListCardProps } from 'Templates/CompanyListCard';
+import useNewsList, { IFilter } from 'Hooks/useNewsList';
 
 interface INewsListProps {
   newsOptionProps?: INewsOptionProps;
@@ -13,6 +13,7 @@ interface INewsListProps {
   isRenderPlatformListCard?: boolean;
   isRenderRecommendNewsList?: boolean;
   companyListCardProps?: ICompanyListCardProps;
+  filter?: Partial<IFilter>;
 }
 
 const NEWS_LIST_DEFAULT_PROPS = {
@@ -30,9 +31,12 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
     isRenderPlatformListCard,
     isRenderRecommendNewsList,
     companyListCardProps,
+    filter,
   } = { ...NEWS_LIST_DEFAULT_PROPS, ...props };
-  const newsList = getNewsList();
-  const newsComponents = newsList.map(newsProps => (
+
+  const [newsListState] = useNewsList(filter);
+
+  const newsComponents = newsListState.newsList.map(newsProps => (
     <Fragment key={newsProps.key}>
       <News {...newsProps} {...newsOptionProps} />
       <HorizontalDivider thick />

@@ -7,8 +7,8 @@ interface ICompany {
 }
 
 interface IExternalLink {
-  href: string;
-  title: string;
+  href?: string;
+  title?: string;
   img?: string;
 }
 
