@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Axios from 'axios';
+import axios from 'axios';
 
 type STATUS = 'pending' | 'success' | 'fail';
 
@@ -48,7 +48,7 @@ const DEFAULT_FILTER: IFilter = ((now: Date) => ({
 const useNewsList = (
   InitialFilter?: Partial<IFilter>
 ): [INewsListState, React.Dispatch<React.SetStateAction<IFilter>>] => {
-  const URL = 'api/news';
+  const URL = '/api/news';
 
   const [state, setState] = useState<INewsListState>(DEFAULT_STATE);
   const [filter, setFilter] = useState<IFilter>({ ...DEFAULT_FILTER, ...InitialFilter });
@@ -58,7 +58,7 @@ const useNewsList = (
       setState(DEFAULT_STATE);
 
       try {
-        const result = await Axios(URL, {
+        const result = await axios.get(URL, {
           params: filterToRequestParams(),
         });
 
