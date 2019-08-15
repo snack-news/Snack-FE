@@ -8,7 +8,7 @@ module.exports = merge(common, {
     contentBase: path.join(__dirname, 'public/dist'),
     compress: true,
     proxy: {
-      '/api': 'http://localhost:3000/api',
+      '/api': 'http://localhost:8080',
     },
     historyApiFallback: true,
     open: true,
