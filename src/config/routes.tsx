@@ -1,10 +1,17 @@
+const createDefaultRoute = (path: string) => ({
+  path,
+  getLink: () => path,
+});
+
 export const routes = {
-  homePage: '/',
-  newsPage: '/news/:newsId',
-  companyNewsListPage: '/company-list/',
-  companySelectPage: '/company-select/',
-  introduceFormPage: '/introduce-from/',
-  menuPage: '/menu/',
-  picksPage: '/picks/',
-  aboutPage: '/about/',
+  homePage: createDefaultRoute('/'),
+  newsPage: {
+    path: '/news/:newsId',
+  },
+  companyNewsListPage: createDefaultRoute('/company-list/'),
+  companySelectPage: createDefaultRoute('/company-select/'),
+  introduceFormPage: createDefaultRoute('/introduce-from/'),
+  menuPage: createDefaultRoute('/menu/'),
+  picksPage: createDefaultRoute('/picks/'),
+  aboutPage: createDefaultRoute('/about/'),
 };

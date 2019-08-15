@@ -18,7 +18,7 @@ export const Header: FunctionComponent<IHeaderProps> = ({ title }) => {
       {{
         logo: <Logo />,
         menu: (
-          <Link to={routes.menuPage}>
+          <Link to={routes.menuPage.getLink()}>
             <Menu />
           </Link>
         ),
