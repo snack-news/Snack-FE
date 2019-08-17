@@ -5,6 +5,9 @@ const createDefaultRoute = (path: string) => ({
 
 export const routes = {
   homePage: createDefaultRoute('/'),
+  newsListPage: {
+    path: '/newsList/:year/:month/week/:week',
+  },
   newsPage: {
     path: '/news/:newsId',
   },

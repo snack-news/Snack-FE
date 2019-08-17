@@ -5,6 +5,7 @@ import '../common';
 import { routes } from 'Config/routes';
 import {
   HomePage,
+  NewsListPage,
   NewsPage,
   MenuPage,
   AboutPage,
@@ -18,6 +19,7 @@ const App = () => (
   <BrowserRouter>
     <Switch>
       <Route component={HomePage} path={routes.homePage.path} exact />
+      <Route component={NewsListPage} path={routes.newsListPage.path} />
       <Route component={CompanySelectPage} path={routes.companySelectPage.path} />
       <Route component={PicksPage} path={routes.picksPage.path} />
       <Route component={CompanyNewsListPage} path={routes.companyNewsListPage.path} />

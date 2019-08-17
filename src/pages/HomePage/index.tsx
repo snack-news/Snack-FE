@@ -1,40 +1,8 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
-import { Header, Tabs, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
-import { PageLayout } from 'Layouts/index';
-import { inject, observer } from 'mobx-react';
+import { NewsListPage } from 'Pages/index';
 
-export const HomePage = inject('store')(
-  observer(props => {
-    console.log(props);
-    return (
-      <PageLayout>
-        {{
-          header: (
-            <>
-              <Header />
-              <HorizontalDivider />
-              <Tabs />
-              <HorizontalDivider thick />
-              <SelectBox />
-              <HorizontalDivider thick />
-            </>
-          ),
-          body: (
-            <NewsList
-              newsOptionProps={{ isRenderHighlightTag: true }}
-              isRenderCompanyListCard
-              isRenderContactCard
-              isRenderPlatformListCard
-              companyListCardProps={{
-                title: '회사별 뉴스 모아보기',
-                isRenderMoreLink: true,
-              }}
-            />
-          ),
-          footer: <Footer />,
-        }}
-      </PageLayout>
-    );
-  })
-);
+export const HomePage: FunctionComponent = props => {
+  // TODO 오늘을 기준으로 보여줘야 되는 yyyy년 mm월 ww주 구해서 NewsListPage에 전달.
+  return <NewsListPage {...props} />;
+};
