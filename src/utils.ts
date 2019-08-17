@@ -38,3 +38,24 @@ export const getDateFormat = (date: Date, format: string) => {
 
   return result;
 };
+
+export const getWeekDate = (date: Date) => {
+  const year = `${date.getFullYear()}`;
+  const month = `${date.getMonth() + 1}`.padStart(2, '0');
+  const week = `${getWeek(date)}`.padStart(2, '0');
+
+  return { year, month, week };
+};
+
+const getWeek = (dateInstance: Date): number => {
+  const date = dateInstance.getDate();
+  const year = dateInstance.getFullYear();
+  const month = dateInstance.getMonth();
+
+  const firstDate = new Date(year, month);
+  const firstWeekLength = 7 - getDayStartMonday(firstDate);
+
+  return firstWeekLength >= date ? 1 : Math.ceil((date - firstWeekLength) / 7) + 1;
+};
+
+const getDayStartMonday = (d: Date) => (d.getDay() || 7) - 1;
