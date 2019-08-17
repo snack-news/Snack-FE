@@ -5,13 +5,16 @@ import { RowListLayout } from 'Layouts/index';
 // import { contentImg } from 'Resources/index';
 import Label from './Label';
 
-interface ISelectBoxProps {}
+interface ISelectBoxProps {
+  month: string;
+  week: string;
+}
 
-export const SelectBox: FunctionComponent<ISelectBoxProps> = () => {
+export const SelectBox: FunctionComponent<ISelectBoxProps> = ({ month, week }) => {
   return (
     <RowListLayout.Align type="justify">
       {/* TODO API 및 getDateFormat 사용 */}
-      <Label text="1월 2주" />
+      <Label text={`${month}월 ${week}주`} />
       {/* <ContentIcon /> */}
     </RowListLayout.Align>
   );

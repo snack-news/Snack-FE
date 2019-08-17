@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import dateFns from 'date-fns';
 
 type STATUS = 'pending' | 'success' | 'fail';
 
@@ -9,12 +10,12 @@ interface INewsListState {
 }
 
 export interface IFilter {
-  year: number;
-  month: number;
-  thWeek: number;
+  year: string;
+  month: string;
+  week: string;
 }
 
-interface IRequsetNews {
+interface IResponseNews {
   createAt: Date;
   modifiedAt: Date;
   id: number;
@@ -39,19 +40,13 @@ const DEFAULT_STATE: INewsListState = {
   newsList: [],
 };
 
-const DEFAULT_FILTER: IFilter = ((now: Date) => ({
-  year: now.getFullYear(),
-  month: now.getMonth() + 1,
-  thWeek: 1,
-}))(new Date());
-
 const useNewsList = (
-  InitialFilter?: Partial<IFilter>
+  InitialFilter: IFilter
 ): [INewsListState, React.Dispatch<React.SetStateAction<IFilter>>] => {
   const URL = '/api/news';
 
   const [state, setState] = useState<INewsListState>(DEFAULT_STATE);
-  const [filter, setFilter] = useState<IFilter>({ ...DEFAULT_FILTER, ...InitialFilter });
+  const [filter, setFilter] = useState<IFilter>(InitialFilter);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -59,14 +54,14 @@ const useNewsList = (
 
       try {
         const result = await axios.get(URL, {
-          params: filterToRequestParams(),
+          params: filterToRequestParams(filter),
         });
 
-        const requestNewsList = result.data.data;
+        const responseNewsList = result.data.data;
 
         setState({
           status: 'success',
-          newsList: requestNewsList.map(requestNewsToNews),
+          newsList: responseNewsList.map(parseResponseNews),
         });
       } catch (error) {
         setState({
@@ -84,17 +79,68 @@ const useNewsList = (
 
 export default useNewsList;
 
-const filterToRequestParams = (/* filter: IFilter */) => {
-  // TODO 개발 필요.
+const filterToRequestParams = (filter: IFilter) => {
+  const year = parseInt(filter.year, 10);
+  const month = parseInt(filter.month, 10) - 1;
+  const week = parseInt(filter.week, 10);
+
+  return getNthWeek(year, month, week);
+};
+
+const getDayStartMonday = (d: Date) => (d.getDay() || 7) - 1;
+
+const getNthWeek = (year: number, month: number, week: number) => {
+  const startDate = getNthWeekFirstDate(year, month, week);
+  let endDate = new Date(
+    startDate.getFullYear(),
+    startDate.getMonth(),
+    startDate.getDate() + (6 - getDayStartMonday(startDate))
+  );
+
+  if (endDate.getMonth() !== startDate.getMonth()) {
+    endDate = new Date(startDate.getFullYear(), startDate.getMonth() + 1, 0);
+  }
+
   return {
-    // ...filter,
-    // ...
-    startDateTime: '2019-07-01T00:00',
-    endDateTime: '2019-08-31T00:00',
+    startDateTime: dateToString(startDate),
+    endDateTime: dateToString(dateFns.endOfDay(endDate)),
   };
 };
 
-const requestNewsToNews = (news: IRequsetNews): INews => ({
+const dateToString = (date: Date) => {
+  const year = date.getFullYear();
+  const month = `${date.getMonth() + 1}`.padStart(2, '0');
+  const d = `${date.getDate()}`.padStart(2, '0');
+  const hours = `${date.getHours()}`.padStart(2, '0');
+  const minutes = `${date.getMinutes()}`.padStart(2, '0');
+
+  return `${year}-${month}-${d}T${hours}:${minutes}`;
+};
+
+const getNthWeekFirstDate = (year: number, month: number, week: number): Date => {
+  const firstDate = new Date(year, month);
+
+  if (week === 1) {
+    return firstDate;
+  }
+
+  const firstDay = getDayStartMonday(firstDate);
+  const firstWeekLength = 7 - firstDay;
+  const startDate = new Date(year, month, 7 * (week - 2) + firstWeekLength + 1);
+  console.log('startDate', startDate);
+
+  if (startDate.getFullYear() !== year || startDate.getMonth() !== month) {
+    const lastDateOfMonth = new Date(year, month + 1, 0);
+    const lastDayOfMonth = getDayStartMonday(lastDateOfMonth);
+    const lastMonday = new Date(year, month, lastDateOfMonth.getDate() - lastDayOfMonth);
+
+    return lastMonday;
+  }
+
+  return startDate;
+};
+
+const parseResponseNews = (news: IResponseNews): INews => ({
   title: news.title,
   content: news.content,
   tags: [

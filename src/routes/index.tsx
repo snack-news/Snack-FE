@@ -19,7 +19,16 @@ const App = () => (
   <BrowserRouter>
     <Switch>
       <Route component={HomePage} path={routes.homePage.path} exact />
-      <Route component={NewsListPage} path={routes.newsListPage.path} />
+      <Route path={routes.newsListPage.path}>
+        {props => {
+          if (props.match === null) {
+            return null;
+          }
+
+          const { year, month, week } = props.match.params;
+          return <NewsListPage filter={{ year, month, week }} />;
+        }}
+      </Route>
       <Route component={CompanySelectPage} path={routes.companySelectPage.path} />
       <Route component={PicksPage} path={routes.picksPage.path} />
       <Route component={CompanyNewsListPage} path={routes.companyNewsListPage.path} />

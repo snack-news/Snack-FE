@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
 import { Header, Tabs, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
+import { IFilter } from 'Hooks/useNewsList';
 
-export const NewsListPage = () => {
+interface INewsListPage {
+  filter: IFilter;
+}
+
+export const NewsListPage: FunctionComponent<INewsListPage> = ({ filter }) => {
   // TODO url로 전달된 props를 NewsList 컴포넌트로 전달
 
   return (
@@ -15,7 +20,7 @@ export const NewsListPage = () => {
             <HorizontalDivider />
             <Tabs />
             <HorizontalDivider thick />
-            <SelectBox />
+            <SelectBox month={filter.month} week={filter.week} />
             <HorizontalDivider thick />
           </>
         ),
@@ -29,6 +34,7 @@ export const NewsListPage = () => {
               title: '회사별 뉴스 모아보기',
               isRenderMoreLink: true,
             }}
+            filter={filter}
           />
         ),
         footer: <Footer />,

@@ -13,7 +13,7 @@ interface INewsListProps {
   isRenderPlatformListCard?: boolean;
   isRenderRecommendNewsList?: boolean;
   companyListCardProps?: ICompanyListCardProps;
-  filter?: Partial<IFilter>;
+  filter: IFilter;
 }
 
 const NEWS_LIST_DEFAULT_PROPS = {
