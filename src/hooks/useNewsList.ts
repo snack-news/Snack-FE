@@ -40,13 +40,10 @@ const DEFAULT_STATE: INewsListState = {
   newsList: [],
 };
 
-const useNewsList = (
-  InitialFilter: IFilter
-): [INewsListState, React.Dispatch<React.SetStateAction<IFilter>>] => {
+const useNewsList = (filter: IFilter): [INewsListState] => {
   const URL = '/api/news';
 
   const [state, setState] = useState<INewsListState>(DEFAULT_STATE);
-  const [filter, setFilter] = useState<IFilter>(InitialFilter);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -74,7 +71,7 @@ const useNewsList = (
     fetchData();
   }, [filter]);
 
-  return [state, setFilter];
+  return [state];
 };
 
 export default useNewsList;
@@ -127,7 +124,6 @@ const getNthWeekFirstDate = (year: number, month: number, week: number): Date =>
   const firstDay = getDayStartMonday(firstDate);
   const firstWeekLength = 7 - firstDay;
   const startDate = new Date(year, month, 7 * (week - 2) + firstWeekLength + 1);
-  console.log('startDate', startDate);
 
   if (startDate.getFullYear() !== year || startDate.getMonth() !== month) {
     const lastDateOfMonth = new Date(year, month + 1, 0);
