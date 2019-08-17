@@ -4,7 +4,7 @@ import { ColListLayout } from 'Layouts/index';
 
 import { getPickNewsList } from 'Api/index';
 import { HorizontalDivider } from 'Templates/index';
-import { ExternalLinkWithImage } from 'Components/index';
+// import { ExternalLinkWithImage } from 'Components/index';
 
 // PickNewsList 컴포넌트
 interface IPickNewsListProps {}
@@ -16,7 +16,7 @@ export const PickNewsList: FunctionComponent<IPickNewsListProps> = () => {
     <ColListLayout.Repeat>
       {pickNewsList.map(pickNewsProps => (
         <Fragment key={pickNewsProps.key}>
-          <ExternalLinkWithImage {...pickNewsProps.link} isRenderShuffleBackgroundColorBox />
+          {/* <ExternalLinkWithImage {...pickNewsProps.link} isRenderShuffleBackgroundColorBox /> */}
           <HorizontalDivider thick />
         </Fragment>
       ))}

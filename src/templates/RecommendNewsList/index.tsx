@@ -15,7 +15,7 @@ export const RecommendNewsList = () => {
           <ColListLayout.Repeat interval="15px">
             {recommendNewsList.map(({ link, title, key }) => (
               <RowListLayout.Repeat interval="10px" key={key}>
-                <RecommendNewsThumbnail src={link.img} />
+                {link && <RecommendNewsThumbnail src={link.img} />}
                 <RecommendNewsTitle>{title}</RecommendNewsTitle>
               </RowListLayout.Repeat>
             ))}
