@@ -20,7 +20,7 @@ export const NewsListPage: FunctionComponent<INewsListPage> = ({ filter }) => {
             <HorizontalDivider />
             <Tabs />
             <HorizontalDivider thick />
-            <SelectBox month={filter.month} week={filter.week} />
+            <SelectBox year={filter.year} month={filter.month} week={filter.week} />
             <HorizontalDivider thick />
           </>
         ),

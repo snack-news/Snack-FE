@@ -20,7 +20,13 @@ const LabelWrapper = styled.div`
   padding: 14px 20px;
 `;
 
-const Label: FunctionComponent<{ text: string }> = ({ text }) => {
+interface ILabel {
+  year: string;
+  month: string;
+  week: string;
+}
+
+const Label: FunctionComponent<ILabel> = ({ year, month, week }) => {
   const [isShowListBox, setShowListBox] = useState(false);
   const showListBox = () => setShowListBox(true);
   const hideListBox = () => setShowListBox(false);
@@ -28,11 +34,17 @@ const Label: FunctionComponent<{ text: string }> = ({ text }) => {
   return (
     <>
       <LabelWrapper onClick={showListBox}>
-        {text}
+        {`${month}월 ${week}주`}
         <DownArrowIcon />
       </LabelWrapper>
       {isShowListBox && (
-        <SelectItemListBox onClickCloseButton={hideListBox} onClickLayer={hideListBox} />
+        <SelectItemListBox
+          year={year}
+          month={month}
+          week={week}
+          onClickCloseButton={hideListBox}
+          onClickLayer={hideListBox}
+        />
       )}
     </>
   );
