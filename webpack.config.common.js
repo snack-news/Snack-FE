@@ -86,6 +86,7 @@ module.exports = {
       Resources: path.resolve(SRC_PATH, 'resources/'),
       Templates: path.resolve(SRC_PATH, 'templates/'),
       Config: path.resolve(SRC_PATH, 'config/'),
+      Hooks: path.resolve(SRC_PATH, 'hooks/'),
       Utils: path.resolve(SRC_PATH, 'utils.ts'),
     },
   },
