@@ -2,17 +2,19 @@ import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { RowListLayout } from 'Layouts/index';
+import { IBaseLayoutProps } from 'Layouts/BaseLayout';
 
 import { checkImg } from 'Resources/index';
 
 interface ISelectItemProps {
   label: string;
   selected?: boolean;
+  onClick?: IBaseLayoutProps['onClick'];
 }
 
-const SelectItem: FunctionComponent<ISelectItemProps> = ({ label, selected }) => {
+const SelectItem: FunctionComponent<ISelectItemProps> = ({ label, selected, onClick }) => {
   return (
-    <RowListLayout.Align type="justify">
+    <RowListLayout.Align type="justify" onClick={onClick}>
       <SelectItemLabel>{label}</SelectItemLabel>
       {selected && <CheckmarkIcon />}
     </RowListLayout.Align>
