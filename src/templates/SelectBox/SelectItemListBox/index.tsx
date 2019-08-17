@@ -15,6 +15,7 @@ interface ISelectItemListBoxProps {
   week: string;
   onClickLayer?: () => void;
   onClickCloseButton?: () => void;
+  onChange: () => void;
 }
 
 export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
@@ -23,6 +24,7 @@ export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
   week,
   onClickLayer,
   onClickCloseButton,
+  onChange,
 }) => {
   return (
     <>
@@ -49,7 +51,7 @@ export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
             {
               el: (
                 <BothMarginWrapper>
-                  <SelectItemList year={year} month={month} week={week} />
+                  <SelectItemList year={year} month={month} week={week} onChange={onChange} />
                 </BothMarginWrapper>
               ),
             },

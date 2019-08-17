@@ -44,6 +44,7 @@ const Label: FunctionComponent<ILabel> = ({ year, month, week }) => {
           week={week}
           onClickCloseButton={hideListBox}
           onClickLayer={hideListBox}
+          onChange={hideListBox}
         />
       )}
     </>

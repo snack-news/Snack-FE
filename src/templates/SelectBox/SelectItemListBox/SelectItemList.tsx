@@ -18,9 +18,15 @@ interface ISelectItemListProps {
   year: string;
   month: string;
   week: string;
+  onChange: () => void;
 }
 
-const SelectItemList: FunctionComponent<ISelectItemListProps> = ({ year, month, week }) => {
+const SelectItemList: FunctionComponent<ISelectItemListProps> = ({
+  year,
+  month,
+  week,
+  onChange,
+}) => {
   const { history } = useReactRouter();
 
   return (
@@ -29,15 +35,19 @@ const SelectItemList: FunctionComponent<ISelectItemListProps> = ({ year, month, 
         .reverse()
         .map(weekDate => {
           const label = `${weekDate.year}년 ${weekDate.month}월 ${weekDate.week}주`;
+          const selected =
+            weekDate.year === year && weekDate.month === month && weekDate.week === week;
           return (
             <SelectItem
               label={label}
-              selected={
-                weekDate.year === year && weekDate.month === month && weekDate.week === week
-              }
+              selected={selected}
               key={label}
               onClick={() => {
+                if (selected) {
+                  return;
+                }
                 history.push(`/newsList/${weekDate.year}/${weekDate.month}/week/${weekDate.week}`);
+                onChange();
               }}
             />
           );
