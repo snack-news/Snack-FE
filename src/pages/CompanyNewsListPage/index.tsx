@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { NewsList, Header, HorizontalDivider, CompanyListCard, Footer } from 'Templates/index';
+import { Header, HorizontalDivider, CompanyListCard, Footer } from 'Templates/index';
 
 import { PageLayout } from 'Layouts/index';
 
@@ -17,7 +17,7 @@ export const CompanyNewsListPage = () => (
       ),
       body: (
         <>
-          <NewsList newsOptionProps={{ isRenderWeekNumberOfMonth: true }} />
+          {/* <NewsList newsOptionProps={{ isRenderWeekNumberOfMonth: true }} /> */}
           <HorizontalDivider thick />
           <CompanyListCard title="애플말고 이런 회사 소식은 어떠세요?" />
           <HorizontalDivider thick />
