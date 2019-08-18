@@ -13,6 +13,7 @@ export interface IFilter {
   year: string;
   month: string;
   week: string;
+  topicIds?: (number | string)[];
 }
 
 interface IResponseNews {
@@ -81,8 +82,13 @@ const filterToRequestParams = (filter: IFilter) => {
   const month = parseInt(filter.month, 10) - 1;
   const week = parseInt(filter.week, 10);
 
-  return getNthWeek(year, month, week);
+  return {
+    ...getNthWeek(year, month, week),
+    topicIds: arrayToUrlParams(filter.topicIds),
+  };
 };
+
+const arrayToUrlParams = (arr: any[] | undefined = []) => arr.join(',');
 
 const getDayStartMonday = (d: Date) => (d.getDay() || 7) - 1;
 

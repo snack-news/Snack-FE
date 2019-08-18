@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
 import { Header, HorizontalDivider, CompanyListCard, Footer } from 'Templates/index';
 
 import { PageLayout } from 'Layouts/index';
 
-export const CompanyNewsListPage = () => (
+interface ICompanyNewsListPageProps {
+  corpId: string;
+}
+
+export const CompanyNewsListPage: FunctionComponent<ICompanyNewsListPageProps> = ({ corpId }) => (
   <PageLayout>
     {{
       header: (
@@ -17,7 +21,10 @@ export const CompanyNewsListPage = () => (
       ),
       body: (
         <>
-          {/* <NewsList newsOptionProps={{ isRenderWeekNumberOfMonth: true }} /> */}
+          <NewsList
+            newsOptionProps={{ isRenderWeekNumberOfMonth: true }}
+            filter={{ year: '2019', month: '8', week: '4', topicIds: [corpId] }}
+          />
           <HorizontalDivider thick />
           <CompanyListCard title="애플말고 이런 회사 소식은 어떠세요?" />
           <HorizontalDivider thick />
