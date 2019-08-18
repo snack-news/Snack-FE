@@ -111,9 +111,11 @@ const requestNewsToNews = (news: IRequsetNews): INews => ({
         key: `topics_${id}`,
       })),
   ],
-  link: {
-    href: news.link,
-  },
+  ...(news.link && {
+    link: {
+      href: news.link,
+    },
+  }),
   createdDate: new Date(news.createAt).getTime(),
   key: `${news.id}`,
 });
