@@ -84,11 +84,14 @@ const filterToRequestParams = (filter: IFilter) => {
 
   return {
     ...getNthWeek(year, month, week),
-    topicIds: arrayToUrlParams(filter.topicIds),
+    ...getTopicIdsParams(filter.topicIds),
   };
 };
 
-const arrayToUrlParams = (arr: any[] | undefined = []) => arr.join(',');
+const getTopicIdsParams = (topicIds: (string | number)[] | undefined = []) =>
+  topicIds.length !== 0 && {
+    topicIds: topicIds.join(','),
+  };
 
 const getDayStartMonday = (d: Date) => (d.getDay() || 7) - 1;
 
