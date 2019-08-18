@@ -9,7 +9,7 @@ export const SubHeader = () => (
   <SubHeaderWrapper>
     <RowListLayout.Align type="justify">
       <Title>전체</Title>
-      <SortButton />
+      {/* <SortButton /> */}
     </RowListLayout.Align>
   </SubHeaderWrapper>
 );
