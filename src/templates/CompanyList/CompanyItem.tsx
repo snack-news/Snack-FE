@@ -9,7 +9,7 @@ import { arrowLinkImg } from 'Resources/index';
 const CompanyItem: FunctionComponent<ICompany> = ({ companyName, logoImg }) => (
   <CompanyItemLayout>
     {{
-      companyIcon: <CompanyIcon src={logoImg} />,
+      companyIcon: <CompanyIcon src={logoImg === null ? '' : logoImg} />,
       companyLabel: <CompanyLabel>{companyName}</CompanyLabel>,
       arrowIcon: <ArrowIcon />,
     }}

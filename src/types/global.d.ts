@@ -1,7 +1,7 @@
 // TODO 목적별 분리 필요.
 
 interface ICompany {
-  logoImg: string;
+  logoImg: string | null;
   companyName: string;
   key: string;
 }
