@@ -1,9 +1,8 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
-import { getCompanyList } from 'Api/index';
-
 import { ColListLayout, RowListLayout, CardSimpleLayout, Center } from 'Layouts/index';
+import useCorpList from 'Hooks/useCorpList';
 
 export interface ICompanyListCardProps {
   isRenderMoreLink?: boolean;
@@ -17,7 +16,11 @@ const COMPANY_LIST_CARD_DEFAULT_PROPS = {
 
 export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props => {
   const { title, isRenderMoreLink } = { ...COMPANY_LIST_CARD_DEFAULT_PROPS, ...props };
-  const companyList = getCompanyList();
+  const [companyListState] = useCorpList();
+
+  if (companyListState.status !== 'success') {
+    return null;
+  }
 
   return (
     <CardSimpleLayout>
@@ -26,8 +29,8 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props =
         nav: isRenderMoreLink && <CompanyListCardMoreLink />,
         body: (
           <RowListLayout.Repeat interval="10px">
-            {companyList.map(companyBoxProps => (
-              <CompanyBox {...companyBoxProps} />
+            {companyListState.corpList.map(corp => (
+              <CompanyBox companyName={corp.name} logoImg={corp.image} key={`${corp.id}`} />
             ))}
           </RowListLayout.Repeat>
         ),
@@ -56,7 +59,7 @@ const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
         el: (
           <Center>
             <CompanyBoxDiv>
-              <CompanyBoxLogo src={logoImg} />
+              <CompanyBoxLogo src={logoImg === null ? '' : logoImg} />
             </CompanyBoxDiv>
           </Center>
         ),
