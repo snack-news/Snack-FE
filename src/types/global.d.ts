@@ -1,9 +1,9 @@
 // TODO 목적별 분리 필요.
 
-interface ICompany {
-  logoImg: string | null;
-  companyName: string;
-  key: string;
+interface ICorp {
+  id: number;
+  name: string;
+  image: string | null;
 }
 
 interface IExternalLink {

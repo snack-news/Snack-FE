@@ -5,12 +5,16 @@ import { BothMarginWrapper, Center, RowListLayout } from 'Layouts/index';
 
 import { arrowLinkImg } from 'Resources/index';
 
+interface ICompanyItemProps extends ICorp {
+  onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
+}
+
 /* CompanyItem 컴포넌트 */
-const CompanyItem: FunctionComponent<ICompany> = ({ companyName, logoImg }) => (
-  <CompanyItemLayout>
+const CompanyItem: FunctionComponent<ICompanyItemProps> = ({ name, image, onClick }) => (
+  <CompanyItemLayout onClick={onClick}>
     {{
-      companyIcon: <CompanyIcon src={logoImg === null ? '' : logoImg} />,
-      companyLabel: <CompanyLabel>{companyName}</CompanyLabel>,
+      companyIcon: <CompanyIcon src={image === null ? '' : image} />,
+      companyLabel: <CompanyLabel>{name}</CompanyLabel>,
       arrowIcon: <ArrowIcon />,
     }}
   </CompanyItemLayout>
@@ -20,6 +24,7 @@ export default CompanyItem;
 
 /* CompanyItemLayout 컴포넌트 */
 interface ICompanyItemLayoutProps {
+  onClick?: (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => void;
   children: {
     companyIcon: ReactElement;
     companyLabel: ReactElement;
@@ -28,9 +33,10 @@ interface ICompanyItemLayoutProps {
 }
 
 const CompanyItemLayout: FunctionComponent<ICompanyItemLayoutProps> = ({
+  onClick,
   children: { companyIcon, companyLabel, arrowIcon },
 }) => (
-  <CompanyItemLayoutWrapper>
+  <CompanyItemLayoutWrapper onClick={onClick}>
     <RowListLayout.Detail
       items={[
         {

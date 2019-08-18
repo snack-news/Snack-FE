@@ -36,7 +36,7 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> & {
         body: (
           <RowListLayout.Repeat interval="10px">
             {corpList.map(corp => (
-              <CompanyBox companyName={corp.name} logoImg={corp.image} key={`${corp.id}`} />
+              <CompanyBox {...corp} />
             ))}
           </RowListLayout.Repeat>
         ),
@@ -58,7 +58,7 @@ const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
   color: #0b66f7;
 `;
 
-const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
+const CompanyBox: FunctionComponent<ICorp> = ({ image, name }) => (
   <CompanyBoxWrapper
     top="12px"
     bottom="8px"
@@ -67,7 +67,7 @@ const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
         el: (
           <Center>
             <CompanyBoxDiv>
-              <CompanyBoxLogo src={logoImg === null ? '' : logoImg} />
+              <CompanyBoxLogo src={image === null ? '' : image} />
             </CompanyBoxDiv>
           </Center>
         ),
@@ -76,7 +76,7 @@ const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
       {
         el: (
           <Center>
-            <CompanyBoxLabel>{companyName}</CompanyBoxLabel>
+            <CompanyBoxLabel>{name}</CompanyBoxLabel>
           </Center>
         ),
       },
