@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
-import { Header, HorizontalDivider, CompanyListCard, Footer } from 'Templates/index';
+import { NewsList, Header, HorizontalDivider, CompanyListCard, Footer } from 'Templates/index';
 
 import { PageLayout } from 'Layouts/index';
 
