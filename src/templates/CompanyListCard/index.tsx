@@ -6,21 +6,27 @@ import useCorpList from 'Hooks/useCorpList';
 
 export interface ICompanyListCardProps {
   isRenderMoreLink?: boolean;
-  title?: string;
+  excludeCropId?: number;
 }
 
-const COMPANY_LIST_CARD_DEFAULT_PROPS = {
-  isRenderMoreLink: false,
-  title: '',
-};
+export const CompanyListCard: FunctionComponent<ICompanyListCardProps> & {
+  defaultProps: Partial<ICompanyListCardProps>;
+} = props => {
+  const { excludeCropId, isRenderMoreLink } = props;
+  const [corpListState] = useCorpList();
 
-export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props => {
-  const { title, isRenderMoreLink } = { ...COMPANY_LIST_CARD_DEFAULT_PROPS, ...props };
-  const [companyListState] = useCorpList();
+  let title = '회사별 뉴스 모아보기';
 
-  if (companyListState.status !== 'success') {
+  if (corpListState.status !== 'success') {
     return null;
   }
+  const excludeCorp = corpListState.corpList.find(({ id }) => id === excludeCropId);
+
+  if (excludeCorp !== undefined) {
+    title = `${excludeCorp.name}말고 이런 회사 소식은 어떠세요?`;
+  }
+
+  const corpList = corpListState.corpList.filter(({ id }) => id !== excludeCropId);
 
   return (
     <CardSimpleLayout>
@@ -29,7 +35,7 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props =
         nav: isRenderMoreLink && <CompanyListCardMoreLink />,
         body: (
           <RowListLayout.Repeat interval="10px">
-            {companyListState.corpList.map(corp => (
+            {corpList.map(corp => (
               <CompanyBox companyName={corp.name} logoImg={corp.image} key={`${corp.id}`} />
             ))}
           </RowListLayout.Repeat>
@@ -38,6 +44,8 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props =
     </CardSimpleLayout>
   );
 };
+
+CompanyListCard.defaultProps = { isRenderMoreLink: false };
 
 const CompanyListCardTitle = styled.div`
   font-size: 17px;

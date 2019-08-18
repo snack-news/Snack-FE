@@ -38,7 +38,7 @@ const App = () => (
           }
 
           const { corpId } = props.match.params;
-          return <CompanyNewsListPage corpId={corpId} />;
+          return <CompanyNewsListPage corpId={parseInt(corpId, 10)} />;
         }}
       </Route>
       <Route component={IntroduceFormPage} path={routes.introduceFormPage.path} />

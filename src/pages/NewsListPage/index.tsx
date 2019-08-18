@@ -31,7 +31,6 @@ export const NewsListPage: FunctionComponent<INewsListPage> = ({ filter }) => {
             isRenderContactCard
             isRenderPlatformListCard
             companyListCardProps={{
-              title: '회사별 뉴스 모아보기',
               isRenderMoreLink: true,
             }}
             filter={filter}
