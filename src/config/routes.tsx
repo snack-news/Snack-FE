@@ -11,7 +11,9 @@ export const routes = {
   newsPage: {
     path: '/news/:newsId',
   },
-  companyNewsListPage: createDefaultRoute('/company-list/'),
+  companyNewsListPage: {
+    path: '/company-list/:corpId',
+  },
   companySelectPage: createDefaultRoute('/company-select/'),
   introduceFormPage: createDefaultRoute('/introduce-from/'),
   menuPage: createDefaultRoute('/menu/'),

@@ -31,7 +31,16 @@ const App = () => (
       </Route>
       <Route component={CompanySelectPage} path={routes.companySelectPage.path} />
       <Route component={PicksPage} path={routes.picksPage.path} />
-      <Route component={CompanyNewsListPage} path={routes.companyNewsListPage.path} />
+      <Route component={CompanyNewsListPage} path={routes.companyNewsListPage.path}>
+        {props => {
+          if (props.match === null) {
+            return null;
+          }
+
+          const { corpId } = props.match.params;
+          return <CompanyNewsListPage corpId={corpId} />;
+        }}
+      </Route>
       <Route component={IntroduceFormPage} path={routes.introduceFormPage.path} />
       <Route component={MenuPage} path={routes.menuPage.path} />
       <Route component={NewsPage} path={routes.newsPage.path} />
