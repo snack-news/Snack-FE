@@ -72,7 +72,7 @@ const MenuLinkList = () => {
   return (
     <ColListLayout.Repeat interval="20px">
       <MenuLink to={routes.homePage.getLink()}>홈</MenuLink>
-      <MenuLink to={routes.companyNewsListPage.getLink()}>토픽 모아보기</MenuLink>
+      <MenuLink to={routes.companySelectPage.getLink()}>토픽 모아보기</MenuLink>
       <MenuLink to={routes.aboutPage.getLink()}>서비스 안내</MenuLink>
       <MenuLink to={routes.introduceFormPage.getLink()}>제안하기</MenuLink>
     </ColListLayout.Repeat>
