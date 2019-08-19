@@ -36,7 +36,7 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> & {
         body: (
           <RowListLayout.Repeat interval="10px">
             {corpList.map(corp => (
-              <CompanyBox {...corp} />
+              <CompanyBox {...corp} key={corp.id} />
             ))}
           </RowListLayout.Repeat>
         ),
