@@ -4,6 +4,8 @@ import dateFns from 'date-fns';
 
 type STATUS = 'pending' | 'success' | 'fail';
 
+const MIN_DATE = new Date(Date.now() - 1000 * 60 * 60 * 24 * 30 * 2);
+
 interface INewsListState {
   status: STATUS;
   newsList: INews[];
@@ -48,8 +50,16 @@ const useNewsList = (filter: IFilter): [INewsListState] => {
 
   useEffect(() => {
     const fetchData = async () => {
-      setState(DEFAULT_STATE);
-
+      if (
+        MIN_DATE.getTime() >
+        new Date(
+          parseInt(filter.year, 10),
+          parseInt(filter.month, 10) - 1,
+          parseInt(filter.week, 10) * 7
+        ).getTime()
+      ) {
+        return;
+      }
       try {
         const result = await axios.get(URL, {
           params: filterToRequestParams(filter),
@@ -70,6 +80,7 @@ const useNewsList = (filter: IFilter): [INewsListState] => {
     };
 
     fetchData();
+    setState(DEFAULT_STATE);
   }, [filter]);
 
   return [state];

@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
-import { NewsList, Header, HorizontalDivider, CompanyListCard, Footer } from 'Templates/index';
+import { NewsList, Header, HorizontalDivider, Footer } from 'Templates/index';
 
 import { PageLayout } from 'Layouts/index';
 import useCorpList from 'Hooks/useCorpList';
@@ -35,11 +35,10 @@ export const CompanyNewsListPage: FunctionComponent<ICompanyNewsListPageProps> =
           <>
             <NewsList
               newsOptionProps={{ isRenderWeekNumberOfMonth: true }}
+              companyListCardProps={{ excludeCropId: corpId }}
+              isRenderCompanyListCard
               filter={{ year: '2019', month: '8', week: '4', topicIds: [corpId] }}
             />
-            <HorizontalDivider thick />
-            <CompanyListCard excludeCropId={corpId} />
-            <HorizontalDivider thick />
           </>
         ),
         footer: <Footer />,

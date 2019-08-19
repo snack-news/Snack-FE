@@ -1,10 +1,11 @@
-import React, { Fragment, FunctionComponent } from 'react';
+import React, { Fragment, FunctionComponent, useState, useEffect } from 'react';
 
 import { ColListLayout } from 'Layouts/index';
 import { HorizontalDivider, CompanyListCard, RecommendNewsList } from 'Templates/index';
 import { News, INewsOptionProps, ContactCard, PlatformListCard } from 'Components/index';
 import { ICompanyListCardProps } from 'Templates/CompanyListCard';
 import useNewsList, { IFilter } from 'Hooks/useNewsList';
+import { getWeekDate } from 'Utils';
 
 interface INewsListProps {
   newsOptionProps?: INewsOptionProps;
@@ -16,14 +17,65 @@ interface INewsListProps {
   filter: IFilter;
 }
 
-const NEWS_LIST_DEFAULT_PROPS = {
-  isRenderCompanyListCard: false,
-  isRenderContactCard: false,
-  isRenderPlatformListCard: false,
-  isRenderRecommendNewsList: false,
+const BOTTOM_MARGIN = 800;
+
+const isBottom = (margin: number) =>
+  window.innerHeight + window.scrollY >= document.body.offsetHeight - margin;
+
+const useNewsListState = (initialFilter: IFilter) => {
+  const [filter, setFilter] = useState(initialFilter);
+  const [latestNewsListState] = useNewsList(filter);
+  const [newsList, setNewsList] = useState<INews[]>([]);
+
+  const nextNewsList = () => {
+    setFilter(oldFilter => {
+      const oldFilterDate = new Date(
+        parseInt(oldFilter.year, 10),
+        parseInt(oldFilter.month, 10) - 1,
+        (parseInt(oldFilter.week, 10) - 1) * 7 + 1
+      );
+      const filterDate = new Date(oldFilterDate.getTime() - 1000 * 60 * 60 * 24 * 7);
+
+      return {
+        ...oldFilter,
+        ...getWeekDate(filterDate),
+      };
+    });
+  };
+
+  useEffect(() => {
+    if (latestNewsListState.status !== 'pending') {
+      if (latestNewsListState.newsList.length === 0) {
+        nextNewsList();
+      } else {
+        setNewsList(oldNewsList => [...oldNewsList, ...latestNewsListState.newsList]);
+      }
+    }
+  }, [latestNewsListState.newsList, latestNewsListState.status]);
+
+  useEffect(() => {
+    const onScroll = () => {
+      if (
+        isBottom(BOTTOM_MARGIN) &&
+        latestNewsListState.status !== 'pending' &&
+        latestNewsListState.newsList.length > 0
+      ) {
+        nextNewsList();
+        window.removeEventListener('scroll', onScroll);
+      }
+    };
+    window.addEventListener('scroll', onScroll);
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+    };
+  }, [latestNewsListState.newsList, latestNewsListState.status]);
+
+  return newsList;
 };
 
-export const NewsList: FunctionComponent<INewsListProps> = props => {
+export const NewsList: FunctionComponent<INewsListProps> & {
+  defaultProps: Partial<INewsListProps>;
+} = props => {
   const {
     newsOptionProps,
     isRenderCompanyListCard,
@@ -31,12 +83,12 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
     isRenderPlatformListCard,
     isRenderRecommendNewsList,
     companyListCardProps,
-    filter,
-  } = { ...NEWS_LIST_DEFAULT_PROPS, ...props };
+    filter: initialFilter,
+  } = props;
 
-  const [newsListState] = useNewsList(filter);
+  const newsList = useNewsListState(initialFilter);
 
-  const newsComponents = newsListState.newsList.map(newsProps => (
+  const newsComponents = newsList.map(newsProps => (
     <Fragment key={newsProps.key}>
       <News {...newsProps} {...newsOptionProps} />
       <HorizontalDivider thick />
@@ -47,7 +99,7 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
     <ColListLayout.Repeat>
       {[
         ...newsComponents.slice(0, 3),
-        isRenderCompanyListCard && (
+        isRenderCompanyListCard && newsComponents.length >= 3 && (
           <Fragment key="CompanyListCard">
             <HorizontalDivider thick />
             <CompanyListCard {...companyListCardProps} />
@@ -55,7 +107,7 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
           </Fragment>
         ),
         ...newsComponents.slice(3, 5),
-        isRenderContactCard && (
+        isRenderContactCard && newsComponents.length >= 5 && (
           <Fragment key="ContactCard">
             <HorizontalDivider thick />
             <ContactCard />
@@ -63,14 +115,14 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
           </Fragment>
         ),
         ...newsComponents.slice(5, 6),
-        isRenderPlatformListCard && (
+        isRenderPlatformListCard && newsComponents.length >= 6 && (
           <Fragment key="PlatformListCard">
             <HorizontalDivider thick />
             <PlatformListCard />
             <HorizontalDivider thick />
           </Fragment>
         ),
-        isRenderRecommendNewsList && (
+        isRenderRecommendNewsList && newsComponents.length >= 6 && (
           <Fragment key="RecommendNewsList">
             <RecommendNewsList />
             <HorizontalDivider thick />
@@ -80,4 +132,11 @@ export const NewsList: FunctionComponent<INewsListProps> = props => {
       ]}
     </ColListLayout.Repeat>
   );
+};
+
+NewsList.defaultProps = {
+  isRenderCompanyListCard: false,
+  isRenderContactCard: false,
+  isRenderPlatformListCard: false,
+  isRenderRecommendNewsList: false,
 };
