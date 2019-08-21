@@ -1,7 +1,7 @@
-import React, { ReactNode, FunctionComponent } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 
-import { ColListLayout, BothMarginWrapper, RowListLayout } from 'Layouts/index';
+import { ColListLayout, BothMarginWrapper, RowListLayout, PageLayout } from 'Layouts/index';
 import { exitWhite } from 'Resources/index';
 import { HorizontalDivider, SocialLinkList } from 'Templates/index';
 import { withRouter } from 'react-router';
@@ -11,36 +11,24 @@ import { routes } from 'Config/routes';
 
 export const MenuPage = () => {
   return (
-    <MenuLayout>
+    <PageLayout>
       {{
         header: <MenuHeader />,
-        body: <MenuLinkList />,
-        footer: <SocialLinkList imgBgType="white" align="Left" />,
+        body: (
+          <BothMarginWrapper depth={2} top="30px" bottom="30px">
+            <MenuLinkList />
+          </BothMarginWrapper>
+        ),
+        footer: (
+          <>
+            <HorizontalDivider />
+            <BothMarginWrapper depth={2} top="30px" bottom="30px">
+              <SocialLinkList imgBgType="white" align="Left" />
+            </BothMarginWrapper>
+          </>
+        ),
       }}
-    </MenuLayout>
-  );
-};
-
-interface IMenuLayoutProps {
-  children: {
-    header: ReactNode;
-    body: ReactNode;
-    footer: ReactNode;
-  };
-}
-
-const MenuLayout: FunctionComponent<IMenuLayoutProps> = ({
-  children: { header, body, footer },
-}) => {
-  return (
-    <ColListLayout.Repeat interval="25px">
-      <HeaderWrapper>
-        <BothMarginWrapper depth={2}>{header}</BothMarginWrapper>
-      </HeaderWrapper>
-      <BothMarginWrapper depth={2}>{body}</BothMarginWrapper>
-      <HorizontalDivider />
-      <BothMarginWrapper depth={2}>{footer}</BothMarginWrapper>
-    </ColListLayout.Repeat>
+    </PageLayout>
   );
 };
 
@@ -50,10 +38,14 @@ const HeaderWrapper = styled.div`
 
 const MenuHeader = withRouter(({ history }) => {
   return (
-    <RowListLayout.Align type="justify" top="40px" bottom="40px">
-      <MenuTitle />
-      <CloseButton onClick={history.goBack} />
-    </RowListLayout.Align>
+    <HeaderWrapper>
+      <BothMarginWrapper depth={2} top="40px" bottom="40px">
+        <RowListLayout.Align type="justify">
+          <MenuTitle />
+          <CloseButton onClick={history.goBack} />
+        </RowListLayout.Align>
+      </BothMarginWrapper>
+    </HeaderWrapper>
   );
 });
 
