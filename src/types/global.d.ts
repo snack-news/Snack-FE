@@ -8,7 +8,7 @@ interface ICompany {
 
 interface IExternalLink {
   href: string;
-  title: string;
+  title?: string;
   img?: string;
 }
 
@@ -22,7 +22,7 @@ interface INews {
   title: string;
   content: string;
   tags: ITag[];
-  link: IExternalLink;
+  link?: IExternalLink;
   createdDate: number;
   key: string;
 }

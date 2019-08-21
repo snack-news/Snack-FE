@@ -86,6 +86,7 @@
     "@types/react-router-dom": "^4.3.4",
     "@types/storybook__addon-knobs": "^5.0.1",
     "@types/styled-components": "4.1.8",
+    "axios": "^0.19.0",
     "express": "^4.17.1",
     "html-webpack-template": "^6.2.0",
     "mobx": "^5.13.0",

@@ -8,6 +8,7 @@
     "Resources/*": ["./src/resources/*"],
     "Templates/*": ["./src/templates/*"],
     "Config": ["./src/config/*"],
+    "Hooks": ["./src/hooks/*"],
     "Utils": ["./src/utils.ts"],
   },
 }

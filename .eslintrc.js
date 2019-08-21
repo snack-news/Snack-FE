@@ -56,7 +56,8 @@ module.exports = {
 
     /* 커스텀으로 off 한 사항들 */
     'import/prefer-default-export': 'off',
-    // 'import/no-default-export': 'warn'
+    // 'import/no-default-export': 'warn',
+    'no-use-before-define': 'off',
   },
 
   overrides: [

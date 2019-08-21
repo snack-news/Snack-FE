@@ -26,6 +26,7 @@
       "Resources/*": ["./src/resources/*"],
       "Templates/*": ["./src/templates/*"],
       "Config/*": ["./src/config/*"],
+      "Hooks/*": ["./src/hooks/*"],
       "Utils": ["./src/utils.ts"],
     },
     // "rootDirs": [ ], // 가상 디덱토리를 설정
