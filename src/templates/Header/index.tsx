@@ -6,6 +6,7 @@ import { BothMarginWrapper, RowListLayout } from 'Layouts/index';
 import { logoImg, MenuImg, backBlueArrowImg } from 'Resources/index';
 import { Link } from 'react-router-dom';
 import { routes } from 'Config/routes';
+import useReactRouter from 'use-react-router';
 
 // Header 컴포넌트
 interface IHeaderProps {
@@ -13,16 +14,29 @@ interface IHeaderProps {
 }
 
 export const Header: FunctionComponent<IHeaderProps> = ({ title }) => {
+  const { history } = useReactRouter();
   return (
     <HeaderLayout>
       {{
-        logo: <Logo />,
+        logo: (
+          <Logo
+            onClick={() => {
+              history.push('/');
+            }}
+          />
+        ),
         menu: (
           <Link to={routes.menuPage}>
             <Menu />
           </Link>
         ),
-        backArrow: <BackArrow />,
+        backArrow: (
+          <BackArrow
+            onClick={() => {
+              history.goBack();
+            }}
+          />
+        ),
         title,
       }}
     </HeaderLayout>
