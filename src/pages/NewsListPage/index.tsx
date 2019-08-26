@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
-import { Header, Tabs, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
+import { Header, SelectBox, HorizontalDivider, NewsList, Footer } from 'Templates/index';
 import { PageLayout } from 'Layouts/index';
 import { IFilter } from 'Hooks/useNewsList';
 
@@ -18,7 +18,6 @@ export const NewsListPage: FunctionComponent<INewsListPage> = ({ filter }) => {
           <>
             <Header />
             <HorizontalDivider />
-            <Tabs />
             <HorizontalDivider thick />
             <SelectBox year={filter.year} month={filter.month} week={filter.week} />
             <HorizontalDivider thick />
