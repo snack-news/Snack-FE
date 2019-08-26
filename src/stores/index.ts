@@ -1,10 +1,11 @@
-import { computed, observable } from "mobx";
+import { computed, observable } from 'mobx';
 
 class ExampleStore {
   @observable foo = 3;
+
   @observable bar = 4;
 
-  @computed get multiple () {
+  @computed get multiple() {
     return this.foo * this.bar;
   }
 }
