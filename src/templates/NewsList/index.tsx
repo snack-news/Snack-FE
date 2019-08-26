@@ -1,4 +1,4 @@
-import React, { Fragment, FunctionComponent, useState, useEffect } from 'react';
+import React, { Fragment, FunctionComponent, useState, useEffect, useCallback } from 'react';
 
 import { ColListLayout } from 'Layouts/index';
 import { HorizontalDivider, CompanyListCard, RecommendNewsList } from 'Templates/index';
@@ -14,6 +14,7 @@ interface INewsListProps {
   isRenderPlatformListCard?: boolean;
   isRenderRecommendNewsList?: boolean;
   companyListCardProps?: ICompanyListCardProps;
+  isInfiniteScroll?: boolean;
   filter: IFilter;
 }
 
@@ -22,12 +23,16 @@ const BOTTOM_MARGIN = 800;
 const isBottom = (margin: number) =>
   window.innerHeight + window.scrollY >= document.body.offsetHeight - margin;
 
-const useNewsListState = (initialFilter: IFilter) => {
+const useNewsListState = (initialFilter: IFilter, isInfiniteScroll?: boolean) => {
   const [filter, setFilter] = useState(initialFilter);
   const [latestNewsListState] = useNewsList(filter);
   const [newsList, setNewsList] = useState<INews[]>([]);
 
-  const nextNewsList = () => {
+  const nextNewsList = useCallback(() => {
+    if (!isInfiniteScroll) {
+      return;
+    }
+
     setFilter(oldFilter => {
       const oldFilterDate = new Date(
         parseInt(oldFilter.year, 10),
@@ -41,7 +46,7 @@ const useNewsListState = (initialFilter: IFilter) => {
         ...getWeekDate(filterDate),
       };
     });
-  };
+  }, [isInfiniteScroll]);
 
   useEffect(() => {
     if (latestNewsListState.status !== 'pending') {
@@ -51,7 +56,7 @@ const useNewsListState = (initialFilter: IFilter) => {
         setNewsList(oldNewsList => [...oldNewsList, ...latestNewsListState.newsList]);
       }
     }
-  }, [latestNewsListState.newsList, latestNewsListState.status]);
+  }, [latestNewsListState.newsList, latestNewsListState.status, nextNewsList]);
 
   useEffect(() => {
     const onScroll = () => {
@@ -68,7 +73,7 @@ const useNewsListState = (initialFilter: IFilter) => {
     return () => {
       window.removeEventListener('scroll', onScroll);
     };
-  }, [latestNewsListState.newsList, latestNewsListState.status]);
+  }, [latestNewsListState.newsList, latestNewsListState.status, nextNewsList]);
 
   return newsList;
 };
@@ -83,10 +88,11 @@ export const NewsList: FunctionComponent<INewsListProps> & {
     isRenderPlatformListCard,
     isRenderRecommendNewsList,
     companyListCardProps,
+    isInfiniteScroll,
     filter: initialFilter,
   } = props;
 
-  const newsList = useNewsListState(initialFilter);
+  const newsList = useNewsListState(initialFilter, isInfiniteScroll);
 
   const newsComponents = newsList.map(newsProps => (
     <Fragment key={newsProps.key}>
