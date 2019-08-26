@@ -24,22 +24,26 @@ export const ExternalLinkWithImage: FunctionComponent<IExternalLinkWithImageProp
 };
 
 export const ExternalLink: FunctionComponent<IExternalLink> = ({ href, title }) => {
-  const hostname = getHostName(href);
+  if (href) {
+    const hostname = getHostName(href);
 
-  if (hostname === null) {
-    return null;
+    if (hostname === null) {
+      return null;
+    }
+
+    return (
+      <ExternalLinkWrapper interval="8px" top="18px" bottom="18px">
+        <BothMarginWrapper>
+          <LinkTitleWrapper>{title}</LinkTitleWrapper>
+        </BothMarginWrapper>
+        <BothMarginWrapper>
+          <LinkHrefWrapper>{hostname.toUpperCase()}</LinkHrefWrapper>
+        </BothMarginWrapper>
+      </ExternalLinkWrapper>
+    );
   }
 
-  return (
-    <ExternalLinkWrapper interval="8px" top="18px" bottom="18px">
-      <BothMarginWrapper>
-        <LinkTitleWrapper>{title}</LinkTitleWrapper>
-      </BothMarginWrapper>
-      <BothMarginWrapper>
-        <LinkHrefWrapper>{hostname.toUpperCase()}</LinkHrefWrapper>
-      </BothMarginWrapper>
-    </ExternalLinkWrapper>
-  );
+  return null;
 };
 
 const LinkHrefWrapper = styled.div`

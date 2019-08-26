@@ -1,23 +1,32 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
-import { getCompanyList } from 'Api/index';
-
 import { ColListLayout, RowListLayout, CardSimpleLayout, Center } from 'Layouts/index';
+import useCorpList from 'Hooks/useCorpList';
 
 export interface ICompanyListCardProps {
   isRenderMoreLink?: boolean;
-  title?: string;
+  excludeCropId?: number;
 }
 
-const COMPANY_LIST_CARD_DEFAULT_PROPS = {
-  isRenderMoreLink: false,
-  title: '',
-};
+export const CompanyListCard: FunctionComponent<ICompanyListCardProps> & {
+  defaultProps: Partial<ICompanyListCardProps>;
+} = props => {
+  const { excludeCropId, isRenderMoreLink } = props;
+  const [corpListState] = useCorpList();
 
-export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props => {
-  const { title, isRenderMoreLink } = { ...COMPANY_LIST_CARD_DEFAULT_PROPS, ...props };
-  const companyList = getCompanyList();
+  let title = '회사별 뉴스 모아보기';
+
+  if (corpListState.status !== 'success') {
+    return null;
+  }
+  const excludeCorp = corpListState.corpList.find(({ id }) => id === excludeCropId);
+
+  if (excludeCorp !== undefined) {
+    title = `${excludeCorp.name}말고 이런 회사 소식은 어떠세요?`;
+  }
+
+  const corpList = corpListState.corpList.filter(({ id }) => id !== excludeCropId);
 
   return (
     <CardSimpleLayout>
@@ -26,8 +35,8 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props =
         nav: isRenderMoreLink && <CompanyListCardMoreLink />,
         body: (
           <RowListLayout.Repeat interval="10px">
-            {companyList.map(companyBoxProps => (
-              <CompanyBox {...companyBoxProps} />
+            {corpList.map(corp => (
+              <CompanyBox {...corp} key={corp.id} />
             ))}
           </RowListLayout.Repeat>
         ),
@@ -35,6 +44,8 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> = props =
     </CardSimpleLayout>
   );
 };
+
+CompanyListCard.defaultProps = { isRenderMoreLink: false };
 
 const CompanyListCardTitle = styled.div`
   font-size: 17px;
@@ -47,7 +58,7 @@ const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
   color: #0b66f7;
 `;
 
-const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
+const CompanyBox: FunctionComponent<ICorp> = ({ image, name }) => (
   <CompanyBoxWrapper
     top="12px"
     bottom="8px"
@@ -56,7 +67,7 @@ const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
         el: (
           <Center>
             <CompanyBoxDiv>
-              <CompanyBoxLogo src={logoImg} />
+              <CompanyBoxLogo src={image === null ? '' : image} />
             </CompanyBoxDiv>
           </Center>
         ),
@@ -65,7 +76,7 @@ const CompanyBox: FunctionComponent<ICompany> = ({ logoImg, companyName }) => (
       {
         el: (
           <Center>
-            <CompanyBoxLabel>{companyName}</CompanyBoxLabel>
+            <CompanyBoxLabel>{name}</CompanyBoxLabel>
           </Center>
         ),
       },

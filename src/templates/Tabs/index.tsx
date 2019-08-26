@@ -9,11 +9,11 @@ import TabLink from './TabLink';
 const tabs = [
   {
     label: 'News',
-    to: routes.homePage,
+    to: routes.homePage.getLink(),
   },
   {
     label: 'Picks',
-    to: routes.picksPage,
+    to: routes.picksPage.getLink(),
   },
 ];
 

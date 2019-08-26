@@ -63,10 +63,10 @@ const MenuTitle = styled.div.attrs({ children: 'Menu' })`
 const MenuLinkList = () => {
   return (
     <ColListLayout.Repeat interval="20px">
-      <MenuLink to={routes.homePage}>홈</MenuLink>
-      <MenuLink to={routes.companyNewsListPage}>토픽 모아보기</MenuLink>
-      <MenuLink to={routes.aboutPage}>서비스 안내</MenuLink>
-      <MenuLink to={routes.introduceFormPage}>제안하기</MenuLink>
+      <MenuLink to={routes.homePage.getLink()}>홈</MenuLink>
+      <MenuLink to={routes.companySelectPage.getLink()}>토픽 모아보기</MenuLink>
+      <MenuLink to={routes.aboutPage.getLink()}>서비스 안내</MenuLink>
+      <MenuLink to={routes.introduceFormPage.getLink()}>제안하기</MenuLink>
     </ColListLayout.Repeat>
   );
 };

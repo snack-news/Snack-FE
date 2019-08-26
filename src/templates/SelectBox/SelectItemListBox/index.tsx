@@ -10,13 +10,21 @@ import { Layer } from '../Layer';
 import SelectItemList from './SelectItemList';
 
 interface ISelectItemListBoxProps {
+  year: string;
+  month: string;
+  week: string;
   onClickLayer?: () => void;
   onClickCloseButton?: () => void;
+  onChange: () => void;
 }
 
 export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
+  year,
+  month,
+  week,
   onClickLayer,
   onClickCloseButton,
+  onChange,
 }) => {
   return (
     <>
@@ -43,7 +51,7 @@ export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
             {
               el: (
                 <BothMarginWrapper>
-                  <SelectItemList />
+                  <SelectItemList year={year} month={month} week={week} onChange={onChange} />
                 </BothMarginWrapper>
               ),
             },
