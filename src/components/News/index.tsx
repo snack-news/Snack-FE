@@ -13,8 +13,8 @@ interface INewsProps extends INews, INewsOptionProps {}
 
 export interface INewsOptionProps {
   expanded?: boolean;
-  isRenderHighlightTag: boolean;
-  isRenderWeekNumberOfMonth: boolean;
+  isRenderHighlightTag?: boolean;
+  isRenderWeekNumberOfMonth?: boolean;
 }
 
 export const News: FunctionComponent<INewsProps> & {
@@ -32,7 +32,7 @@ export const News: FunctionComponent<INewsProps> & {
   } = props;
 
   let filteredTags = tags;
-  if (isRenderHighlightTag === false) {
+  if (!isRenderHighlightTag) {
     filteredTags = tags.filter(({ highlight }) => highlight === false);
   }
 
