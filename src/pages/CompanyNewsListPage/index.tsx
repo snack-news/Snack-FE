@@ -34,6 +34,7 @@ export const CompanyNewsListPage: FunctionComponent<ICompanyNewsListPageProps> =
         body: (
           <>
             <NewsList
+              isInfiniteScroll
               newsOptionProps={{ isRenderWeekNumberOfMonth: true }}
               companyListCardProps={{ excludeCropId: corpId }}
               isRenderCompanyListCard
