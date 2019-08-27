@@ -29,7 +29,7 @@ export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
   return (
     <>
       <Layer onClick={onClickLayer} />
-      <div style={{ position: 'fixed', bottom: 0, right: 0, left: 0, backgroundColor: '#fff' }}>
+      <SelectItemListBoxWrapper>
         <ColListLayout.Detail
           top="20px"
           bottom="20px"
@@ -57,10 +57,20 @@ export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
             },
           ]}
         />
-      </div>
+      </SelectItemListBoxWrapper>
     </>
   );
 };
+
+const SelectItemListBoxWrapper = styled.div`
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+  max-width: 600px;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+`;
 
 const SelectItemListBoxTitle = styled.div.attrs({ children: '조회할 주 선택' })`
   font-size: 17px;
