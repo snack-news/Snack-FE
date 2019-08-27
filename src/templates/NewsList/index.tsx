@@ -28,11 +28,11 @@ const useNewsListState = (initialFilter: IFilter, isInfiniteScroll?: boolean) =>
   const [latestNewsListState] = useNewsList(filter);
   const [newsList, setNewsList] = useState<INews[]>([]);
 
-  const nextNewsList = useCallback(() => {
-    if (!isInfiniteScroll) {
-      return;
-    }
+  useEffect(() => {
+    setFilter(initialFilter);
+  }, [initialFilter]);
 
+  const nextNewsList = useCallback(() => {
     setFilter(oldFilter => {
       const oldFilterDate = new Date(
         parseInt(oldFilter.year, 10),
