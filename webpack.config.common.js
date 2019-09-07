@@ -74,6 +74,16 @@ module.exports = {
       template: htmlWebpackTemplate,
       bodyHtmlSnippet: '<div id="root"></div>',
       mobile: true,
+      meta: [
+        {
+          property: 'og:title',
+          content: '스낵 - 쉽게 풀어쓰는 Tech News',
+        },
+        {
+          property: 'og:url',
+          content: 'http://snak.news',
+        },
+      ],
     }),
   ],
   resolve: {
