@@ -1,3 +1,8 @@
+/**
+ * API Origin Interface (./api) 를 Wrapping하는 API Wrapping Interface 입니다.
+ * API Origin Interface 를 확장 및 은닉 역할을 담당합니다.
+ */
+
 import newsApi from './api';
 import { INewsService } from './types';
 import { parseNewsFIlterToGetParams, parseNewsFIlterWithWeekToGetParams } from './utils';
