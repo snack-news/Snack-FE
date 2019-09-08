@@ -1,6 +1,6 @@
 import { format } from 'date-fns';
 
-import { GetParams } from './api/types';
+import { GetParams } from '../api/news/types';
 import { NewsFilter, NewsFilterWithWeek, NewsFilterOptions, DateRange, WeeklyDateRange } from './types';
 
 export const parseNewsFIlterToGetParams = (newsFilter: NewsFilter): GetParams => ({

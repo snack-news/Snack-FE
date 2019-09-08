@@ -1,4 +1,4 @@
-import { ResponseNews } from './api/types';
+import { ResponseNews } from '../api/news/types';
 
 export interface NewsFilter extends NewsFilterOptions, DateRange {}
 

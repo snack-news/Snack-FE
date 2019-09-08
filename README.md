@@ -32,7 +32,10 @@ nps test
 3. http://localhost:8899 로 스토리북 화면을 확인하며 Happy Coding!
 
 # 구조
-- services
+- services: API Interface. UI에서 사용되는 API
+  - api: API Origin Interface. 서버의 API Interface가 달라지면 이 디렉토리의 파일만 수정하면 됩니다.
+    - news: News API Origin Interface
+    - topic: Topic API Origin Interface
   - newsService: News API Wrapping Interface
-    - api: News API Origin Interface
+  - cropService: 
     

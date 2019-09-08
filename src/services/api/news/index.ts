@@ -1,8 +1,4 @@
-/**
- * API Origin Interface (서버에서 제공하는 API) 가 변경될시 이 파일(디렉토리)만 변경하면 됩니다.
- */
-
-import axios from './axios';
+import axios from '../axios';
 import { NewsApi, ResponseNews } from './types';
 
 class BasicNewsApi implements NewsApi {
