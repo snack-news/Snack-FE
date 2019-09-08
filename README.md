@@ -30,3 +30,9 @@ nps test
 ```
 
 3. http://localhost:8899 로 스토리북 화면을 확인하며 Happy Coding!
+
+# 구조
+- services
+  - newsService: News API Wrapping Interface
+    - api: News API Origin Interface
+    
