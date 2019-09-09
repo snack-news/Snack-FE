@@ -20,17 +20,12 @@ module.exports = {
     eslint: {
       default: {
         script:
-          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --color',
-        description: 'eslint 스크립트 실행',
-      },
-      watch: {
-        script:
-          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore -w --color --clear',
+          'eslint ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --color',
         description: 'eslint 스크립트 실행',
       },
       autoFix: {
         script:
-          'esw ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --fix --color',
+          'eslint ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --fix --color',
         description: 'eslint 스크립트 실행',
       },
     },
