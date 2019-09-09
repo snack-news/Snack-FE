@@ -1,6 +1,9 @@
 # snack-fe 
 
-Snack News FE 코드입니다. [![Build Status](https://travis-ci.org/snack-news/Snack-FE.svg?branch=master)](https://travis-ci.org/snack-news/Snack-FE)
+Snack News FE 코드입니다.
+
+[![Build Status](https://travis-ci.org/snack-news/Snack-FE.svg?branch=master)](https://travis-ci.org/snack-news/Snack-FE)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8cb79631f47a47f48e85081d59fef73f)](https://www.codacy.com/manual/vomvoru/Snack-FE?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=snack-news/Snack-FE&amp;utm_campaign=Badge_Grade)
 
 ## How to Build & Run
 ```
