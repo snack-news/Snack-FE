@@ -3,6 +3,7 @@
  */
 
 import React, { ReactNode, CSSProperties, FunctionComponent } from 'react';
+
 import { BaseLayout, IBaseLayoutProps } from './BaseLayout';
 
 type CSSLength = CSSProperties['marginBottom'];
@@ -70,10 +71,7 @@ const Detail: FunctionComponent<IDetailProps> = props => {
       {items.map(
         ({ el, right: itemRight, flex, key }, i) =>
           el && (
-            <div
-              style={{ marginRight: lastIndex === i ? undefined : itemRight, flex }}
-              key={key || i}
-            >
+            <div style={{ marginRight: lastIndex === i ? undefined : itemRight, flex }} key={key || i}>
               {el}
             </div>
           )

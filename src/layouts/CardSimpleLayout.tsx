@@ -10,9 +10,7 @@ interface ICardSimpleLayoutProps {
   };
 }
 
-export const CardSimpleLayout: FunctionComponent<ICardSimpleLayoutProps> = ({
-  children: { header, nav, body },
-}) => (
+export const CardSimpleLayout: FunctionComponent<ICardSimpleLayoutProps> = ({ children: { header, nav, body } }) => (
   <ColListLayout.Detail
     top="30px"
     bottom="30px"

@@ -2,6 +2,7 @@ import React, { FunctionComponent } from 'react';
 // import styled from 'styled-components';
 
 import { RowListLayout } from 'Layouts/index';
+
 // import { contentImg } from 'Resources/index';
 import Label from './Label';
 
