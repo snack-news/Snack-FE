@@ -90,7 +90,7 @@
     "express": "^4.17.1",
     "express-history-api-fallback": "^2.2.1",
     "html-webpack-template": "^6.2.0",
-    "http-proxy-middleware": "^0.19.1",
+    "http-proxy-middleware": "^0.20.0",
     "mobx": "^5.13.0",
     "mobx-react": "^6.1.1",
     "normalize.css": "^8.0.1",
