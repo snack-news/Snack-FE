@@ -19,13 +19,11 @@ module.exports = {
     },
     eslint: {
       default: {
-        script:
-          'eslint ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --color',
+        script: 'eslint ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --color',
         description: 'eslint 스크립트 실행',
       },
       autoFix: {
-        script:
-          'eslint ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --fix --color',
+        script: 'eslint ./src --ext .js --ext .jsx --ext .ts --ext .tsx --ignore-path ./.gitignore --fix --color',
         description: 'eslint 스크립트 실행',
       },
     },
