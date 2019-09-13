@@ -67,7 +67,7 @@
     "sass-loader": "^7.3.1",
     "storybook-addon-react-docgen": "^1.2.15",
     "style-loader": "^0.23.1",
-    "ts-jest": "^24.0.2",
+    "ts-jest": "^24.1.0",
     "ts-loader": "^6.1.0",
     "typescript": "^3.6.3",
     "webpack": "^4.34.0",
