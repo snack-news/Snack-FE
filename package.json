@@ -78,7 +78,7 @@
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.4.5",
-    "@storybook/addon-knobs": "^5.1.11",
+    "@storybook/addon-knobs": "^5.2.0",
     "@types/psl": "^1.1.0",
     "@types/react": "^16.8.20",
     "@types/react-dom": "^16.8.4",
