@@ -27,7 +27,7 @@
     "@storybook/addon-console": "^1.2.1",
     "@storybook/addon-storyshots": "^5.1.9",
     "@storybook/addon-storyshots-puppeteer": "^5.1.9",
-    "@storybook/addon-viewport": "^5.1.9",
+    "@storybook/addon-viewport": "^5.2.0",
     "@storybook/react": "^5.1.11",
     "@types/jest": "^24.0.14",
     "@types/jest-image-snapshot": "^2.8.0",
