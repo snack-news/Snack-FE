@@ -3,10 +3,6 @@ sudo: false
 node_js:
   - "10"
 
-branches:
-  only:
-    - master
-
 cache:
   npm: true
 
