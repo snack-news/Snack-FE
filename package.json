@@ -9,7 +9,7 @@
     "server": "nps server.dev",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-static",
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "author": "",
   "license": "UNLICENSED",
