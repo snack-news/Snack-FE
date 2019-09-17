@@ -10,7 +10,8 @@
     "storybook": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-static",
     "test": "jest",
-    "jscpd": "jscpd ./src && mv ./report/jscpd-report.html ./report/index.html"
+    "jscpd": "jscpd ./src && mv ./report/jscpd-report.html ./report/index.html",
+    "lint": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx src"
   },
   "author": "",
   "license": "UNLICENSED",
