@@ -9,7 +9,8 @@
     "server": "nps server.dev",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook -c .storybook -o .storybook-static",
-    "test": "jest"
+    "test": "jest",
+    "jscpd": "jscpd ./src"
   },
   "author": "",
   "license": "UNLICENSED",
@@ -58,6 +59,8 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "jest-image-snapshot": "^2.8.2",
+    "jscpd": "^2.0.15",
+    "jscpd-badge-reporter": "^1.1.3",
     "node-sass": "^4.12.0",
     "nps": "^5.9.5",
     "nps-utils": "^1.7.0",
