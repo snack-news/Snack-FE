@@ -50,14 +50,7 @@ const useNewsList = (filter: IFilter): [INewsListState] => {
 
   useEffect(() => {
     const fetchData = async () => {
-      if (
-        MIN_DATE.getTime() >
-        new Date(
-          parseInt(filter.year, 10),
-          parseInt(filter.month, 10) - 1,
-          parseInt(filter.week, 10) * 7
-        ).getTime()
-      ) {
+      if (MIN_DATE.getTime() > new Date(parseInt(filter.year, 10), parseInt(filter.month, 10) - 1, parseInt(filter.week, 10) * 7).getTime()) {
         return;
       }
       try {
@@ -108,11 +101,7 @@ const getDayStartMonday = (d: Date) => (d.getDay() || 7) - 1;
 
 const getNthWeek = (year: number, month: number, week: number) => {
   const startDate = getNthWeekFirstDate(year, month, week);
-  let endDate = new Date(
-    startDate.getFullYear(),
-    startDate.getMonth(),
-    startDate.getDate() + (6 - getDayStartMonday(startDate))
-  );
+  let endDate = new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + (6 - getDayStartMonday(startDate)));
 
   if (endDate.getMonth() !== startDate.getMonth()) {
     endDate = new Date(startDate.getFullYear(), startDate.getMonth() + 1, 0);

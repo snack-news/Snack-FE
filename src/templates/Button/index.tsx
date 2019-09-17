@@ -15,9 +15,7 @@ const ButtonElement = styled.button`
   border: 0;
 `;
 
-const Button: React.FunctionComponent<IButtonIProps> = ({ type, children }) => (
-  <ButtonElement type={type}>{children}</ButtonElement>
-);
+const Button: React.FunctionComponent<IButtonIProps> = ({ type, children }) => <ButtonElement type={type}>{children}</ButtonElement>;
 Button.defaultProps = {
   type: 'button',
 };

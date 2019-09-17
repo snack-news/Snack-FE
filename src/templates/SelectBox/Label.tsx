@@ -2,6 +2,7 @@ import React, { FunctionComponent, useState } from 'react';
 import styled from 'styled-components';
 
 import { downarrowImg } from 'Resources/index';
+
 import { SelectItemListBox } from './SelectItemListBox';
 
 const DownArrowIcon = styled.img.attrs({
@@ -38,14 +39,7 @@ const Label: FunctionComponent<ILabel> = ({ year, month, week }) => {
         <DownArrowIcon />
       </LabelWrapper>
       {isShowListBox && (
-        <SelectItemListBox
-          year={year}
-          month={month}
-          week={week}
-          onClickCloseButton={hideListBox}
-          onClickLayer={hideListBox}
-          onChange={hideListBox}
-        />
+        <SelectItemListBox year={year} month={month} week={week} onClickCloseButton={hideListBox} onClickLayer={hideListBox} onChange={hideListBox} />
       )}
     </>
   );

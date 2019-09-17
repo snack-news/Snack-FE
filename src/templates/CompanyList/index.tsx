@@ -5,6 +5,7 @@ import { HorizontalDivider } from 'Templates/index';
 
 import useCorpList from 'Hooks/useCorpList';
 import useReactRouter from 'use-react-router';
+
 import CompanyItem from './CompanyItem';
 
 /* CompanyList 컴포넌트 */

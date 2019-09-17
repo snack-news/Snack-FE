@@ -36,13 +36,9 @@ export const NewsPage = () => (
               
               📍 삼성전자는 새로운 디자인 철학을 통해 사용자 중심의 과감한 디자인 혁신을 적극적으로 추진할 계획을 밝혔습니다.
               이번 4월에 이탈리아 밀라노에서 열릴 '밀라노 디자인 위크( Milano Design Week)'에서 새로운 디자인 철학을 선포하고 구체적인 포부를 발표할 예정이라고 하네요. `,
-            tags: [
-              { highlight: true, children: 'TOP3', key: '1' },
-              { highlight: false, children: 'APPLE', key: '2' },
-            ],
+            tags: [{ highlight: true, children: 'TOP3', key: '1' }, { highlight: false, children: 'APPLE', key: '2' }],
             link: {
-              href:
-                'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
+              href: 'https://www.technobezz.com/apples-modem-chip-making-plans-seem-to-be-confirmed-569854/',
               title: '애플 7% 주가 상승했나? 여력있어 보여',
               img: linkMock,
             },

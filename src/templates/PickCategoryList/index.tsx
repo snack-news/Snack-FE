@@ -10,9 +10,7 @@ interface IPickCategoryListProps {
   selectCategoryKey: string;
 }
 
-export const PickCategoryList: FunctionComponent<IPickCategoryListProps> = ({
-  selectCategoryKey,
-}) => {
+export const PickCategoryList: FunctionComponent<IPickCategoryListProps> = ({ selectCategoryKey }) => {
   const pickCategoryList = getPickCategoryList();
 
   return (

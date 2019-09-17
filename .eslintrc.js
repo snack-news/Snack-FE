@@ -1,3 +1,5 @@
+const webpackConfig = require('./webpack.config.prod')
+
 const airbnbBaseStyleRules = require('eslint-config-airbnb-base/rules/style').rules;
 const airbnbBaseVariablesRules = require('eslint-config-airbnb-base/rules/variables').rules;
 
@@ -7,10 +9,10 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier', 'react-hooks'],
   settings: {
     'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-      },
-    },
+      webpack: {
+        config: webpackConfig,
+      }
+    }
   },
   parserOptions: {
     ecmaVersion: 6,

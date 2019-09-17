@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { BothMarginWrapper, ColListLayout } from 'Layouts/index';
 import { SocialLinkList } from 'Templates/index';
+
 import { FooterLinkList, Copyright } from './components';
 
 /* Footer 컴포넌트 */

@@ -20,8 +20,7 @@ interface INewsListProps {
 
 const BOTTOM_MARGIN = 800;
 
-const isBottom = (margin: number) =>
-  window.innerHeight + window.scrollY >= document.body.offsetHeight - margin;
+const isBottom = (margin: number) => window.innerHeight + window.scrollY >= document.body.offsetHeight - margin;
 
 const useNewsListState = (initialFilter: IFilter, isInfiniteScroll?: boolean) => {
   const [filter, setFilter] = useState(initialFilter);
@@ -34,11 +33,7 @@ const useNewsListState = (initialFilter: IFilter, isInfiniteScroll?: boolean) =>
 
   const nextNewsList = useCallback(() => {
     setFilter(oldFilter => {
-      const oldFilterDate = new Date(
-        parseInt(oldFilter.year, 10),
-        parseInt(oldFilter.month, 10) - 1,
-        (parseInt(oldFilter.week, 10) - 1) * 7 + 1
-      );
+      const oldFilterDate = new Date(parseInt(oldFilter.year, 10), parseInt(oldFilter.month, 10) - 1, (parseInt(oldFilter.week, 10) - 1) * 7 + 1);
       const filterDate = new Date(oldFilterDate.getTime() - 1000 * 60 * 60 * 24 * 7);
 
       return {
@@ -46,7 +41,7 @@ const useNewsListState = (initialFilter: IFilter, isInfiniteScroll?: boolean) =>
         ...getWeekDate(filterDate),
       };
     });
-  }, [isInfiniteScroll]);
+  }, []);
 
   useEffect(() => {
     if (latestNewsListState.status !== 'pending') {
@@ -60,11 +55,7 @@ const useNewsListState = (initialFilter: IFilter, isInfiniteScroll?: boolean) =>
 
   useEffect(() => {
     const onScroll = () => {
-      if (
-        isBottom(BOTTOM_MARGIN) &&
-        latestNewsListState.status !== 'pending' &&
-        latestNewsListState.newsList.length > 0
-      ) {
+      if (isBottom(BOTTOM_MARGIN) && latestNewsListState.status !== 'pending' && latestNewsListState.newsList.length > 0) {
         nextNewsList();
         window.removeEventListener('scroll', onScroll);
       }

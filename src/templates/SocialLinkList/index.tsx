@@ -11,12 +11,8 @@ interface ISocialLinkListProps {
 }
 
 const Layouts = {
-  justify: ({ children }: { children: ReactNode[] }) => (
-    <RowListLayout.Align type="justify">{children}</RowListLayout.Align>
-  ),
-  Left: ({ children }: { children: ReactNode[] }) => (
-    <RowListLayout.Repeat interval="25px">{children}</RowListLayout.Repeat>
-  ),
+  justify: ({ children }: { children: ReactNode[] }) => <RowListLayout.Align type="justify">{children}</RowListLayout.Align>,
+  Left: ({ children }: { children: ReactNode[] }) => <RowListLayout.Repeat interval="25px">{children}</RowListLayout.Repeat>,
 };
 
 /* SocialLinkList 컴포넌트 */

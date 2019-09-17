@@ -53,9 +53,7 @@ interface IHeaderLayoutProps {
   };
 }
 
-const HeaderLayout: FunctionComponent<IHeaderLayoutProps> = ({
-  children: { logo, menu, backArrow, title },
-}) => {
+const HeaderLayout: FunctionComponent<IHeaderLayoutProps> = ({ children: { logo, menu, backArrow, title } }) => {
   if (title) {
     return (
       <HeaderLayoutWrapper>
