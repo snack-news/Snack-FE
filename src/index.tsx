@@ -9,7 +9,7 @@ import exampleStore from './stores';
 const rootDOM = document.getElementById('root');
 
 if (rootDOM === null) {
-  throw new Error('rootDOM 을 찾지 못였습니다.');
+  throw new Error('rootDOM 을 찾지 였습니다.');
 }
 
 ReactDOM.render(
