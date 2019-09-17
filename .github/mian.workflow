@@ -1,5 +1,10 @@
-workflow "New workflow" {
+workflow "Push" {
   on = "push"
+  resolves = ["ESLint"]
+}
+
+workflow "Pull Requset" {
+  on = "pull_request"
   resolves = ["ESLint"]
 }
 
