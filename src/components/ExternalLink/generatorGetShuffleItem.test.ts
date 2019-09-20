@@ -27,6 +27,6 @@ describe('generatorGetShuffleItem를 실행한 결과를 실행시', () => {
     const firstItem = items[0];
 
     // Then
-    expect(firstShuffleItems.some(firstShuffleItem => firstShuffleItem !== firstItem)).toBe(false);
+    expect(firstShuffleItems.some(firstShuffleItem => firstShuffleItem !== firstItem)).toBe(true);
   });
 });
