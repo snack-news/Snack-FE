@@ -9,10 +9,11 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier', 'react-hooks'],
   settings: {
     'import/resolver': {
+      node: {},
       webpack: {
         config: webpackConfig,
-      }
-    }
+      },
+    },
   },
   parserOptions: {
     ecmaVersion: 6,
@@ -22,6 +23,7 @@ module.exports = {
     browser: true,
     es6: true,
     jest: true,
+    node: true,
   },
   rules: {
     // prettier
