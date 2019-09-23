@@ -11,26 +11,19 @@ interface ILinkImgProps {
 const BACKGROUND_COLORS = ['#4f59f8', '#f8603a', '#1fb07e', '#ff9a26', '#667d43'];
 const getShuffleColor = generatorGetShuffleItem<string>(BACKGROUND_COLORS);
 
-const LinkImg: FunctionComponent<ILinkImgProps> = ({
-  imgSrc,
-  isRenderShuffleBackgroundColorBox,
-}) => {
+const LinkImg: FunctionComponent<ILinkImgProps> = ({ imgSrc, isRenderShuffleBackgroundColorBox }) => {
   if (imgSrc) {
     return <img src={imgSrc} style={{ width: '100%' }} alt="link" />;
   }
 
-  return isRenderShuffleBackgroundColorBox ? (
-    <ShuffleBackgroundColorBox label="Snack's Pick:" />
-  ) : null;
+  return isRenderShuffleBackgroundColorBox ? <ShuffleBackgroundColorBox label="Snack's Pick:" /> : null;
 };
 
 interface IShuffleBackgroundColorBoxProps {
   label: string;
 }
 
-const ShuffleBackgroundColorBox: FunctionComponent<IShuffleBackgroundColorBoxProps> = ({
-  label,
-}) => {
+const ShuffleBackgroundColorBox: FunctionComponent<IShuffleBackgroundColorBoxProps> = ({ label }) => {
   const backgroundColor = getShuffleColor.next().value;
   return (
     <div style={{ width: '100%', height: '160px', backgroundColor }}>

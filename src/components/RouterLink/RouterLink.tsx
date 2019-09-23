@@ -6,12 +6,7 @@ interface IRouterLinkProps {
   className?: string;
   isExternal: boolean;
 }
-const RouterLink: FunctionComponent<IRouterLinkProps> = ({
-  to,
-  children,
-  className,
-  isExternal,
-}) => {
+const RouterLink: FunctionComponent<IRouterLinkProps> = ({ to, children, className, isExternal }) => {
   if (isExternal) {
     return (
       <a className={className} href={to}>

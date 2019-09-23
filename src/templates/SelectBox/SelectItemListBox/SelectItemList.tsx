@@ -4,6 +4,7 @@ import { ColListLayout } from 'Layouts/index';
 
 import { getWeekDate } from 'Utils';
 import useReactRouter from 'use-react-router';
+
 import SelectItem from './SelectItem';
 
 const NOW = new Date();
@@ -21,12 +22,7 @@ interface ISelectItemListProps {
   onChange: () => void;
 }
 
-const SelectItemList: FunctionComponent<ISelectItemListProps> = ({
-  year,
-  month,
-  week,
-  onChange,
-}) => {
+const SelectItemList: FunctionComponent<ISelectItemListProps> = ({ year, month, week, onChange }) => {
   const { history } = useReactRouter();
 
   return (
@@ -35,8 +31,7 @@ const SelectItemList: FunctionComponent<ISelectItemListProps> = ({
         .reverse()
         .map(weekDate => {
           const label = `${weekDate.year}년 ${weekDate.month}월 ${weekDate.week}주`;
-          const selected =
-            weekDate.year === year && weekDate.month === month && weekDate.week === week;
+          const selected = weekDate.year === year && weekDate.month === month && weekDate.week === week;
           return (
             <SelectItem
               label={label}
@@ -64,14 +59,10 @@ const getWeekDateList = () => {
   for (let currentYear = MIN_YEAR; currentYear <= MAX_YEAR; currentYear += 1) {
     for (
       let currentMonth = currentYear === MIN_YEAR ? MIN_MONTH : 0;
-      (currentYear < MAX_YEAR && currentMonth <= 11) ||
-      (currentYear === MAX_YEAR && currentMonth <= MAX_MONTH);
+      (currentYear < MAX_YEAR && currentMonth <= 11) || (currentYear === MAX_YEAR && currentMonth <= MAX_MONTH);
       currentMonth += 1
     ) {
-      const CURRENT_MAX_WEEK =
-        currentYear === MAX_YEAR && currentMonth === MAX_MONTH
-          ? MAX_WEEK
-          : getMaxNthWeek(currentYear, currentMonth);
+      const CURRENT_MAX_WEEK = currentYear === MAX_YEAR && currentMonth === MAX_MONTH ? MAX_WEEK : getMaxNthWeek(currentYear, currentMonth);
       // eslint-disable-next-line max-depth
       for (let currentWeek = 1; currentWeek <= CURRENT_MAX_WEEK; currentWeek += 1) {
         weekDateList.push({

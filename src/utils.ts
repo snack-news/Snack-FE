@@ -12,8 +12,7 @@ const GET_DATE_FORMAT: { [formatKey: string]: (date: Date) => string } = {
   YYYY: date => `${date.getFullYear()}`,
   MM: date => `${date.getMonth() + 1}`.padStart(2, '0'),
   DD: date => `${date.getDate()}`.padStart(2, '0'),
-  WEEK_NAME: date =>
-    ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'][date.getDay()],
+  WEEK_NAME: date => ['일요일', '월요일', '화요일', '수요일', '목요일', '금요일', '토요일'][date.getDay()],
   WEEK_NUM: date => `${Math.floor((date.getDate() - date.getDay()) / 7) + 1}`,
   HH: date => `${date.getHours()}`.padStart(2, '0'),
   hh: date => `${(date.getHours() + 12) % 12}`.padStart(2, '0'),

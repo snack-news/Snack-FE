@@ -34,12 +34,7 @@ interface IPlatformCardProps {
   link: string;
 }
 
-const PlatformCard: FunctionComponent<IPlatformCardProps> = ({
-  platformName,
-  backgroundColor,
-  color,
-  link,
-}) => (
+const PlatformCard: FunctionComponent<IPlatformCardProps> = ({ platformName, backgroundColor, color, link }) => (
   <PlatformCardWrapper style={{ backgroundColor, color }} href={link}>
     <Center>
       <PlatformCardLabel>
