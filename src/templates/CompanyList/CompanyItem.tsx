@@ -32,10 +32,7 @@ interface ICompanyItemLayoutProps {
   };
 }
 
-const CompanyItemLayout: FunctionComponent<ICompanyItemLayoutProps> = ({
-  onClick,
-  children: { companyIcon, companyLabel, arrowIcon },
-}) => (
+const CompanyItemLayout: FunctionComponent<ICompanyItemLayoutProps> = ({ onClick, children: { companyIcon, companyLabel, arrowIcon } }) => (
   <CompanyItemLayoutWrapper onClick={onClick}>
     <RowListLayout.Detail
       items={[

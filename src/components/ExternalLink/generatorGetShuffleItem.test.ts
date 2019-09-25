@@ -20,9 +20,7 @@ describe('generatorGetShuffleItem를 실행한 결과를 실행시', () => {
 
     // Given
     const items = ['a', 'b', 'c'];
-    const getShuffleItems = Array.from({ length: RETRY_TIMES }).map(() =>
-      generatorGetShuffleItem(items)
-    );
+    const getShuffleItems = Array.from({ length: RETRY_TIMES }).map(() => generatorGetShuffleItem(items));
 
     // When
     const firstShuffleItems = getShuffleItems.map(getShuffleItem => getShuffleItem.next().value);

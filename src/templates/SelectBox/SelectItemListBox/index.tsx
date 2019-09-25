@@ -18,14 +18,7 @@ interface ISelectItemListBoxProps {
   onChange: () => void;
 }
 
-export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({
-  year,
-  month,
-  week,
-  onClickLayer,
-  onClickCloseButton,
-  onChange,
-}) => {
+export const SelectItemListBox: FunctionComponent<ISelectItemListBoxProps> = ({ year, month, week, onClickLayer, onClickCloseButton, onChange }) => {
   return (
     <>
       <Layer onClick={onClickLayer} />

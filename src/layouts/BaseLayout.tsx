@@ -16,16 +16,7 @@ export interface IBaseLayoutProps {
   onClick?: React.DOMAttributes<HTMLDivElement>['onClick'];
 }
 
-export const BaseLayout: FunctionComponent<IBaseLayoutProps> = ({
-  children,
-  className,
-  top,
-  bottom,
-  left,
-  right,
-  style,
-  onClick,
-}) => {
+export const BaseLayout: FunctionComponent<IBaseLayoutProps> = ({ children, className, top, bottom, left, right, style, onClick }) => {
   return (
     // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions
     <div

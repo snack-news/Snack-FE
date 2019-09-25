@@ -20,16 +20,7 @@ export interface INewsOptionProps {
 export const News: FunctionComponent<INewsProps> & {
   defaultProps: Partial<INewsProps>;
 } = props => {
-  const {
-    createdDate,
-    title,
-    content,
-    tags,
-    link,
-    expanded: defaultExpanded,
-    isRenderHighlightTag,
-    isRenderWeekNumberOfMonth,
-  } = props;
+  const { createdDate, title, content, tags, link, expanded: defaultExpanded, isRenderHighlightTag, isRenderWeekNumberOfMonth } = props;
 
   let filteredTags = tags;
   if (!isRenderHighlightTag) {
@@ -81,9 +72,7 @@ interface INewsLayoutProps {
   };
 }
 
-const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
-  children: { createWeekLabel, tags, title, content, externalLink },
-}) => (
+const NewsLayout: FunctionComponent<INewsLayoutProps> = ({ children: { createWeekLabel, tags, title, content, externalLink } }) => (
   <ColListLayout.Detail
     top="30px"
     bottom="15px"
@@ -124,11 +113,7 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
 );
 
 const CreatedWeekLabel: FunctionComponent<{ date: number }> = ({ date }) => {
-  return (
-    <div style={{ fontSize: '15px', color: '#0b66f7' }}>
-      {getDateFormat(new Date(date), 'YYYY년 MM월 WEEK_NUM주')}
-    </div>
-  );
+  return <div style={{ fontSize: '15px', color: '#0b66f7' }}>{getDateFormat(new Date(date), 'YYYY년 MM월 WEEK_NUM주')}</div>;
 };
 
 const Title = styled.div`

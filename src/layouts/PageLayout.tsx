@@ -31,9 +31,7 @@ interface IPageLayoutProps {
   };
 }
 
-export const PageLayout: FunctionComponent<IPageLayoutProps> = ({
-  children: { header, body, footer },
-}) => (
+export const PageLayout: FunctionComponent<IPageLayoutProps> = ({ children: { header, body, footer } }) => (
   <Wrapper>
     <Header>{header}</Header>
     <Body>{body}</Body>

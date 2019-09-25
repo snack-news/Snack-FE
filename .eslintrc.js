@@ -1,3 +1,5 @@
+const webpackConfig = require('./webpack.config.prod')
+
 const airbnbBaseStyleRules = require('eslint-config-airbnb-base/rules/style').rules;
 const airbnbBaseVariablesRules = require('eslint-config-airbnb-base/rules/variables').rules;
 
@@ -7,10 +9,10 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier', 'react-hooks'],
   settings: {
     'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-      },
-    },
+      webpack: {
+        config: webpackConfig,
+      }
+    }
   },
   parserOptions: {
     ecmaVersion: 6,
@@ -73,7 +75,7 @@ module.exports = {
 
     'no-useless-constructor': 'error',
     'no-empty-function': 'error',
-    'no-magic-numbers': 'error',
+    'no-magic-numbers': 'warn',
   },
 
   overrides: [
@@ -118,7 +120,7 @@ module.exports = {
         'no-empty-function': 'off',
         '@typescript-eslint/no-empty-function': 'error',
         'no-magic-numbers': 'off',
-        '@typescript-eslint/no-magic-numbers': ['error', { ignoreNumericLiteralTypes: true }],
+        '@typescript-eslint/no-magic-numbers': ['warn', { ignoreNumericLiteralTypes: true }],
 
         // React Typescript 의 경우 prop-types는 설정하지 않아도 됨.
         'react/prop-types': 'off',
