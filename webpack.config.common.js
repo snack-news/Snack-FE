@@ -11,6 +11,11 @@ const babelConfig = require('./babel.config.webpack');
 const META = {
   TITLE: '스낵 SNAK',
   DESCRIPTION: '쓸모있는 IT/비즈니스 소식을 전하는 뉴스 딜리버리 서비스',
+  image: {
+    '16 x 16': 'static/snak_16x16.png',
+    '144 x 144': 'static/snak_144x144.png',
+    '2400 × 1260': 'static/fb_og_image.png',
+  },
 };
 
 module.exports = merge(webpackResolveConfig, {
@@ -84,7 +89,7 @@ module.exports = merge(webpackResolveConfig, {
       mobile: true,
       title: META.TITLE,
       links: [
-        { rel: 'icon', type: 'image/png', href: 'static/snak_16x16.png' },
+        { rel: 'icon', type: 'image/png', href: META.image['16 x 16'] },
         { rel: 'apple-touch-icon-precomposed', sizes: '57x57', href: 'static/icon' },
         { rel: 'canonical', href: 'https://snak.news' },
       ],
@@ -94,7 +99,7 @@ module.exports = merge(webpackResolveConfig, {
         { name: 'msapplication-tooltip', content: META.TITLE },
         { name: 'description', content: META.DESCRIPTION },
         { name: 'keywords', content: ['뉴스', 'IT', '취준', '취업준비', '테크', '비즈니스', '이직', 'Tech', '공유'].join(',') },
-        { name: 'msapplication-TileImage', content: 'png필요' },
+        { name: 'msapplication-TileImage', content: META.image['144 x 144'] },
         { name: 'referrer', content: 'origin' },
         { name: 'mobile-web-app-capable', content: 'yes' },
         { name: 'application-name', content: '뉴스' },
@@ -106,7 +111,7 @@ module.exports = merge(webpackResolveConfig, {
         { name: 'msapplication-tap-highlight', content: 'no' },
         { property: 'og:title', content: '스낵 SNAK - 쉽게 풀어쓰는 IT업계 뉴스' },
         { property: 'og:description', content: META.DESCRIPTION },
-        { property: 'og:image', content: 'static/fb_og_image.png' },
+        { property: 'og:image', content: META.image['2400 × 1260'] },
         { property: 'og:image:width', content: '1200' },
         { property: 'og:image:height', content: '630' },
         { property: 'og:type', content: 'website' },
@@ -116,8 +121,7 @@ module.exports = merge(webpackResolveConfig, {
         { property: 'og:type', content: 'website' },
         { property: 'twitter:title', content: META.TITLE },
         { property: 'twitter:card', content: 'summary' },
-        { property: 'twitter:image', content: 'static/snak_144x144.png' },
-        { property: 'twitter:image', content: 'static/snak_144x144.png' },
+        { property: 'twitter:image', content: META.image['2400 × 1260'] },
         { property: 'twitter:description', content: META.DESCRIPTION },
       ],
     }),
