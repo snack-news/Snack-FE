@@ -39,8 +39,8 @@ module.exports = {
 
     // 코드질을 올리기 위한 유용한 규칙들
     complexity: ['warn', { max: 10 }],
-    // 80자 제한 이유: https://www.codereadability.com/maximum-line-length/
-    'max-lines': ['warn', { max: 80, skipBlankLines: true, skipComments: true }],
+    
+    'max-lines': ['error', { max: 40, skipBlankLines: true, skipComments: true }],
 
     'max-lines-per-function': ['error', { max: 10, skipBlankLines: true, skipComments: true, IIFEs: true }],
     'max-depth': ['warn', 2],
@@ -68,6 +68,7 @@ module.exports = {
     'no-use-before-define': 'off',
 
     'import/prefer-default-export': 'off',
+    'import/no-default-export': 'error',
 
     // https://github.com/typescript-eslint/typescript-eslint/issues/291
     'no-dupe-class-members': 'off',
