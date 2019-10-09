@@ -5,7 +5,6 @@ const { getWebpackConfigByTemplate } = require('./templates');
 const { getWebpackConfigByEnv, ENV } = require('./env');
 const getWebpackConfigByBabelConfig = require('./getWebpackConfigByBabelConfig');
 
-// eslint-disable-next-line max-lines-per-function
 const createWebpackConfig = (
   { entry, output },
   {
@@ -18,6 +17,8 @@ const createWebpackConfig = (
     useImg = false,
     useScss = false,
     useHtmlTemplate = false,
+
+    emitFile = true,
   }
 ) => {
   debug('create webpack config\n%O', {
@@ -27,6 +28,7 @@ const createWebpackConfig = (
     useImg,
     useScss,
     useHtmlTemplate,
+    emitFile,
   });
 
   const webpackConfig = merge(
@@ -36,6 +38,7 @@ const createWebpackConfig = (
       useImg,
       useScss,
       useHtmlTemplate,
+      emitFile,
     }),
     getWebpackConfigByBabelConfig(babelConfig),
     getWebpackConfigByEnv(env),

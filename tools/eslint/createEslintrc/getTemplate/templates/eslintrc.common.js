@@ -37,10 +37,7 @@ module.exports = {
       { max: 40, skipBlankLines: true, skipComments: true },
     ],
 
-    'max-lines-per-function': [
-      'error',
-      { max: 15, skipBlankLines: true, skipComments: true, IIFEs: true },
-    ],
+    'max-lines-per-function': 'off',
     'max-depth': ['warn', { max: 2 }],
 
     'import/order': [

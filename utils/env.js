@@ -11,4 +11,5 @@ const isProduction = !isDevelopment;
 module.exports = {
   isDevelopment,
   isProduction,
+  env,
 };

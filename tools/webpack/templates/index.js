@@ -13,12 +13,14 @@ const getWebpackConfigByTemplate = ({
   useImg,
   useScss,
   useHtmlTemplate,
+
+  emitFile,
 }) =>
   merge(
     webpackConfigCommon,
     useDevServer ? webpackConfigDevServer : {},
-    useFont ? webpackConfigFont : {},
-    useImg ? webpackConfigImg : {},
+    useFont ? webpackConfigFont(emitFile) : {},
+    useImg ? webpackConfigImg(emitFile) : {},
     useScss ? webpackConfigScss : {},
     useHtmlTemplate ? webpackConfigHtmlTemplate : {}
   );

@@ -6,8 +6,10 @@ import path from 'path';
 
 import { render } from './render';
 
+import { env } from '~root/utils/env';
+
 const API_URL = 'https://snak.news';
-const PORT = process.env.PORT || 3000;
+const PORT = env.PORT || 3000;
 
 const app = new Koa();
 

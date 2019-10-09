@@ -1,10 +1,17 @@
-module.exports = {
+module.exports = emitFile => ({
   module: {
     rules: [
       {
         test: /\.(png|svg|jpg|gif)$/,
-        use: ['file-loader'],
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              emitFile,
+            },
+          },
+        ],
       },
     ],
   },
-};
+});

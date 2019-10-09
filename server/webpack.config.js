@@ -21,5 +21,7 @@ module.exports = createWebpackConfig(
     useFont: true,
     useImg: true,
     useScss: true,
+
+    emitFile: false,
   }
 );
