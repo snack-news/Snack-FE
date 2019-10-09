@@ -7,6 +7,7 @@ import path from 'path';
 import { render } from './render';
 
 const API_URL = 'https://snak.news';
+const PORT = process.env.PORT || 3000;
 
 const app = new Koa();
 
@@ -39,6 +40,6 @@ app.use(ctx => {
   ctx.body = render(location);
 });
 
-app.listen(3000);
+app.listen(PORT);
 
-console.log('Server running on port 3000');
+console.log(`Server running on port ${PORT}`);
