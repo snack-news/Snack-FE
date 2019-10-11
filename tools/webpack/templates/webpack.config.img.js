@@ -1,4 +1,4 @@
-module.exports = emitFile => ({
+module.exports = {
   module: {
     rules: [
       {
@@ -6,12 +6,9 @@ module.exports = emitFile => ({
         use: [
           {
             loader: 'file-loader',
-            options: {
-              emitFile,
-            },
           },
         ],
       },
     ],
   },
-});
+};

@@ -18,7 +18,7 @@ const createWebpackConfig = (
     useScss = false,
     useHtmlTemplate = false,
 
-    emitFile = true,
+    ignoreEmit = false,
   }
 ) => {
   debug('create webpack config\n%O', {
@@ -28,7 +28,7 @@ const createWebpackConfig = (
     useImg,
     useScss,
     useHtmlTemplate,
-    emitFile,
+    ignoreEmit,
   });
 
   const webpackConfig = merge(
@@ -38,7 +38,7 @@ const createWebpackConfig = (
       useImg,
       useScss,
       useHtmlTemplate,
-      emitFile,
+      ignoreEmit,
     }),
     getWebpackConfigByBabelConfig(babelConfig),
     getWebpackConfigByEnv(env),

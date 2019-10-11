@@ -22,6 +22,7 @@ module.exports = createWebpackConfig(
     useImg: true,
     useScss: true,
 
-    emitFile: false,
+    // .js 파일이 아니면 생성하지 않음.
+    ignoreEmit: /(?<!\.js)$/,
   }
 );
