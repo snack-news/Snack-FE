@@ -1,4 +1,4 @@
-const PATHS = require('~root/utils/PATHS');
+const PATHS = require('~root/PATHS');
 
 const createEslintrcOfDependencies = ({ useDevDependencies }) => ({
   rules: {

@@ -1,6 +1,6 @@
 const path = require('path');
 
-const ROOT = path.resolve(__dirname, '../');
+const ROOT = path.resolve(__dirname, './');
 
 const CLIENT = path.resolve(ROOT, './client');
 // const CLIENT_SRC = path.resolve(CLIENT, './src');

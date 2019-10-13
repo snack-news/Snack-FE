@@ -1,7 +1,7 @@
 const flatten = require('lodash.flatten');
 
-const getListByKey = require('~root/utils/getListByKey');
-const mergeObjectList = require('~root/utils/mergeObjectList');
+const getListByKey = require('./getListByKey');
+const mergeObjectList = require('./mergeObjectList');
 
 const mergeEslintrcList = (...eslintrcList) => {
   return {
