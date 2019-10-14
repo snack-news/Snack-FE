@@ -1,4 +1,0 @@
-{
-  "reporters": ["html", "console", "badge"],
-  "ignore": []
-}
