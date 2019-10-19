@@ -1,13 +1,15 @@
 import React, { FunctionComponent, ReactNode, useState } from 'react';
 import styled, { css } from 'styled-components';
 
+import Tags from './Tags';
+
+import { render } from './utils';
+
 import { ExternalLinkWithImage } from '~client/components/index';
 // import { HorizontalDivider } from '~client/templates/index';
 import { ColListLayout, BothMarginWrapper } from '~client/layouts/index';
 // import { shareImg, copyImg } from '~client/resources/index';
 import { getDateFormat } from '~client/utils';
-
-import Tags from './Tags';
 
 interface INewsProps extends INews, INewsOptionProps {}
 
@@ -20,7 +22,16 @@ export interface INewsOptionProps {
 export const News: FunctionComponent<INewsProps> & {
   defaultProps: Partial<INewsProps>;
 } = props => {
-  const { createdDate, title, content, tags, link, expanded: defaultExpanded, isRenderHighlightTag, isRenderWeekNumberOfMonth } = props;
+  const {
+    createdDate,
+    title,
+    content,
+    tags,
+    link,
+    expanded: defaultExpanded,
+    isRenderHighlightTag,
+    isRenderWeekNumberOfMonth,
+  } = props;
 
   let filteredTags = tags;
   if (!isRenderHighlightTag) {
@@ -32,13 +43,15 @@ export const News: FunctionComponent<INewsProps> & {
   return (
     <NewsLayout>
       {{
-        createWeekLabel: isRenderWeekNumberOfMonth && <CreatedWeekLabel date={createdDate} />,
+        createWeekLabel: isRenderWeekNumberOfMonth && (
+          <CreatedWeekLabel date={createdDate} />
+        ),
         tags: <Tags tags={filteredTags} />,
         title: <Title>{title}</Title>,
         content: (
           <ColListLayout.Repeat>
             <Content expanded={expanded} onClick={() => setExpanded(false)}>
-              {content}
+              {render(content)}
             </Content>
             {expanded ? null : <MoreButton onClick={() => setExpanded(true)} />}
           </ColListLayout.Repeat>
@@ -72,13 +85,17 @@ interface INewsLayoutProps {
   };
 }
 
-const NewsLayout: FunctionComponent<INewsLayoutProps> = ({ children: { createWeekLabel, tags, title, content, externalLink } }) => (
+const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
+  children: { createWeekLabel, tags, title, content, externalLink },
+}) => (
   <ColListLayout.Detail
     top="30px"
     bottom="15px"
     items={[
       {
-        el: createWeekLabel && <BothMarginWrapper>{createWeekLabel}</BothMarginWrapper>,
+        el: createWeekLabel && (
+          <BothMarginWrapper>{createWeekLabel}</BothMarginWrapper>
+        ),
         bottom: '15px',
       },
       {
@@ -113,7 +130,11 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({ children: { createWee
 );
 
 const CreatedWeekLabel: FunctionComponent<{ date: number }> = ({ date }) => {
-  return <div style={{ fontSize: '15px', color: '#0b66f7' }}>{getDateFormat(new Date(date), 'YYYY년 MM월 WEEK_NUM주')}</div>;
+  return (
+    <div style={{ fontSize: '15px', color: '#0b66f7' }}>
+      {getDateFormat(new Date(date), 'YYYY년 MM월 WEEK_NUM주')}
+    </div>
+  );
 };
 
 const Title = styled.div`
