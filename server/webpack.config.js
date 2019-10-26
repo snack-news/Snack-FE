@@ -1,11 +1,18 @@
 require('dotenv').config();
+const merge = require('webpack-merge');
+
 const path = require('path');
 
 const babelConfig = require('./babelrc');
 
-const { createWebpackConfig, ENV } = require('~root/tools/webpack');
+const common = require('~tools/webpack/webpack.config.common');
+const node = require('~tools/webpack/webpack.config.node');
+const ignoreNonJS = require('~tools/webpack/webpack.config.ignoreNonJS');
+const font = require('~tools/webpack/webpack.config.font');
+const img = require('~tools/webpack/webpack.config.img');
+const scss = require('~tools/webpack/webpack.config.scss');
 
-module.exports = createWebpackConfig(
+module.exports = merge(
   {
     entry: path.resolve(__dirname, 'src/index.ts'),
     output: {
@@ -13,16 +20,23 @@ module.exports = createWebpackConfig(
       path: path.resolve(__dirname, 'dist'),
       publicPath: '/',
     },
+    module: {
+      rules: [
+        {
+          test: /\.(js|jsx|ts|tsx)?$/,
+          exclude: /(node_modules|bower_components)/,
+          use: {
+            loader: 'babel-loader',
+            options: babelConfig,
+          },
+        },
+      ],
+    },
   },
-  {
-    env: ENV.NODE_JS,
-    babelConfig,
-
-    useFont: true,
-    useImg: true,
-    useScss: true,
-
-    // .js 파일이 아니면 생성하지 않음.
-    ignoreEmit: /(?<!\.js)$/,
-  }
+  common,
+  node,
+  ignoreNonJS,
+  font,
+  img,
+  scss
 );

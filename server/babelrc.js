@@ -1,7 +1,8 @@
-const { createBabelrc, ENV } = require('~root/tools/babel');
+const merge = require('babel-merge');
 
-module.exports = createBabelrc({
-  env: ENV.NODE_JS,
-  useTypescript: true,
-  useReact: true,
-});
+const common = require('~tools/babel/templates/babel.config.common');
+const node = require('~tools/babel/templates/babel.config.node');
+const react = require('~tools/babel/templates/babel.config.react');
+const typescript = require('~tools/babel/templates/babel.config.typescript');
+
+module.exports = merge.all([common, node, react, typescript]);

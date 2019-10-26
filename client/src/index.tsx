@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 import App from './routes';
 
+// eslint-disable-next-line no-undef
 const rootDOM = document.getElementById('root');
 
 if (rootDOM === null) {

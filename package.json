@@ -14,7 +14,8 @@
   "_moduleAliases": {
     "~root": ".",
     "~client": "./client/src",
-    "~server": "./server/src"
+    "~server": "./server/src",
+    "~tools": "./tools"
   },
   "author": "",
   "license": "UNLICENSED",
