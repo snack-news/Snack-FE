@@ -149,21 +149,17 @@ const Title = styled.div`
 `;
 
 const Content = styled.div<{ expanded?: boolean }>`
+  display: block;
   font-size: 14px;
   line-height: 1.43;
   color: #121111;
 
-  display: inline-block;
-  display: -webkit-box;
-
   ${({ expanded }) =>
-    expanded
-      ? ''
-      : css`
-          overflow: hidden;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-        `}
+    !expanded &&
+    css`
+      overflow: hidden;
+      height: 75px;
+    `}
 `;
 
 const MoreButton = styled.button.attrs({ children: '👇 더보기' })`
