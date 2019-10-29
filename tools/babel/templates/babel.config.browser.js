@@ -1,3 +1,4 @@
+// TODO https://www.styled-components.com/docs/tooling#babel-plugin
 const browserslist = require('./browserslist');
 
 module.exports = {
