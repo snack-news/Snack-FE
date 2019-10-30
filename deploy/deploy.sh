@@ -31,7 +31,7 @@ fi
 echo "> pm2 stop $IDLE_PROFILE"
 pm2 stop ${IDLE_PROFILE}
 pm2 delete ${IDLE_PROFILE}
-sleep 2
+sleep 5
 
 IDLE_PATH=${BASE_PATH}/${IDLE_PROFILE}
 echo "> 기존에 있던 파일들을 삭제합니다."
@@ -40,14 +40,14 @@ rm -rf ${IDLE_PATH}
 echo "> 새로 업데이트 된 소스를 쉬고 있는 Profile에 복사합니다"
 mkdir -p ${IDLE_PATH} && cp -R ${BUILD_PATH}/* ${IDLE_PATH}
 
-cd ${IDLE_PATH}
-echo "> ${IDLE_PATH}"
-echo "> 어플리케이션 INSALL"
-sudo npm install
+# cd ${IDLE_PATH}
+# echo "> ${IDLE_PATH}"
+# echo "> 어플리케이션 INSALL"
+# sudo npm install
 
-echo "> 어플리케이션 BUILD"
-sudo npm run build
-sleep 2
+# echo "> 어플리케이션 BUILD"
+# sudo npm run build
+# sleep 2
 
 echo "> 어플리케이션 RUN"
 sudo PORT=${IDLE_PORT} pm2 start server/dist/index.js --name ${IDLE_PROFILE}

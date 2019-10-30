@@ -14,7 +14,8 @@ script:
     - npm run build
 
 before_deploy:
-  - zip -x node_modules/\* -r snack-news-FE *
+  - rm -rf node_modules
+  - zip -r snack-news-FE *
   - mkdir -p deploy
   - mv snack-news-FE.zip deploy/snack-news-FE.zip
 
