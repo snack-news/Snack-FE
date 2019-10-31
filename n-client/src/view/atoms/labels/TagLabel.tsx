@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
-import { orangeyRed, coolGrey, whiteThree } from '~nclient/view/atoms/colors';
-import { little } from '~nclient/view/atoms/fonts';
+import {
+  orangeyRed,
+  coolGrey,
+  whiteThree,
+} from '~nclient/view/atoms/styles/colors';
+import { little } from '~nclient/view/atoms/styles/fonts';
 
 interface TagLabelProps {
   highlight?: boolean;

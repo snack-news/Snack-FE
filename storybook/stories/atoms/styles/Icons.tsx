@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { RowWrapList } from '~storybook/components/RowWrapList';
-import * as icons from '~nclient/view/atoms/Icons';
+import * as icons from '~nclient/view/atoms/styles/Icons';
 
 export const Icons = () => (
   <RowWrapList>

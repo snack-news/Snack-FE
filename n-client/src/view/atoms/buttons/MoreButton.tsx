@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-import { paleGreyTwo, greyishBrown } from '~nclient/view/atoms/colors';
-import { littleMedium } from '~nclient/view/atoms/fonts';
-import { padding } from '~nclient/view/atoms/sizes';
+import { paleGreyTwo, greyishBrown } from '~nclient/view/atoms/styles/colors';
+import { littleMedium } from '~nclient/view/atoms/styles/fonts';
+import { padding } from '~nclient/view/atoms/styles/sizes';
 
 export const MoreButton = styled.button.attrs({ children: '👇 더보기' })`
   ${littleMedium}
