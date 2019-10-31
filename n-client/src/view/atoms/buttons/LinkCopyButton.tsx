@@ -1,16 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Share } from '../styles/Icons';
+import { Copy } from '../styles/Icons';
 
 import { slateGrey } from '~nclient/view/atoms/styles/colors';
 import { littleMedium } from '~nclient/view/atoms/styles/fonts';
 
-export const ShareButton = () => {
+export const LinkCopyButton = () => {
   return (
     <Wrap>
-      <ShareIcon />
-      <Label>공유하기</Label>
+      <CopyIcon />
+      <Label>링크복사</Label>
     </Wrap>
   );
 };
@@ -21,7 +21,7 @@ const Wrap = styled.button`
   border-width: 0px;
 `;
 
-const ShareIcon = styled(Share)`
+const CopyIcon = styled(Copy)`
   height: 19px;
   vertical-align: middle;
 `;

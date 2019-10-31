@@ -1,6 +1,6 @@
 /* eslint-disable max-lines */
 
-import React from 'react';
+import styled from 'styled-components';
 
 import FacebookBlueImg from './asset/facebook-blue@3x.png';
 import TwitterBlueImg from './asset/twitter-blue@3x.png';
@@ -26,32 +26,63 @@ import ExitImg from './asset/exit@3x.png';
 import CheckImg from './asset/mark@3x.png';
 import ContentImg from './asset/content@3x.png';
 
-export const FacebookBlue = () => <img src={FacebookBlueImg} alt="Facebook" />;
-export const TwitterBlue = () => <img src={TwitterBlueImg} alt="Twitter" />;
-export const KakaoBlue = () => <img src={KakaoBlueImg} alt="Kakao" />;
-export const EmailBlue = () => <img src={EmailBlueImg} alt="Email" />;
-export const FacebookWhite = () => (
-  <img src={FacebookWhiteImg} alt="Facebook" />
-);
-export const TwitterWhite = () => <img src={TwitterWhiteImg} alt="Twitter" />;
-export const KakaoWhite = () => <img src={KakaoWhiteImg} alt="Kakao" />;
-export const EmailWhite = () => <img src={EmailWhiteImg} alt="Email" />;
-export const LogoWhiteFooter = () => (
-  <img src={LogoWhiteFooterImg} alt="LogoWhiteFooter" />
-);
-export const ArrowLink = () => <img src={ArrowLinkImg} alt="ArrowLink" />;
-export const Logo = () => <img src={LogoImg} alt="Logo" />;
-export const Menu = () => <img src={MenuImg} alt="Menu" />;
-export const Share = () => <img src={ShareImg} alt="Share" />;
-export const Copy = () => <img src={CopyImg} alt="Copy" />;
-export const DownarrowFilter = () => (
-  <img src={DownarrowFilterImg} alt="DownarrowFilter" />
-);
-export const Downarrow = () => <img src={DownarrowImg} alt="Downarrow" />;
-export const BackBlueArrow = () => (
-  <img src={BackBlueArrowImg} alt="BackBlueArrow" />
-);
-export const ExitWhite = () => <img src={ExitWhiteImg} alt="Exit" />;
-export const Exit = () => <img src={ExitImg} alt="Exit" />;
-export const Check = () => <img src={CheckImg} alt="Check" />;
-export const Content = () => <img src={ContentImg} alt="Content" />;
+export const FacebookBlue = styled.img.attrs({
+  src: FacebookBlueImg,
+  alt: 'Facebook',
+})``;
+export const TwitterBlue = styled.img.attrs({
+  src: TwitterBlueImg,
+  alt: 'Twitter',
+})``;
+export const KakaoBlue = styled.img.attrs({
+  src: KakaoBlueImg,
+  alt: 'Kakao',
+})``;
+export const EmailBlue = styled.img.attrs({
+  src: EmailBlueImg,
+  alt: 'Email',
+})``;
+export const FacebookWhite = styled.img.attrs({
+  src: FacebookWhiteImg,
+  alt: 'Facebook',
+})``;
+export const TwitterWhite = styled.img.attrs({
+  src: TwitterWhiteImg,
+  alt: 'Twitter',
+})``;
+export const KakaoWhite = styled.img.attrs({
+  src: KakaoWhiteImg,
+  alt: 'Kakao',
+})``;
+export const EmailWhite = styled.img.attrs({
+  src: EmailWhiteImg,
+  alt: 'Email',
+})``;
+export const LogoWhiteFooter = styled.img.attrs({
+  src: LogoWhiteFooterImg,
+  alt: 'LogoWhiteFooter',
+})``;
+export const ArrowLink = styled.img.attrs({
+  src: ArrowLinkImg,
+  alt: 'ArrowLink',
+})``;
+export const Logo = styled.img.attrs({ src: LogoImg, alt: 'Logo' })``;
+export const Menu = styled.img.attrs({ src: MenuImg, alt: 'Menu' })``;
+export const Share = styled.img.attrs({ src: ShareImg, alt: 'Share' })``;
+export const Copy = styled.img.attrs({ src: CopyImg, alt: 'Copy' })``;
+export const DownarrowFilter = styled.img.attrs({
+  src: DownarrowFilterImg,
+  alt: 'DownarrowFilter',
+})``;
+export const Downarrow = styled.img.attrs({
+  src: DownarrowImg,
+  alt: 'Downarrow',
+})``;
+export const BackBlueArrow = styled.img.attrs({
+  src: BackBlueArrowImg,
+  alt: 'BackBlueArrow',
+})``;
+export const ExitWhite = styled.img.attrs({ src: ExitWhiteImg, alt: 'Exit' })``;
+export const Exit = styled.img.attrs({ src: ExitImg, alt: 'Exit' })``;
+export const Check = styled.img.attrs({ src: CheckImg, alt: 'Check' })``;
+export const Content = styled.img.attrs({ src: ContentImg, alt: 'Content' })``;
