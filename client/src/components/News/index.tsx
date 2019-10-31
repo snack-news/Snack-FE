@@ -50,8 +50,8 @@ export const News: FunctionComponent<INewsProps> & {
         title: <Title>{title}</Title>,
         content: (
           <ColListLayout.Repeat>
-            <Content expanded={expanded} onClick={() => setExpanded(false)}>
-              {render(content)}
+            <Content expanded={expanded} onClick={() => setExpanded(false)} dangerouslySetInnerHTML={{__html: render(content)}}>
+              {}
             </Content>
             {expanded ? null : <MoreButton onClick={() => setExpanded(true)} />}
           </ColListLayout.Repeat>
