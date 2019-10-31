@@ -1,26 +1,34 @@
 import React, { FC } from 'react';
 import styled, { StyledComponent } from 'styled-components';
 
-export const ColorInfo: FC<ColorInfoProps> = ({ name, color }) => (
-  <ColorInfoRoot>
-    <ColorInfoName>
+export const ColorInfo: FC<Props> = ({ name, color }) => (
+  <Root>
+    <Main>
       <ColorBox color={color} />
-    </ColorInfoName>
-    <ColorInfoName>{name}</ColorInfoName>
-    <ColorInfoName>{color}</ColorInfoName>
-  </ColorInfoRoot>
+    </Main>
+    <Name>{name}</Name>
+    <Color>{color}</Color>
+  </Root>
 );
 
-interface ColorInfoProps {
+interface Props {
   name: string;
   color: string;
 }
 
-const ColorInfoRoot = styled.ul`
+const Root = styled.ul`
   list-style-type: none;
 `;
 
-const ColorInfoName = styled.li`
+const Main = styled.li`
+  list-style-type: none;
+`;
+
+const Name = styled.li`
+  list-style-type: none;
+`;
+
+const Color = styled.li`
   list-style-type: none;
 `;
 

@@ -12,3 +12,11 @@ export const little = css`
 
   ${DefaultFontFamily}
 `;
+
+export const littleMedium = css`
+  font-size: 14px;
+  height: 14px;
+  line-height: 14px;
+
+  ${DefaultFontFamily}
+`;
