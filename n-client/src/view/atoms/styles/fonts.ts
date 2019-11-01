@@ -14,9 +14,9 @@ export const little = css`
 `;
 
 export const littleMedium = css`
-  font-size: 14px;
-  height: 14px;
-  line-height: 14px;
+  font-size: 15px;
+  height: 15px;
+  line-height: 15px;
 
   ${DefaultFontFamily}
 `;

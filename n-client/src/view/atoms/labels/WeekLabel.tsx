@@ -1,9 +1,21 @@
 import React, { FC } from 'react';
+import styled from 'styled-components';
 
-export const WeekLabel: FC<{ date: number }> = ({ date }) => {
-  return (
-    <div style={{ fontSize: '15px', color: '#0b66f7' }}>
-      {getDateFormat(new Date(date), 'YYYY년 MM월 WEEK_NUM주')}
-    </div>
-  );
-};
+import { littleMedium } from '../styles/fonts';
+
+import { brightBlue } from '../styles/colors';
+
+import { format } from '~nclient/utils/date';
+
+interface WeekLabelProps {
+  date: number | Date;
+}
+
+export const WeekLabel: FC<WeekLabelProps> = ({ date }) => (
+  <WeekLabelStyled>{format(date, 'yyyy년 MM월 WW주')}</WeekLabelStyled>
+);
+
+const WeekLabelStyled = styled.div`
+  ${littleMedium}
+  color: ${brightBlue};
+`;
