@@ -8,14 +8,14 @@ import { littleMedium } from '~nclient/view/atoms/styles/fonts';
 
 export const LinkCopyButton = () => {
   return (
-    <Wrap>
+    <Button>
       <CopyIcon />
       <Label>링크복사</Label>
-    </Wrap>
+    </Button>
   );
 };
 
-const Wrap = styled.button`
+const Button = styled.button`
   width: 90px;
   height: 40px;
   border-width: 0px;

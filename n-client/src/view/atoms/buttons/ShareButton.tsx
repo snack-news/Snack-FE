@@ -8,14 +8,14 @@ import { littleMedium } from '~nclient/view/atoms/styles/fonts';
 
 export const ShareButton = () => {
   return (
-    <Wrap>
+    <Button>
       <ShareIcon />
       <Label>공유하기</Label>
-    </Wrap>
+    </Button>
   );
 };
 
-const Wrap = styled.button`
+const Button = styled.button`
   width: 90px;
   height: 40px;
   border-width: 0px;

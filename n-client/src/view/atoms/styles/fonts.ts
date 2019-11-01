@@ -20,3 +20,13 @@ export const littleMedium = css`
 
   ${DefaultFontFamily}
 `;
+
+export const Medium = css`
+  font-size: 17px;
+  height: 17px;
+  line-height: 17px;
+
+  font-weight: 600;
+
+  ${DefaultFontFamily}
+`;
