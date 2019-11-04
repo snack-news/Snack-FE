@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "link-module-alias && concurrently \"webpack --config ./client/webpack.config.js\" \"webpack --config ./server/webpack.config.js\"",
-    "build:client": "link-module-alias && webpack --config ./client/webpack.config.js",
-    "build:server": "link-module-alias && webpack --config ./server/webpack.config.js",
+    "build:client": "webpack --watch --config ./client/webpack.config.js",
+    "build:server": "webpack --watch --config ./server/webpack.config.js",
     "server": "node ./server/dist/index.js",
     "postinstall": "link-module-alias",
     "preinstall": "command -v link-module-alias && link-module-alias clean || true"
@@ -104,6 +104,7 @@
     "@types/koa-static": "^4.0.1",
     "@types/psl": "^1.1.0",
     "@types/react": "^16.8.20",
+    "@types/react-copy-to-clipboard": "^4.3.0",
     "@types/react-dom": "^16.8.4",
     "@types/react-router-dom": "^4.3.5",
     "@types/storybook__addon-knobs": "^5.0.1",
@@ -129,6 +130,7 @@
     "mobx-react": "^6.1.1",
     "normalize.css": "^8.0.1",
     "react": "^16.9.0",
+    "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.8.6",
     "react-icons": "^3.7.0",
     "react-router": "^5.0.1",

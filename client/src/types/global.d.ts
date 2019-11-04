@@ -24,7 +24,8 @@ interface INews {
   tags: ITag[];
   link?: IExternalLink;
   createdDate: number;
-  key: string;
+  newsId: string;
+  id: number;
 }
 
 interface IPickCategory {

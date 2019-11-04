@@ -1,17 +1,31 @@
-import React, { FunctionComponent, ReactNode, useState } from 'react';
+import React, {
+  FunctionComponent,
+  ReactNode,
+  useState,
+  useEffect,
+} from 'react';
 import styled, { css } from 'styled-components';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 import Tags from './Tags';
 
 import { render } from './utils';
 
+import { copyImg } from '~client/resources';
+
 import { ExternalLinkWithImage } from '~client/components/index';
 // import { HorizontalDivider } from '~client/templates/index';
-import { ColListLayout, BothMarginWrapper } from '~client/layouts/index';
+import {
+  ColListLayout,
+  BothMarginWrapper,
+  RowListLayout,
+} from '~client/layouts/index';
 // import { shareImg, copyImg } from '~client/resources/index';
 import { getDateFormat } from '~client/utils';
+import { HorizontalDivider } from '~client/templates';
+import { Center } from '~client/layouts/Center';
 
-interface INewsProps extends INews, INewsOptionProps {}
+export interface INewsProps extends INews, INewsOptionProps {}
 
 export interface INewsOptionProps {
   expanded?: boolean;
@@ -31,6 +45,7 @@ export const News: FunctionComponent<INewsProps> & {
     expanded: defaultExpanded,
     isRenderHighlightTag,
     isRenderWeekNumberOfMonth,
+    newsId,
   } = props;
 
   let filteredTags = tags;
@@ -39,6 +54,16 @@ export const News: FunctionComponent<INewsProps> & {
   }
 
   const [expanded, setExpanded] = useState(defaultExpanded);
+
+  const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    if (copied) {
+      setTimeout(() => {
+        setCopied(false);
+      }, 3000);
+    }
+  }, [copied]);
 
   return (
     <NewsLayout>
@@ -50,19 +75,32 @@ export const News: FunctionComponent<INewsProps> & {
         title: <Title>{title}</Title>,
         content: (
           <ColListLayout.Repeat>
-            <Content expanded={expanded} onClick={() => setExpanded(false)} dangerouslySetInnerHTML={{__html: render(content)}}>
+            <Content
+              expanded={expanded}
+              onClick={() => setExpanded(false)}
+              dangerouslySetInnerHTML={{ __html: render(content) }}
+            >
               {}
             </Content>
             {expanded ? null : <MoreButton onClick={() => setExpanded(true)} />}
           </ColListLayout.Repeat>
         ),
         externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
-        // footer: (
-        //   <RowListLayout.Align type="justify">
-        //     <IconLabel iconImg={shareImg} label="공유하기" />
-        //     <IconLabel iconImg={copyImg} label="링크복사" />
-        //   </RowListLayout.Align>
-        // ),
+        footer: (
+          <Center>
+            {/* <IconLabel iconImg={shareImg} label="공유하기" /> */}
+            <CopyToClipboard
+              text={`https://snak.news/news/${newsId}`}
+              onCopy={() => setCopied(true)}
+            >
+              {copied ? (
+                <IconLabel iconImg={copyImg} label="복사완료!" />
+              ) : (
+                <IconLabel iconImg={copyImg} label="링크복사" />
+              )}
+            </CopyToClipboard>
+          </Center>
+        ),
       }}
     </NewsLayout>
   );
@@ -81,12 +119,12 @@ interface INewsLayoutProps {
     title: ReactNode;
     content: ReactNode;
     externalLink: ReactNode;
-    // footer: ReactNode;
+    footer: ReactNode;
   };
 }
 
 const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
-  children: { createWeekLabel, tags, title, content, externalLink },
+  children: { createWeekLabel, tags, title, content, externalLink, footer },
 }) => (
   <ColListLayout.Detail
     top="30px"
@@ -114,17 +152,17 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
         el: externalLink,
         bottom: '20px',
       },
-      // {
-      //   el: (
-      //     <BothMarginWrapper>
-      //       <HorizontalDivider />
-      //     </BothMarginWrapper>
-      //   ),
-      //   bottom: '15px',
-      // },
-      // {
-      //   el: <BothMarginWrapper depth={3}>{footer}</BothMarginWrapper>,
-      // },
+      {
+        el: (
+          <BothMarginWrapper>
+            <HorizontalDivider />
+          </BothMarginWrapper>
+        ),
+        bottom: '15px',
+      },
+      {
+        el: <BothMarginWrapper depth={3}>{footer}</BothMarginWrapper>,
+      },
     ]}
   />
 );
@@ -175,27 +213,32 @@ const MoreButton = styled.button.attrs({ children: '👇 더보기' })`
   border-width: 0px;
 `;
 
-// interface IIconLabelProps {
-//   iconImg: string;
-//   label: string;
-// }
+interface IIconLabelProps {
+  iconImg: string;
+  label: string;
+  onClick?: React.DOMAttributes<HTMLDivElement>['onClick'];
+}
 
-// const IconLabelImg = styled.img`
-//   width: 16px;
-//   margin: 2px 4px;
-// `;
+const IconLabelImg = styled.img`
+  width: 16px;
+  margin: 2px 4px;
+`;
 
-// const IconLabelText = styled.span`
-//   display: flex;
-//   font-size: 13px;
-//   color: #595966;
-// `;
+const IconLabelText = styled.span`
+  display: flex;
+  font-size: 13px;
+  color: #595966;
+`;
 
-// const IconLabel: FunctionComponent<IIconLabelProps> = ({ iconImg, label }) => (
-//   <div>
-//     <RowListLayout.Repeat interval="3px">
-//       <IconLabelImg src={iconImg} alt="icon" />
-//       <IconLabelText>{label}</IconLabelText>
-//     </RowListLayout.Repeat>
-//   </div>
-// );
+const IconLabel: FunctionComponent<IIconLabelProps> = ({
+  iconImg,
+  label,
+  onClick,
+}) => (
+  <div onClick={onClick}>
+    <RowListLayout.Repeat interval="3px">
+      <IconLabelImg src={iconImg} alt="icon" />
+      <IconLabelText>{label}</IconLabelText>
+    </RowListLayout.Repeat>
+  </div>
+);

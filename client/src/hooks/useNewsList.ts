@@ -50,7 +50,14 @@ const useNewsList = (filter: IFilter): [INewsListState] => {
 
   useEffect(() => {
     const fetchData = async () => {
-      if (MIN_DATE.getTime() > new Date(parseInt(filter.year, 10), parseInt(filter.month, 10) - 1, parseInt(filter.week, 10) * 7).getTime()) {
+      if (
+        MIN_DATE.getTime() >
+        new Date(
+          parseInt(filter.year, 10),
+          parseInt(filter.month, 10) - 1,
+          parseInt(filter.week, 10) * 7
+        ).getTime()
+      ) {
         return;
       }
       try {
@@ -101,7 +108,11 @@ const getDayStartMonday = (d: Date) => (d.getDay() || 7) - 1;
 
 const getNthWeek = (year: number, month: number, week: number) => {
   const startDate = getNthWeekFirstDate(year, month, week);
-  let endDate = new Date(startDate.getFullYear(), startDate.getMonth(), startDate.getDate() + (6 - getDayStartMonday(startDate)));
+  let endDate = new Date(
+    startDate.getFullYear(),
+    startDate.getMonth(),
+    startDate.getDate() + (6 - getDayStartMonday(startDate))
+  );
 
   if (endDate.getMonth() !== startDate.getMonth()) {
     endDate = new Date(startDate.getFullYear(), startDate.getMonth() + 1, 0);
@@ -123,7 +134,11 @@ const dateToString = (date: Date) => {
   return `${year}-${month}-${d}T${hours}:${minutes}`;
 };
 
-const getNthWeekFirstDate = (year: number, month: number, week: number): Date => {
+const getNthWeekFirstDate = (
+  year: number,
+  month: number,
+  week: number
+): Date => {
   const firstDate = new Date(year, month);
 
   if (week === 1) {
@@ -137,7 +152,11 @@ const getNthWeekFirstDate = (year: number, month: number, week: number): Date =>
   if (startDate.getFullYear() !== year || startDate.getMonth() !== month) {
     const lastDateOfMonth = new Date(year, month + 1, 0);
     const lastDayOfMonth = getDayStartMonday(lastDateOfMonth);
-    const lastMonday = new Date(year, month, lastDateOfMonth.getDate() - lastDayOfMonth);
+    const lastMonday = new Date(
+      year,
+      month,
+      lastDateOfMonth.getDate() - lastDayOfMonth
+    );
 
     return lastMonday;
   }
@@ -168,5 +187,6 @@ const parseResponseNews = (news: IResponseNews): INews => ({
     },
   }),
   createdDate: new Date(news.createAt).getTime(),
-  key: `${news.id}`,
+  id: news.id,
+  newsId: `${news.id}`,
 });

@@ -21,6 +21,7 @@ import {
 import { ICompanyListCardProps } from '~client/templates/CompanyListCard';
 import useNewsList, { IFilter } from '~client/hooks/useNewsList';
 import { getWeekDate } from '~client/utils';
+import { useNews } from '~client/hooks/useNews';
 
 interface INewsListProps {
   newsOptionProps?: INewsOptionProps;
@@ -30,6 +31,7 @@ interface INewsListProps {
   isRenderRecommendNewsList?: boolean;
   companyListCardProps?: ICompanyListCardProps;
   isInfiniteScroll?: boolean;
+  newsId?: number;
   filter: IFilter;
 }
 
@@ -70,7 +72,7 @@ const useNewsListState = (
 
   useEffect(() => {
     if (latestNewsListState.status !== 'pending') {
-      if (latestNewsListState.newsList.length === 0) {
+      if (latestNewsListState.newsList.length < 5) {
         nextNewsList();
       } else {
         setNewsList(oldNewsList => [
@@ -113,12 +115,21 @@ export const NewsList: FunctionComponent<INewsListProps> & {
     companyListCardProps,
     isInfiniteScroll,
     filter: initialFilter,
+    newsId,
   } = props;
+
+  const news = useNews(newsId);
 
   const newsList = useNewsListState(initialFilter, isInfiniteScroll);
 
-  const newsComponents = newsList.map(newsProps => (
-    <Fragment key={newsProps.key}>
+  let fixedNewsList = [...newsList];
+  if (news !== null) {
+    fixedNewsList = fixedNewsList.filter(({ id }) => id !== news.id);
+    fixedNewsList = [news, ...fixedNewsList];
+  }
+
+  const newsComponents = fixedNewsList.map(newsProps => (
+    <Fragment key={newsProps.newsId}>
       <News {...newsProps} {...newsOptionProps} />
       <HorizontalDivider thick />
     </Fragment>
