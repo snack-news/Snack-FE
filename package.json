@@ -4,9 +4,9 @@
   "description": "Snack News FE",
   "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook -c ./storybook/config",
     "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
     "build:client": "webpack --config ./client/webpack.config.js",
+    "storybook": "start-storybook -c ./storybook/config --port 8989",
     "build:server": "webpack --config ./server/webpack.config.js",
     "server": "node ./server/dist/index.js",
     "postinstall": "link-module-alias",
