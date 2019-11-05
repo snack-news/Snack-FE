@@ -18,4 +18,5 @@ export const coolGreyTwo = '#a7a9ac';
 export const brightBlue = '#0b66f7';
 export const whiteTwo = '#fffefe';
 export const paleGreyTwo = '#f5f4f5';
-export const greyishBrown = '$4a4a4a';
+export const greyishBrown = '#4a4a4a';
+export const dark = '#1e1e25';

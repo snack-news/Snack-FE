@@ -4,3 +4,5 @@ import { HorizontalDivider as HorizontalDividerOrg } from '~nclient/view/atoms/F
 
 export const Normal = () => <HorizontalDividerOrg />;
 export const Thick = () => <HorizontalDividerOrg thick />;
+
+export default { title: 'Atoms/Figures/HorizontalDivider' };
