@@ -6,7 +6,7 @@
   "scripts": {
     "build": "link-module-alias && concurrently \"webpack --config ./client/webpack.config.js\" \"webpack --config ./server/webpack.config.js\"",
     "build:client": "webpack --watch --config ./client/webpack.config.js",
-    "build:server": "webpack --watch --config ./server/webpack.config.js",
+    "build:server": "webpack --config ./server/webpack.config.js",
     "server": "node ./server/dist/index.js",
     "postinstall": "link-module-alias",
     "preinstall": "command -v link-module-alias && link-module-alias clean || true"
@@ -132,6 +132,7 @@
     "react": "^16.9.0",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
     "react-icons": "^3.7.0",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
