@@ -42,12 +42,13 @@ mkdir -p ${IDLE_PATH} && cp -R ${BUILD_PATH}/* ${IDLE_PATH}
 
 cd ${IDLE_PATH}
 echo "> ${IDLE_PATH}"
-echo "> 어플리케이션 INSALL"
-sudo npm install
 
-echo "> 어플리케이션 BUILD"
-sudo npm run build
-sleep 2
+# echo "> 어플리케이션 INSALL"
+# sudo npm install
+
+# echo "> 어플리케이션 BUILD"
+# sudo npm run build
+# sleep 2
 
 echo "> 어플리케이션 RUN"
 sudo PORT=${IDLE_PORT} pm2 start ${IDLE_PATH}/server/dist/index.js --name ${IDLE_PROFILE}
