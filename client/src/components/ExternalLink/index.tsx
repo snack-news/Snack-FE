@@ -1,44 +1,51 @@
-import React, { FunctionComponent } from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
+
+import LinkImg from './LinkImg';
+
+import { useLinkMetaData, MetaData } from './useLinkMetaData';
 
 import { ColListLayout, BothMarginWrapper } from '~client/layouts/index';
 import { getHostName } from '~client/utils';
 
-import LinkImg from './LinkImg';
-import { useLinkMetaData, MetaData } from './useLinkMetaData';
+interface IExternalLinkWithImageProps extends IExternalLink {}
 
-interface IExternalLinkWithImageProps extends IExternalLink {
-}
-
-export const ExternalLinkWithImage: FunctionComponent<IExternalLinkWithImageProps> = ({ href }) => {
+export const ExternalLinkWithImage: FC<IExternalLinkWithImageProps> = ({
+  href,
+}) => {
   const hostName = getHostName(href);
   const meta = useLinkMetaData(href);
 
-  if(hostName === null){
+  const gotoLink = () => {
+    // eslint-disable-next-line no-undef
+    window.location.href = href;
+  };
+
+  if (hostName === null) {
     return null;
   }
 
   return (
-    <ColListLayout.Repeat>
+    <ColListLayout.Repeat onClick={gotoLink}>
       <LinkImg href={href} label={hostName} meta={meta} />
       <ExternalLink href={href} meta={meta} />
     </ColListLayout.Repeat>
   );
 };
 
-interface ExternalLinkProps{ 
+interface ExternalLinkProps {
   href: string;
-  meta: MetaData|null;
+  meta: MetaData | null;
 }
 
-export const ExternalLink: FunctionComponent<ExternalLinkProps> = ({ href, meta }) => {
+export const ExternalLink: FC<ExternalLinkProps> = ({ href, meta }) => {
   const hostname = getHostName(href);
 
   if (hostname === null) {
     return null;
   }
 
-  if(meta) {
+  if (meta) {
     return (
       <ExternalLinkWrapper interval="8px" top="18px" bottom="18px">
         <BothMarginWrapper>
@@ -49,20 +56,18 @@ export const ExternalLink: FunctionComponent<ExternalLinkProps> = ({ href, meta 
         </BothMarginWrapper>
       </ExternalLinkWrapper>
     );
-
   }
 
   return (
     <ExternalLinkWrapper interval="8px" top="18px" bottom="18px">
       <BothMarginWrapper>
-        <LinkTitleWrapper></LinkTitleWrapper>
+        <LinkTitleWrapper />
       </BothMarginWrapper>
       <BothMarginWrapper>
         <LinkHrefWrapper>{hostname.toUpperCase()}</LinkHrefWrapper>
       </BothMarginWrapper>
     </ExternalLinkWrapper>
   );
-
 };
 
 const LinkHrefWrapper = styled.div`
