@@ -72,13 +72,14 @@ const useNewsListState = (
 
   useEffect(() => {
     if (latestNewsListState.status !== 'pending') {
+
+      setNewsList(oldNewsList => [
+        ...oldNewsList,
+        ...latestNewsListState.newsList,
+      ]);
+
       if (latestNewsListState.newsList.length < 5) {
         nextNewsList();
-      } else {
-        setNewsList(oldNewsList => [
-          ...oldNewsList,
-          ...latestNewsListState.newsList,
-        ]);
       }
     }
   }, [latestNewsListState.newsList, latestNewsListState.status, nextNewsList]);

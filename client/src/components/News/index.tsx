@@ -57,14 +57,6 @@ export const News: FunctionComponent<INewsProps> & {
 
   const [copied, setCopied] = useState(false);
 
-  useEffect(() => {
-    if (copied) {
-      setTimeout(() => {
-        setCopied(false);
-      }, 3000);
-    }
-  }, [copied]);
-
   return (
     <NewsLayout>
       {{
