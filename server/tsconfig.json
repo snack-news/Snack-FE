@@ -3,10 +3,9 @@
   "compilerOptions": {
     "baseUrl": "./", 
     "typeRoots": ["../node_modules/@types"],
-    "declaration": true, // .d.ts 파일의 생성 여부
-    "declarationDir": "./dist/", // .d.ts 파일이 생성되는 디렉토리 설정
     "allowJs": true, // 자바스크립트 파일 컴파일 허용 여부. 
-    "checkJs": true // allowJs 옵션이 true여서 js파일 모듈을 사용시 js파일의 오류 검사 여부
+    "checkJs": true, // allowJs 옵션이 true여서 js파일 모듈을 사용시 js파일의 오류 검사 여부
+    "allowSyntheticDefaultImports": true
   },
   "include": ["./src/**/*.ts", "./src/**/*.tsx", "./src/types/**/*.d.ts", "../types/**/*.d.ts"]
 }
