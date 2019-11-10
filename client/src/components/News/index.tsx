@@ -2,7 +2,6 @@ import React, {
   FunctionComponent,
   ReactNode,
   useState,
-  useEffect,
 } from 'react';
 import styled, { css } from 'styled-components';
 import { CopyToClipboard } from 'react-copy-to-clipboard';

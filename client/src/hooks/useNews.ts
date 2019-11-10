@@ -8,6 +8,10 @@ export const useNews = (id?: number) => {
 
   useEffect(() => {
     const fetchNews = async () => {
+      if (!id) {
+        return;
+      }
+
       const res = await axios.get<{ data: INews }>(`/api/news/${id}`);
       setNews({
         ...res.data.data,

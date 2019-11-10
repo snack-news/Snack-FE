@@ -5,41 +5,64 @@ import { ColListLayout, BothMarginWrapper } from '~client/layouts/index';
 import { getHostName } from '~client/utils';
 
 import LinkImg from './LinkImg';
+import { useLinkMetaData, MetaData } from './useLinkMetaData';
 
 interface IExternalLinkWithImageProps extends IExternalLink {
-  isRenderShuffleBackgroundColorBox?: boolean;
 }
 
-export const ExternalLinkWithImage: FunctionComponent<IExternalLinkWithImageProps> = ({ href, title, img, isRenderShuffleBackgroundColorBox }) => {
+export const ExternalLinkWithImage: FunctionComponent<IExternalLinkWithImageProps> = ({ href }) => {
+  const hostName = getHostName(href);
+  const meta = useLinkMetaData(href);
+
+  if(hostName === null){
+    return null;
+  }
+
   return (
     <ColListLayout.Repeat>
-      <LinkImg imgSrc={img} isRenderShuffleBackgroundColorBox={isRenderShuffleBackgroundColorBox} />
-      <ExternalLink href={href} title={title} />
+      <LinkImg href={href} label={hostName} meta={meta} />
+      <ExternalLink href={href} meta={meta} />
     </ColListLayout.Repeat>
   );
 };
 
-export const ExternalLink: FunctionComponent<IExternalLink> = ({ href, title }) => {
-  if (href) {
-    const hostname = getHostName(href);
+interface ExternalLinkProps{ 
+  href: string;
+  meta: MetaData|null;
+}
 
-    if (hostname === null) {
-      return null;
-    }
+export const ExternalLink: FunctionComponent<ExternalLinkProps> = ({ href, meta }) => {
+  const hostname = getHostName(href);
 
+  if (hostname === null) {
+    return null;
+  }
+
+  if(meta) {
     return (
       <ExternalLinkWrapper interval="8px" top="18px" bottom="18px">
         <BothMarginWrapper>
-          <LinkTitleWrapper>{title}</LinkTitleWrapper>
+          <LinkTitleWrapper>{meta.title}</LinkTitleWrapper>
         </BothMarginWrapper>
         <BothMarginWrapper>
           <LinkHrefWrapper>{hostname.toUpperCase()}</LinkHrefWrapper>
         </BothMarginWrapper>
       </ExternalLinkWrapper>
     );
+
   }
 
-  return null;
+  return (
+    <ExternalLinkWrapper interval="8px" top="18px" bottom="18px">
+      <BothMarginWrapper>
+        <LinkTitleWrapper></LinkTitleWrapper>
+      </BothMarginWrapper>
+      <BothMarginWrapper>
+        <LinkHrefWrapper>{hostname.toUpperCase()}</LinkHrefWrapper>
+      </BothMarginWrapper>
+    </ExternalLinkWrapper>
+  );
+
 };
 
 const LinkHrefWrapper = styled.div`
