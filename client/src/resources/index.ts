@@ -21,3 +21,9 @@ export { default as exitWhite } from './asset/exit-white@3x.png';
 export { default as exitImg } from './asset/exit@3x.png';
 export { default as checkImg } from './asset/mark@3x.png';
 export { default as contentImg } from './asset/content@3x.png';
+
+
+export { default as favicon } from './meta/favicon.ico'
+export { default as fbOgImage } from './meta/fb_og_image.png';
+export { default as snak16x16 } from './meta/snak_16x16.png';
+export { default as snak144x144 } from './meta/snak_144x144.png';

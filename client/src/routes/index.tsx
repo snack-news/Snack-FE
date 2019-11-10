@@ -2,6 +2,8 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
+import { favicon, snak144x144, snak16x16, fbOgImage } from '~client/resources'
+
 import '../common';
 import { routes } from '~client/config/routes';
 import {
@@ -20,9 +22,10 @@ const META = {
   TITLE: '스낵 SNAK',
   DESCRIPTION: '쓸모있는 IT/비즈니스 소식을 전하는 뉴스 딜리버리 서비스',
   image: {
-    '16 x 16': 'static/snak_16x16.png',
-    '144 x 144': 'static/snak_144x144.png',
-    '2400 × 1260': 'static/fb_og_image.png',
+    'favicon': favicon,
+    '16 x 16': snak16x16,
+    '144 x 144': snak144x144,
+    '2400 × 1260': fbOgImage,
   },
 };
 
@@ -30,12 +33,15 @@ const App = () => (
   <>
     <Helmet>
       <title>{META.TITLE}</title>
+
+      <meta content="ie=edge" http-equiv="x-ua-compatible" />
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+      <link rel="shortcut icon" href={META.image.favicon} type="image/x-icon" />
+      <link rel="icon" href={META.image.favicon} type="image/x-icon" />
+
       <link rel="icon" type="image/png" href={META.image['16 x 16']} />
-      <link
-        rel="apple-touch-icon-precomposed"
-        sizes="57x57"
-        href="static/icon"
-      />
+
       <link rel="canonical" href="https://snak.news" />
 
       <meta property="title" content={META.TITLE} />

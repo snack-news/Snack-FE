@@ -34,6 +34,7 @@ const Label = styled.div`
   top: 20px;
   left: 25px;
 
+  width: 170px;
   height: 36px;
   font-size: 14px;
   font-weight: bold;
