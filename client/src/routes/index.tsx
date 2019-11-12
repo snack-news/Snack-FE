@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 
-import { favicon, snak144x144, snak16x16, fbOgImage } from '~client/resources'
+import { favicon, snak144x144, snak16x16, fbOgImage } from '~client/resources';
 
 import '../common';
 import { routes } from '~client/config/routes';
@@ -22,7 +22,7 @@ const META = {
   TITLE: '스낵 SNAK',
   DESCRIPTION: '쓸모있는 IT/비즈니스 소식을 전하는 뉴스 딜리버리 서비스',
   image: {
-    'favicon': favicon,
+    favicon,
     '16 x 16': snak16x16,
     '144 x 144': snak144x144,
     '2400 × 1260': fbOgImage,
@@ -34,8 +34,8 @@ const App = () => (
     <Helmet>
       <title>{META.TITLE}</title>
 
-      <meta content="ie=edge" http-equiv="x-ua-compatible" />
-      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <meta content="ie=edge" httpEquiv="x-ua-compatible" />
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
 
       <link rel="shortcut icon" href={META.image.favicon} type="image/x-icon" />
       <link rel="icon" href={META.image.favicon} type="image/x-icon" />
@@ -53,13 +53,13 @@ const App = () => (
         content={[
           '뉴스',
           'IT',
-          '취준',
-          '취업준비',
+          '유니콘',
+          '스타트업',
           '테크',
           '비즈니스',
           '이직',
           'Tech',
-          '공유',
+          '취업',
         ].join(',')}
       />
       <meta name="msapplication-TileImage" content={META.image['144 x 144']} />
@@ -74,7 +74,7 @@ const App = () => (
       <meta name="msapplication-tap-highlight" content="no" />
       <meta
         property="og:title"
-        content="스낵 SNAK - 쉽게 풀어쓰는 IT업계 뉴스"
+        content="SNAK | 유니콘 기업 관련 뉴스 및 아티클 모음"
       />
       <meta property="og:description" content={META.DESCRIPTION} />
       <meta property="og:image" content={META.image['2400 × 1260']} />
