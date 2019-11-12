@@ -8,9 +8,7 @@ const LogoStyled = styled(Logo)`
   width: 72px;
 `;
 
-export const LogoAnchor = styled.button.attrs({ children: <LogoStyled /> })`
-  padding: 0;
-  border: 0;
-  margin: 0;
-  background-color: transparent;
-`;
+export const LogoAnchor = styled.a.attrs({
+  children: <LogoStyled />,
+  href: '/',
+})``;

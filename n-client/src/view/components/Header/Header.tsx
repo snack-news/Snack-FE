@@ -5,19 +5,15 @@ import { LogoAnchor } from './LogoAnchor';
 import { MenuAnchor } from './MenuAnchor';
 
 import { whiteTwo } from '~nclient/view/atoms/styles/colors';
-import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
 
 interface Props {}
 
 export const Header: FC<Props> = () => {
   return (
-    <>
-      <HeaderStyled>
-        <LogoAnchor />
-        <MenuAnchor />
-      </HeaderStyled>
-      <HorizontalDivider />
-    </>
+    <HeaderStyled>
+      <LogoAnchor />
+      <MenuAnchor />
+    </HeaderStyled>
   );
 };
 
