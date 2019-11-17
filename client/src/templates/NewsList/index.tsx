@@ -142,7 +142,6 @@ export const NewsList: FunctionComponent<INewsListProps> & {
         ...newsComponents.slice(0, 3),
         isRenderCompanyListCard && newsComponents.length >= 3 && (
           <Fragment key="CompanyListCard">
-            <HorizontalDivider thick />
             <CompanyListCard {...companyListCardProps} />
             <HorizontalDivider thick />
           </Fragment>
@@ -150,7 +149,6 @@ export const NewsList: FunctionComponent<INewsListProps> & {
         ...newsComponents.slice(3, 5),
         isRenderContactCard && newsComponents.length >= 5 && (
           <Fragment key="ContactCard">
-            <HorizontalDivider thick />
             <ContactCard />
             <HorizontalDivider thick />
           </Fragment>
@@ -158,7 +156,6 @@ export const NewsList: FunctionComponent<INewsListProps> & {
         ...newsComponents.slice(5, 6),
         isRenderPlatformListCard && newsComponents.length >= 6 && (
           <Fragment key="PlatformListCard">
-            <HorizontalDivider thick />
             <PlatformListCard />
             <HorizontalDivider thick />
           </Fragment>
