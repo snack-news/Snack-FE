@@ -18,7 +18,10 @@ export const ExternalLinkWithImage: FC<IExternalLinkWithImageProps> = ({
 
   const gotoLink = () => {
     // eslint-disable-next-line no-undef
-    window.location.href = href;
+    const win = window.open(href, '_blank');
+    if (win) {
+      win.focus();
+    }
   };
 
   if (hostName === null) {

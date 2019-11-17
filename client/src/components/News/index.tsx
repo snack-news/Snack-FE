@@ -1,8 +1,4 @@
-import React, {
-  FunctionComponent,
-  ReactNode,
-  useState,
-} from 'react';
+import React, { FunctionComponent, ReactNode, useState } from 'react';
 import styled, { css } from 'styled-components';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
@@ -78,19 +74,18 @@ export const News: FunctionComponent<INewsProps> & {
         ),
         externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
         footer: (
-          <Center>
-            {/* <IconLabel iconImg={shareImg} label="공유하기" /> */}
-            <CopyToClipboard
-              text={`https://snak.news/news/${newsId}`}
-              onCopy={() => setCopied(true)}
-            >
+          <CopyToClipboard
+            text={`https://snak.news/news/${newsId}`}
+            onCopy={() => setCopied(true)}
+          >
+            <Center style={{ padding: '15px' }}>
               {copied ? (
                 <IconLabel iconImg={copyImg} label="복사완료!" />
               ) : (
                 <IconLabel iconImg={copyImg} label="링크복사" />
               )}
-            </CopyToClipboard>
-          </Center>
+            </Center>
+          </CopyToClipboard>
         ),
       }}
     </NewsLayout>
@@ -119,7 +114,6 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
 }) => (
   <ColListLayout.Detail
     top="30px"
-    bottom="15px"
     items={[
       {
         el: createWeekLabel && (
@@ -149,10 +143,9 @@ const NewsLayout: FunctionComponent<INewsLayoutProps> = ({
             <HorizontalDivider />
           </BothMarginWrapper>
         ),
-        bottom: '15px',
       },
       {
-        el: <BothMarginWrapper depth={3}>{footer}</BothMarginWrapper>,
+        el: footer,
       },
     ]}
   />
