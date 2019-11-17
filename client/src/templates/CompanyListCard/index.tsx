@@ -1,8 +1,17 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
-import { ColListLayout, RowListLayout, CardSimpleLayout, Center } from '~client/layouts/index';
+import { Link } from 'react-router-dom';
+
+import {
+  ColListLayout,
+  RowListLayout,
+  CardSimpleLayout,
+  Center,
+} from '~client/layouts/index';
 import useCorpList from '~client/hooks/useCorpList';
+
+import { routes } from '~client/config/routes';
 
 export interface ICompanyListCardProps {
   isRenderMoreLink?: boolean;
@@ -20,19 +29,30 @@ export const CompanyListCard: FunctionComponent<ICompanyListCardProps> & {
   if (corpListState.status !== 'success') {
     return null;
   }
-  const excludeCorp = corpListState.corpList.find(({ id }) => id === excludeCropId);
+  const excludeCorp = corpListState.corpList.find(
+    ({ id }) => id === excludeCropId
+  );
 
   if (excludeCorp !== undefined) {
     title = `${excludeCorp.name}말고 이런 회사 소식은 어떠세요?`;
   }
 
-  const corpList = corpListState.corpList.filter(({ id }) => id !== excludeCropId);
+  const corpList = corpListState.corpList.filter(
+    ({ id }) => id !== excludeCropId
+  );
 
   return (
     <CardSimpleLayout>
       {{
         header: <CompanyListCardTitle>{title}</CompanyListCardTitle>,
-        nav: isRenderMoreLink && <CompanyListCardMoreLink />,
+        nav: isRenderMoreLink && (
+          <Link
+            to={routes.companySelectPage.getLink()}
+            style={{ textDecoration: 'none' }}
+          >
+            <CompanyListCardMoreLink />
+          </Link>
+        ),
         body: (
           <RowListLayout.Repeat interval="10px">
             {corpList.map(corp => (
