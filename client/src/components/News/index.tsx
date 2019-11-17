@@ -1,5 +1,5 @@
 import React, { FunctionComponent, ReactNode, useState } from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 import Tags from './Tags';
@@ -23,7 +23,6 @@ import { Center } from '~client/layouts/Center';
 export interface INewsProps extends INews, INewsOptionProps {}
 
 export interface INewsOptionProps {
-  expanded?: boolean;
   isRenderHighlightTag?: boolean;
   isRenderWeekNumberOfMonth?: boolean;
 }
@@ -37,7 +36,6 @@ export const News: FunctionComponent<INewsProps> & {
     content,
     tags,
     link,
-    expanded: defaultExpanded,
     isRenderHighlightTag,
     isRenderWeekNumberOfMonth,
     newsId,
@@ -57,8 +55,6 @@ export const News: FunctionComponent<INewsProps> & {
     filteredTags = tags.filter(({ highlight }) => highlight === false);
   }
 
-  const [expanded, setExpanded] = useState(defaultExpanded);
-
   const [copied, setCopied] = useState(false);
 
   return (
@@ -70,16 +66,7 @@ export const News: FunctionComponent<INewsProps> & {
         tags: <Tags tags={filteredTags} />,
         title: <Title>{title}</Title>,
         content: (
-          <ColListLayout.Repeat>
-            <Content
-              expanded={expanded}
-              onClick={() => setExpanded(false)}
-              dangerouslySetInnerHTML={{ __html: render(content) }}
-            >
-              {}
-            </Content>
-            {expanded ? null : <MoreButton onClick={() => setExpanded(true)} />}
-          </ColListLayout.Repeat>
+          <Content dangerouslySetInnerHTML={{ __html: render(content) }} />
         ),
         externalLink: linkObj ? <ExternalLinkWithImage {...linkObj} /> : null,
         footer: (
@@ -102,7 +89,6 @@ export const News: FunctionComponent<INewsProps> & {
 };
 
 News.defaultProps = {
-  expanded: false,
   isRenderHighlightTag: false,
   isRenderWeekNumberOfMonth: false,
 };
@@ -179,31 +165,11 @@ const Title = styled.div`
   overflow: hidden;
 `;
 
-const Content = styled.div<{ expanded?: boolean }>`
+const Content = styled.div`
   display: block;
   font-size: 14px;
   line-height: 1.43;
   color: #121111;
-
-  ${({ expanded }) =>
-    !expanded &&
-    css`
-      overflow: hidden;
-      height: 75px;
-    `}
-`;
-
-const MoreButton = styled.button.attrs({ children: '👇 더보기' })`
-  margin-top: 20px;
-  font-size: 14px;
-  line-height: 2.4;
-  color: #b6b6c0;
-  text-align: center;
-  background-color: #f5f4f5;
-  color: #4a4a4a;
-
-  width: 100%;
-  border-width: 0px;
 `;
 
 interface IIconLabelProps {
