@@ -16,7 +16,6 @@ export const useNews = (id?: number) => {
       setNews({
         ...res.data.data,
         newsId: `${res.data.data.id}`,
-        expanded: true,
       });
     };
 
