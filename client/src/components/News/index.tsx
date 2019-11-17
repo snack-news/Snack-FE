@@ -43,6 +43,15 @@ export const News: FunctionComponent<INewsProps> & {
     newsId,
   } = props;
 
+  let linkObj;
+  if (link) {
+    if (typeof link === 'string') {
+      linkObj = { href: link };
+    } else {
+      linkObj = link;
+    }
+  }
+
   let filteredTags = tags;
   if (!isRenderHighlightTag) {
     filteredTags = tags.filter(({ highlight }) => highlight === false);
@@ -72,7 +81,7 @@ export const News: FunctionComponent<INewsProps> & {
             {expanded ? null : <MoreButton onClick={() => setExpanded(true)} />}
           </ColListLayout.Repeat>
         ),
-        externalLink: link ? <ExternalLinkWithImage {...link} /> : null,
+        externalLink: linkObj ? <ExternalLinkWithImage {...linkObj} /> : null,
         footer: (
           <CopyToClipboard
             text={`https://snak.news/news/${newsId}`}
