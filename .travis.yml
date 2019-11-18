@@ -7,15 +7,14 @@ cache:
   npm: true
 
 install:
-    - npm install
+    - npm ci
 
 script:
     # - npm run lint
     - npm run build
 
 before_deploy:
-  - rm -rf node_modules
-  - zip -r snack-news-FE *
+  - zip -r snack-news-FE client/dist server/dist appspec.yml execute-deploy.sh
   - mkdir -p deploy
   - mv snack-news-FE.zip deploy/snack-news-FE.zip
 
