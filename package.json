@@ -4,6 +4,7 @@
   "description": "Snack News FE",
   "main": "index.js",
   "scripts": {
+    "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
     "build:client": "webpack --config ./client/webpack.config.js",
     "build:server": "webpack --config ./server/webpack.config.js",
     "server": "node ./server/dist/index.js",
@@ -66,6 +67,7 @@
     "babel-plugin-require-context-hook": "^1.0.0",
     "babel-plugin-styled-components": "^1.10.0",
     "clean-webpack-plugin": "^3.0.0",
+    "concurrently": "^5.0.0",
     "css-loader": "^3.2.0",
     "date-fns": "^1.30.1",
     "debug": "^4.1.1",

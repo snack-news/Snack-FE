@@ -11,8 +11,7 @@ install:
 
 script:
     # - npm run lint
-    - npm run build:client
-    - npm run build:server
+    - npm run build
 
 before_deploy:
   - zip -r snack-news-FE client/dist server/dist appspec.yml execute-deploy.sh
