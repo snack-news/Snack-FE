@@ -12,10 +12,10 @@ export const NewsList: React.FC<Props> = ({ newsList }) => {
   return (
     <>
       {newsList.map(news => (
-        <>
+        <React.Fragment key={news.id}>
           <NewsItem news={news} />
           <HorizontalDivider thick />
-        </>
+        </React.Fragment>
       ))}
     </>
   );

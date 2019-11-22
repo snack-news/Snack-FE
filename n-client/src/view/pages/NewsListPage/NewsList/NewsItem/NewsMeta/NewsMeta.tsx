@@ -3,11 +3,7 @@ import styled from 'styled-components';
 
 import { getHostName } from './getHostName';
 
-import {
-  black,
-  brownishGrey,
-  whiteFour,
-} from '~nclient/view/atoms/styles/colors';
+import { black, brownishGrey, whiteFour } from '~nclient/view/atoms/styles/colors';
 
 interface Props {
   link: string;
@@ -17,7 +13,7 @@ export const NewsMeta: FC<Props> = ({ link }) => {
   const hostName = getHostName(link);
 
   return (
-    <>
+    <Wrapper>
       <LinkImageWrapper>
         <LinkImage src="https://www.collateart.com/opengraph.png" />
       </LinkImageWrapper>
@@ -25,9 +21,13 @@ export const NewsMeta: FC<Props> = ({ link }) => {
         <LinkTitle>title</LinkTitle>
         <LinkHostName>{hostName}</LinkHostName>
       </LinkDesc>
-    </>
+    </Wrapper>
   );
 };
+
+const Wrapper = styled.section`
+  margin: 0 0 20px 0;
+`;
 
 const LinkImageWrapper = styled.section`
   display: flex;

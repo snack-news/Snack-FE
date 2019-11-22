@@ -25,17 +25,14 @@ module.exports = {
       {
         singleQuote: true,
         trailingComma: 'es5',
-        printWidth: 80,
+        printWidth: 100,
       },
     ],
 
     // 코드질을 올리기 위한 유용한 규칙들
     complexity: ['warn', { max: 10 }],
 
-    'max-lines': [
-      'error',
-      { max: 30, skipBlankLines: true, skipComments: true },
-    ],
+    'max-lines': ['error', { max: 50, skipBlankLines: true, skipComments: true }],
 
     'max-lines-per-function': 'off',
     'max-depth': ['warn', { max: 2 }],

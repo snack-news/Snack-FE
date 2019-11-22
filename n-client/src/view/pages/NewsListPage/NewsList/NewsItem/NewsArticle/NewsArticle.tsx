@@ -12,12 +12,16 @@ interface Props {
 
 export const NewsArticle: React.FC<Props> = ({ title, content }) => {
   return (
-    <>
+    <Wrapper>
       <Title>{title}</Title>
       <Content dangerouslySetInnerHTML={{ __html: decodeContent(content) }} />
-    </>
+    </Wrapper>
   );
 };
+
+const Wrapper = styled.article`
+  margin: 20px 20px 35px 20px;
+`;
 
 const Title = styled.h1`
   font-family: 'Noto Sans KR', sans-serif;

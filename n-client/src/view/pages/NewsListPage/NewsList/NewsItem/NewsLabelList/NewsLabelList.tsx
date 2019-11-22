@@ -10,7 +10,7 @@ interface Props {
   className?: string;
 }
 
-export const NewsHeader: React.FC<Props> = ({ tags, topics, className }) => {
+export const NewsLabelList: React.FC<Props> = ({ tags, topics, className }) => {
   return (
     <Wrapper className={className}>
       <TagLabelList tags={tags} />
@@ -20,7 +20,7 @@ export const NewsHeader: React.FC<Props> = ({ tags, topics, className }) => {
 };
 
 const Wrapper = styled.ul`
-  margin: 0;
+  margin: 0 20px 10px 20px;
   padding: 0;
 
   > * {
