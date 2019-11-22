@@ -7,14 +7,14 @@ import {
 } from '~nclient/view/atoms/styles/colors';
 import { little } from '~nclient/view/atoms/styles/fonts';
 
-interface TagLabelProps {
+interface Props {
   highlight?: boolean;
 }
 
-export const TagLabel = styled.div<TagLabelProps>`
+export const NewsLabel = styled.li<Props>`
   display: inline-block;
-  padding: 5px 8px;
-  min-width: 42px;
+  padding: 5px 7px;
+  min-width: 29px;
   text-align: center;
 
   ${little}

@@ -1,7 +1,22 @@
 import React from 'react';
 
-interface Props {}
+import { NewsItem } from './NewsItem';
 
-export const NewsList: React.FC<Props> = () => {
-  return <div>NewsList</div>;
+import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
+
+interface Props {
+  newsList: News[];
+}
+
+export const NewsList: React.FC<Props> = ({ newsList }) => {
+  return (
+    <>
+      {newsList.map(news => (
+        <>
+          <NewsItem news={news} />
+          <HorizontalDivider thick />
+        </>
+      ))}
+    </>
+  );
 };

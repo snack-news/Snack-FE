@@ -9,7 +9,10 @@ const MenuStyeld = styled(Menu)`
   margin: 6px;
 `;
 
-export const MenuAnchor = styled.button.attrs({ children: <MenuStyeld /> })`
+export const MenuAnchor = styled.a.attrs({
+  children: <MenuStyeld />,
+  href: '/',
+})`
   padding: 0;
   border: 0;
   margin: 0;
