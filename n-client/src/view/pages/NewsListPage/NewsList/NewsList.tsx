@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import { CropListItem } from './CropListItem';
+import { CorpListItem } from './CorpListItem';
 import { NewsItem } from './NewsItem';
 import { LinkListItem } from './LinkListItem';
 import { PlatformLinkListItem } from './PlatformListItem';
@@ -19,7 +19,7 @@ export const NewsList: FC<Props> = ({ newsList }) => (
         <HorizontalDivider thick />
       </React.Fragment>
     ))}
-    <CropListItem />
+    <CorpListItem />
     <HorizontalDivider thick />
     <LinkListItem />
     <HorizontalDivider thick />

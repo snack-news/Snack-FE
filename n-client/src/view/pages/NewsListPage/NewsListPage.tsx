@@ -17,7 +17,6 @@ export const NewsListPage: FC<Props> = ({ newsList }) => (
     {{
       header: (
         <>
-          {' '}
           <Header />
           <HorizontalDivider />
           <Nav />

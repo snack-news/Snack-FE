@@ -5,12 +5,12 @@ import { slateGrey } from '~nclient/view/atoms/styles/colors';
 
 interface Props {}
 
-export const Crop: FC<Props> = () => {
+export const Corp: FC<Props> = () => {
   return (
     <Wrapper>
-      <CropLogoWrapper>
+      <CorpLogoWrapper>
         <CorpLogo src="https://snak.news/logo/woowa.svg" />
-      </CropLogoWrapper>
+      </CorpLogoWrapper>
       <Label>nesoy</Label>
     </Wrapper>
   );
@@ -36,7 +36,7 @@ const Wrapper = styled.a`
   font-family: 'Noto Sans KR', sans-serif;
 `;
 
-const CropLogoWrapper = styled.div`
+const CorpLogoWrapper = styled.div`
   margin-bottom: 12px;
   display: flex;
   align-items: center;

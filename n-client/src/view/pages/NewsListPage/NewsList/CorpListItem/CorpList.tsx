@@ -1,21 +1,21 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { Crop } from './Crop';
+import { Corp } from './Corp';
 
 interface Props {}
 
-export const CropList: FC<Props> = () => {
+export const CorpList: FC<Props> = () => {
   return (
     <Wrapper>
-      <Crop />
-      <Crop />
-      <Crop />
-      <Crop />
-      <Crop />
-      <Crop />
-      <Crop />
-      <Crop />
+      <Corp />
+      <Corp />
+      <Corp />
+      <Corp />
+      <Corp />
+      <Corp />
+      <Corp />
+      <Corp />
     </Wrapper>
   );
 };

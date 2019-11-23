@@ -23,7 +23,7 @@ interface Tag {
 
 interface Topic {
   id: number;
-  type: 'CROP' | 'PERSON' | 'FIELD';
+  type: 'CORP' | 'PERSON' | 'FIELD';
   name: string;
   image: string;
 }

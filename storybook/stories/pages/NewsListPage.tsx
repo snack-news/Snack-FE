@@ -27,7 +27,7 @@ const getNewsList = () => [
     topics: [
       {
         id: 1,
-        type: 'CROP',
+        type: 'CORP',
         name: 'APPL',
         image: '',
       },

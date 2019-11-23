@@ -1,18 +1,18 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { CropList } from './CropList';
+import { CorpList } from './CorpList';
 
 interface Props {}
 
-export const CropListItem: FC<Props> = () => {
+export const CorpListItem: FC<Props> = () => {
   return (
     <Wrapper>
       <Header>
         <Title />
         <MoreLink />
       </Header>
-      <CropList />
+      <CorpList />
     </Wrapper>
   );
 };
