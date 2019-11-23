@@ -5,19 +5,27 @@ import { NewsList } from './NewsList';
 
 import { Header } from '~nclient/view/components/Header';
 import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
-import { Footer } from '~nclient/view/components/ Footer';
+import { PageLayout } from '~nclient/view/components/PageLayout';
+import { Footer } from '~nclient/view/components/Footer';
 
 interface Props {
   newsList: News[];
 }
 
 export const NewsListPage: FC<Props> = ({ newsList }) => (
-  <>
-    <Header />
-    <HorizontalDivider />
-    <Nav />
-    <HorizontalDivider thick />
-    <NewsList newsList={newsList} />
-    <Footer />
-  </>
+  <PageLayout>
+    {{
+      header: (
+        <>
+          {' '}
+          <Header />
+          <HorizontalDivider />
+          <Nav />
+          <HorizontalDivider thick />
+        </>
+      ),
+      main: <NewsList newsList={newsList} />,
+      footer: <Footer />,
+    }}
+  </PageLayout>
 );
