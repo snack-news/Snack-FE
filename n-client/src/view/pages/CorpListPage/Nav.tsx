@@ -8,5 +8,5 @@ export const Nav: React.FC<Props> = () => <Wrapper>전체</Wrapper>;
 const Wrapper = styled.nav`
   display: flex;
 
-  margin: 15px 20px 0 20px;
+  margin: 15px 20px 15px 20px;
 `;
