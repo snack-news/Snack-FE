@@ -7,28 +7,31 @@ import { PageLayout } from '~nclient/view/components/PageLayout';
 import { Header } from '~nclient/view/components/Header';
 import { Footer } from '~nclient/view/components/Footer';
 import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
+import { Root } from '~nclient/view/components/Root';
 
 interface Props {}
 
 export const ContactPage: FC<Props> = () => {
   return (
-    <PageLayout>
-      {{
-        header: (
-          <>
-            <Header />
-            <HorizontalDivider thick />
-          </>
-        ),
-        main: (
-          <>
-            <PageDesc />
-            <HorizontalDivider thick />
-            <ContactFrom />
-          </>
-        ),
-        footer: <Footer />,
-      }}
-    </PageLayout>
+    <Root>
+      <PageLayout>
+        {{
+          header: (
+            <>
+              <Header />
+              <HorizontalDivider thick />
+            </>
+          ),
+          main: (
+            <>
+              <PageDesc />
+              <HorizontalDivider thick />
+              <ContactFrom />
+            </>
+          ),
+          footer: <Footer />,
+        }}
+      </PageLayout>
+    </Root>
   );
 };

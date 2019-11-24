@@ -17,15 +17,10 @@ export const PageLayout: FC<Props> = ({ children: { header, main, footer } }) =>
   </Wrapper>
 );
 
-const MAX_WIDTH = 600;
-
 const Wrapper = styled.div`
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-
-  max-width: ${MAX_WIDTH}px;
-  margin: 0 auto;
 `;
 
 const Main = styled.div`

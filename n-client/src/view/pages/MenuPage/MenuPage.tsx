@@ -6,11 +6,12 @@ import { Footer } from './Footer';
 
 import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
 import { PageLayout } from '~nclient/view/components/PageLayout';
+import { Root } from '~nclient/view/components/Root';
 
 interface Props {}
 
-export const MenuPage: FC<Props> = () => {
-  return (
+export const MenuPage: FC<Props> = () => (
+  <Root>
     <PageLayout>
       {{
         header: <Header />,
@@ -23,5 +24,5 @@ export const MenuPage: FC<Props> = () => {
         ),
       }}
     </PageLayout>
-  );
-};
+  </Root>
+);

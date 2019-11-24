@@ -28,18 +28,7 @@ module.exports = ({ config }) => {
     font,
     img,
     scss,
-    cleanModuleRules(config, [
-      'css',
-      'scss',
-      'sass',
-
-      'png',
-
-      'js',
-      'jsx',
-      'ts',
-      'tsx',
-    ])
+    cleanModuleRules(config, ['css', 'scss', 'sass', 'png', 'js', 'jsx', 'ts', 'tsx'])
   );
 
   return newConfig;

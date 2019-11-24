@@ -35,3 +35,9 @@ declare module '*.jpg' {
   // eslint-disable-next-line import/no-default-export
   export default path;
 }
+
+declare module '*.ico' {
+  const path: string;
+  // eslint-disable-next-line import/no-default-export
+  export default path;
+}

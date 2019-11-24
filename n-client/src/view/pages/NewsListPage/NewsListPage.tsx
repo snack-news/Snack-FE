@@ -8,13 +8,14 @@ import { Header } from '~nclient/view/components/Header';
 import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
 import { PageLayout } from '~nclient/view/components/PageLayout';
 import { Footer } from '~nclient/view/components/Footer';
+import { Root } from '~nclient/view/components/Root';
 
 interface Props {
   newsList: News[];
 }
 
 export const NewsListPage: FC<Props> = ({ newsList }) => (
-  <>
+  <Root>
     <PageLayout>
       {{
         header: (
@@ -30,5 +31,5 @@ export const NewsListPage: FC<Props> = ({ newsList }) => (
       }}
     </PageLayout>
     <WeekSelector />
-  </>
+  </Root>
 );
