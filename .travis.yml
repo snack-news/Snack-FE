@@ -14,7 +14,7 @@ script:
     - npm run build
 
 before_deploy:
-  - zip -r snack-news-FE client/dist server/dist appspec.yml execute-deploy.sh
+  - zip -r snack-news-FE client/dist server/dist appspec.yml execute-deploy.sh deploy/*
   - mkdir -p deploy
   - mv snack-news-FE.zip deploy/snack-news-FE.zip
 
