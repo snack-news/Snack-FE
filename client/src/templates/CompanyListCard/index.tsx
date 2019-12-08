@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import { Link } from 'react-router-dom';
 
+import useReactRouter from 'use-react-router';
+
 import {
   ColListLayout,
   RowListLayout,
@@ -78,31 +80,36 @@ const CompanyListCardMoreLink = styled.div.attrs({ children: '모두보기' })`
   color: #0b66f7;
 `;
 
-const CompanyBox: FunctionComponent<ICorp> = ({ image, name }) => (
-  <CompanyBoxWrapper
-    top="12px"
-    bottom="8px"
-    items={[
-      {
-        el: (
-          <Center>
-            <CompanyBoxDiv>
-              <CompanyBoxLogo src={image === null ? '' : image} />
-            </CompanyBoxDiv>
-          </Center>
-        ),
-        bottom: '12px',
-      },
-      {
-        el: (
-          <Center>
-            <CompanyBoxLabel>{name}</CompanyBoxLabel>
-          </Center>
-        ),
-      },
-    ]}
-  />
-);
+const CompanyBox: FunctionComponent<ICorp> = ({ image, name, id }) => {
+  const { history } = useReactRouter();
+
+  return (
+    <CompanyBoxWrapper
+      onClick={() => history.push(`/company-list/${id}`)}
+      top="12px"
+      bottom="8px"
+      items={[
+        {
+          el: (
+            <Center>
+              <CompanyBoxDiv>
+                <CompanyBoxLogo src={image === null ? '' : image} />
+              </CompanyBoxDiv>
+            </Center>
+          ),
+          bottom: '12px',
+        },
+        {
+          el: (
+            <Center>
+              <CompanyBoxLabel>{name}</CompanyBoxLabel>
+            </Center>
+          ),
+        },
+      ]}
+    />
+  );
+};
 
 const CompanyBoxWrapper = styled(ColListLayout.Detail)`
   min-width: 89px;

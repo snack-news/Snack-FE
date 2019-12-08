@@ -1,15 +1,23 @@
 import React, { FunctionComponent } from 'react';
 
-import { NewsList, Header, HorizontalDivider, Footer } from '~client/templates/index';
+import {
+  NewsList,
+  Header,
+  HorizontalDivider,
+  Footer,
+} from '~client/templates/index';
 
 import { PageLayout } from '~client/layouts/index';
 import useCorpList from '~client/hooks/useCorpList';
+import { getWeekDate } from '~client/utils';
 
 interface ICompanyNewsListPageProps {
   corpId: number;
 }
 
-export const CompanyNewsListPage: FunctionComponent<ICompanyNewsListPageProps> = ({ corpId }) => {
+export const CompanyNewsListPage: FunctionComponent<
+  ICompanyNewsListPageProps
+> = ({ corpId }) => {
   const [corpListState] = useCorpList();
   if (corpListState.status !== 'success') {
     return null;
@@ -38,7 +46,7 @@ export const CompanyNewsListPage: FunctionComponent<ICompanyNewsListPageProps> =
               newsOptionProps={{ isRenderWeekNumberOfMonth: true }}
               companyListCardProps={{ excludeCropId: corpId }}
               isRenderCompanyListCard
-              filter={{ year: '2019', month: '8', week: '4', topicIds: [corpId] }}
+              filter={{ ...getWeekDate(new Date()), topicIds: [corpId] }}
             />
           </>
         ),
