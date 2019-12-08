@@ -1,18 +1,19 @@
 import React, { FunctionComponent } from 'react';
 
-import { ColListLayout } from '~client/layouts/index';
-
-import { getWeekDate } from '~client/utils';
 import useReactRouter from 'use-react-router';
 
 import SelectItem from './SelectItem';
+
+import { ColListLayout } from '~client/layouts/index';
+
+import { getWeekDate } from '~client/utils';
 
 const NOW = new Date();
 const nowWeek = getWeekDate(NOW);
 const MIN_YEAR = 2019;
 const MIN_MONTH = 8;
 const MAX_YEAR = parseInt(nowWeek.year, 10);
-const MAX_MONTH = parseInt(nowWeek.month, 10);
+const MAX_MONTH = parseInt(nowWeek.month, 10) - 1;
 const MAX_WEEK = parseInt(nowWeek.week, 10);
 
 interface ISelectItemListProps {
@@ -22,16 +23,30 @@ interface ISelectItemListProps {
   onChange: () => void;
 }
 
-const SelectItemList: FunctionComponent<ISelectItemListProps> = ({ year, month, week, onChange }) => {
+const SelectItemList: FunctionComponent<ISelectItemListProps> = ({
+  year,
+  month,
+  week,
+  onChange,
+}) => {
   const { history } = useReactRouter();
 
   return (
-    <ColListLayout.Repeat top="20px" bottom="20px" interval="31px" style={{ height: '375px' }}>
+    <ColListLayout.Repeat
+      top="20px"
+      bottom="20px"
+      interval="31px"
+      style={{ height: '375px' }}
+    >
       {getWeekDateList()
         .reverse()
         .map(weekDate => {
-          const label = `${weekDate.year}년 ${weekDate.month}월 ${weekDate.week}주`;
-          const selected = weekDate.year === year && weekDate.month === month && weekDate.week === week;
+          const fixedMonth = Number.parseInt(weekDate.month, 10) + 1;
+          const label = `${weekDate.year}년 ${fixedMonth}월 ${weekDate.week}주`;
+          const selected =
+            weekDate.year === year &&
+            `${fixedMonth}` === month &&
+            weekDate.week === week;
           return (
             <SelectItem
               label={label}
@@ -41,7 +56,9 @@ const SelectItemList: FunctionComponent<ISelectItemListProps> = ({ year, month, 
                 if (selected) {
                   return;
                 }
-                history.push(`/newsList/${weekDate.year}/${weekDate.month}/week/${weekDate.week}`);
+                history.push(
+                  `/newsList/${weekDate.year}/${fixedMonth}/week/${weekDate.week}`
+                );
                 onChange();
               }}
             />
@@ -59,12 +76,20 @@ const getWeekDateList = () => {
   for (let currentYear = MIN_YEAR; currentYear <= MAX_YEAR; currentYear += 1) {
     for (
       let currentMonth = currentYear === MIN_YEAR ? MIN_MONTH : 0;
-      (currentYear < MAX_YEAR && currentMonth <= 11) || (currentYear === MAX_YEAR && currentMonth <= MAX_MONTH);
+      (currentYear < MAX_YEAR && currentMonth <= 11) ||
+      (currentYear === MAX_YEAR && currentMonth <= MAX_MONTH);
       currentMonth += 1
     ) {
-      const CURRENT_MAX_WEEK = currentYear === MAX_YEAR && currentMonth === MAX_MONTH ? MAX_WEEK : getMaxNthWeek(currentYear, currentMonth);
+      const CURRENT_MAX_WEEK =
+        currentYear === MAX_YEAR && currentMonth === MAX_MONTH
+          ? MAX_WEEK
+          : getMaxNthWeek(currentYear, currentMonth);
       // eslint-disable-next-line max-depth
-      for (let currentWeek = 1; currentWeek <= CURRENT_MAX_WEEK; currentWeek += 1) {
+      for (
+        let currentWeek = 1;
+        currentWeek <= CURRENT_MAX_WEEK;
+        currentWeek += 1
+      ) {
         weekDateList.push({
           year: `${currentYear}`,
           month: `${currentMonth}`.padStart(2, '0'),

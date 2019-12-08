@@ -19,7 +19,6 @@ export const AboutPage = () => (
           <About />
         </>
       ),
-      footer: <Footer />,
     }}
   </PageLayout>
 );
