@@ -9,9 +9,16 @@ interface Props {
   value?: string;
   onChange?: (option: Option) => void;
   header: string;
+  labelStyle?: React.CSSProperties;
 }
 
-export const DrawerSelector: React.FC<Props> = ({ options, value, onChange, header }) => {
+export const DrawerSelector: React.FC<Props> = ({
+  options,
+  value,
+  onChange,
+  header,
+  labelStyle,
+}) => {
   const [showOptions, setShowOptions] = useState(false);
   const option = useMemo(() => {
     const newOption = options.find(o => o.value === value);
@@ -20,7 +27,9 @@ export const DrawerSelector: React.FC<Props> = ({ options, value, onChange, head
 
   return (
     <>
-      <Label onClick={() => setShowOptions(true)}>{oc(option).label('선택된 값이 없습니다')}</Label>
+      <Label onClick={() => setShowOptions(true)} style={labelStyle}>
+        {oc(option).label('선택된 값이 없습니다')}
+      </Label>
 
       {showOptions && (
         <DrawerOptions

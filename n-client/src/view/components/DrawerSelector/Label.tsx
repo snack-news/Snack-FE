@@ -7,16 +7,15 @@ import { DownarrowFilter } from '~nclient/view/atoms/styles/Icons';
 
 interface Props {
   onClick: () => void;
+  style?: React.CSSProperties;
 }
 
-export const Label: React.FC<Props> = ({ children, onClick }) => {
-  return (
-    <Button onClick={onClick}>
-      <LabelWrapper>{children}</LabelWrapper>
-      <DownarrowFilterStyled />
-    </Button>
-  );
-};
+export const Label: React.FC<Props> = ({ children, onClick, style }) => (
+  <Button onClick={onClick} style={style}>
+    <LabelWrapper>{children}</LabelWrapper>
+    <DownarrowFilterStyled />
+  </Button>
+);
 
 const Button = styled.button`
   display: flex;
@@ -25,7 +24,6 @@ const Button = styled.button`
 
   background: transparent;
   border-width: 0;
-  padding: 8px 20px;
 `;
 
 const DownarrowFilterStyled = styled(DownarrowFilter)`
