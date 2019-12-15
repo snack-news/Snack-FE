@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
 import { NewsListPage } from '~nclient/view/pages/NewsListPage';
+import { MenuPage } from '~nclient/view/pages/MenuPage/MenuPage';
 
 const getNewsList = (): News[] => [
   {
@@ -63,6 +64,9 @@ export const Routes = () => (
   <Switch>
     <Route path="/" exact>
       <NewsListPage newsList={getNewsList()} />
+    </Route>
+    <Route path="/menu">
+      <MenuPage />
     </Route>
   </Switch>
 );
