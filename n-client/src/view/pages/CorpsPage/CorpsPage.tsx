@@ -10,7 +10,7 @@ import { Root } from '~nclient/view/components/Root';
 
 interface Props {}
 
-export const CorpListPage: FC<Props> = () => (
+export const CorpsPage: FC<Props> = () => (
   <Root>
     <PageLayout>
       {{

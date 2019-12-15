@@ -1,6 +1,6 @@
 export * from './MenuPage';
 export * from './NewsListPage';
-export * from './CorpListPage';
+export * from './CorpsPage';
 export * from './AboutPage';
 export * from './ContactPage';
 

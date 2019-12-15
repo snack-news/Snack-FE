@@ -9,9 +9,9 @@ export const MenuItemList: FC<Props> = () => {
   return (
     <MenuItemListWrapper>
       <MenuItem to="/">홈</MenuItem>
-      <MenuItem to="/">토픽 모아보기</MenuItem>
-      <MenuItem to="/">서비스 안내</MenuItem>
-      <MenuItem to="/">제안하기</MenuItem>
+      <MenuItem to="/corps">토픽 모아보기</MenuItem>
+      <MenuItem to="/about">서비스 안내</MenuItem>
+      <MenuItem to="/contact">제안하기</MenuItem>
     </MenuItemListWrapper>
   );
 };
