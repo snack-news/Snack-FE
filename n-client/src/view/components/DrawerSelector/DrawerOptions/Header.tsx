@@ -3,13 +3,15 @@ import styled from 'styled-components';
 
 import { Exit } from '~nclient/view/atoms/styles/Icons';
 
-interface Props {}
+interface Props {
+  onClose?: () => void;
+}
 
-export const Header: React.FC<Props> = () => {
+export const Header: React.FC<Props> = ({ children, onClose }) => {
   return (
     <Wrapper>
-      <Title />
-      <CloseButton />
+      <Title>{children}</Title>
+      <CloseButton onClick={onClose} />
     </Wrapper>
   );
 };
@@ -23,7 +25,7 @@ const Wrapper = styled.header`
   justify-content: space-between;
 `;
 
-const Title = styled.h2.attrs({ children: '조회할 주 선택' })`
+const Title = styled.h2`
   margin: 0;
 
   display: flex;

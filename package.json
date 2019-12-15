@@ -6,6 +6,7 @@
   "scripts": {
     "build": "concurrently \"npm run build:client\" \"npm run build:server\"",
     "build:client": "webpack --config ./n-client/webpack.config.js",
+    "dev": "concurrently \"npm run build:client -- -w\" \"npm run build:server -- -w\" \"npm run server\"",
     "storybook": "start-storybook -c ./storybook/config --port 60453",
     "build:server": "webpack --config ./n-server/webpack.config.js",
     "server": "nodemon ./n-server/dist/index.js",
@@ -37,6 +38,7 @@
     "@types/styled-components": "4.4.0",
     "@typescript-eslint/eslint-plugin": "^2.8.0",
     "@typescript-eslint/parser": "^2.8.0",
+    "babel-plugin-ts-optchain": "^1.1.5",
     "eslint": "^6.7.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -118,6 +120,7 @@
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "styled-components": "^4.4.1",
+    "ts-optchain": "^0.1.8",
     "typescript": "^3.7.2",
     "use-react-router": "^1.0.7",
     "webpack": "^4.41.2",

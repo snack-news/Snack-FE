@@ -1,20 +1,27 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import styled from 'styled-components';
 
 import { Check } from '~nclient/view/atoms/styles/Icons';
 
-interface Props {
-  year: string;
-  month: string;
-  week: string;
-  selected?: boolean;
+export interface Option {
+  value: string;
+  label: string;
+  optionLabel: string;
 }
 
-export const Option: React.FC<Props> = ({ year, month, week, selected }) => {
+interface Props extends Option {
+  selected?: boolean;
+  onClick?: (option: Option) => void;
+}
+
+export const OptionComponent: React.FC<Props> = ({ selected, onClick, children, ...option }) => {
+  const clickHandler = useCallback(() => {
+    if (onClick) onClick(option);
+  }, [onClick, option]);
+
   return (
-    <Wrapper>
-      {/* eslint-disable-next-line @typescript-eslint/no-magic-numbers */}
-      <Label>{`${year}년 ${month.padStart(2, '0')}월 ${week.padStart(2, '0')}주`}</Label>
+    <Wrapper onClick={clickHandler}>
+      <Label>{option.optionLabel}</Label>
       {selected && <SelectedIcon />}
     </Wrapper>
   );

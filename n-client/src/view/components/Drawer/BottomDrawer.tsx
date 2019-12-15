@@ -3,12 +3,14 @@ import styled from 'styled-components';
 
 import { Layer } from '~nclient/view/components/Layer';
 
-interface Props {}
+interface Props {
+  onClickLayer?: () => void;
+}
 
-export const BottomDrawer: React.FC<Props> = ({ children }) => {
+export const BottomDrawer: React.FC<Props> = ({ children, onClickLayer }) => {
   return (
     <>
-      <Layer />
+      <Layer onClick={onClickLayer} />
       <Wrapper>{children}</Wrapper>
     </>
   );

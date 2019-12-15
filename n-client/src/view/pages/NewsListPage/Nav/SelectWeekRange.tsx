@@ -1,43 +1,30 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { useState } from 'react';
 
-import { WeekSelector } from '../WeekSelector';
-
-import { black } from '~nclient/view/atoms/styles/colors';
-import { Medium } from '~nclient/view/atoms/styles/fonts';
-import { DownarrowFilter } from '~nclient/view/atoms/styles/Icons';
+import { DrawerSelector } from '~nclient/view/components/DrawerSelector';
 
 interface Props {}
 
 export const SelectWeekRange: React.FC<Props> = () => {
+  const [week, setWeek] = useState('2019년 01월 01주');
   return (
-    <>
-      <Wrapper>
-        <Label>1월 2주</Label>
-        <DownarrowFilterStyled />
-      </Wrapper>
-      <WeekSelector />
-    </>
+    <DrawerSelector
+      options={weeks}
+      value={week}
+      onChange={({ value }) => setWeek(value)}
+      header="조회할 주 선택"
+    />
   );
 };
 
-const Wrapper = styled.button`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-
-  background: transparent;
-  border-width: 0;
-  padding: 8px 20px;
-`;
-
-const DownarrowFilterStyled = styled(DownarrowFilter)`
-  display: block;
-  width: 13px;
-  padding: 0px 10px;
-`;
-
-const Label = styled.span`
-  ${Medium}
-  color: ${black};
-`;
+const weeks = [
+  { value: '2019년 01월 01주', optionLabel: '2019년 01월 01주', label: '01월 01주' },
+  { value: '2019년 01월 02주', optionLabel: '2019년 01월 02주', label: '01월 02주' },
+  { value: '2019년 01월 03주', optionLabel: '2019년 01월 03주', label: '01월 03주' },
+  { value: '2019년 01월 04주', optionLabel: '2019년 01월 04주', label: '01월 04주' },
+  { value: '2019년 01월 05주', optionLabel: '2019년 01월 05주', label: '01월 05주' },
+  { value: '2019년 01월 06주', optionLabel: '2019년 01월 06주', label: '01월 06주' },
+  { value: '2019년 01월 07주', optionLabel: '2019년 01월 07주', label: '01월 07주' },
+  { value: '2019년 01월 08주', optionLabel: '2019년 01월 08주', label: '01월 08주' },
+  { value: '2019년 01월 09주', optionLabel: '2019년 01월 09주', label: '01월 09주' },
+  { value: '2019년 01월 10주', optionLabel: '2019년 01월 10주', label: '01월 10주' },
+];
