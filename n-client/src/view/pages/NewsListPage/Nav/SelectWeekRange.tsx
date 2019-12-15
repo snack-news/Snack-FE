@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { WeekSelector } from '../WeekSelector';
+
 import { black } from '~nclient/view/atoms/styles/colors';
 import { Medium } from '~nclient/view/atoms/styles/fonts';
 import { DownarrowFilter } from '~nclient/view/atoms/styles/Icons';
@@ -9,10 +11,13 @@ interface Props {}
 
 export const SelectWeekRange: React.FC<Props> = () => {
   return (
-    <Wrapper>
-      <Label>1월 2주</Label>
-      <DownarrowFilterStyled />
-    </Wrapper>
+    <>
+      <Wrapper>
+        <Label>1월 2주</Label>
+        <DownarrowFilterStyled />
+      </Wrapper>
+      <WeekSelector />
+    </>
   );
 };
 

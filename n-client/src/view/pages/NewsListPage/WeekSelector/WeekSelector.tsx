@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { Layer } from './Layer';
 import { Header } from './Header';
 
-import { Item } from './Item';
+import { Options } from './Options';
 
 import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
 
@@ -17,23 +17,7 @@ export const WeekSelector: React.FC<Props> = () => {
       <Wrapper>
         <Header />
         <HorizontalDivider />
-        <ItemWrapper>
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-          <Item />
-        </ItemWrapper>
+        <Options />
       </Wrapper>
     </>
   );
@@ -51,9 +35,4 @@ const Wrapper = styled.section`
   display: flex;
   padding-bottom: 20px;
   flex-direction: column;
-`;
-
-const ItemWrapper = styled.div`
-  overflow: auto;
-  max-height: 375px;
 `;

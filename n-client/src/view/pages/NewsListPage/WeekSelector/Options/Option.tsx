@@ -3,13 +3,19 @@ import styled from 'styled-components';
 
 import { Check } from '~nclient/view/atoms/styles/Icons';
 
-interface Props {}
+interface Props {
+  year: string;
+  month: string;
+  week: string;
+  selected?: boolean;
+}
 
-export const Item: React.FC<Props> = () => {
+export const Option: React.FC<Props> = ({ year, month, week, selected }) => {
   return (
     <Wrapper>
-      <Label>2019년 11월 03주</Label>
-      <SelectedIcon />
+      {/* eslint-disable-next-line @typescript-eslint/no-magic-numbers */}
+      <Label>{`${year}년 ${month.padStart(2, '0')}월 ${week.padStart(2, '0')}주`}</Label>
+      {selected && <SelectedIcon />}
     </Wrapper>
   );
 };
