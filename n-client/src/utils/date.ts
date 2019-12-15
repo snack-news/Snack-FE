@@ -1,8 +1,17 @@
-import dateFnsFormatOrg from 'date-fns/format';
-import getWeekOfMonthOrg from 'date-fns/getWeekOfMonth';
-import memoize from 'lodash/memoize';
+import { getWeekOfMonth, format as dateFnsFormat } from 'date-fns';
 
-const WW_MAX_LENGTH = 2;
+export const SECOUND = 1000;
+export const MINUTE = 60 * SECOUND;
+export const HOURS = 60 * MINUTE;
+export const DAY = 24 * HOURS;
+
+export const SUNDAY = 0;
+export const MONDAY = 1;
+export const Tuesday = 2;
+export const wednesday = 3;
+export const ThursDay = 4;
+export const Friday = 5;
+export const Saturday = 6;
 
 /**
  * 참고: https://date-fns.org/v2.6.0/docs/format
@@ -13,18 +22,24 @@ const WW_MAX_LENGTH = 2;
  * WW: 01 02 03 04 (주)
  * @param param0
  */
-export const format: dateFns['format'] = memoize((date, formatStr, options) =>
-  dateFnsFormat(date, formatWeekOfMonth(date, formatStr, options), options)
-);
+export const format: dateFns['format'] = (date, formatStr, options) =>
+  dateFnsFormat(date, formatWeekOfMonth(date, formatStr, options), options);
 
-const formatWeekOfMonth: dateFns['format'] = memoize(
-  (date, formatStr, options) =>
-    formatStr.replace(/W{1,2}/g, match => {
-      const w = getWeekOfMonth(date, options);
-      return match === 'WW' ? `${w}`.padStart(WW_MAX_LENGTH, '0') : `${w}`;
-    })
-);
+const formatWeekOfMonth: dateFns['format'] = (date, formatStr, options) =>
+  formatStr.replace(/W{1,2}/g, match => {
+    const w = getWeekOfMonth(date, options);
+    return match === 'WW' ? `${w}`.padStart(2, '0') : `${w}`;
+  });
 
-const dateFnsFormat = memoize(dateFnsFormatOrg);
+export const getNextWeekDay = (startDate: Date, targetWeekDay: number): Date => {
+  const currentWeekDay = startDate.getDay();
+  const diff =
+    targetWeekDay >= currentWeekDay
+      ? targetWeekDay - currentWeekDay
+      : 7 + targetWeekDay - currentWeekDay;
 
-const getWeekOfMonth = memoize(getWeekOfMonthOrg);
+  return new Date(startDate.getTime() + DAY * diff);
+};
+
+export const getLastDateOfMonth = (date: Date): Date =>
+  new Date(date.getFullYear(), date.getMonth() + 1, 0);
