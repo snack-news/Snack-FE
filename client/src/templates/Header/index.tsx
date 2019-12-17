@@ -1,12 +1,15 @@
 import React, { ReactElement, FunctionComponent } from 'react';
 import styled from 'styled-components';
 
+import useReactRouter from 'use-react-router';
+
+import { Link } from 'react-router-dom';
+
 import { BothMarginWrapper, RowListLayout } from '~client/layouts/index';
 
 import { logoImg, MenuImg, backBlueArrowImg } from '~client/resources/index';
-import { Link } from 'react-router-dom';
+
 import { routes } from '~client/config/routes';
-import useReactRouter from 'use-react-router';
 
 // Header 컴포넌트
 interface IHeaderProps {
@@ -53,7 +56,9 @@ interface IHeaderLayoutProps {
   };
 }
 
-const HeaderLayout: FunctionComponent<IHeaderLayoutProps> = ({ children: { logo, menu, backArrow, title } }) => {
+const HeaderLayout: FunctionComponent<IHeaderLayoutProps> = ({
+  children: { logo, menu, backArrow, title },
+}) => {
   if (title) {
     return (
       <HeaderLayoutWrapper>
@@ -90,7 +95,7 @@ const BackArrow = styled.img.attrs({ src: backBlueArrowImg })`
 
 // Logo 컴포넌트
 const Logo = styled.img.attrs({ src: logoImg })`
-  height: 28px;
+  height: 20px;
 `;
 
 // Menu 컴포넌트

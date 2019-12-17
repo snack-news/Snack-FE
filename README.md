@@ -1,3 +1,8 @@
+## branch
+- **new: refactoring brnach (대체 예정)**
+- master: release branch
+- dev: dev branch
+
 # snack-fe 
 
 Snack News FE 코드입니다.

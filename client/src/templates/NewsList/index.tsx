@@ -72,7 +72,6 @@ const useNewsListState = (
 
   useEffect(() => {
     if (latestNewsListState.status !== 'pending') {
-
       setNewsList(oldNewsList => [
         ...oldNewsList,
         ...latestNewsListState.newsList,
