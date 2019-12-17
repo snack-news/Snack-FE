@@ -1,26 +1,29 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 import { ArrowLink } from '~nclient/view/atoms/styles/Icons';
 
-interface Props {}
+interface Props {
+  to: string;
+  image?: string;
+}
 
-export const Corp: React.FC<Props> = () => {
-  return (
-    <Wrapper>
-      <CorpIconWrapper>
-        <CorpIcon src="https://snak.news/logo/woowa.svg" />
-      </CorpIconWrapper>
-      <Label>nesoy</Label>
-      <ArrowLinkIcon />
-    </Wrapper>
-  );
-};
+export const Corp: React.FC<Props> = ({ to, image, children }) => (
+  <CorpLink to={to}>
+    <CorpIconWrapper>
+      <CorpIcon src={image} />
+    </CorpIconWrapper>
+    <Label>{children}</Label>
+    <ArrowLinkIcon />
+  </CorpLink>
+);
 
-const Wrapper = styled.a`
+const CorpLink = styled(Link)`
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
 
   margin: 12px 20px 12px 20px;
 `;

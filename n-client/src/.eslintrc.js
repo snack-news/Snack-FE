@@ -7,7 +7,7 @@ module.exports = {
     '../../tools/eslint/templates/eslintrc.typescript'
   ],
   env: {
-    'shared-node-browser': true,
+    browser: true,
   },
   rules: {
     'import/no-extraneous-dependencies': [

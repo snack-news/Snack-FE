@@ -14,7 +14,7 @@ const scss = require('~tools/webpack/webpack.config.scss');
 
 module.exports = merge(
   {
-    entry: path.resolve(__dirname, 'src/index.ts'),
+    entry: path.resolve(__dirname, 'src/dev.ts'),
     output: {
       filename: 'index.js',
       path: path.resolve(__dirname, 'dist'),

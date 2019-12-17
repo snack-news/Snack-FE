@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { BrowserRouter } from 'react-router-dom';
-
 import { App } from '~nclient/view/App';
 
 // eslint-disable-next-line no-undef
@@ -12,9 +10,4 @@ if (rootDOM === null) {
   throw new Error('rootDOM 을 찾지 못하였습니다.');
 }
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  rootDOM
-);
+ReactDOM.render(<App />, rootDOM);
