@@ -6,10 +6,16 @@ import { Logo } from '~nclient/view/atoms/styles/Icons';
 
 const LogoStyled = styled(Logo)`
   display: block;
-  width: 72px;
+  height: 20px;
 `;
 
 export const LogoAnchor = styled(Link).attrs({
   children: <LogoStyled />,
   to: '/',
-})``;
+})`
+  display: flex;
+  align-items: center;
+
+  padding: 0px 20px;
+  height: 100%;
+`;

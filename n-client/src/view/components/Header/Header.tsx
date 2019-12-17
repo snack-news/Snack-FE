@@ -22,5 +22,7 @@ const HeaderStyled = styled.header`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 16px 20px;
+  align-items: center;
+  height: 66px;
+  box-sizing: border-box;
 `;

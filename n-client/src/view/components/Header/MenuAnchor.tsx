@@ -6,7 +6,7 @@ import { Menu } from '~nclient/view/atoms/styles/Icons';
 
 const MenuStyeld = styled(Menu)`
   display: block;
-  width: 18px;
+  width: 16px;
   margin: 6px;
 `;
 
@@ -14,8 +14,10 @@ export const MenuAnchor = styled(Link).attrs({
   children: <MenuStyeld />,
   to: '/menu',
 })`
-  padding: 0;
-  border: 0;
-  margin: 0;
+  display: flex;
+  align-items: center;
+
   background-color: transparent;
+  padding: 0px 20px;
+  height: 100%;
 `;
