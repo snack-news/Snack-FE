@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 
 import { Option } from '~nclient/view/components/DrawerSelector';
-import { format, SUNDAY, DAY, getNextWeekDay, getLastDateOfMonth } from '~nclient/utils/date';
+import { format, dateToString, getNextStartDateTime, getEndDateTime } from '~nclient/utils/date';
 
 export const useWeeks = () => {
   const weeks = useMemo(getWeekOfMonthList, []);
@@ -36,19 +36,3 @@ const createWeekRange = (startDateTime: Date | number, endDateTime: Date | numbe
     label: format(startDateTime, 'MM월 WW주'),
   };
 };
-
-const getNextStartDateTime = (startDateTime: number) =>
-  getEndDateTime(startDateTime).getTime() + DAY;
-
-const getEndDateTime = (startDateTime: number): Date => {
-  const startDate = new Date(startDateTime);
-  const nextWeekDay = getNextWeekDay(startDate, SUNDAY);
-
-  if (startDate.getMonth() === nextWeekDay.getMonth()) {
-    return nextWeekDay;
-  }
-
-  return getLastDateOfMonth(startDate);
-};
-
-const dateToString = (date: Date | number) => format(date, 'yyyy-MM-dd[T]hh:mm');

@@ -11,11 +11,12 @@ export const Routes = () => (
   <BrowserRouter>
     <Switch>
       <Route path="/" exact component={NewsListPage} />
+      <Route path="/newslist/:year/:month/week/:week" exact component={NewsListPage} />
       <Route path="/menu" component={MenuPage} />
       <Route path="/corps" component={CorpsPage} />
       <Route path="/about" component={AboutPage} />
       <Route path="/contact" component={ContactPage} />
-      <Route path="/corp/:id" component={NewsListPage} />
+      <Route path="/corp/:corpId" component={NewsListPage} />
     </Switch>
   </BrowserRouter>
 );

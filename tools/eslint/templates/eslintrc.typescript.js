@@ -1,9 +1,7 @@
 /* eslint-disable max-lines */
 
-const airbnbBaseStyleRules = require('eslint-config-airbnb-base/rules/style')
-  .rules;
-const airbnbBaseVariablesRules = require('eslint-config-airbnb-base/rules/variables')
-  .rules;
+const airbnbBaseStyleRules = require('eslint-config-airbnb-base/rules/style').rules;
+const airbnbBaseVariablesRules = require('eslint-config-airbnb-base/rules/variables').rules;
 
 module.exports = {
   rules: {
@@ -20,13 +18,12 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
     indent: 'off',
-    '@typescript-eslint/indent': airbnbBaseStyleRules.indent,
+    '@typescript-eslint/indent': 'off',
     '@typescript-eslint/interface-name-prefix': 'off',
     '@typescript-eslint/member-delimiter-style': 'off',
     '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
     'no-array-constructor': 'off',
-    '@typescript-eslint/no-array-constructor':
-      airbnbBaseStyleRules['no-array-constructor'],
+    '@typescript-eslint/no-array-constructor': airbnbBaseStyleRules['no-array-constructor'],
     '@typescript-eslint/no-empty-interface': 'off',
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-inferrable-types': 'off',
@@ -37,8 +34,7 @@ module.exports = {
     '@typescript-eslint/no-parameter-properties': 'off',
     '@typescript-eslint/no-triple-slash-reference': 'off',
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars':
-      airbnbBaseVariablesRules['no-unused-vars'],
+    '@typescript-eslint/no-unused-vars': airbnbBaseVariablesRules['no-unused-vars'],
     '@typescript-eslint/no-use-before-define': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     '@typescript-eslint/prefer-interface': 'off',
@@ -50,9 +46,6 @@ module.exports = {
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': 'error',
     'no-magic-numbers': 'off',
-    '@typescript-eslint/no-magic-numbers': [
-      'warn',
-      { ignoreNumericLiteralTypes: true },
-    ],
+    '@typescript-eslint/no-magic-numbers': ['warn', { ignoreNumericLiteralTypes: true }],
   },
 };

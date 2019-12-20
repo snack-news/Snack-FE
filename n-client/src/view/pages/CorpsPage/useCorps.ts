@@ -1,5 +1,5 @@
-import useSWR from 'swr';
-import { oc } from 'ts-optchain';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 interface ICrop {
   id: number;
@@ -9,9 +9,18 @@ interface ICrop {
 }
 
 export const useCorps = () => {
-  const URL = '/api/topic/corp';
+  const [corps, setCorps] = useState();
+  useEffect(() => {
+    const fetchCorps = async () => {
+      const URL = '/api/topic/corp';
 
-  const { data, error } = useSWR<{data: ICrop[]}>(URL);
+      const res = await axios.get<{ data: ICrop[] }>(URL);
 
-  return { corps: oc(data).data(), error };
+      setCorps(res.data.data);
+    };
+
+    fetchCorps();
+  }, []);
+
+  return corps;
 };

@@ -1,5 +1,16 @@
 import { getWeekOfMonth, format as dateFnsFormat } from 'date-fns';
 
+export interface WeekRange {
+  year: string;
+  month: string;
+  week: string;
+}
+
+export interface DateRange {
+  startDateTime: Date;
+  endDateTime: Date;
+}
+
 export const SECOUND = 1000;
 export const MINUTE = 60 * SECOUND;
 export const HOURS = 60 * MINUTE;
@@ -12,6 +23,8 @@ export const wednesday = 3;
 export const ThursDay = 4;
 export const Friday = 5;
 export const Saturday = 6;
+
+export const dateToString = (date: Date | number) => format(date, 'yyyy-MM-dd[T]hh:mm');
 
 /**
  * 참고: https://date-fns.org/v2.6.0/docs/format
@@ -31,7 +44,24 @@ const formatWeekOfMonth: dateFns['format'] = (date, formatStr, options) =>
     return match === 'WW' ? `${w}`.padStart(2, '0') : `${w}`;
   });
 
-export const getNextWeekDay = (startDate: Date, targetWeekDay: number): Date => {
+export const getNextStartDateTime = (startDateTime: number) =>
+  getEndDateTime(startDateTime).getTime() + DAY;
+
+export const getEndDateTime = (startDateTime: number): Date => {
+  const startDate = new Date(startDateTime);
+  const nextWeekDay = getNextWeekDay(startDate, SUNDAY);
+
+  if (startDate.getMonth() === nextWeekDay.getMonth()) {
+    return nextWeekDay;
+  }
+
+  return getLastDateOfMonth(startDate);
+};
+
+const getLastDateOfMonth = (date: Date): Date =>
+  new Date(date.getFullYear(), date.getMonth() + 1, 0);
+
+const getNextWeekDay = (startDate: Date, targetWeekDay: number): Date => {
   const currentWeekDay = startDate.getDay();
   const diff =
     targetWeekDay >= currentWeekDay
@@ -40,6 +70,3 @@ export const getNextWeekDay = (startDate: Date, targetWeekDay: number): Date => 
 
   return new Date(startDate.getTime() + DAY * diff);
 };
-
-export const getLastDateOfMonth = (date: Date): Date =>
-  new Date(date.getFullYear(), date.getMonth() + 1, 0);
