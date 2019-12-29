@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { OptionComponent, Option } from './OptionComponent';
+import { OptionItem } from './OptionItem';
+import { Option } from '../../Option';
 
 interface Props {
   onClickOption?: (option: Option) => void;
@@ -12,14 +13,13 @@ interface Props {
 export const Options: React.FC<Props> = ({ onClickOption, options, value }) => (
   <Wrapper>
     {options.map(option => (
-      <OptionComponent
+      <OptionItem
         key={option.value}
-        value={option.value}
-        label={option.label}
-        optionLabel={option.optionLabel}
-        onClick={onClickOption}
+        onClick={() => onClickOption && onClickOption(option)}
         selected={option.value === value}
-      />
+      >
+        {option.optionLabel}
+      </OptionItem>
     ))}
   </Wrapper>
 );

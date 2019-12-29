@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import { paleGrey } from '../styles/colors';
+import { paleGrey } from '~nclient/view/atoms/styles/colors';
 
 interface IHorizontalDividerProps {
   thick?: boolean;

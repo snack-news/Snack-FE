@@ -14,7 +14,9 @@ export const SelectWeekRange: React.FC<Props> = () => {
     <DrawerSelector
       options={weeks}
       value={week}
-      onChange={({ value }) => setWeek(value)}
+      onClickOption={({ value }) => {
+        if (value !== week) setWeek(value);
+      }}
       header="조회할 주 선택"
       labelStyle={{
         padding: '0px 20px',

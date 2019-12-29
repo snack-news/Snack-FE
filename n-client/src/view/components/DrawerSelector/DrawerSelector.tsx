@@ -1,13 +1,14 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import { oc } from 'ts-optchain';
 
-import { DrawerOptions, Option } from './DrawerOptions';
+import { DrawerOptions } from './DrawerOptions';
 import { Label } from './Label';
+import { Option } from './Option';
 
 interface Props {
   options: Option[];
   value?: string;
-  onChange?: (option: Option) => void;
+  onClickOption?: (option: Option) => void;
   header: string;
   labelStyle?: React.CSSProperties;
 }
@@ -15,12 +16,23 @@ interface Props {
 export const DrawerSelector: React.FC<Props> = ({
   options,
   value,
-  onChange,
+  onClickOption,
   header,
   labelStyle,
 }) => {
   const [showOptions, setShowOptions] = useState(false);
-  const option = useMemo(() => {
+
+  const closeHandler = useCallback(() => setShowOptions(false), []);
+  const clickOptionHandler = useCallback(
+    (option: Option) => {
+      if (onClickOption) onClickOption(option);
+
+      setShowOptions(false);
+    },
+    [onClickOption]
+  );
+
+  const selectedOption = useMemo(() => {
     const newOption = options.find(o => o.value === value);
     return newOption;
   }, [options, value]);
@@ -28,20 +40,17 @@ export const DrawerSelector: React.FC<Props> = ({
   return (
     <>
       <Label onClick={() => setShowOptions(true)} style={labelStyle}>
-        {oc(option).label('선택된 값이 없습니다')}
+        {oc(selectedOption).label('선택된 값이 없습니다')}
       </Label>
 
       {showOptions && (
         <DrawerOptions
           header={header}
-          onClose={() => setShowOptions(false)}
-          onClickOption={(...args) => {
-            if (onChange) onChange(...args);
-            setShowOptions(false);
-          }}
-          onClickLayer={() => setShowOptions(false)}
           options={options}
-          value={oc(option).value()}
+          value={oc(selectedOption).value()}
+          onClose={closeHandler}
+          onClickOption={clickOptionHandler}
+          onClickLayer={closeHandler}
         />
       )}
     </>

@@ -1,7 +1,8 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-import { MenuItem } from './MenuItem';
+import { dark } from '~nclient/view/atoms/styles/colors';
 
 interface Props {}
 
@@ -21,6 +22,20 @@ const MenuItemListWrapper = styled.nav`
   padding-bottom: 20px;
   padding-right: 40px;
   padding-left: 40px;
+
+  font-family: 'Noto Sans KR', sans-serif;
+`;
+
+const MenuItem = styled(Link)`
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  list-style: none;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: normal;
+  text-decoration: none;
+  color: ${dark};
 
   font-family: 'Noto Sans KR', sans-serif;
 `;

@@ -81,6 +81,7 @@
     "date-fns": "^2.8.1",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
+    "dotenv-defaults": "^1.0.3",
     "file-loader": "^4.3.0",
     "get-port": "^5.0.0",
     "got": "^9.6.0",

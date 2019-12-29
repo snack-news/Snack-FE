@@ -2,17 +2,17 @@ import React, { FC } from 'react';
 
 import { Nav } from './Nav';
 import { Corp } from './Corp';
-import { useCorps } from './useCorps';
 
 import { Header } from '~nclient/view/components/Header';
-import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
+import { HorizontalDivider } from '~nclient/view/components/HorizontalDivider';
 import { PageLayout } from '~nclient/view/components/PageLayout';
 import { Root } from '~nclient/view/components/Root';
+import { useCorps } from '~nclient/hooks/useCorps';
 
 interface Props {}
 
 export const CorpsPage: FC<Props> = () => {
-  const { corps } = useCorps();
+  const corps = useCorps();
 
   return (
     <Root>

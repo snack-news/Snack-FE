@@ -2,11 +2,10 @@ import React from 'react';
 
 import { Header } from './Header';
 import { Options } from './Options';
+import { BottomDrawer } from './BottomDrawer';
+import { Option } from '../Option';
 
-import { Option } from './Options/OptionComponent';
-
-import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
-import { BottomDrawer } from '~nclient/view/components/Drawer';
+import { HorizontalDivider } from '~nclient/view/components/HorizontalDivider';
 
 interface Props {
   header: string;

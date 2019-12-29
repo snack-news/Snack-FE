@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { ArrowLink } from '~nclient/view/atoms/styles/Icons';
+import { arrowLinkImg } from '~nclient/resources';
 
 interface Props {
   to: string;
@@ -54,6 +54,6 @@ const Label = styled.span`
   color: rgb(18, 17, 17);
 `;
 
-const ArrowLinkIcon = styled(ArrowLink)`
+const ArrowLinkIcon = styled.img.attrs({ src: arrowLinkImg })`
   width: 8px;
 `;

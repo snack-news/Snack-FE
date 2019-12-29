@@ -24,7 +24,7 @@ interface URLParamsWithCorpId {
 
 export const useNewsList = () => {
   const urlParms = useParams<URLParams>();
-  const requestParams = urlParamsToRequestParams(urlParms);
+  const { startDateTime, endDateTime } = urlParamsToRequestParams(urlParms);
 
   const [newsList, setNewsList] = useState<News[]>();
 
@@ -33,18 +33,19 @@ export const useNewsList = () => {
       const URL = '/api/news';
 
       const res = await axios.get<{ data: News[] }>(URL, {
-        params: requestParams,
+        params: { startDateTime, endDateTime },
       });
 
       setNewsList(res.data.data);
     };
 
     fetchCorps();
-  }, [requestParams]);
+  }, [endDateTime, startDateTime]);
 
   return newsList;
 };
 
+// TODO
 const urlParamsToRequestParams = (urlParams: URLParams): RequestParams => {
   const startDateTime = '2019-12-09T00:00';
   const endDateTime = '2019-12-15T23:59';

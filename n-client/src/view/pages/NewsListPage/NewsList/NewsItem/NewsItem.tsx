@@ -7,7 +7,7 @@ import { NewsArticle } from './NewsArticle';
 import { NewsFooter } from './NewsFooter';
 import { NewsMeta } from './NewsMeta';
 
-import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
+import { HorizontalDivider } from '~nclient/view/components/HorizontalDivider';
 
 interface Props {
   news: News;

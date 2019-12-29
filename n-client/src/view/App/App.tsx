@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '~nclient/common';
+import './common';
 
 import { Meta } from './Meta';
 import { Routes } from './Routes';

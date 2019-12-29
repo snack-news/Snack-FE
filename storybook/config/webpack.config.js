@@ -3,10 +3,10 @@ const merge = require('webpack-merge');
 
 const babelConfig = require('./babelrc');
 
-const common = require('~tools/webpack/webpack.config.common');
-const font = require('~tools/webpack/webpack.config.font');
-const img = require('~tools/webpack/webpack.config.img');
-const scss = require('~tools/webpack/webpack.config.scss');
+const common = require('~tools/webpack/config/webpack.config.common');
+const font = require('~tools/webpack/config/webpack.config.font');
+const img = require('~tools/webpack/config/webpack.config.img');
+const scss = require('~tools/webpack/config/webpack.config.scss');
 
 module.exports = ({ config }) => {
   const newConfig = merge(

@@ -17,6 +17,8 @@ npm run build
 npm run server
 ```
 
+## .env
+
 ## 마크업 개발환경
 1. `npm i -g nps`
 

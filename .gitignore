@@ -293,3 +293,5 @@ lerna-debug.log
 ./public/dist
 .storybook-static
 .idea
+
+env/env.js

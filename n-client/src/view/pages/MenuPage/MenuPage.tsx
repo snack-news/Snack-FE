@@ -4,7 +4,7 @@ import { Header } from './Header';
 import { MenuItemList } from './MenuItemList';
 import { Footer } from './Footer';
 
-import { HorizontalDivider } from '~nclient/view/atoms/Figures/HorizontalDivider';
+import { HorizontalDivider } from '~nclient/view/components/HorizontalDivider';
 import { PageLayout } from '~nclient/view/components/PageLayout';
 import { Root } from '~nclient/view/components/Root';
 

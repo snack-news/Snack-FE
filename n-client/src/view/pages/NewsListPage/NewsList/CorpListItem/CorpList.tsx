@@ -3,19 +3,19 @@ import styled from 'styled-components';
 
 import { Corp } from './Corp';
 
+import { useCorps } from '~nclient/hooks/useCorps';
+
 interface Props {}
 
 export const CorpList: FC<Props> = () => {
+  const corps = useCorps();
+  if (!corps) return null;
+
   return (
     <Wrapper>
-      <Corp />
-      <Corp />
-      <Corp />
-      <Corp />
-      <Corp />
-      <Corp />
-      <Corp />
-      <Corp />
+      {corps.map(({ name, image, id }) => (
+        <Corp name={name} image={image} key={id} />
+      ))}
     </Wrapper>
   );
 };

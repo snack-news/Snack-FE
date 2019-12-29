@@ -3,18 +3,19 @@ import styled from 'styled-components';
 
 import { slateGrey } from '~nclient/view/atoms/styles/colors';
 
-interface Props {}
+interface Props {
+  name: string;
+  image: string;
+}
 
-export const Corp: FC<Props> = () => {
-  return (
-    <Wrapper>
-      <CorpLogoWrapper>
-        <CorpLogo src="https://snak.news/logo/woowa.svg" />
-      </CorpLogoWrapper>
-      <Label>nesoy</Label>
-    </Wrapper>
-  );
-};
+export const Corp: FC<Props> = ({ name, image }) => (
+  <Wrapper>
+    <CorpLogoWrapper>
+      <CorpLogo src={image} />
+    </CorpLogoWrapper>
+    <Label>{name}</Label>
+  </Wrapper>
+);
 
 const Wrapper = styled.a`
   padding-top: 12px;

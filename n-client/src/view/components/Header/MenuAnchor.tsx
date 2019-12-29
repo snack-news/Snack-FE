@@ -1,23 +1,26 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { Menu } from '~nclient/view/atoms/styles/Icons';
+import { MenuImg } from '~nclient/resources';
 
-const MenuStyeld = styled(Menu)`
-  display: block;
-  width: 16px;
-  margin: 6px;
-`;
+export const MenuAnchor: FC = () => (
+  <StyledLink to="/menu">
+    <MenuIcon />
+  </StyledLink>
+);
 
-export const MenuAnchor = styled(Link).attrs({
-  children: <MenuStyeld />,
-  to: '/menu',
-})`
+const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
 
   background-color: transparent;
   padding: 0px 20px;
   height: 100%;
+`;
+
+const MenuIcon = styled.img.attrs({ src: MenuImg })`
+  display: block;
+  width: 16px;
+  margin: 6px;
 `;

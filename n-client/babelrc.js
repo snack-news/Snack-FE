@@ -1,8 +1,19 @@
 const merge = require('babel-merge');
 
-const common = require('~tools/babel/templates/babel.config.common');
-const browser = require('~tools/babel/templates/babel.config.browser');
-const react = require('~tools/babel/templates/babel.config.react');
-const typescript = require('~tools/babel/templates/babel.config.typescript');
+const browser = require('~tools/babel/config/babel.config.browser');
+const styled = require('~tools/babel/config/babel.config.styled');
+const react = require('~tools/babel/config/babel.config.react');
+const typescript = require('~tools/babel/config/babel.config.typescript');
 
-module.exports = merge.all([common, browser, react, typescript]);
+// TODO env 값을 이용하여 빌드 방식 변경
+
+module.exports = merge.all([
+  browser,
+  styled,
+  react,
+  typescript,
+  {
+    inputSourceMap: true,
+    sourceMaps: true,
+  },
+]);

@@ -1,7 +1,7 @@
 const PATHS = require('~root/PATHS');
 
 module.exports = {
-  extends: ['./tools/eslint/templates/eslintrc.common.js'],
+  extends: ['./tools/eslint/config/eslintrc.common.js'],
   env: {
     node: true,
   },

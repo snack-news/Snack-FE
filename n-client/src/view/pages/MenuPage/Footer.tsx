@@ -1,58 +1,29 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
+import { Link } from 'react-router-dom';
+
 import {
-  FacebookWhite,
-  TwitterWhite,
-  KakaoWhite,
-  EmailWhite,
-} from '~nclient/view/atoms/styles/Icons';
+  facebookWhiteImg,
+  twitterWhiteImg,
+  kakaoWhiteImg,
+  emailWhiteImg,
+} from '~nclient/resources';
 
 interface Props {}
 
-export const Footer: React.FC<Props> = () => {
+export const ContactList: React.FC<Props> = () => {
   return (
     <Wrapper>
-      <Contact href="/">
-        <FacebookWhite
-          css={`
-            width: 40px;
-            height: 40px;
-          `}
-        />
-      </Contact>
-
-      <Contact href="/">
-        <TwitterWhite
-          css={`
-            width: 40px;
-            height: 40px;
-          `}
-        />
-      </Contact>
-
-      <Contact href="/">
-        <KakaoWhite
-          css={`
-            width: 40px;
-            height: 40px;
-          `}
-        />
-      </Contact>
-
-      <Contact href="/">
-        <EmailWhite
-          css={`
-            width: 40px;
-            height: 40px;
-          `}
-        />
-      </Contact>
+      <Contact to="https://www.facebook.com/groups/snacknews/" icon={facebookWhiteImg} />
+      <Contact to="https://twitter.com/techsnacknews" icon={twitterWhiteImg} />
+      <Contact to="https://open.kakao.com/o/gKIXUx0" icon={kakaoWhiteImg} />
+      <Contact to="mailto:teamsnackofficial@gmail.com" icon={emailWhiteImg} />
     </Wrapper>
   );
 };
 
-const Wrapper = styled.footer`
+const Wrapper = styled.section`
   display: flex;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -65,4 +36,20 @@ const Wrapper = styled.footer`
   }
 `;
 
-const Contact = styled.a``;
+interface ContactProps {
+  to: string;
+  icon: string;
+}
+
+const Contact: FC<ContactProps> = ({ to, icon }) => {
+  return (
+    <Link to={to}>
+      <ContactIcon src={icon} />
+    </Link>
+  );
+};
+
+const ContactIcon = styled.img`
+  width: 40px;
+  height: 40px;
+`;

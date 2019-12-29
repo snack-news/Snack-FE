@@ -1,21 +1,24 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { Logo } from '~nclient/view/atoms/styles/Icons';
+import { logoImg } from '~nclient/resources';
 
-const LogoStyled = styled(Logo)`
-  display: block;
-  height: 20px;
-`;
+export const LogoAnchor: FC = () => (
+  <StyledLink to="/">
+    <LogoIcon />
+  </StyledLink>
+);
 
-export const LogoAnchor = styled(Link).attrs({
-  children: <LogoStyled />,
-  to: '/',
-})`
+const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
 
   padding: 0px 20px;
   height: 100%;
+`;
+
+const LogoIcon = styled.img.attrs({ src: logoImg })`
+  display: block;
+  height: 20px;
 `;

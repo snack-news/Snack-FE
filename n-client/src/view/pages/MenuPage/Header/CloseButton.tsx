@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { useHistory } from 'react-router';
 
-import { ExitWhite } from '~nclient/view/atoms/styles/Icons';
+import { exitWhiteImg } from '~nclient/resources';
 
 interface Props {}
 
@@ -15,17 +15,18 @@ export const CloseButton: FC<Props> = () => {
 
   return (
     <Button onClick={clickHandler}>
-      <ExitWhiteStyeld />
+      <ExitWhiteIcon />
     </Button>
   );
 };
 
-const ExitWhiteStyeld = styled(ExitWhite)`
+const ExitWhiteIcon = styled.img.attrs({ src: exitWhiteImg })`
   display: block;
   width: 18px;
   margin: 6px;
 `;
 
+// TODO 빈 스타일 버튼 코드로 분리
 const Button = styled.button`
   padding: 0;
   border: 0;

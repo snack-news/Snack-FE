@@ -1,22 +1,23 @@
 import React from 'react';
-
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-import { Content } from '~nclient/view/atoms/styles/Icons/index';
+import { contentImg } from '~nclient/resources';
 
 interface Props {}
 
 export const IndexPageAnchor: React.FC<Props> = () => {
-  return <ContentAnchor />;
+  return (
+    <StyledLink to="/">
+      <ContentIcon />
+    </StyledLink>
+  );
 };
 
-const ContentStyled = styled(Content)`
+const StyledLink = styled(Link)``;
+
+const ContentIcon = styled.img.attrs({ src: contentImg })`
   display: block;
   width: 26px;
   padding: 10px 20px;
 `;
-
-const ContentAnchor = styled.a.attrs({
-  children: <ContentStyled />,
-  href: '/',
-})``;

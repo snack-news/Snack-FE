@@ -5,15 +5,18 @@ import { coolGrey, brightBlue } from '~nclient/view/atoms/styles/colors';
 
 interface Props {}
 
+// TODO 링크 상수 정리
+// TODO 문의하기 페이지 없음
+
 export const LinkListItem: React.FC<Props> = () => {
   return (
     <Wrapper>
       <LinkList>
-        <Link href="/">서비스 안내</Link>
+        <Link href="/about">서비스 안내</Link>
         <Divider />
-        <Link href="/">제안하기</Link>
-        <Divider />
-        <Link href="/">문의하기</Link>
+        <Link href="/contact">제안하기</Link>
+        {/* <Divider /> */}
+        {/* <Link href="/">문의하기</Link> */}
       </LinkList>
       <Copyright />
     </Wrapper>

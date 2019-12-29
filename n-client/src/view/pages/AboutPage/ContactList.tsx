@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { FacebookBlue, TwitterBlue, KakaoBlue, EmailBlue } from '~nclient/view/atoms/styles/Icons';
+import { Link } from 'react-router-dom';
+
+import { facebookBlueImg, twitterBlueImg, kakaoBlueImg, emailBlueImg } from '~nclient/resources';
 
 interface Props {}
 
@@ -10,41 +12,10 @@ export const ContactList: React.FC<Props> = () => {
     <Wrapper>
       <Title />
       <ContactLinksWrapper>
-        <Contact href="/">
-          <FacebookBlue
-            css={`
-              width: 40px;
-              height: 40px;
-            `}
-          />
-        </Contact>
-
-        <Contact href="/">
-          <TwitterBlue
-            css={`
-              width: 40px;
-              height: 40px;
-            `}
-          />
-        </Contact>
-
-        <Contact href="/">
-          <KakaoBlue
-            css={`
-              width: 40px;
-              height: 40px;
-            `}
-          />
-        </Contact>
-
-        <Contact href="/">
-          <EmailBlue
-            css={`
-              width: 40px;
-              height: 40px;
-            `}
-          />
-        </Contact>
+        <Contact to="https://www.facebook.com/groups/snacknews/" icon={facebookBlueImg} />
+        <Contact to="https://twitter.com/techsnacknews" icon={twitterBlueImg} />
+        <Contact to="https://open.kakao.com/o/gKIXUx0" icon={kakaoBlueImg} />
+        <Contact to="mailto:teamsnackofficial@gmail.com" icon={emailBlueImg} />
       </ContactLinksWrapper>
     </Wrapper>
   );
@@ -69,4 +40,20 @@ const ContactLinksWrapper = styled.div`
   justify-content: space-between;
 `;
 
-const Contact = styled.a``;
+interface ContactProps {
+  to: string;
+  icon: string;
+}
+
+const Contact: FC<ContactProps> = ({ to, icon }) => {
+  return (
+    <Link to={to}>
+      <ContactIcon src={icon} />
+    </Link>
+  );
+};
+
+const ContactIcon = styled.img`
+  width: 40px;
+  height: 40px;
+`;

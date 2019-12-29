@@ -5,13 +5,13 @@ const path = require('path');
 
 const babelConfig = require('./babelrc');
 
-const common = require('~tools/webpack/webpack.config.common');
-const browser = require('~tools/webpack/webpack.config.browser');
-const devserver = require('~tools/webpack/webpack.config.devserver');
-const font = require('~tools/webpack/webpack.config.font');
-const htmlTemplate = require('~tools/webpack/webpack.config.htmlTemplate');
-const img = require('~tools/webpack/webpack.config.img');
-const scss = require('~tools/webpack/webpack.config.scss');
+const common = require('~tools/webpack/config/webpack.config.common');
+const browser = require('~tools/webpack/config/webpack.config.browser');
+const devserver = require('~tools/webpack/config/webpack.config.devserver');
+const font = require('~tools/webpack/config/webpack.config.font');
+const htmlTemplate = require('~tools/webpack/config/webpack.config.htmlTemplate');
+const img = require('~tools/webpack/config/webpack.config.img');
+const scss = require('~tools/webpack/config/webpack.config.scss');
 
 module.exports = merge(
   {

@@ -9,7 +9,7 @@ export const PlatformLinkListItem: FC<Props> = () => {
   return (
     <Wrapper>
       <Header>
-        <Title />
+        <Title>스낵뉴스를 원하는 플랫폼에서 챙겨보세요</Title>
       </Header>
       <PlatformLinkList />
     </Wrapper>
@@ -32,7 +32,7 @@ const Header = styled.header`
   justify-content: space-between;
 `;
 
-const Title = styled.h2.attrs({ children: '스낵뉴스를 원하는 플랫폼에서 챙겨보세요' })`
+const Title = styled.h2`
   font-size: 17px;
   font-weight: 600;
   color: black;

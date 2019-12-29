@@ -1,16 +1,8 @@
-import React from 'react';
+import styled from 'styled-components';
 
-import { LogoWhiteFooter } from '~nclient/view/atoms/styles/Icons';
+import { LogoWhiteFooterImg } from '~nclient/resources';
 
-interface Props {}
-
-export const Logo: React.FC<Props> = () => {
-  return (
-    <LogoWhiteFooter
-      css={`
-        width: 179px;
-        margin: 0px auto;
-      `}
-    />
-  );
-};
+export const Logo = styled.img.attrs({ src: LogoWhiteFooterImg })`
+  width: 179px;
+  margin: 0px auto;
+`;

@@ -1,20 +1,9 @@
 {
-  // eslint config
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    { "language": "typescript", "autoFix": true },
-    { "language": "typescriptreact", "autoFix": true }
-  ],
   "eslint.workingDirectories": [
     ".", "./client/src", "./server/src", "./storybook"
   ],
   "editor.codeActionsOnSave": {
-    // 사용하지 않는 import 구문을 저장할때 자동으로 제거해주고 정렬해주는 옵션
-    // 정렬시 eslint import/order 와 충돌이 나서 쓰지 못함.
-    // 추후 좋은 방법이 있으면 개선 필요.
-		// "source.organizeImports": true
-	},
+    "source.fixAll.eslint": true
+  },
   "eslint.enable": true
 }
