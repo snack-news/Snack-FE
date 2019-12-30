@@ -1,9 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { black } from '~nclient/view/atoms/styles/colors';
-import { Medium } from '~nclient/view/atoms/styles/fonts';
-import { DownarrowFilter } from '~nclient/view/atoms/styles/Icons';
+import { black } from '~nclient/constants/colors';
+import { downarrowFilterImg } from '~nclient/resources';
 
 interface Props {
   onClick: () => void;
@@ -26,13 +25,19 @@ const Button = styled.button`
   border-width: 0;
 `;
 
-const DownarrowFilterStyled = styled(DownarrowFilter)`
+const DownarrowFilterStyled = styled.img.attrs({ src: downarrowFilterImg })`
   display: block;
   width: 13px;
   padding: 0px 10px;
 `;
 
 const LabelWrapper = styled.span`
-  ${Medium}
+  font-size: 17px;
+  height: 17px;
+  line-height: 17px;
+
+  font-weight: 600;
+  font-family: 'Noto Sans KR', sans-serif;
+
   color: ${black};
 `;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { getHostName } from './getHostName';
 
-import { black, brownishGrey, whiteFour } from '~nclient/view/atoms/styles/colors';
+import { black, brownishGrey, whiteFour } from '~nclient/constants/colors';
 
 interface Props {
   link: string;

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Check } from '~nclient/view/atoms/styles/Icons';
+import { checkImg } from '~nclient/resources';
 
 interface Props {
   selected?: boolean;
@@ -32,6 +32,6 @@ const Label = styled.span`
   color: rgb(18, 17, 17);
 `;
 
-const SelectedIcon = styled(Check)`
+const SelectedIcon = styled.img.attrs({ src: checkImg })`
   width: 14px;
 `;

@@ -3,7 +3,7 @@ import React from 'react';
 import { ColorInfo } from './ColorInfo';
 
 import { RowWrapList } from '~storybook/components/RowWrapList';
-import * as colors from '~nclient/view/atoms/styles/colors';
+import * as colors from '~nclient/constants/colors';
 
 export const Colors = () => (
   <RowWrapList>

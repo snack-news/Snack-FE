@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { dark } from '~nclient/view/atoms/styles/colors';
+import { dark } from '~nclient/constants/colors';
 
 interface Props {}
 

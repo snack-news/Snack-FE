@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { CloseButton } from './CloseButton';
 
-import { brightBlue } from '~nclient/view/atoms/styles/colors';
+import { brightBlue } from '~nclient/constants/colors';
 
 interface Props {}
 

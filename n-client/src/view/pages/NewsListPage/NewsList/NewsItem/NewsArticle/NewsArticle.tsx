@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { decodeContent } from './decodeContent';
 
-import { black } from '~nclient/view/atoms/styles/colors';
+import { black } from '~nclient/constants/colors';
 
 interface Props {
   title: string;

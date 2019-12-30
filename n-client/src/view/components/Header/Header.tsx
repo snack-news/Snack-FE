@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { LogoAnchor } from './LogoAnchor';
 import { MenuAnchor } from './MenuAnchor';
 
-import { whiteTwo } from '~nclient/view/atoms/styles/colors';
+import { whiteTwo } from '~nclient/constants/colors';
 
 interface Props {}
 

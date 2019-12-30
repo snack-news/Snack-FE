@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { slateGrey } from '~nclient/view/atoms/styles/colors';
+import { slateGrey } from '~nclient/constants/colors';
 
 interface Props {
   name: string;

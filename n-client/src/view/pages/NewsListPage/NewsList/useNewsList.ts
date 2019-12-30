@@ -1,6 +1,10 @@
 import { useParams } from 'react-router';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
+// import axios from 'axios';
+
+import { resData } from './mock';
+
+const BOTTOM_MARGIN = 800;
 
 interface RequestParams {
   startDateTime: string;
@@ -29,12 +33,26 @@ export const useNewsList = () => {
   const [newsList, setNewsList] = useState<News[]>();
 
   useEffect(() => {
-    const fetchCorps = async () => {
-      const URL = '/api/news';
+    const scrollHandler = e => {
+      console.log('scroll', isBottom(BOTTOM_MARGIN));
+    };
+    // const root = document.getElementById('root');
 
-      const res = await axios.get<{ data: News[] }>(URL, {
-        params: { startDateTime, endDateTime },
-      });
+    // if (root) {
+    // console.log('addEventListener', root);
+    window.addEventListener('scroll', scrollHandler);
+    return () => window.removeEventListener('scroll', scrollHandler);
+    // }
+  }, []);
+
+  useEffect(() => {
+    const fetchCorps = async () => {
+      // const URL = '/api/news';
+
+      // const res = await axios.get<{ data: News[] }>(URL, {
+      //   params: { startDateTime, endDateTime },
+      // });
+      const res = { data: resData };
 
       setNewsList(res.data.data);
     };
@@ -52,3 +70,6 @@ const urlParamsToRequestParams = (urlParams: URLParams): RequestParams => {
   console.log(urlParams);
   return { startDateTime, endDateTime };
 };
+
+const isBottom = (margin: number) =>
+  window.innerHeight + window.scrollY >= document.body.offsetHeight - margin;

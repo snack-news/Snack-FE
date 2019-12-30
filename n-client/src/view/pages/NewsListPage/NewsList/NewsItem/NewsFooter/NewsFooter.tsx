@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { slateGrey } from '~nclient/view/atoms/styles/colors';
-import { Copy } from '~nclient/view/atoms/styles/Icons';
+import { slateGrey } from '~nclient/constants/colors';
+import { copyImg } from '~nclient/resources';
 
 interface Props {}
 
@@ -28,7 +28,7 @@ const Wrapper = styled.button`
   border-width: 0;
 `;
 
-const CopyIcon = styled(Copy)`
+const CopyIcon = styled.img.attrs({ src: copyImg })`
   width: 16px;
   margin: 2px 4px;
 `;

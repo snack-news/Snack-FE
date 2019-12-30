@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { coolGrey, brightBlue } from '~nclient/view/atoms/styles/colors';
+import { coolGrey, brightBlue } from '~nclient/constants/colors';
 
 interface Props {}
 
