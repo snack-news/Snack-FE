@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { useRouteMatch } from 'react-router';
 
 import { About } from './About';
 import { ContactList } from './ContactList';
@@ -11,6 +12,12 @@ import { Root } from '~nclient/view/components/Root';
 interface Props {}
 
 export const AboutPage: FC<Props> = () => {
+  const match = useRouteMatch('/about');
+
+  if (!match || !match.isExact) {
+    return null;
+  }
+
   return (
     <Root>
       <PageLayout>

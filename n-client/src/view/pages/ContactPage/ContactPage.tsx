@@ -1,6 +1,7 @@
 // TODO 구현 필요
 
 import React, { FC } from 'react';
+import { useRouteMatch } from 'react-router';
 
 import { PageDesc } from './PageDesc';
 import { ContactFrom } from './ContactFrom';
@@ -14,6 +15,12 @@ import { Root } from '~nclient/view/components/Root';
 interface Props {}
 
 export const ContactPage: FC<Props> = () => {
+  const match = useRouteMatch('/contact');
+
+  if (!match || !match.isExact) {
+    return null;
+  }
+
   return (
     <Root>
       <PageLayout>

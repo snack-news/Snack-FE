@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { useRouteMatch } from 'react-router';
 
 import { Nav } from './Nav';
 import { Corp } from './Corp';
@@ -12,7 +13,12 @@ import { useCorps } from '~nclient/hooks/useCorps';
 interface Props {}
 
 export const CorpsPage: FC<Props> = () => {
+  const match = useRouteMatch('/corps');
   const corps = useCorps();
+
+  if (!match || !match.isExact) {
+    return null;
+  }
 
   return (
     <Root>

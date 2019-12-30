@@ -1,4 +1,5 @@
 import React, { FC } from 'react';
+import { useRouteMatch } from 'react-router';
 
 import { Nav } from './Nav';
 import { NewsList } from './NewsList';
@@ -11,21 +12,29 @@ import { Root } from '~nclient/view/components/Root';
 
 interface Props {}
 
-export const NewsListPage: FC<Props> = () => (
-  <Root>
-    <PageLayout>
-      {{
-        header: (
-          <>
-            <Header />
-            <HorizontalDivider />
-            <Nav />
-            <HorizontalDivider thick />
-          </>
-        ),
-        main: <NewsList />,
-        footer: <Footer />,
-      }}
-    </PageLayout>
-  </Root>
-);
+export const NewsListPage: FC<Props> = () => {
+  const match = useRouteMatch('/menu');
+
+  if (!match || !match.isExact) {
+    return null;
+  }
+
+  return (
+    <Root>
+      <PageLayout>
+        {{
+          header: (
+            <>
+              <Header />
+              <HorizontalDivider />
+              <Nav />
+              <HorizontalDivider thick />
+            </>
+          ),
+          main: <NewsList />,
+          footer: <Footer />,
+        }}
+      </PageLayout>
+    </Root>
+  );
+};
