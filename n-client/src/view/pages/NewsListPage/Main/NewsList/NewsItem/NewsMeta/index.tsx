@@ -1,64 +1,30 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { getHostName } from './getHostName';
+import { useLinkMetaData } from './useLinkMetaData';
+import { LinkImg } from './LinkImg';
 
-import { black, brownishGrey, whiteFour } from '~nclient/constants/colors';
+import { LinkDesc } from './LinkDesc';
 
 interface Props {
   link: string;
 }
 
 export const NewsMeta: FC<Props> = ({ link }) => {
-  const hostName = getHostName(link);
+  const meta = useLinkMetaData(link);
+
+  if (!meta) {
+    return null;
+  }
 
   return (
     <Wrapper>
-      <LinkImageWrapper>
-        <LinkImage src="https://www.collateart.com/opengraph.png" />
-      </LinkImageWrapper>
-      <LinkDesc>
-        <LinkTitle>title</LinkTitle>
-        <LinkHostName>{hostName}</LinkHostName>
-      </LinkDesc>
+      {meta.image && <LinkImg image={meta.image} />}
+      <LinkDesc title={meta.title || undefined} link={link} />
     </Wrapper>
   );
 };
 
 const Wrapper = styled.section`
   margin: 0 0 20px 0;
-`;
-
-const LinkImageWrapper = styled.section`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const LinkImage = styled.img`
-  max-width: 360px;
-  max-height: 180px;
-`;
-
-const LinkDesc = styled.section`
-  padding: 18px 20px 18px 20px;
-  background: ${whiteFour};
-
-  > *:not(:last-child) {
-    margin-bottom: 8px;
-  }
-`;
-
-const LinkTitle = styled.h2`
-  font-size: 16px;
-  font-weight: 500;
-  font-family: 'Noto Sans KR', sans-serif;
-  color: ${black};
-  margin: 0;
-`;
-
-const LinkHostName = styled.section`
-  font-size: 12px;
-  font-family: 'Noto Sans KR', sans-serif;
-  color: ${brownishGrey};
 `;
