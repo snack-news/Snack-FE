@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, FC } from 'react';
 
 import { fbOgImage } from './resources';
 import { TITLE, DESCRIPTION, LONG_TITLE, URL } from './constants';
@@ -15,7 +15,7 @@ const metaPropsList = [
   { property: 'og:url', content: URL },
 ];
 
-export const OgMeta = () => {
+export const OgMeta: FC = () => {
   // eslint-disable-next-line react/jsx-props-no-spreading
   const metaTags = useMemo(() => metaPropsList.map(mataProps => <meta {...mataProps} />), []);
 

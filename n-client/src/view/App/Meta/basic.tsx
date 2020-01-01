@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, FC } from 'react';
 
 import { TITLE, DESCRIPTION, URL } from './constants';
 import { favicon } from './resources';
@@ -29,7 +29,7 @@ const linkPropsList = [
   { rel: 'canonical', href: URL },
 ];
 
-export const BasicMeta = () => {
+export const BasicMeta: FC = () => {
   // eslint-disable-next-line react/jsx-props-no-spreading
   const metaTags = useMemo(() => metaPropsList.map(mataProps => <meta {...mataProps} />), []);
 

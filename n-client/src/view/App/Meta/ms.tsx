@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, FC } from 'react';
 
 import { TITLE } from './constants';
 
@@ -10,7 +10,7 @@ const metaPropsList = [
   { name: 'msapplication-tap-highlight', content: 'no' },
 ];
 
-export const MsMeta = () => {
+export const MsMeta: FC = () => {
   // eslint-disable-next-line react/jsx-props-no-spreading
   const metaTags = useMemo(() => metaPropsList.map(mataProps => <meta {...mataProps} />), []);
 

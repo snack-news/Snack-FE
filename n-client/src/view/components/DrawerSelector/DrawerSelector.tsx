@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { FC, useState, useMemo, useCallback } from 'react';
 import { oc } from 'ts-optchain';
 
 import { DrawerOptions } from './DrawerOptions';
