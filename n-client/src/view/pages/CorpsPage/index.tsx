@@ -6,7 +6,6 @@ import { CorpsPageMain } from './Main';
 import { CorpsPageHeader } from './Header';
 
 import { PageLayout } from '~nclient/view/components/PageLayout';
-import { Root } from '~nclient/view/components/Root';
 import { corpsPath } from '~nclient/constants/paths';
 
 interface Props {}
@@ -19,13 +18,11 @@ export const CorpsPage: FC<Props> = () => {
   }
 
   return (
-    <Root>
-      <PageLayout>
-        {{
-          header: <CorpsPageHeader />,
-          main: <CorpsPageMain />,
-        }}
-      </PageLayout>
-    </Root>
+    <PageLayout>
+      {{
+        header: <CorpsPageHeader />,
+        main: <CorpsPageMain />,
+      }}
+    </PageLayout>
   );
 };

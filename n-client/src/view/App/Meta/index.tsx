@@ -1,5 +1,3 @@
-/* eslint-disable max-lines */
-
 import React, { FC } from 'react';
 import { Helmet } from 'react-helmet';
 
@@ -9,7 +7,7 @@ import { MsMeta } from './ms';
 import { OgMeta } from './og';
 import { TwitterMeta } from './twitter';
 
-export const Meta = () => (
+export const Meta: FC = () => (
   <Helmet>
     <BasicMeta />
     <MsMeta />

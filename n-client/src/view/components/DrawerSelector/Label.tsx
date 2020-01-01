@@ -12,7 +12,7 @@ interface Props {
 export const Label: FC<Props> = ({ children, onClick, style }) => (
   <Button onClick={onClick} style={style}>
     <LabelWrapper>{children}</LabelWrapper>
-    <DownarrowFilterStyled />
+    <DownArrowIcon />
   </Button>
 );
 
@@ -25,7 +25,7 @@ const Button = styled.button`
   border-width: 0;
 `;
 
-const DownarrowFilterStyled = styled.img.attrs({ src: downarrowFilterImg })`
+const DownArrowIcon = styled.img.attrs({ src: downarrowFilterImg })`
   display: block;
   width: 13px;
   padding: 0px 10px;

@@ -13,7 +13,7 @@ export const CorpList: FC<Props> = () => {
     <>
       {corps &&
         corps.map(({ id, image, name }) => (
-          <Corp to={`/corp/${id}`} image={image || undefined}>
+          <Corp to={`/corp/${id}`} image={image || undefined} key={id}>
             {name}
           </Corp>
         ))}

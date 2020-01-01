@@ -1,13 +1,15 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
+import { aboutPath, proposePath, contactPath } from '~nclient/constants/paths';
+
 interface Props {}
 
 export const LinkList: FC<Props> = () => (
   <Wrapper>
-    <Link href="/about">서비스 안내</Link>
-    <Link href="/contact">제안하기</Link>
-    <Link href="https://seanlion.typeform.com/to/p5I7gf">문의하기</Link>
+    <Link href={aboutPath}>서비스 안내</Link>
+    <Link href={proposePath}>제안하기</Link>
+    <Link href={contactPath}>문의하기</Link>
   </Wrapper>
 );
 

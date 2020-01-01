@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { Link } from 'react-router-dom';
+import { Contact } from './Contact';
 
 import {
   facebookWhiteImg,
@@ -33,20 +33,4 @@ const Wrapper = styled.section`
   > * {
     margin-right: 25px;
   }
-`;
-
-interface ContactProps {
-  to: string;
-  icon: string;
-}
-
-const Contact: FC<ContactProps> = ({ to, icon }) => (
-  <Link to={to}>
-    <ContactIcon src={icon} />
-  </Link>
-);
-
-const ContactIcon = styled.img`
-  width: 40px;
-  height: 40px;
 `;

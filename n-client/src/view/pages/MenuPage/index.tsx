@@ -6,7 +6,6 @@ import { MenuPageMain } from './Main';
 import { MenuPageFooter } from './Footer';
 
 import { PageLayout } from '~nclient/view/components/PageLayout';
-import { Root } from '~nclient/view/components/Root';
 import { menuPath } from '~nclient/constants/paths';
 
 interface Props {}
@@ -19,14 +18,12 @@ export const MenuPage: FC<Props> = () => {
   }
 
   return (
-    <Root>
-      <PageLayout>
-        {{
-          header: <MenuPageHeader />,
-          main: <MenuPageMain />,
-          footer: <MenuPageFooter />,
-        }}
-      </PageLayout>
-    </Root>
+    <PageLayout>
+      {{
+        header: <MenuPageHeader />,
+        main: <MenuPageMain />,
+        footer: <MenuPageFooter />,
+      }}
+    </PageLayout>
   );
 };

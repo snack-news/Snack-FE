@@ -1,20 +1,6 @@
-import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { Layer } from '~nclient/view/components/Layer';
-
-interface Props {
-  onClickLayer?: () => void;
-}
-
-export const BottomDrawer: FC<Props> = ({ children, onClickLayer }) => (
-  <>
-    <Layer onClick={onClickLayer} />
-    <Wrapper>{children}</Wrapper>
-  </>
-);
-
-const Wrapper = styled.section`
+export const BottomDrawer = styled.section`
   position: fixed;
   bottom: 0px;
   background-color: rgb(255, 255, 255);
