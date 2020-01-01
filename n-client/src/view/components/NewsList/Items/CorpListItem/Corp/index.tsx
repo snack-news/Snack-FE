@@ -1,5 +1,9 @@
+/* eslint-disable max-lines */
+
 import React, { FC } from 'react';
 import styled from 'styled-components';
+
+import { CorpLogo } from './CorpLogo';
 
 import { slateGrey } from '~nclient/constants/colors';
 
@@ -10,9 +14,7 @@ interface Props {
 
 export const Corp: FC<Props> = ({ name, image }) => (
   <Wrapper>
-    <CorpLogoWrapper>
-      <CorpLogo src={image} />
-    </CorpLogoWrapper>
+    <CorpLogo src={image} />
     <Label>{name}</Label>
   </Wrapper>
 );
@@ -35,19 +37,6 @@ const Wrapper = styled.a`
   box-sizing: border-box;
 
   font-family: 'Noto Sans KR', sans-serif;
-`;
-
-const CorpLogoWrapper = styled.div`
-  margin-bottom: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const CorpLogo = styled.img`
-  max-width: 72px;
-  max-height: 35px;
-  min-height: 35px;
 `;
 
 const Label = styled.span`

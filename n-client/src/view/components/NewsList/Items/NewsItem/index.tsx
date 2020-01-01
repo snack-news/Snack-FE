@@ -19,7 +19,7 @@ export const NewsItem: FC<Props> = ({ news }) => (
     <NewsArticle title={news.title} content={news.content} />
     {news.link ? <NewsMeta link={news.link} /> : null}
     <HorizontalDivider style={{ margin: '0 20px 0 20px' }} />
-    <NewsFooter />
+    <NewsFooter newsId={news.id} />
   </Wrapper>
 );
 

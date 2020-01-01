@@ -1,10 +1,8 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-import { getEndDateTime } from '../../getEndDateTime';
-import { getStartDateTime } from '../../getStartDateTime';
-
 import { dateToString } from '~nclient/utils/date';
+import { getEndDateTime, getStartDateTime } from '~nclient/utils/app';
 
 // const BOTTOM_MARGIN = 800;
 

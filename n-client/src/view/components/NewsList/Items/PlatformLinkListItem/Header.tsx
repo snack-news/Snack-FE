@@ -1,25 +1,15 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { PlatformLinkList } from './PlatformLinkList';
-
 interface Props {}
 
-export const PlatformLinkListItem: FC<Props> = () => (
+export const Header: FC<Props> = () => (
   <Wrapper>
-    <Header>
-      <Title>스낵뉴스를 원하는 플랫폼에서 챙겨보세요</Title>
-    </Header>
-    <PlatformLinkList />
+    <Title>스낵뉴스를 원하는 플랫폼에서 챙겨보세요</Title>
   </Wrapper>
 );
 
-const Wrapper = styled.section`
-  padding-top: 30px;
-  padding-bottom: 30px;
-`;
-
-const Header = styled.header`
+const Wrapper = styled.header`
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 20px;

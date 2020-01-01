@@ -1,26 +1,19 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
-import { CorpList } from './CorpList';
+import { corpsPath } from '~nclient/constants/paths';
 
 interface Props {}
 
-export const CorpListItem: FC<Props> = () => (
+export const Header: FC<Props> = () => (
   <Wrapper>
-    <Header>
-      <Title />
-      <MoreLink />
-    </Header>
-    <CorpList />
+    <Title>회사별 뉴스 모아보기</Title>
+    <MoreLink to={corpsPath}>모두보기</MoreLink>
   </Wrapper>
 );
 
-const Wrapper = styled.section`
-  padding-top: 30px;
-  padding-bottom: 30px;
-`;
-
-const Header = styled.header`
+const Wrapper = styled.header`
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 20px;
@@ -31,7 +24,7 @@ const Header = styled.header`
   justify-content: space-between;
 `;
 
-const Title = styled.h2.attrs({ children: '회사별 뉴스 모아보기' })`
+const Title = styled.h2`
   font-size: 17px;
   font-weight: 600;
   color: black;
@@ -39,7 +32,7 @@ const Title = styled.h2.attrs({ children: '회사별 뉴스 모아보기' })`
   margin: 0;
 `;
 
-const MoreLink = styled.a.attrs({ children: '모두보기', href: '/' })`
+const MoreLink = styled(Link)`
   font-size: 13px;
   color: rgb(11, 102, 247);
   text-decoration: none;

@@ -6,14 +6,14 @@ import { copyImg } from '~nclient/resources';
 
 interface Props {}
 
-export const NewsFooter: FC<Props> = () => (
-  <Wrapper>
+export const CopyLinkButton: FC<Props> = ({ children }) => (
+  <StyledButton>
     <CopyIcon />
-    <CopyLabel>링크복사</CopyLabel>
-  </Wrapper>
+    <CopyLabel>{children}</CopyLabel>
+  </StyledButton>
 );
 
-const Wrapper = styled.button`
+const StyledButton = styled.button`
   padding: 15px;
   width: 100%;
 

@@ -1,3 +1,5 @@
+/* eslint-disable max-lines */
+
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
@@ -6,8 +8,6 @@ import { PlatformLink } from './PlatformLink';
 import { facebookURL, kakaoURL, twitterURL } from '~nclient/constants/urls';
 
 interface Props {}
-
-// TODO 링크 상수 파일로 정리
 
 export const PlatformLinkList: FC<Props> = () => (
   <Wrapper>

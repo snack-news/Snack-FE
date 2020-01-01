@@ -16,7 +16,6 @@ import { homePath } from '~nclient/constants/paths';
 
 interface URLParams {
   startDateTime?: string;
-  corpId?: string;
 }
 
 interface Props {}
@@ -32,12 +31,7 @@ export const NewsListPage: FC<Props> = () => {
     <PageLayout>
       {{
         header: <NewsListPageHeader startDateTime={match.params.startDateTime} />,
-        main: (
-          <NewsListPageMain
-            startDateTime={match.params.startDateTime}
-            corpId={match.params.corpId}
-          />
-        ),
+        main: <NewsListPageMain startDateTime={match.params.startDateTime} />,
         footer: <Footer />,
       }}
     </PageLayout>

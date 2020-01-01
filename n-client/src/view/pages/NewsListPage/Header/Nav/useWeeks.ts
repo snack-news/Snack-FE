@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 
-import { getEndDateTime } from '../../getEndDateTime';
+import { getEndDateTime } from '~nclient/utils/app';
 
 import { format, getDateListOfWeekDay } from '~nclient/utils/date';
 import { Option } from '~nclient/view/components/DrawerSelector/Option';

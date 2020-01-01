@@ -1,12 +1,11 @@
 import React, { FC } from 'react';
 
-import { NewsList } from './NewsList';
+import { NewsList } from '~nclient/view/components/NewsList';
 
 interface Props {
   startDateTime?: string;
-  corpId?: string;
 }
 
-export const NewsListPageMain: FC<Props> = ({ startDateTime, corpId }) => (
-  <NewsList startDateTime={startDateTime} corpId={corpId} />
+export const NewsListPageMain: FC<Props> = ({ startDateTime }) => (
+  <NewsList startDateTime={startDateTime} />
 );
