@@ -4,10 +4,12 @@ import styled from 'styled-components';
 import { slateGrey } from '~nclient/constants/colors';
 import { copyImg } from '~nclient/resources';
 
-interface Props {}
+interface Props {
+  onClick: () => void;
+}
 
-export const CopyLinkButton: FC<Props> = ({ children }) => (
-  <StyledButton>
+export const CopyLinkButton: FC<Props> = ({ onClick, children }) => (
+  <StyledButton onClick={onClick}>
     <CopyIcon />
     <CopyLabel>{children}</CopyLabel>
   </StyledButton>

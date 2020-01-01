@@ -1,5 +1,5 @@
-import React, { FC, useState } from 'react';
-import CopyToClipboard from 'react-copy-to-clipboard';
+import React, { FC, useState, useCallback } from 'react';
+import copy from 'copy-to-clipboard';
 
 import { CopyLinkButton } from './CopyLinkButton';
 
@@ -7,15 +7,15 @@ interface Props {
   newsId: number;
 }
 
+// TODO URL 상수화
+// TODO Copy 기능 추가
 export const CopyLink: FC<Props> = ({ newsId }) => {
   const [copied, setCopied] = useState(false);
-  console.log(`https://snak.news/news/${newsId}`);
 
-  return (
-    // TODO URL 상수화
-    // TODO Copy 기능 추가
-    <CopyToClipboard text={`https://snak.news/news/${newsId}`} onCopy={() => setCopied(true)}>
-      <CopyLinkButton>{copied ? '복사완료' : '링크복사'}</CopyLinkButton>
-    </CopyToClipboard>
-  );
+  const onCopy = useCallback(() => {
+    copy(`https://snak.news/news/${newsId}`);
+    setCopied(true);
+  }, [newsId]);
+
+  return <CopyLinkButton onClick={onCopy}>{copied ? '복사완료' : '링크복사'}</CopyLinkButton>;
 };
