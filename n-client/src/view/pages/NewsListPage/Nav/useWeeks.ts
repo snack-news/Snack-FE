@@ -1,15 +1,9 @@
 // TODO 작업 필요
 
 import { useMemo } from 'react';
+import { lastDayOfMonth } from 'date-fns';
 
-import {
-  format,
-  dateToString,
-  DAY,
-  SUNDAY,
-  getNextWeekDay,
-  getLastDateOfMonth,
-} from '~nclient/utils/date';
+import { format, dateToString, DAY, SUNDAY, getNextWeekDay } from '~nclient/utils/date';
 import { Option } from '~nclient/view/components/DrawerSelector/Option';
 
 export const useWeeks = () => {
@@ -57,5 +51,5 @@ const getEndDateTime = (startDateTime: number): Date => {
     return nextWeekDay;
   }
 
-  return getLastDateOfMonth(startDate);
+  return lastDayOfMonth(startDate);
 };

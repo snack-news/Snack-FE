@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { Layer } from '~nclient/view/components/Layer';
@@ -7,14 +7,12 @@ interface Props {
   onClickLayer?: () => void;
 }
 
-export const BottomDrawer: React.FC<Props> = ({ children, onClickLayer }) => {
-  return (
-    <>
-      <Layer onClick={onClickLayer} />
-      <Wrapper>{children}</Wrapper>
-    </>
-  );
-};
+export const BottomDrawer: FC<Props> = ({ children, onClickLayer }) => (
+  <>
+    <Layer onClick={onClickLayer} />
+    <Wrapper>{children}</Wrapper>
+  </>
+);
 
 const Wrapper = styled.section`
   position: fixed;

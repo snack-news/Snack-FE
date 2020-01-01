@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { slateGrey } from '~nclient/constants/colors';
@@ -6,14 +6,12 @@ import { copyImg } from '~nclient/resources';
 
 interface Props {}
 
-export const NewsFooter: React.FC<Props> = () => {
-  return (
-    <Wrapper>
-      <CopyIcon />
-      <CopyLabel>링크복사</CopyLabel>
-    </Wrapper>
-  );
-};
+export const NewsFooter: FC<Props> = () => (
+  <Wrapper>
+    <CopyIcon />
+    <CopyLabel>링크복사</CopyLabel>
+  </Wrapper>
+);
 
 const Wrapper = styled.button`
   padding: 15px;

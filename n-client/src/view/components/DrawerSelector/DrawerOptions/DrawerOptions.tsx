@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 
 import { Header } from './Header';
 import { Options } from './Options';
@@ -16,7 +16,7 @@ interface Props {
   onClickLayer?: () => void;
 }
 
-export const DrawerOptions: React.FC<Props> = ({
+export const DrawerOptions: FC<Props> = ({
   header,
   onClose,
   onClickOption,

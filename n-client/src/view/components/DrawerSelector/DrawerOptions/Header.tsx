@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { exitImg } from '~nclient/resources';
@@ -7,16 +7,14 @@ interface Props {
   onClose?: () => void;
 }
 
-export const Header: React.FC<Props> = ({ children, onClose }) => {
-  return (
-    <Wrapper>
-      <Title>{children}</Title>
-      <CloseButton onClick={onClose}>
-        <CloseIcon />
-      </CloseButton>
-    </Wrapper>
-  );
-};
+export const Header: FC<Props> = ({ children, onClose }) => (
+  <Wrapper>
+    <Title>{children}</Title>
+    <CloseButton onClick={onClose}>
+      <CloseIcon />
+    </CloseButton>
+  </Wrapper>
+);
 
 const Wrapper = styled.header`
   padding: 20px 20px 15px 20px;

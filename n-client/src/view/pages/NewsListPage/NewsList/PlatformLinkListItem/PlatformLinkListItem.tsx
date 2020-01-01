@@ -5,16 +5,14 @@ import { PlatformLinkList } from './PlatformLinkList';
 
 interface Props {}
 
-export const PlatformLinkListItem: FC<Props> = () => {
-  return (
-    <Wrapper>
-      <Header>
-        <Title>스낵뉴스를 원하는 플랫폼에서 챙겨보세요</Title>
-      </Header>
-      <PlatformLinkList />
-    </Wrapper>
-  );
-};
+export const PlatformLinkListItem: FC<Props> = () => (
+  <Wrapper>
+    <Header>
+      <Title>스낵뉴스를 원하는 플랫폼에서 챙겨보세요</Title>
+    </Header>
+    <PlatformLinkList />
+  </Wrapper>
+);
 
 const Wrapper = styled.section`
   padding-top: 30px;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { decodeContent } from './decodeContent';
@@ -10,14 +10,12 @@ interface Props {
   content: string;
 }
 
-export const NewsArticle: React.FC<Props> = ({ title, content }) => {
-  return (
-    <Wrapper>
-      <Title>{title}</Title>
-      <Content dangerouslySetInnerHTML={{ __html: decodeContent(content) }} />
-    </Wrapper>
-  );
-};
+export const NewsArticle: FC<Props> = ({ title, content }) => (
+  <Wrapper>
+    <Title>{title}</Title>
+    <Content dangerouslySetInnerHTML={{ __html: decodeContent(content) }} />
+  </Wrapper>
+);
 
 const Wrapper = styled.article`
   margin: 20px 20px 35px 20px;

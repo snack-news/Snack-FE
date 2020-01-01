@@ -1,11 +1,11 @@
-import { DAY } from './constants';
+import { addDays } from 'date-fns';
 
-export const getNextWeekDay = (startDate: Date, targetWeekDay: number): Date => {
-  const currentWeekDay = startDate.getDay();
-  const diff =
-    targetWeekDay >= currentWeekDay
-      ? targetWeekDay - currentWeekDay
-      : 7 + targetWeekDay - currentWeekDay;
+const DAY_LENGTH = 7;
 
-  return new Date(startDate.getTime() + DAY * diff);
+export const getNextWeekDay = (date: Date, nextWeekDay: number): Date => {
+  const weekDay = date.getDay();
+
+  const diff = (DAY_LENGTH + nextWeekDay - weekDay) % DAY_LENGTH;
+
+  return addDays(date, diff);
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { coolGrey, brightBlue } from '~nclient/constants/colors';
@@ -8,20 +8,18 @@ interface Props {}
 // TODO 링크 상수 정리
 // TODO 문의하기 페이지 없음
 
-export const LinkListItem: React.FC<Props> = () => {
-  return (
-    <Wrapper>
-      <LinkList>
-        <Link href="/about">서비스 안내</Link>
-        <Divider />
-        <Link href="/contact">제안하기</Link>
-        {/* <Divider /> */}
-        {/* <Link href="/">문의하기</Link> */}
-      </LinkList>
-      <Copyright />
-    </Wrapper>
-  );
-};
+export const LinkListItem: FC<Props> = () => (
+  <Wrapper>
+    <LinkList>
+      <Link href="/about">서비스 안내</Link>
+      <Divider />
+      <Link href="/contact">제안하기</Link>
+      {/* <Divider /> */}
+      {/* <Link href="/">문의하기</Link> */}
+    </LinkList>
+    <Copyright />
+  </Wrapper>
+);
 
 const Wrapper = styled.section`
   padding-top: 30px;

@@ -5,17 +5,15 @@ import { CorpList } from './CorpList';
 
 interface Props {}
 
-export const CorpListItem: FC<Props> = () => {
-  return (
-    <Wrapper>
-      <Header>
-        <Title />
-        <MoreLink />
-      </Header>
-      <CorpList />
-    </Wrapper>
-  );
-};
+export const CorpListItem: FC<Props> = () => (
+  <Wrapper>
+    <Header>
+      <Title />
+      <MoreLink />
+    </Header>
+    <CorpList />
+  </Wrapper>
+);
 
 const Wrapper = styled.section`
   padding-top: 30px;

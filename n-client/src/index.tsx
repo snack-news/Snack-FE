@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { FC } from 'react';
 import ReactDOM from 'react-dom';
 
 import { App } from '~nclient/view/App';
 
-// eslint-disable-next-line no-undef
 const rootDOM = document.getElementById('root');
 
 if (rootDOM === null) {

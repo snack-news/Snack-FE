@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { checkImg } from '~nclient/resources';
@@ -8,7 +8,7 @@ interface Props {
   onClick?: () => void;
 }
 
-export const OptionItem: React.FC<Props> = ({ selected, onClick, children }) => (
+export const OptionItem: FC<Props> = ({ selected, onClick, children }) => (
   <Wrapper onClick={onClick}>
     <Label>{children}</Label>
     {selected && <SelectedIcon />}

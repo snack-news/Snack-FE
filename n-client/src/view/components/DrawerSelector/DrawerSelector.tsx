@@ -13,7 +13,7 @@ interface Props {
   labelStyle?: React.CSSProperties;
 }
 
-export const DrawerSelector: React.FC<Props> = ({
+export const DrawerSelector: FC<Props> = ({
   options,
   value,
   onClickOption,

@@ -46,6 +46,9 @@ module.exports = {
     'no-empty-function': 'off',
     '@typescript-eslint/no-empty-function': 'error',
     'no-magic-numbers': 'off',
-    '@typescript-eslint/no-magic-numbers': ['warn', { ignoreNumericLiteralTypes: true }],
+    '@typescript-eslint/no-magic-numbers': [
+      'warn',
+      { ignoreNumericLiteralTypes: true, ignore: [0] },
+    ],
   },
 };

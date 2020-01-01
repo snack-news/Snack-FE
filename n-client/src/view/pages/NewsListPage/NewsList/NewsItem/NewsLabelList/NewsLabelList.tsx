@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { TagLabelList } from './TagLabelList';
@@ -10,14 +10,12 @@ interface Props {
   className?: string;
 }
 
-export const NewsLabelList: React.FC<Props> = ({ tags, topics, className }) => {
-  return (
-    <Wrapper className={className}>
-      <TagLabelList tags={tags} />
-      <TopicLabelList topics={topics} />
-    </Wrapper>
-  );
-};
+export const NewsLabelList: FC<Props> = ({ tags, topics, className }) => (
+  <Wrapper className={className}>
+    <TagLabelList tags={tags} />
+    <TopicLabelList topics={topics} />
+  </Wrapper>
+);
 
 const Wrapper = styled.ul`
   margin: 0 20px 10px 20px;

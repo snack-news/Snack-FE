@@ -57,6 +57,6 @@ module.exports = {
 
     'no-useless-constructor': 'error',
     'no-empty-function': 'error',
-    'no-magic-numbers': 'warn',
+    'no-magic-numbers': ['warn', { ignore: [0] }],
   },
 };

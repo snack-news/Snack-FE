@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-magic-numbers */
+
 export const SECOUND = 1000;
 export const MINUTE = 60 * SECOUND;
 export const HOURS = 60 * MINUTE;

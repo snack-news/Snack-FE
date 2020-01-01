@@ -1,5 +1,5 @@
-import React from 'react';
-import { Switch, BrowserRouter } from 'react-router-dom';
+import React, { FC } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import { NewsListPage } from '~nclient/view/pages/NewsListPage';
 import { MenuPage } from '~nclient/view/pages/MenuPage';
@@ -13,12 +13,10 @@ import { ContactPage } from '~nclient/view/pages/ContactPage';
 
 export const Routes = () => (
   <BrowserRouter>
-    <Switch>
-      <NewsListPage />
-      <MenuPage />
-      <CorpsPage />
-      <AboutPage />
-      <ContactPage />
-    </Switch>
+    <NewsListPage />
+    <MenuPage />
+    <CorpsPage />
+    <AboutPage />
+    <ContactPage />
   </BrowserRouter>
 );

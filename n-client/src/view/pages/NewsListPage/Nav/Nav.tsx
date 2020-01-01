@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { SelectWeekRange } from './SelectWeekRange';
@@ -6,14 +6,12 @@ import { SelectWeekRange } from './SelectWeekRange';
 
 interface Props {}
 
-export const Nav: React.FC<Props> = () => {
-  return (
-    <NavStyled>
-      <SelectWeekRange />
-      {/* <IndexPageAnchor /> */}
-    </NavStyled>
-  );
-};
+export const Nav: FC<Props> = () => (
+  <NavStyled>
+    <SelectWeekRange />
+    {/* <IndexPageAnchor /> */}
+  </NavStyled>
+);
 
 const NavStyled = styled.nav`
   display: flex;

@@ -6,7 +6,7 @@ import { DrawerSelector } from '~nclient/view/components/DrawerSelector';
 
 interface Props {}
 
-export const SelectWeekRange: React.FC<Props> = () => {
+export const SelectWeekRange: FC<Props> = () => {
   const weeks = useWeeks();
   const [week, setWeek] = useState(weeks[0].value);
 

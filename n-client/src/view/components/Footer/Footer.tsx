@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { LinkList } from './LinkList';
@@ -7,15 +7,13 @@ import { Logo } from './Logo';
 
 interface Props {}
 
-export const Footer: React.FC<Props> = () => {
-  return (
-    <Wrapper>
-      <LinkList />
-      <ContactList />
-      <Logo />
-    </Wrapper>
-  );
-};
+export const Footer: FC<Props> = () => (
+  <Wrapper>
+    <LinkList />
+    <ContactList />
+    <Logo />
+  </Wrapper>
+);
 
 const Wrapper = styled.footer`
   display: flex;

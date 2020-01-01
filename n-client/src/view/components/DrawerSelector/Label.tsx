@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { black } from '~nclient/constants/colors';
@@ -9,7 +9,7 @@ interface Props {
   style?: React.CSSProperties;
 }
 
-export const Label: React.FC<Props> = ({ children, onClick, style }) => (
+export const Label: FC<Props> = ({ children, onClick, style }) => (
   <Button onClick={onClick} style={style}>
     <LabelWrapper>{children}</LabelWrapper>
     <DownarrowFilterStyled />

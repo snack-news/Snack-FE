@@ -13,7 +13,7 @@ export const format: dateFns['format'] = (date, formatStr, options) =>
   dateFnsFormat(date, formatWeekOfMonth(date, formatStr, options), options);
 
 const formatWeekOfMonth: dateFns['format'] = (date, formatStr, options) =>
-  formatStr.replace(/W{1,2}/g, match => {
-    const w = getWeekOfMonth(date, options);
-    return match === 'WW' ? `${w}`.padStart(2, '0') : `${w}`;
+  formatStr.replace(/W{1,}/g, match => {
+    const weekOfMonth = getWeekOfMonth(date, options);
+    return `${weekOfMonth}`.padStart(match.length, '0');
   });

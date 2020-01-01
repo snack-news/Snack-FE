@@ -7,16 +7,14 @@ import { facebookBlueImg, twitterBlueImg, kakaoBlueImg, emailBlueImg } from '~nc
 
 interface Props {}
 
-export const ContactList: React.FC<Props> = () => {
-  return (
-    <Wrapper>
-      <Contact to="https://www.facebook.com/groups/snacknews/" icon={facebookBlueImg} />
-      <Contact to="https://twitter.com/techsnacknews" icon={twitterBlueImg} />
-      <Contact to="https://open.kakao.com/o/gKIXUx0" icon={kakaoBlueImg} />
-      <Contact to="mailto:teamsnackofficial@gmail.com" icon={emailBlueImg} />
-    </Wrapper>
-  );
-};
+export const ContactList: FC<Props> = () => (
+  <Wrapper>
+    <Contact to="https://www.facebook.com/groups/snacknews/" icon={facebookBlueImg} />
+    <Contact to="https://twitter.com/techsnacknews" icon={twitterBlueImg} />
+    <Contact to="https://open.kakao.com/o/gKIXUx0" icon={kakaoBlueImg} />
+    <Contact to="mailto:teamsnackofficial@gmail.com" icon={emailBlueImg} />
+  </Wrapper>
+);
 
 const Wrapper = styled.section`
   display: flex;
@@ -35,13 +33,11 @@ interface ContactProps {
   icon: string;
 }
 
-const Contact: FC<ContactProps> = ({ to, icon }) => {
-  return (
-    <Link to={to}>
-      <ContactIcon src={icon} />
-    </Link>
-  );
-};
+const Contact: FC<ContactProps> = ({ to, icon }) => (
+  <Link to={to}>
+    <ContactIcon src={icon} />
+  </Link>
+);
 
 const ContactIcon = styled.img`
   width: 40px;

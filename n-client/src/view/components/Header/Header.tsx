@@ -8,14 +8,12 @@ import { whiteTwo } from '~nclient/constants/colors';
 
 interface Props {}
 
-export const Header: FC<Props> = () => {
-  return (
-    <HeaderStyled>
-      <LogoAnchor />
-      <MenuAnchor />
-    </HeaderStyled>
-  );
-};
+export const Header: FC<Props> = () => (
+  <HeaderStyled>
+    <LogoAnchor />
+    <MenuAnchor />
+  </HeaderStyled>
+);
 
 const HeaderStyled = styled.header`
   background-color: ${whiteTwo};

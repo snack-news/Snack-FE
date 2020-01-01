@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -6,13 +6,11 @@ import { contentImg } from '~nclient/resources';
 
 interface Props {}
 
-export const IndexPageAnchor: React.FC<Props> = () => {
-  return (
-    <StyledLink to="/">
-      <ContentIcon />
-    </StyledLink>
-  );
-};
+export const IndexPageAnchor: FC<Props> = () => (
+  <StyledLink to="/">
+    <ContentIcon />
+  </StyledLink>
+);
 
 const StyledLink = styled(Link)``;
 

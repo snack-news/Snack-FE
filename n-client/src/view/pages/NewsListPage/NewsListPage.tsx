@@ -13,7 +13,7 @@ import { Root } from '~nclient/view/components/Root';
 interface Props {}
 
 export const NewsListPage: FC<Props> = () => {
-  const match = useRouteMatch('/menu');
+  const match = useRouteMatch('/');
 
   if (!match || !match.isExact) {
     return null;
