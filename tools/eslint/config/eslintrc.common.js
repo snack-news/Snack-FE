@@ -14,6 +14,7 @@ module.exports = {
         extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
       },
     },
+    // 'import/internal-regex': '^~nclient/*',
   },
   env: {
     es6: true,
@@ -57,6 +58,9 @@ module.exports = {
 
     'no-useless-constructor': 'error',
     'no-empty-function': 'error',
-    'no-magic-numbers': ['warn', { ignore: [0] }],
+    'no-magic-numbers': ['warn', { ignore: [0, 1] }],
+
+    'no-plusplus': 'off',
+    'no-minusminus': 'off',
   },
 };

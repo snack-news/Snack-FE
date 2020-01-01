@@ -1,8 +1,12 @@
-import { useParams } from 'react-router';
-import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { useEffect, useState } from 'react';
 
-const BOTTOM_MARGIN = 800;
+import { getEndDateTime } from '../../getEndDateTime';
+import { getStartDateTime } from '../../getStartDateTime';
+
+import { dateToString } from '~nclient/utils/date';
+
+// const BOTTOM_MARGIN = 800;
 
 interface RequestParams {
   startDateTime: string;
@@ -12,61 +16,59 @@ interface RequestParams {
   tagIds?: string;
 }
 
-type URLParams = {} | URLParamsWithWeekRange | URLParamsWithCorpId;
-
-interface URLParamsWithWeekRange {
-  year: string;
-  month: string;
-  week: string;
+interface Filter {
+  startDateTime?: string;
+  corpId?: string;
 }
 
-interface URLParamsWithCorpId {
-  corpId: string;
-}
-
-export const useNewsList = () => {
-  const urlParms = useParams<URLParams>();
-  const { startDateTime, endDateTime } = urlParamsToRequestParams(urlParms);
-
+export const useNewsList = ({ startDateTime, corpId }: Filter) => {
   const [newsList, setNewsList] = useState<News[]>();
 
-  useEffect(() => {
-    const scrollHandler = e => {
-      console.log('scroll', isBottom(BOTTOM_MARGIN));
-    };
-    // const root = document.getElementById('root');
+  // useEffect(() => {
+  //   const scrollHandler = e => {
+  //     console.log('scroll', isBottom(BOTTOM_MARGIN));
+  //   };
+  //   // const root = document.getElementById('root');
 
-    // if (root) {
-    // console.log('addEventListener', root);
-    window.addEventListener('scroll', scrollHandler);
-    return () => window.removeEventListener('scroll', scrollHandler);
-    // }
-  }, []);
+  //   // if (root) {
+  //   // console.log('addEventListener', root);
+  //   window.addEventListener('scroll', scrollHandler);
+  //   return () => window.removeEventListener('scroll', scrollHandler);
+  //   // }
+  // }, []);
 
   useEffect(() => {
+    const requestParams = filterToRequestParams({ startDateTime, corpId });
+
     const fetchCorps = async () => {
       const URL = '/api/news';
 
       const res = await axios.get<{ data: News[] }>(URL, {
-        params: { startDateTime, endDateTime },
+        params: requestParams,
       });
 
       setNewsList(res.data.data);
     };
 
     fetchCorps();
-  }, [endDateTime, startDateTime]);
+  }, [corpId, startDateTime]);
 
   return newsList;
 };
 
-// TODO
-const urlParamsToRequestParams = (urlParams: URLParams): RequestParams => {
-  const startDateTime = '2019-12-09T00:00';
-  const endDateTime = '2019-12-15T23:59';
-  console.log(urlParams);
-  return { startDateTime, endDateTime };
+const filterToRequestParams = (filter: Filter): RequestParams => {
+  if (filter.startDateTime) {
+    const startDateTime = parseInt(filter.startDateTime, 10);
+    const endDateTime = getEndDateTime(new Date(startDateTime));
+
+    return { startDateTime: dateToString(startDateTime), endDateTime: dateToString(endDateTime) };
+  }
+
+  const startDateTime = getStartDateTime(new Date());
+  const endDateTime = getEndDateTime(startDateTime);
+
+  return { startDateTime: dateToString(startDateTime), endDateTime: dateToString(endDateTime) };
 };
 
-const isBottom = (margin: number) =>
-  window.innerHeight + window.scrollY >= document.body.offsetHeight - margin;
+// const isBottom = (margin: number) =>
+//   window.innerHeight + window.scrollY >= document.body.offsetHeight - margin;

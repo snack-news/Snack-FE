@@ -4,6 +4,7 @@ require('dotenv').config();
 module.exports = {
   // mode:
   //   process.env.ENVIRONMENT === 'development' ? 'development' : 'production',
+  mode: 'development',
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
   },

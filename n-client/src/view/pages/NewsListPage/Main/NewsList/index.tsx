@@ -1,18 +1,21 @@
 import React, { FC } from 'react';
 
 import { CorpListItem } from './CorpListItem';
-import { NewsItem } from './NewsItem';
 import { LinkListItem } from './LinkListItem';
+import { NewsItem } from './NewsItem';
 import { PlatformLinkListItem } from './PlatformLinkListItem';
 import { useNewsList } from './useNewsList';
 
 import { HorizontalDivider } from '~nclient/view/components/HorizontalDivider';
 
-interface Props {}
+interface Props {
+  startDateTime?: string;
+  corpId?: string;
+}
 
 // TODO CorpListItem, LinkListItem, PlatformLinkListItem 의 순서 조정
-export const NewsList: FC<Props> = () => {
-  const newsList = useNewsList();
+export const NewsList: FC<Props> = ({ startDateTime, corpId }) => {
+  const newsList = useNewsList({ startDateTime, corpId });
 
   return (
     <>

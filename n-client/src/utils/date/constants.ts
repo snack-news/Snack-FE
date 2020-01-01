@@ -12,3 +12,14 @@ export const wednesday = 3;
 export const ThursDay = 4;
 export const Friday = 5;
 export const Saturday = 6;
+
+export const WEEK_DAY_LENGTH = 7;
+
+export type WeekDay =
+  | typeof SUNDAY
+  | typeof MONDAY
+  | typeof Tuesday
+  | typeof wednesday
+  | typeof ThursDay
+  | typeof Friday
+  | typeof Saturday;

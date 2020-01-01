@@ -4,11 +4,13 @@ import styled from 'styled-components';
 import { SelectWeekRange } from './SelectWeekRange';
 // import { IndexPageAnchor } from './IndexPageAnchor';
 
-interface Props {}
+interface Props {
+  startDateTime?: string;
+}
 
-export const Nav: FC<Props> = () => (
+export const Nav: FC<Props> = ({ startDateTime }) => (
   <NavStyled>
-    <SelectWeekRange />
+    <SelectWeekRange value={startDateTime} />
     {/* <IndexPageAnchor /> */}
   </NavStyled>
 );

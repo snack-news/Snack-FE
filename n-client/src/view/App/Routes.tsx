@@ -13,6 +13,9 @@ import { AboutPage } from '~nclient/view/pages/AboutPage';
 import { ProposePage } from '~nclient/view/pages/ProposePage';
 
 // TODO NewsListPage 다양한 라우팅 적용
+// {/* <Route path="/newslist/week/:startDateTime" exact component={NewsListPage} /> */}
+// {/* <Route path="/newslist/corp/:corpId" exact component={NewsListPage} /> */}
+
 // {/* <Route path="/newslist/:year/:month/week/:week" exact component={NewsListPage} /> */}
 // {/* <Route path="/corp/:corpId" component={NewsListPage} /> */}
 

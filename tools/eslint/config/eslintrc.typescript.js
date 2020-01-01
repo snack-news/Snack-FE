@@ -1,12 +1,24 @@
 /* eslint-disable max-lines */
 
 const airbnbBaseStyleRules = require('eslint-config-airbnb-base/rules/style').rules;
+
 const airbnbBaseVariablesRules = require('eslint-config-airbnb-base/rules/variables').rules;
 
 module.exports = {
   rules: {
     // https://github.com/typescript-eslint/typescript-eslint/issues/291
     'no-dupe-class-members': 'off',
+
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
+    ],
 
     // https://github.com/typescript-eslint/typescript-eslint/issues/265
     '@typescript-eslint/adjacent-overload-signatures': 'off',
@@ -48,7 +60,7 @@ module.exports = {
     'no-magic-numbers': 'off',
     '@typescript-eslint/no-magic-numbers': [
       'warn',
-      { ignoreNumericLiteralTypes: true, ignore: [0] },
+      { ignoreNumericLiteralTypes: true, ignore: [0, 1] },
     ],
   },
 };

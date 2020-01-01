@@ -1,21 +1,28 @@
-import React, { useState, FC } from 'react';
+import React, { FC } from 'react';
+import { useHistory } from 'react-router';
 
 import { useWeeks } from './useWeeks';
 
 import { DrawerSelector } from '~nclient/view/components/DrawerSelector';
 
-interface Props {}
+interface Props {
+  value?: string;
+}
 
-export const SelectWeekRange: FC<Props> = () => {
+export const SelectWeekRange: FC<Props> = ({ value }) => {
   const weeks = useWeeks();
-  const [week, setWeek] = useState(weeks[0].value);
+  const currentValue = value || weeks[0].value;
+  // const [week, setWeek] = useState(value || weeks[0].value);
+  const history = useHistory();
 
   return (
     <DrawerSelector
       options={weeks}
-      value={week}
-      onClickOption={({ value }) => {
-        if (value !== week) setWeek(value);
+      value={currentValue}
+      onClickOption={({ value: newValue }) => {
+        if (newValue !== currentValue) {
+          history.push(`/newslist/week/${newValue}`);
+        }
       }}
       header="조회할 주 선택"
       labelStyle={{

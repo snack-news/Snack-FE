@@ -46,20 +46,21 @@ export const DrawerSelector: FC<Props> = ({
 
   return (
     <>
-      <Layer onClick={hideOptions} />
-
       <Label onClick={showOptions} style={labelStyle}>
         {oc(selectedOption).label('선택된 값이 없습니다')}
       </Label>
 
       {isShowOptions && (
-        <DrawerOptions
-          header={header}
-          options={options}
-          value={oc(selectedOption).value()}
-          onClose={hideOptions}
-          onClickOption={clickOptionHandler}
-        />
+        <>
+          <Layer onClick={hideOptions} />
+          <DrawerOptions
+            header={header}
+            options={options}
+            value={oc(selectedOption).value()}
+            onClose={hideOptions}
+            onClickOption={clickOptionHandler}
+          />
+        </>
       )}
     </>
   );
