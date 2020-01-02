@@ -28,7 +28,6 @@ const Title = styled.h2`
   font-size: 17px;
   font-weight: 600;
   color: black;
-  font-family: 'Noto Sans KR', sans-serif;
   margin: 0;
 `;
 

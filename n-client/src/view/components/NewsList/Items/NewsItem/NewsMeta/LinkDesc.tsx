@@ -35,13 +35,11 @@ const Wrapper = styled.section`
 const LinkTitle = styled.h2`
   font-size: 16px;
   font-weight: 500;
-  font-family: 'Noto Sans KR', sans-serif;
   color: ${black};
   margin: 0;
 `;
 
 const LinkHostName = styled.section`
   font-size: 12px;
-  font-family: 'Noto Sans KR', sans-serif;
   color: ${brownishGrey};
 `;

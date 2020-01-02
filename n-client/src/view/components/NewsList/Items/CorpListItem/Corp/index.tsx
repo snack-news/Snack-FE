@@ -35,8 +35,6 @@ const Wrapper = styled.a`
   border-color: rgb(214, 214, 219);
   border-image: initial;
   box-sizing: border-box;
-
-  font-family: 'Noto Sans KR', sans-serif;
 `;
 
 const Label = styled.span`

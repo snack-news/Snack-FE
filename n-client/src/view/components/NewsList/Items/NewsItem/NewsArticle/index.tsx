@@ -22,7 +22,6 @@ const Wrapper = styled.article`
 `;
 
 const Title = styled.h1`
-  font-family: 'Noto Sans KR', sans-serif;
   font-size: 19px;
   font-weight: 600;
   line-height: 1.21;

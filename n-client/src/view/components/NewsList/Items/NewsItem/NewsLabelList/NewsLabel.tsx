@@ -17,8 +17,6 @@ export const NewsLabel = styled.li<Props>`
   line-height: 11px;
   font-weight: 500;
 
-  font-family: 'Noto Sans KR', sans-serif;
-
   color: ${whiteThree};
   background-color: ${({ highlight }) => (highlight ? orangeyRed : coolGrey)};
 `;

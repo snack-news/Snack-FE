@@ -26,6 +26,5 @@ const Title = styled.h1`
   font-size: 24px;
   font-weight: 600;
   color: rgb(254, 254, 254);
-  font-family: 'Noto Sans KR', sans-serif;
   margin: 0px;
 `;

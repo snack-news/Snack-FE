@@ -37,7 +37,6 @@ const LabelWrapper = styled.span`
   line-height: 17px;
 
   font-weight: 600;
-  font-family: 'Noto Sans KR', sans-serif;
 
   color: ${black};
 `;

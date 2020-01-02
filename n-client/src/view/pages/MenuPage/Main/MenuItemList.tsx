@@ -21,8 +21,6 @@ const MenuItemListWrapper = styled.nav`
   padding-bottom: 20px;
   padding-right: 40px;
   padding-left: 40px;
-
-  font-family: 'Noto Sans KR', sans-serif;
 `;
 
 const MenuItem = styled(Link)`
@@ -35,6 +33,4 @@ const MenuItem = styled(Link)`
   line-height: normal;
   text-decoration: none;
   color: ${dark};
-
-  font-family: 'Noto Sans KR', sans-serif;
 `;
