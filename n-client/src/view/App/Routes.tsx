@@ -11,6 +11,7 @@ import { MenuPage } from '~nclient/view/pages/MenuPage';
 import { CorpsPage } from '~nclient/view/pages/CorpsPage';
 import { AboutPage } from '~nclient/view/pages/AboutPage';
 import { ProposePage } from '~nclient/view/pages/ProposePage';
+import { CorpNewsListPage } from '~nclient/view/pages/CorpNewsListPage';
 
 // TODO NewsListPage 다양한 라우팅 적용
 // {/* <Route path="/newslist/week/:startDateTime" exact component={NewsListPage} /> */}
@@ -29,6 +30,7 @@ export const Routes: FC = () => (
       <CorpsPage />
       <AboutPage />
       <ProposePage />
+      <CorpNewsListPage />
     </Root>
   </BrowserRouter>
 );

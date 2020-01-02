@@ -55,15 +55,24 @@ export const useNewsList = ({ startDateTime, corpId }: Filter) => {
 };
 
 const filterToRequestParams = (filter: Filter): RequestParams => {
-  if (filter.startDateTime) {
-    const startDateTime = parseInt(filter.startDateTime, 10);
-    const endDateTime = getEndDateTime(new Date(startDateTime));
+  let startDateTime;
+  let endDateTime;
 
-    return { startDateTime: dateToString(startDateTime), endDateTime: dateToString(endDateTime) };
+  if (filter.startDateTime) {
+    startDateTime = parseInt(filter.startDateTime, 10);
+    endDateTime = getEndDateTime(new Date(startDateTime));
+  } else {
+    startDateTime = getStartDateTime(new Date());
+    endDateTime = getEndDateTime(startDateTime);
   }
 
-  const startDateTime = getStartDateTime(new Date());
-  const endDateTime = getEndDateTime(startDateTime);
+  if (filter.corpId) {
+    return {
+      startDateTime: dateToString(startDateTime),
+      endDateTime: dateToString(endDateTime),
+      topicIds: filter.corpId,
+    };
+  }
 
   return { startDateTime: dateToString(startDateTime), endDateTime: dateToString(endDateTime) };
 };

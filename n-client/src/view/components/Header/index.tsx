@@ -1,17 +1,21 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { LogoAnchor } from './LogoAnchor';
-import { MenuAnchor } from './MenuAnchor';
+import { Anchors, AnchorType } from './Anchors';
 
 import { whiteTwo } from '~nclient/constants/colors';
 
-interface Props {}
+interface Props {
+  leftAnchor?: AnchorType;
+  rightAnchor?: AnchorType;
+  title?: string;
+}
 
-export const Header: FC<Props> = () => (
+export const Header: FC<Props> = ({ leftAnchor = 'HOME', rightAnchor = 'MENU', title }) => (
   <HeaderStyled>
-    <LogoAnchor />
-    <MenuAnchor />
+    <Anchors type={leftAnchor} />
+    {title}
+    <Anchors type={rightAnchor} />
   </HeaderStyled>
 );
 

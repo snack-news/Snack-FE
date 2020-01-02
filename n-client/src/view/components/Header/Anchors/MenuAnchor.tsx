@@ -14,7 +14,6 @@ const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
 
-  background-color: transparent;
   padding: 0px 20px;
   height: 100%;
 `;
