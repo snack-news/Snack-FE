@@ -1,29 +1,30 @@
 import React, { FC } from 'react';
 
-import { useNewsList } from './useNewsList';
 import { Items } from './Items';
 
-interface Props {
-  startDateTime?: string;
-  corpId?: string;
+import { useNewsList } from '~nclient/hooks/useNewsList';
 
+interface IProps extends INewsFilter {
   isRenderCorpList?: boolean;
   isRenderLinkListItem?: boolean;
   isRenderPlatformLinkListItem?: boolean;
+
+  onFatched?: () => void;
 }
 
-export const NewsList: FC<Props> = ({
-  startDateTime,
-  corpId,
+export const NewsList: FC<IProps> = ({
+  children,
   isRenderCorpList,
   isRenderLinkListItem,
   isRenderPlatformLinkListItem,
+  onFatched,
+  ...requestParams
 }) => {
-  const newsList = useNewsList({ startDateTime, corpId });
+  const newsList = useNewsList(requestParams);
 
-  if (!newsList) {
-    return null;
-  }
+  if (!newsList) return null;
+
+  if (onFatched) onFatched();
 
   return (
     <Items

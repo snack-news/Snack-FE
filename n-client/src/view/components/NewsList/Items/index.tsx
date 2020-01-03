@@ -1,3 +1,5 @@
+/* eslint-disable max-lines */
+
 import React, { FC, useMemo, Fragment } from 'react';
 
 import { CorpListItem } from './CorpListItem';
@@ -7,15 +9,15 @@ import { PlatformLinkListItem } from './PlatformLinkListItem';
 
 import { HorizontalDivider } from '~nclient/view/components/HorizontalDivider';
 
-interface Props {
-  newsList: News[];
+interface IProps {
+  newsList: INews[];
 
   isRenderCorpList?: boolean;
   isRenderLinkListItem?: boolean;
   isRenderPlatformLinkListItem?: boolean;
 }
 
-export const Items: FC<Props> = ({
+export const Items: FC<IProps> = ({
   newsList,
   isRenderCorpList,
   isRenderLinkListItem,

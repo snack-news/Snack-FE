@@ -5,30 +5,16 @@ import styled from 'styled-components';
 
 import { PlatformLink } from './PlatformLink';
 
-import { facebookURL, kakaoURL, twitterURL } from '~nclient/constants/urls';
+import { FACEBOOK_URL, KAKAO_URL, TWITTER_URL } from '~nclient/constants/urls';
+import { WHITE_THREE, BLACK, FACEBOOK, KAKAO, TWITTER } from '~nclient/constants/colors';
 
-interface Props {}
+interface IProps {}
 
-export const PlatformLinkList: FC<Props> = () => (
+export const PlatformLinkList: FC<IProps> = () => (
   <Wrapper>
-    <PlatformLink
-      color="rgb(254, 254, 254)"
-      background="rgb(51, 89, 157)"
-      name="Facebook"
-      href={facebookURL}
-    />
-    <PlatformLink
-      color="rgb(18, 17, 17)"
-      background="rgb(250, 225, 0)"
-      name="KakaoTalk"
-      href={kakaoURL}
-    />
-    <PlatformLink
-      color="rgb(254, 254, 254)"
-      background="rgb(56, 161, 243)"
-      name="Twitter"
-      href={twitterURL}
-    />
+    <PlatformLink color={WHITE_THREE} background={FACEBOOK} name="Facebook" href={FACEBOOK_URL} />
+    <PlatformLink color={BLACK} background={KAKAO} name="KakaoTalk" href={KAKAO_URL} />
+    <PlatformLink color={WHITE_THREE} background={TWITTER} name="Twitter" href={TWITTER_URL} />
   </Wrapper>
 );
 

@@ -2,11 +2,11 @@ import React, { FC } from 'react';
 
 import { NewsLabel } from './NewsLabel';
 
-interface Props {
-  tags: Tag[];
+interface IProps {
+  tags: ITag[];
 }
 
-export const TagLabelList: FC<Props> = ({ tags }) => (
+export const TagLabelList: FC<IProps> = ({ tags }) => (
   <>
     {tags.map(tag => (
       <NewsLabel highlight key={tag.id}>

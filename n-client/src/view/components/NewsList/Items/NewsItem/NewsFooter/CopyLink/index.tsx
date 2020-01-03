@@ -3,13 +3,13 @@ import copy from 'copy-to-clipboard';
 
 import { CopyLinkButton } from './CopyLinkButton';
 
-interface Props {
+interface IProps {
   newsId: number;
 }
 
 // TODO URL 상수화
 // TODO Copy 기능 추가
-export const CopyLink: FC<Props> = ({ newsId }) => {
+export const CopyLink: FC<IProps> = ({ newsId }) => {
   const [copied, setCopied] = useState(false);
 
   const onCopy = useCallback(() => {

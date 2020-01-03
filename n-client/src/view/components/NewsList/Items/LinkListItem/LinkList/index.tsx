@@ -4,18 +4,19 @@ import { Link } from 'react-router-dom';
 
 import { Divider } from './Divider';
 
-import { brightBlue } from '~nclient/constants/colors';
-import { aboutPath, contactPath, proposePath } from '~nclient/constants/paths';
+import { BRIGHT_BLUE } from '~nclient/constants/colors';
+import { ABOUT_PATH, ABOUT_NAME, PROPOSE_PATH, PROPOSE_NAME } from '~nclient/constants/paths';
+import { CONTACT_URL, CONTACT_NAME } from '~nclient/constants/urls';
 
-interface Props {}
+interface IProps {}
 
-export const LinkList: FC<Props> = () => (
+export const LinkList: FC<IProps> = () => (
   <Wrapper>
-    <StyledLink to={aboutPath}>서비스 안내</StyledLink>
+    <StyledLink to={ABOUT_PATH}>{ABOUT_NAME}</StyledLink>
     <Divider />
-    <StyledLink to={proposePath}>제안하기</StyledLink>
+    <StyledLink to={PROPOSE_PATH}>{PROPOSE_NAME}</StyledLink>
     <Divider />
-    <StyledLink to={contactPath}>문의하기</StyledLink>
+    <StyledLink to={CONTACT_URL}>{CONTACT_NAME}</StyledLink>
   </Wrapper>
 );
 
@@ -36,6 +37,6 @@ const StyledLink = styled(Link)`
   font-size: 16px;
   font-weight: 500;
   text-align: center;
-  color: ${brightBlue};
+  color: ${BRIGHT_BLUE};
   text-decoration: none;
 `;

@@ -3,7 +3,7 @@ import React, { useMemo, FC } from 'react';
 import { fbOgImage } from './resources';
 import { TITLE, DESCRIPTION, LONG_TITLE, URL } from './constants';
 
-const metaPropsList: React.MetaHTMLAttributes<HTMLMetaElement>[] = [
+const META_PROPS_LIST: React.MetaHTMLAttributes<HTMLMetaElement>[] = [
   { property: 'og:title', content: LONG_TITLE },
   { property: 'og:description', content: DESCRIPTION },
   { property: 'og:image', content: fbOgImage },
@@ -18,7 +18,7 @@ const metaPropsList: React.MetaHTMLAttributes<HTMLMetaElement>[] = [
 export const OgMeta: FC = () => {
   const metaTags = useMemo(
     // eslint-disable-next-line react/jsx-props-no-spreading
-    () => metaPropsList.map(props => <meta {...props} key={JSON.stringify(props)} />),
+    () => META_PROPS_LIST.map(props => <meta {...props} key={JSON.stringify(props)} />),
     []
   );
 

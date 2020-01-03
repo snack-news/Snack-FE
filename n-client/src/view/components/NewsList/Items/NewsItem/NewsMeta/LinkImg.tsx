@@ -5,14 +5,14 @@ import styled from 'styled-components';
 
 import { useImageSize } from './useImageSize';
 
-interface Props {
+interface IProps {
   image: string;
 }
 
 const MIN_HEIGHT = 400;
 const MIN_WIDTH = 400;
 
-export const LinkImg: FC<Props> = ({ image }) => {
+export const LinkImg: FC<IProps> = ({ image }) => {
   const imgSize = useImageSize(image);
 
   if (

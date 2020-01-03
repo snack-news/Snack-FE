@@ -2,11 +2,11 @@ import React, { FC } from 'react';
 
 import { CopyLink } from './CopyLink';
 
-interface Props {
+interface IProps {
   newsId: number;
 }
 
-export const NewsFooter: FC<Props> = ({ newsId }) => (
+export const NewsFooter: FC<IProps> = ({ newsId }) => (
   <>
     <CopyLink newsId={newsId} />
   </>

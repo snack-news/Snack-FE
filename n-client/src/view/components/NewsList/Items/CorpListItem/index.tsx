@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import { CorpList } from './CorpList';
 import { Header } from './Header';
 
-interface Props {}
+interface IProps {}
 
-export const CorpListItem: FC<Props> = () => (
+export const CorpListItem: FC<IProps> = () => (
   <Wrapper>
     <Header />
     <CorpList />

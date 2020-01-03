@@ -31,7 +31,7 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': 'off',
     indent: 'off',
     '@typescript-eslint/indent': 'off',
-    '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/interface-name-prefix': ['error', { prefixWithI: 'always' }],
     '@typescript-eslint/member-delimiter-style': 'off',
     '@typescript-eslint/no-angle-bracket-type-assertion': 'off',
     'no-array-constructor': 'off',

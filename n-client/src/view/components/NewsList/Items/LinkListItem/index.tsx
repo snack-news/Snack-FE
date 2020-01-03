@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 import { LinkList } from './LinkList';
 
-import { coolGrey } from '~nclient/constants/colors';
+import { COOL_GREY } from '~nclient/constants/colors';
 
-interface Props {}
+interface IProps {}
 
-export const LinkListItem: FC<Props> = () => (
+export const LinkListItem: FC<IProps> = () => (
   <Wrapper>
     <LinkList />
     <Copyright />
@@ -23,5 +23,5 @@ const Wrapper = styled.section`
 
 const Copyright = styled.span.attrs({ children: '© 2019 Snack Project' })`
   font-size: 12px;
-  color: ${coolGrey};
+  color: ${COOL_GREY};
 `;

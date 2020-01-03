@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-interface Props {}
+interface IProps {}
 
-export const Header: FC<Props> = () => (
+export const Header: FC<IProps> = () => (
   <Wrapper>
     <Title>스낵뉴스를 원하는 플랫폼에서 챙겨보세요</Title>
   </Wrapper>

@@ -2,11 +2,11 @@ import React, { FC } from 'react';
 
 import { NewsLabel } from './NewsLabel';
 
-interface Props {
-  topics: Topic[];
+interface IProps {
+  topics: ITopic[];
 }
 
-export const TopicLabelList: FC<Props> = ({ topics }) => (
+export const TopicLabelList: FC<IProps> = ({ topics }) => (
   <>
     {topics.map(topic => (
       <NewsLabel key={topic.id}>{topic.name}</NewsLabel>

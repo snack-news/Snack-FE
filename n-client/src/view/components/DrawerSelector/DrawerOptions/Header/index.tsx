@@ -3,11 +3,13 @@ import styled from 'styled-components';
 
 import { CloseButton } from './CloseButton';
 
-interface Props {
+import { BLACK } from '~nclient/constants/colors';
+
+interface IProps {
   onClose?: () => void;
 }
 
-export const Header: FC<Props> = ({ children, onClose }) => (
+export const Header: FC<IProps> = ({ children, onClose }) => (
   <Wrapper>
     <Title>{children}</Title>
     <CloseButton onClick={onClose} />
@@ -15,8 +17,6 @@ export const Header: FC<Props> = ({ children, onClose }) => (
 );
 
 const Wrapper = styled.header`
-  padding: 20px 20px 15px 20px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,11 +24,12 @@ const Wrapper = styled.header`
 `;
 
 const Title = styled.h2`
-  margin: 0;
+  padding: 20px 20px 15px 20px;
 
   display: flex;
   align-items: center;
 
+  margin: 0;
   font-size: 17px;
-  color: rgb(18, 17, 17);
+  color: ${BLACK};
 `;

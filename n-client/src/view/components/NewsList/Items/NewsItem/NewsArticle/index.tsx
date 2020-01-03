@@ -3,14 +3,14 @@ import styled from 'styled-components';
 
 import { decodeContent } from './decodeContent';
 
-import { black } from '~nclient/constants/colors';
+import { BLACK } from '~nclient/constants/colors';
 
-interface Props {
+interface IProps {
   title: string;
   content: string;
 }
 
-export const NewsArticle: FC<Props> = ({ title, content }) => (
+export const NewsArticle: FC<IProps> = ({ title, content }) => (
   <Wrapper>
     <Title>{title}</Title>
     <Content dangerouslySetInnerHTML={{ __html: decodeContent(content) }} />
@@ -25,7 +25,7 @@ const Title = styled.h1`
   font-size: 19px;
   font-weight: 600;
   line-height: 1.21;
-  color: ${black};
+  color: ${BLACK};
 `;
 
 const Content = styled.section``;

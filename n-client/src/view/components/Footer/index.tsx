@@ -5,26 +5,37 @@ import { LinkList } from './LinkList';
 import { ContactList } from './ContactList';
 import { Logo } from './Logo';
 
-interface Props {}
+import { BRIGHT_BLUE } from '~nclient/constants/colors';
 
-export const Footer: FC<Props> = () => (
+interface IProps {}
+
+export const Footer: FC<IProps> = () => (
   <Wrapper>
-    <LinkList />
-    <ContactList />
-    <Logo />
+    <StyledLinkList />
+    <StyledContactList />
+    <StyledLogo />
   </Wrapper>
 );
 
 const Wrapper = styled.footer`
   display: flex;
   flex-grow: 1;
-  padding-top: 40px;
-  padding-bottom: 32px;
   flex-direction: column;
 
   max-height: 220px;
-  box-sizing: border-box;
 
   box-shadow: rgba(11, 102, 247, 0.4) 0px -1px 3px 0px;
-  background-color: rgb(11, 102, 247);
+  background-color: ${BRIGHT_BLUE};
+`;
+
+const StyledLinkList = styled(LinkList)`
+  padding: 40px 40px 29px 40px;
+`;
+
+const StyledContactList = styled(ContactList)`
+  padding: 0px 40px 42px 40px;
+`;
+
+const StyledLogo = styled(Logo)`
+  padding: 0px 0px 0px 32px;
 `;

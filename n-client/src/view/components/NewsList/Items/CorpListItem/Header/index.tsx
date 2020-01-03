@@ -2,14 +2,15 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import { corpsPath } from '~nclient/constants/paths';
+import { CORPS_PATH } from '~nclient/constants/paths';
+import { BRIGHT_BLUE } from '~nclient/constants/colors';
 
-interface Props {}
+interface IProps {}
 
-export const Header: FC<Props> = () => (
+export const Header: FC<IProps> = () => (
   <Wrapper>
     <Title>회사별 뉴스 모아보기</Title>
-    <MoreLink to={corpsPath}>모두보기</MoreLink>
+    <MoreLink to={CORPS_PATH}>모두보기</MoreLink>
   </Wrapper>
 );
 
@@ -33,6 +34,6 @@ const Title = styled.h2`
 
 const MoreLink = styled(Link)`
   font-size: 13px;
-  color: rgb(11, 102, 247);
+  color: ${BRIGHT_BLUE};
   text-decoration: none;
 `;

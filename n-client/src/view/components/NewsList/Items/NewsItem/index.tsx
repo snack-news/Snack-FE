@@ -9,11 +9,11 @@ import { NewsMeta } from './NewsMeta';
 
 import { HorizontalDivider } from '~nclient/view/components/HorizontalDivider';
 
-interface Props {
-  news: News;
+interface IProps {
+  news: INews;
 }
 
-export const NewsItem: FC<Props> = ({ news }) => (
+export const NewsItem: FC<IProps> = ({ news }) => (
   <Wrapper>
     <NewsLabelList tags={news.tags} topics={news.topics} />
     <NewsArticle title={news.title} content={news.content} />

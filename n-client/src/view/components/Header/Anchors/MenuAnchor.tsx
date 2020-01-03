@@ -1,25 +1,17 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 import { MenuImg } from '~nclient/resources';
+import { ImgLink } from '~nclient/view/components/ImgLink';
+import { MENU_PATH } from '~nclient/constants/paths';
 
-export const MenuAnchor: FC = () => (
-  <StyledLink to="/menu">
-    <MenuIcon />
-  </StyledLink>
-);
+export const MenuAnchor: FC = () => <MenuLink to={MENU_PATH} alt="menu" />;
 
-const StyledLink = styled(Link)`
-  display: flex;
-  align-items: center;
-
-  padding: 0px 20px;
-  height: 100%;
-`;
-
-const MenuIcon = styled.img.attrs({ src: MenuImg })`
+const MenuLink = styled(ImgLink).attrs({ src: MenuImg })`
   display: block;
   width: 16px;
   margin: 6px;
+
+  padding: 0px 20px;
+  height: 100%;
 `;

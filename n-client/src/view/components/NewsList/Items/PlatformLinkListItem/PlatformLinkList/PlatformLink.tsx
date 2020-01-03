@@ -1,14 +1,14 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-interface Props {
+interface IProps {
   color: string;
   background: string;
   href: string;
   name: string;
 }
 
-export const PlatformLink: FC<Props> = ({ color, background, href, name }) => (
+export const PlatformLink: FC<IProps> = ({ color, background, href, name }) => (
   <StyledAnchor color={color} background={background} href={href}>
     {name}
     <br />

@@ -1,14 +1,14 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { slateGrey } from '~nclient/constants/colors';
+import { SLATE_GREY } from '~nclient/constants/colors';
 import { copyImg } from '~nclient/resources';
 
-interface Props {
+interface IProps {
   onClick: () => void;
 }
 
-export const CopyLinkButton: FC<Props> = ({ onClick, children }) => (
+export const CopyLinkButton: FC<IProps> = ({ onClick, children }) => (
   <StyledButton onClick={onClick}>
     <CopyIcon />
     <CopyLabel>{children}</CopyLabel>
@@ -37,5 +37,5 @@ const CopyLabel = styled.div`
   margin-left: 3px;
   font-size: 13px;
 
-  color: ${slateGrey};
+  color: ${SLATE_GREY};
 `;

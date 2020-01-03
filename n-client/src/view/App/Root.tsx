@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-const MAX_WIDTH = 600;
+import { MAX_WIDTH } from '~nclient/constants/sizes';
 
 export const Root = styled.div`
-  max-width: ${MAX_WIDTH}px;
+  max-width: ${MAX_WIDTH};
   margin: 0 auto;
 `;

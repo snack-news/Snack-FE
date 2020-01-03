@@ -2,39 +2,26 @@
 // TODO 코드 개선 필요 (너무 긴 라인수) (code bad smell)
 
 import React, { FC, useCallback } from 'react';
-import { oc } from 'ts-optchain';
 
 import { DrawerOptions } from './DrawerOptions';
 import { Label } from './Label';
-import { Option } from './Option';
-
-import { useBooleanState } from '../../../hooks/useBooleanState';
-
-import { useSelectedOption } from './useSelectedOption';
+import { IOption } from './IOption';
+import { useShowOptions } from './useShowOptions';
 
 import { Layer } from '~nclient/view/components/Layer';
 
-interface Props {
-  options: Option[];
-  value?: string;
-  onClickOption?: (option: Option) => void;
-  header: string;
-  labelStyle?: React.CSSProperties;
+interface IProps {
+  options: IOption[];
+  selectedValue?: string;
+  onClickOption?: (option: IOption) => void;
+  title: string;
 }
 
-export const DrawerSelector: FC<Props> = ({
-  options,
-  value,
-  onClickOption,
-  header,
-  labelStyle,
-}) => {
-  const { state: isShowOptions, setTrue: showOptions, setFalse: hideOptions } = useBooleanState(
-    false
-  );
+export const DrawerSelector: FC<IProps> = ({ options, selectedValue, onClickOption, title }) => {
+  const { isShowOptions, showOptions, hideOptions } = useShowOptions(false);
 
   const clickOptionHandler = useCallback(
-    (option: Option) => {
+    (option: IOption) => {
       if (onClickOption) onClickOption(option);
 
       hideOptions();
@@ -42,21 +29,17 @@ export const DrawerSelector: FC<Props> = ({
     [hideOptions, onClickOption]
   );
 
-  const selectedOption = useSelectedOption({ options, value });
-
   return (
     <>
-      <Label onClick={showOptions} style={labelStyle}>
-        {oc(selectedOption).label('선택된 값이 없습니다')}
-      </Label>
+      <Label onClick={showOptions} options={options} selectedValue={selectedValue} />
 
       {isShowOptions && (
         <>
           <Layer onClick={hideOptions} />
           <DrawerOptions
-            header={header}
+            title={title}
             options={options}
-            value={oc(selectedOption).value()}
+            selectedValue={selectedValue}
             onClose={hideOptions}
             onClickOption={clickOptionHandler}
           />

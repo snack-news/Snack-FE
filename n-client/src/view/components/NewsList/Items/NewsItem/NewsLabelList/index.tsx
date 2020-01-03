@@ -4,13 +4,13 @@ import styled from 'styled-components';
 import { TagLabelList } from './TagLabelList';
 import { TopicLabelList } from './TopicLabelList';
 
-interface Props {
-  tags: Tag[];
-  topics: Topic[];
+interface IProps {
+  tags: ITag[];
+  topics: ITopic[];
   className?: string;
 }
 
-export const NewsLabelList: FC<Props> = ({ tags, topics, className }) => (
+export const NewsLabelList: FC<IProps> = ({ tags, topics, className }) => (
   <Wrapper className={className}>
     <TagLabelList tags={tags} />
     <TopicLabelList topics={topics} />

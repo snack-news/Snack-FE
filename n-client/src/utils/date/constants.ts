@@ -23,3 +23,10 @@ export type WeekDay =
   | typeof ThursDay
   | typeof Friday
   | typeof Saturday;
+
+export const WEEK_START_DAY = MONDAY;
+export const WEEK_END_DAY = ((WEEK_START_DAY + 6) % 7) as WeekDay;
+
+export const NOW = new Date();
+export const MIN = new Date(2018, 7, 1);
+export const MAX = NOW;

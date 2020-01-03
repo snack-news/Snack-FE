@@ -1,7 +1,7 @@
 import React, { ReactElement, FC } from 'react';
 import styled from 'styled-components';
 
-interface Props {
+interface IProps {
   children: {
     header?: ReactElement;
     main?: ReactElement;
@@ -9,7 +9,7 @@ interface Props {
   };
 }
 
-export const PageLayout: FC<Props> = ({ children: { header, main, footer } }) => (
+export const PageLayout: FC<IProps> = ({ children: { header, main, footer } }) => (
   <Wrapper>
     {header}
     <Main>{main}</Main>

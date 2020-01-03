@@ -1,15 +1,17 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { aboutPath, proposePath, contactPath } from '~nclient/constants/paths';
+import { CONTACT_URL, CONTACT_NAME } from '~nclient/constants/urls';
+import { ABOUT_PATH, ABOUT_NAME, PROPOSE_PATH, PROPOSE_NAME } from '~nclient/constants/paths';
+import { WHITE_THREE } from '~nclient/constants/colors';
 
-interface Props {}
+interface IProps {}
 
-export const LinkList: FC<Props> = () => (
+export const LinkList: FC<IProps> = () => (
   <Wrapper>
-    <Link href={aboutPath}>서비스 안내</Link>
-    <Link href={proposePath}>제안하기</Link>
-    <Link href={contactPath}>문의하기</Link>
+    <Link href={ABOUT_PATH}>{ABOUT_NAME}</Link>
+    <Link href={PROPOSE_PATH}>{PROPOSE_NAME}</Link>
+    <Link href={CONTACT_URL}>{CONTACT_NAME}</Link>
   </Wrapper>
 );
 
@@ -18,17 +20,12 @@ const Wrapper = styled.section`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
-  margin-bottom: 29px;
-
-  padding-right: 40px;
-  padding-left: 40px;
 `;
 
 const Link = styled.a`
   font-size: 13px;
   font-weight: 500;
   text-align: center;
-  color: rgb(254, 254, 254);
+  color: ${WHITE_THREE};
   text-decoration: none;
 `;

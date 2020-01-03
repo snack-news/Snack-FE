@@ -4,9 +4,9 @@ import styled from 'styled-components';
 import { PlatformLinkList } from './PlatformLinkList';
 import { Header } from './Header';
 
-interface Props {}
+interface IProps {}
 
-export const PlatformLinkListItem: FC<Props> = () => (
+export const PlatformLinkListItem: FC<IProps> = () => (
   <Wrapper>
     <Header />
     <PlatformLinkList />

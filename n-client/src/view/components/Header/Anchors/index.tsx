@@ -6,11 +6,11 @@ import { BackAnchor } from './BackAnchor';
 
 export type AnchorType = 'HOME' | 'BACK' | 'MENU';
 
-interface Props {
+interface IProps {
   type?: AnchorType;
 }
 
-export const Anchors: FC<Props> = ({ type }) => {
+export const Anchors: FC<IProps> = ({ type }) => {
   if (type === 'HOME') {
     return <LogoAnchor />;
   }

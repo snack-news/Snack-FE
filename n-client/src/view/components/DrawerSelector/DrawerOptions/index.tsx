@@ -3,23 +3,29 @@ import React, { FC } from 'react';
 import { Header } from './Header';
 import { Options } from './Options';
 import { BottomDrawer } from './BottomDrawer';
-import { Option } from '../Option';
+import { IOption } from '../IOption';
 
 import { HorizontalDivider } from '~nclient/view/components/HorizontalDivider';
 
-interface Props {
-  header: string;
+interface IProps {
+  title: string;
   onClose?: () => void;
-  onClickOption?: (option: Option) => void;
-  options: Option[];
-  value?: string;
+  onClickOption?: (option: IOption) => void;
+  options: IOption[];
+  selectedValue?: string;
   onClickLayer?: () => void;
 }
 
-export const DrawerOptions: FC<Props> = ({ header, onClose, onClickOption, options, value }) => (
+export const DrawerOptions: FC<IProps> = ({
+  title,
+  onClose,
+  onClickOption,
+  options,
+  selectedValue,
+}) => (
   <BottomDrawer>
-    <Header onClose={onClose}>{header}</Header>
+    <Header onClose={onClose}>{title}</Header>
     <HorizontalDivider />
-    <Options options={options} value={value} onClickOption={onClickOption} />
+    <Options options={options} selectedValue={selectedValue} onClickOption={onClickOption} />
   </BottomDrawer>
 );

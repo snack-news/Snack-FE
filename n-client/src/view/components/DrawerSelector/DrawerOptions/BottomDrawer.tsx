@@ -1,15 +1,20 @@
 import styled from 'styled-components';
 
+import { MAX_WIDTH } from '~nclient/constants/sizes';
+
 export const BottomDrawer = styled.section`
   position: fixed;
+  background-color: white;
+  flex-direction: column;
   bottom: 0px;
-  background-color: rgb(255, 255, 255);
-  max-width: 600px;
-  width: 100%;
+
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 
-  display: flex;
+  max-width: ${MAX_WIDTH};
+  width: 100%;
   padding-bottom: 20px;
-  flex-direction: column;
+
+  overflow: auto;
+  max-height: 375px;
 `;

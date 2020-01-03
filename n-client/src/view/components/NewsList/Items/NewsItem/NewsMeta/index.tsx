@@ -6,11 +6,11 @@ import { LinkImg } from './LinkImg';
 
 import { LinkDesc } from './LinkDesc';
 
-interface Props {
+interface IProps {
   link: string;
 }
 
-export const NewsMeta: FC<Props> = ({ link }) => {
+export const NewsMeta: FC<IProps> = ({ link }) => {
   const meta = useLinkMetaData(link);
 
   if (!meta) {

@@ -8,7 +8,7 @@ import { snak16x16 } from '~client/resources';
 
 // TODO SEO 최적화에 맞게 META 태그 정리 필요.
 
-const metaPropsList: React.MetaHTMLAttributes<HTMLMetaElement>[] = [
+const META_PROPS_LIST: React.MetaHTMLAttributes<HTMLMetaElement>[] = [
   { charSet: 'utf-8' },
   { name: 'title', content: TITLE },
   { name: 'application-name', content: TITLE },
@@ -23,7 +23,7 @@ const metaPropsList: React.MetaHTMLAttributes<HTMLMetaElement>[] = [
   },
 ];
 
-const linkPropsList: React.LinkHTMLAttributes<HTMLLinkElement>[] = [
+const LINK_PROPS_LIST: React.LinkHTMLAttributes<HTMLLinkElement>[] = [
   { rel: 'shortcut icon', href: favicon, type: 'image/x-icon' },
   { rel: 'icon', type: 'image/x-icon', href: favicon },
   { rel: 'icon', type: 'image/png', href: snak16x16 },
@@ -33,13 +33,13 @@ const linkPropsList: React.LinkHTMLAttributes<HTMLLinkElement>[] = [
 export const BasicMeta: FC = () => {
   const metaTags = useMemo(
     // eslint-disable-next-line react/jsx-props-no-spreading
-    () => metaPropsList.map(props => <meta {...props} key={JSON.stringify(props)} />),
+    () => META_PROPS_LIST.map(props => <meta {...props} key={JSON.stringify(props)} />),
     []
   );
 
   const linkTags = useMemo(
     // eslint-disable-next-line react/jsx-props-no-spreading
-    () => linkPropsList.map(props => <link {...props} key={JSON.stringify(props)} />),
+    () => LINK_PROPS_LIST.map(props => <link {...props} key={JSON.stringify(props)} />),
     []
   );
 

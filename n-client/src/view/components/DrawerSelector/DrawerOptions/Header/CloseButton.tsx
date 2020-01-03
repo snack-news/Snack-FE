@@ -1,28 +1,11 @@
-import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { exitImg } from '~nclient/resources';
+import { ImgButton } from '~nclient/view/components/ImgButton';
 
-interface Props {
-  onClick?: () => void;
-}
-
-export const CloseButton: FC<Props> = ({ onClick }) => (
-  <StyledButton onClick={onClick}>
-    <CloseIcon />
-  </StyledButton>
-);
-
-const StyledButton = styled.button`
-  display: flex;
-  align-items: center;
-
-  background: transparent;
-  border-width: 0;
-  padding: 0px;
-`;
-
-const CloseIcon = styled.img.attrs({ src: exitImg })`
+export const CloseButton = styled(ImgButton).attrs({ src: exitImg })`
   width: 14px;
   height: 14px;
+
+  margin: 20px 20px 15px 20px;
 `;

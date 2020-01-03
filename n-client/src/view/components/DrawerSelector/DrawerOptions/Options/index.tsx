@@ -1,30 +1,24 @@
 import React, { FC } from 'react';
-import styled from 'styled-components';
 
-import { OptionItem } from './OptionItem';
-import { Option } from '../../Option';
+import { Option } from './Option';
+import { IOption } from '../../IOption';
 
-interface Props {
-  onClickOption?: (option: Option) => void;
-  options: Option[];
-  value?: string;
+interface IProps {
+  onClickOption?: (option: IOption) => void;
+  options: IOption[];
+  selectedValue?: string;
 }
 
-export const Options: FC<Props> = ({ onClickOption, options, value }) => (
-  <Wrapper>
+export const Options: FC<IProps> = ({ onClickOption, options, selectedValue }) => (
+  <>
     {options.map(option => (
-      <OptionItem
+      <Option
         key={option.value}
         onClick={() => onClickOption && onClickOption(option)}
-        selected={option.value === value}
+        selected={selectedValue === option.value}
       >
         {option.optionLabel}
-      </OptionItem>
+      </Option>
     ))}
-  </Wrapper>
+  </>
 );
-
-const Wrapper = styled.div`
-  overflow: auto;
-  max-height: 375px;
-`;

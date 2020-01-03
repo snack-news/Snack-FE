@@ -3,15 +3,15 @@ import styled from 'styled-components';
 
 import { Anchors, AnchorType } from './Anchors';
 
-import { whiteTwo } from '~nclient/constants/colors';
+import { WHITE_TWO } from '~nclient/constants/colors';
 
-interface Props {
+interface IProps {
   leftAnchor?: AnchorType;
   rightAnchor?: AnchorType;
   title?: string;
 }
 
-export const Header: FC<Props> = ({ leftAnchor = 'HOME', rightAnchor = 'MENU', title }) => (
+export const Header: FC<IProps> = ({ leftAnchor = 'HOME', rightAnchor = 'MENU', title }) => (
   <HeaderStyled>
     <Anchors type={leftAnchor} />
     {title}
@@ -20,11 +20,13 @@ export const Header: FC<Props> = ({ leftAnchor = 'HOME', rightAnchor = 'MENU', t
 );
 
 const HeaderStyled = styled.header`
-  background-color: ${whiteTwo};
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
   height: 66px;
   box-sizing: border-box;
+
+  background-color: ${WHITE_TWO};
 `;
