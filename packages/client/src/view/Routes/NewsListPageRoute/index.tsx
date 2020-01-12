@@ -3,6 +3,7 @@ import { useRouteMatch } from 'react-router';
 
 import { HomePage } from './HomePage';
 import { NewsListPage } from './NewsListPage';
+import { NewsPage } from './NewsPage';
 import { CorpNewsListPage } from './CorpNewsListPage';
 
 import { HOME_PATH } from '~src/constants/paths';
@@ -11,6 +12,10 @@ interface IHomeURLParams {}
 
 interface INewsListURLParams {
   startDateTime: string;
+}
+
+interface INewsURLParams {
+  mainNewsId: string;
 }
 
 interface ICorpNewsListURLParams {
@@ -23,6 +28,7 @@ export const NewsListPageRoute: FC<IProps> = () => {
   const homeMatch = useRouteMatch<IHomeURLParams>([HOME_PATH]);
   // TODO path 상수화..?
   const newsListMatch = useRouteMatch<INewsListURLParams>(['/newslist/week/:startDateTime']);
+  const newsMatch = useRouteMatch<INewsURLParams>(['/newslist/news/:mainNewsId']);
   const corpNewsListMatch = useRouteMatch<ICorpNewsListURLParams>(['/newslist/corp/:corpId']);
 
   if (homeMatch && homeMatch.isExact) {
@@ -31,6 +37,10 @@ export const NewsListPageRoute: FC<IProps> = () => {
 
   if (newsListMatch && newsListMatch.isExact) {
     return <NewsListPage startDateTime={newsListMatch.params.startDateTime} />;
+  }
+
+  if (newsMatch && newsMatch.isExact) {
+    return <NewsPage mainNewsId={newsMatch.params.mainNewsId} />;
   }
 
   if (corpNewsListMatch && corpNewsListMatch.isExact) {

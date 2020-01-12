@@ -8,6 +8,8 @@ import { NewsMeta } from './NewsMeta';
 
 import { HorizontalDivider } from '~src/view/components/HorizontalDivider';
 
+// TODO newsId 만 받아서 출력하는 형태로. 성능이슈는 service worker를 통해 cache를 활용하여 해결
+
 interface IProps {
   news: INews;
 }

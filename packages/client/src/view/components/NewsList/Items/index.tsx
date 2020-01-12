@@ -6,10 +6,12 @@ import { CorpListItem } from './CorpListItem';
 import { LinkListItem } from './LinkListItem';
 import { NewsItem } from './NewsItem';
 import { PlatformLinkListItem } from './PlatformLinkListItem';
+import { isNews } from './isNews';
 
 import { HorizontalDivider } from '~src/view/components/HorizontalDivider';
 
 interface IProps {
+  mainNews?: INews;
   newsList: INews[];
 
   isRenderCorpList?: boolean;
@@ -18,20 +20,29 @@ interface IProps {
 }
 
 export const Items: FC<IProps> = ({
+  mainNews,
   newsList,
   isRenderCorpList,
   isRenderLinkListItem,
   isRenderPlatformLinkListItem,
 }) => {
+  const renderNewsList = useMemo(() => {
+    if (mainNews) {
+      return [mainNews, ...newsList.filter(({ id }) => id !== mainNews.id)];
+    }
+
+    return newsList;
+  }, [mainNews, newsList]);
+
   const newsComponents = useMemo(
     () =>
-      newsList.map(news => (
+      renderNewsList.map(news => (
         <React.Fragment key={news.id}>
           <NewsItem news={news} />
           <HorizontalDivider thick />
         </React.Fragment>
       )),
-    [newsList]
+    [renderNewsList]
   );
 
   if (!newsList) {
