@@ -7,11 +7,7 @@ import { MENU_PATH } from '~src/constants/paths';
 
 export const MenuAnchor: FC = () => <MenuLink to={MENU_PATH} alt="menu" />;
 
-const MenuLink = styled(ImgLink).attrs({ src: MenuImg })`
-  display: block;
-  width: 16px;
-  margin: 6px;
-
-  padding: 0px 20px;
+const MenuLink = styled(ImgLink).attrs({ src: MenuImg, width: '16px' })`
   height: 100%;
+  width: 68px;
 `;

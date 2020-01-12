@@ -6,14 +6,16 @@ import { ImgLink } from '~src/view/components/ImgLink';
 import { facebookBlueImg, twitterBlueImg, kakaoBlueImg, emailBlueImg } from '~src/resources';
 import { FACEBOOK_URL, TWITTER_URL, KAKAO_URL, EMAIL_URL } from '~src/constants/urls';
 
-interface IProps {}
+interface IProps {
+  className?: string;
+}
 
-export const ContactList: FC<IProps> = () => (
-  <Wrapper>
-    <ImgLink to={FACEBOOK_URL} src={facebookBlueImg} alt="facebook" />
-    <ImgLink to={TWITTER_URL} src={twitterBlueImg} alt="twitter" />
-    <ImgLink to={KAKAO_URL} src={kakaoBlueImg} alt="kakao" />
-    <ImgLink to={EMAIL_URL} src={emailBlueImg} alt="email" />
+export const ContactList: FC<IProps> = ({ className }) => (
+  <Wrapper className={className}>
+    <ImgLink to={FACEBOOK_URL} src={facebookBlueImg} alt="facebook" width="40px" height="40px" />
+    <ImgLink to={TWITTER_URL} src={twitterBlueImg} alt="twitter" width="40px" height="40px" />
+    <ImgLink to={KAKAO_URL} src={kakaoBlueImg} alt="kakao" width="40px" height="40px" />
+    <ImgLink to={EMAIL_URL} src={emailBlueImg} alt="email" width="40px" height="40px" />
   </Wrapper>
 );
 

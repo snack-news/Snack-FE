@@ -10,9 +10,7 @@ export const BackAnchor: FC = () => {
   return <BackBlueArrowButton onClick={goBack} />;
 };
 
-const BackBlueArrowButton = styled(ImgButton).attrs({ src: backBlueArrowImg, height: '22px' })`
-  display: block;
-
-  padding: 0px 20px;
+const BackBlueArrowButton = styled(ImgButton).attrs({ src: backBlueArrowImg, width: '25px' })`
   height: 100%;
+  width: 65px;
 `;

@@ -34,6 +34,7 @@ export const ImgButton: FC<IProps> = ({
 const StyledButton = styled(NonStyledButton)`
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: row;
 `;
 

@@ -7,9 +7,7 @@ import { HOME_PATH } from '~src/constants/paths';
 
 export const LogoAnchor: FC = () => <LogoLink to={HOME_PATH} alt="Logo" />;
 
-const LogoLink = styled(ImgLink).attrs({ src: logoImg })`
-  display: block;
-  height: 20px;
-
-  padding: 0px 20px;
+const LogoLink = styled(ImgLink).attrs({ src: logoImg, width: '60px' })`
+  height: 100%;
+  width: 100px;
 `;

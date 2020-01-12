@@ -5,10 +5,12 @@ import { CONTACT_URL, CONTACT_NAME } from '~src/constants/urls';
 import { ABOUT_PATH, ABOUT_NAME, PROPOSE_PATH, PROPOSE_NAME } from '~src/constants/paths';
 import { WHITE_THREE } from '~src/constants/colors';
 
-interface IProps {}
+interface IProps {
+  className?: string;
+}
 
-export const LinkList: FC<IProps> = () => (
-  <Wrapper>
+export const LinkList: FC<IProps> = ({ className }) => (
+  <Wrapper className={className}>
     <Link href={ABOUT_PATH}>{ABOUT_NAME}</Link>
     <Link href={PROPOSE_PATH}>{PROPOSE_NAME}</Link>
     <Link href={CONTACT_URL}>{CONTACT_NAME}</Link>

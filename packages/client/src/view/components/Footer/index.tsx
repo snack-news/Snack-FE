@@ -23,13 +23,14 @@ const Wrapper = styled.footer`
   flex-direction: column;
 
   max-height: 220px;
+  padding: 40px 0px 32px 0px;
 
   box-shadow: rgba(11, 102, 247, 0.4) 0px -1px 3px 0px;
   background-color: ${BRIGHT_BLUE};
 `;
 
 const StyledLinkList = styled(LinkList)`
-  padding: 40px 40px 29px 40px;
+  padding: 0px 40px 29px 40px;
 `;
 
 const StyledContactList = styled(ContactList)`
@@ -37,5 +38,5 @@ const StyledContactList = styled(ContactList)`
 `;
 
 const StyledLogo = styled(Logo)`
-  padding: 0px 0px 0px 32px;
+  padding: 0px 0px 0px 0px;
 `;
