@@ -1,14 +1,15 @@
-import { useState } from 'react';
+import { useMemo } from 'react';
 
 import { useCorps } from './useCorps';
 
-export const useCorp = (corpId: string) => {
-  const [corp, setCorp] = useState<ICorp | undefined>(undefined);
+export const useCorp = (corpId: number) => {
   const corps = useCorps();
 
-  if (corps) {
-    setCorp(corps.find(({ id }) => id === corpId));
-  }
+  return useMemo(() => {
+    if (corps) {
+      return corps.find(({ id }) => id === corpId);
+    }
 
-  return corp;
+    return undefined;
+  }, [corpId, corps]);
 };

@@ -26,20 +26,20 @@ export const CorpNewsListPage: FC<IProps> = ({ corpId }) => {
   const startStrDateTime = useMemo(() => dateToString(startDateTime, 'VALUE'), [startDateTime]);
   const endStrDateTime = useMemo(() => dateToString(endDateTime, 'VALUE'), [endDateTime]);
 
-  const crop = useCorp(corpId);
+  const corp = useCorp(parseInt(corpId, 10));
   const filter = useMemo<INewsFilter>(
     () => ({ startDateTime: startStrDateTime, endDateTime: endStrDateTime, topicIds: corpId }),
     [corpId, endStrDateTime, startStrDateTime]
   );
 
-  if (!crop) {
+  if (!corp) {
     return null;
   }
 
   return (
     <PageLayout>
       {{
-        header: <CorpNewsListPageHeader corpName={crop.name} />,
+        header: <CorpNewsListPageHeader corpName={corp.name} />,
         main: <InfiniteScrollNewsList filter={filter} />,
         footer: <Footer />,
       }}

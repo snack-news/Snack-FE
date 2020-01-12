@@ -48,7 +48,7 @@ export const InfiniteScrollNewsList: FC<IProps> = ({
     setNoContent(true);
   }, []);
 
-  const nextNoContent = useMemo(() => (noContent ? noConentCount + 1 : noConentCount), [
+  const nextNoContent = useMemo(() => (noContent ? noConentCount + 1 : 0), [
     noConentCount,
     noContent,
   ]);
