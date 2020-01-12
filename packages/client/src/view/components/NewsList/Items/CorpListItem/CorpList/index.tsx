@@ -14,7 +14,7 @@ export const CorpList: FC<IProps> = () => {
   return (
     <Wrapper>
       {corps.map(({ name, image, id }) => (
-        <Corp name={name} image={image} key={id} />
+        <Corp name={name} image={image} key={id} id={id} />
       ))}
     </Wrapper>
   );

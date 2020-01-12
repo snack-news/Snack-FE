@@ -40,7 +40,7 @@ export const CorpNewsListPage: FC<IProps> = ({ corpId }) => {
     <PageLayout>
       {{
         header: <CorpNewsListPageHeader corpName={corp.name} />,
-        main: <InfiniteScrollNewsList filter={filter} />,
+        main: <InfiniteScrollNewsList filter={filter} isRenderCorpList />,
         footer: <Footer />,
       }}
     </PageLayout>

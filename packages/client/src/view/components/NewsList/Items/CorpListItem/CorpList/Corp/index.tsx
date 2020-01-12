@@ -3,6 +3,7 @@
 
 import React, { FC } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 import { CorpLogo } from './CorpLogo';
 
@@ -12,16 +13,17 @@ interface IProps {
   name: string;
   image: string;
   className?: string;
+  id: string;
 }
 
-export const Corp: FC<IProps> = ({ name, image, className }) => (
-  <Wrapper className={className}>
+export const Corp: FC<IProps> = ({ name, image, className, id }) => (
+  <Wrapper className={className} to={`newslist/corp/${id}`}>
     <CorpLogo src={image} />
     <Label>{name}</Label>
   </Wrapper>
 );
 
-const Wrapper = styled.a`
+const Wrapper = styled(Link)`
   display: flex;
   flex-direction: column;
   text-decoration: none;

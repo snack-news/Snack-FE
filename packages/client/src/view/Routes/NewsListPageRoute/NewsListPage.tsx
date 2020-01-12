@@ -28,7 +28,14 @@ export const NewsListPage: FC<IProps> = ({ startDateTime }) => {
     <PageLayout>
       {{
         header: <NewsListPageHeader startDateTime={startDateTime} />,
-        main: <InfiniteScrollNewsList filter={filter} />,
+        main: (
+          <InfiniteScrollNewsList
+            filter={filter}
+            isRenderCorpList
+            isRenderLinkListItem
+            isRenderPlatformLinkListItem
+          />
+        ),
         footer: <Footer />,
       }}
     </PageLayout>
