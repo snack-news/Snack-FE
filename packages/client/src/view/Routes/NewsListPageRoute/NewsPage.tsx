@@ -30,7 +30,7 @@ export const NewsPage: FC<IProps> = ({ mainNewsId }) => {
     <PageLayout>
       {{
         header: <NewsListPageHeader startDateTime={`${startDateTime.getTime()}`} />,
-        main: <InfiniteScrollNewsList filter={filter} mainNewsId={mainNewsId} />,
+        main: <InfiniteScrollNewsList filter={filter} mainNewsId={parseInt(mainNewsId, 10)} />,
         footer: <Footer />,
       }}
     </PageLayout>

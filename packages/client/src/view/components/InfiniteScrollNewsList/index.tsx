@@ -14,7 +14,8 @@ interface IProps {
   isRenderCorpList?: boolean;
   isRenderLinkListItem?: boolean;
   isRenderPlatformLinkListItem?: boolean;
-  mainNewsId?: string;
+  mainNewsId?: number;
+  excludeNewsId?: number;
   filter: INewsFilter;
   maxNoConentCount?: number;
   noConentCount?: number;
@@ -25,6 +26,7 @@ export const InfiniteScrollNewsList: FC<IProps> = ({
   isRenderLinkListItem,
   isRenderPlatformLinkListItem,
   mainNewsId,
+  excludeNewsId,
   filter,
   noConentCount = 0,
   maxNoConentCount = 3,
@@ -63,6 +65,7 @@ export const InfiniteScrollNewsList: FC<IProps> = ({
           isRenderLinkListItem={isRenderLinkListItem}
           isRenderPlatformLinkListItem={isRenderPlatformLinkListItem}
           mainNewsId={mainNewsId}
+          excludeNewsId={mainNewsId ? undefined : excludeNewsId}
           onFatched={setRendered}
           onNoContent={isNoContent}
           key="newsList"
@@ -73,6 +76,7 @@ export const InfiniteScrollNewsList: FC<IProps> = ({
           filter={nextFilter}
           noConentCount={nextNoContent}
           maxNoConentCount={maxNoConentCount}
+          excludeNewsId={mainNewsId}
           key="nextNewsList"
         />
       )}

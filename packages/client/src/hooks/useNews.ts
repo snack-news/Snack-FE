@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { fetchNews } from '~src/api/fetchNews';
 
-export const useNews = (newsId?: string) => {
+export const useNews = (newsId?: number) => {
   const [news, setNews] = useState<INews>();
 
   useEffect(() => {

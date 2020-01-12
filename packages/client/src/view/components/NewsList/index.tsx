@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React, { FC, useMemo } from 'react';
 
 import { Items } from './Items';
 
@@ -9,7 +9,8 @@ interface IProps {
   isRenderCorpList?: boolean;
   isRenderLinkListItem?: boolean;
   isRenderPlatformLinkListItem?: boolean;
-  mainNewsId?: string;
+  mainNewsId?: number;
+  excludeNewsId?: number;
   filter: INewsFilter;
 
   onFatched?: () => void;
@@ -21,6 +22,7 @@ export const NewsList: FC<IProps> = ({
   isRenderLinkListItem,
   isRenderPlatformLinkListItem,
   mainNewsId,
+  excludeNewsId,
   onFatched,
   onNoContent,
   filter,
@@ -28,12 +30,29 @@ export const NewsList: FC<IProps> = ({
   const mainNews = useNews(mainNewsId);
   const newsList = useNewsList(filter, onFatched, onNoContent);
 
+  const renderNewsList = useMemo(() => {
+    if (!newsList) {
+      return [];
+    }
+
+    let filteredNewsList = newsList;
+
+    if (mainNews) {
+      filteredNewsList = [mainNews, ...filteredNewsList.filter(({ id }) => id !== mainNews.id)];
+    }
+
+    if (excludeNewsId) {
+      filteredNewsList = filteredNewsList.filter(({ id }) => id !== excludeNewsId);
+    }
+
+    return filteredNewsList;
+  }, [excludeNewsId, mainNews, newsList]);
+
   if (!newsList) return null;
 
   return (
     <Items
-      mainNews={mainNews}
-      newsList={newsList}
+      newsList={renderNewsList}
       isRenderCorpList={isRenderCorpList}
       isRenderLinkListItem={isRenderLinkListItem}
       isRenderPlatformLinkListItem={isRenderPlatformLinkListItem}
