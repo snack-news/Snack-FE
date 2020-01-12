@@ -8,5 +8,5 @@ export const startOfWeekOrMonth = (date: Date) => {
 
   const isInMonth = startDateOfWeek.getMonth() === startDateOfMonth.getMonth();
 
-  return isInMonth ? startDateOfMonth : startDateOfWeek;
+  return isInMonth ? startDateOfWeek : startDateOfMonth;
 };

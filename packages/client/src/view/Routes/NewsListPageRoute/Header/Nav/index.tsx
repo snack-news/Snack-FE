@@ -5,12 +5,12 @@ import { SelectWeekRange } from './SelectWeekRange';
 // import { IndexPageAnchor } from './IndexPageAnchor';
 
 interface IProps {
-  startDateTime?: string;
+  startDateTime: string;
 }
 
 export const Nav: FC<IProps> = ({ startDateTime }) => (
   <NavStyled>
-    <SelectWeekRange value={startDateTime} />
+    <SelectWeekRange currentValue={startDateTime} />
     {/* <IndexPageAnchor /> */}
   </NavStyled>
 );

@@ -6,12 +6,11 @@ import { useWeeks } from './useWeeks';
 import { DrawerSelector } from '~src/view/components/DrawerSelector';
 
 interface IProps {
-  value?: string;
+  currentValue: string;
 }
 
-export const SelectWeekRange: FC<IProps> = ({ value }) => {
+export const SelectWeekRange: FC<IProps> = ({ currentValue }) => {
   const weeks = useWeeks();
-  const currentValue = value || weeks[0].value;
   // const [week, setWeek] = useState(value || weeks[0].value);
   const history = useHistory();
 
