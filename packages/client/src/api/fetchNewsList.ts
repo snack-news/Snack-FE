@@ -7,5 +7,5 @@ export const fetchNewsList = async (requestParams: INewsFilter) => {
     params: requestParams,
   });
 
-  return res.data.data;
+  return res;
 };

@@ -5,7 +5,7 @@ import React, { FC, useMemo } from 'react';
 
 import { CorpNewsListPageHeader } from './Header/CorpNewsListPageHeader';
 
-import { NewsList } from '~src/view/components/NewsList';
+import { InfiniteScrollNewsList } from '~src/view/components/InfiniteScrollNewsList';
 import { PageLayout } from '~src/view/components/PageLayout';
 import { Footer } from '~src/view/components/Footer';
 import { dateToString } from '~src/utils/date/dateToString';
@@ -40,7 +40,7 @@ export const CorpNewsListPage: FC<IProps> = ({ corpId }) => {
     <PageLayout>
       {{
         header: <CorpNewsListPageHeader corpName={crop.name} />,
-        main: <NewsList filter={filter} />,
+        main: <InfiniteScrollNewsList filter={filter} />,
         footer: <Footer />,
       }}
     </PageLayout>

@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 
-type Status = 'OBSERVING' | 'LOADING' | 'RENDERED';
+type Status = 'OBSERVING' | 'LOADING' | 'RENDERED' | 'DONE';
 
 export const useStatus = () => {
   const [status, setStatus] = useState<Status>('OBSERVING');
@@ -13,9 +13,14 @@ export const useStatus = () => {
     setStatus('RENDERED');
   }, []);
 
+  const setDone = useCallback(() => {
+    setStatus('DONE');
+  }, []);
+
   return {
     status,
     setLoading,
     setRendered,
+    setDone,
   };
 };

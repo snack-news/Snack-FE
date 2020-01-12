@@ -13,6 +13,7 @@ interface IProps {
   filter: INewsFilter;
 
   onFatched?: () => void;
+  onNoContent?: () => void;
 }
 
 export const NewsList: FC<IProps> = ({
@@ -21,14 +22,13 @@ export const NewsList: FC<IProps> = ({
   isRenderPlatformLinkListItem,
   mainNewsId,
   onFatched,
+  onNoContent,
   filter,
 }) => {
   const mainNews = useNews(mainNewsId);
-  const newsList = useNewsList(filter);
+  const newsList = useNewsList(filter, onFatched, onNoContent);
 
   if (!newsList) return null;
-
-  if (onFatched) onFatched();
 
   return (
     <Items

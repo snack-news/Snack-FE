@@ -2,7 +2,7 @@ import React, { FC, useMemo } from 'react';
 
 import { NewsListPageHeader } from './Header/NewsListPageHeader';
 
-import { NewsList } from '~src/view/components/NewsList';
+import { InfiniteScrollNewsList } from '~src/view/components/InfiniteScrollNewsList';
 import { PageLayout } from '~src/view/components/PageLayout';
 import { Footer } from '~src/view/components/Footer';
 import { dateToString } from '~src/utils/date/dateToString';
@@ -30,7 +30,7 @@ export const NewsPage: FC<IProps> = ({ mainNewsId }) => {
     <PageLayout>
       {{
         header: <NewsListPageHeader startDateTime={`${startDateTime.getTime()}`} />,
-        main: <NewsList filter={filter} mainNewsId={mainNewsId} />,
+        main: <InfiniteScrollNewsList filter={filter} mainNewsId={mainNewsId} />,
         footer: <Footer />,
       }}
     </PageLayout>

@@ -9,11 +9,20 @@ export const IntersectionObserverComponent: FC<IProps> = ({ onObserve }) => {
 
   const io = useMemo(
     () =>
-      new IntersectionObserver(onObserve, {
-        root: null,
-        rootMargin: '30px',
-        threshold: 0,
-      }),
+      new IntersectionObserver(
+        entries => {
+          entries.forEach(entry => {
+            if (!entry.isIntersecting) return;
+
+            onObserve();
+          });
+        },
+        {
+          root: null,
+          rootMargin: '0px',
+          threshold: 1,
+        }
+      ),
     [onObserve]
   );
 

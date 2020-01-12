@@ -1,50 +1,81 @@
-/* eslint-disable max-lines */
-// TODO 코드 개선 필요 (너무 긴 라인수) (code bad smell)
+import React, { FC, useMemo, useState, useCallback } from 'react';
 
-import React, { FC, useState, ReactElement } from 'react';
-import { addDays } from 'date-fns';
+import { subDays } from 'date-fns';
 
 import { IntersectionObserverComponent } from './IntersectionObserverComponent';
-import { useStatus } from './useState';
+import { useStatus } from './useStatus';
 
 import { NewsList } from '~src/view/components/NewsList';
+import { endOfWeekOrMonth } from '~src/utils/date/endOfWeekOrMonth';
 import { dateToString } from '~src/utils/date/dateToString';
 import { startOfWeekOrMonth } from '~src/utils/date/startOfWeekOrMonth';
 
-interface IProps extends INewsFilter {}
+interface IProps {
+  isRenderCorpList?: boolean;
+  isRenderLinkListItem?: boolean;
+  isRenderPlatformLinkListItem?: boolean;
+  mainNewsId?: string;
+  filter: INewsFilter;
+  maxNoConentCount?: number;
+  noConentCount?: number;
+}
 
-export const InfiniteScrollNewsList: FC<IProps> = ({ children, ...filter }) => {
+export const InfiniteScrollNewsList: FC<IProps> = ({
+  isRenderCorpList,
+  isRenderLinkListItem,
+  isRenderPlatformLinkListItem,
+  mainNewsId,
+  filter,
+  noConentCount = 0,
+  maxNoConentCount = 3,
+}) => {
   const { status, setLoading, setRendered } = useStatus();
-  const [newsList, setNewsList] = useState<ReactElement | null>(null);
-  const [nextNewsList, setNextNewsList] = useState<ReactElement | null>(null);
+  const [noContent, setNoContent] = useState<boolean>(false);
 
-  if (status === 'OBSERVING') {
-    return <IntersectionObserverComponent onObserve={setLoading} />;
-  }
+  const nextFilter = useMemo(() => {
+    const startDate = startOfWeekOrMonth(subDays(new Date(filter.startDateTime), 1));
 
-  if (status === 'LOADING') {
-    if (newsList === null) {
-      // eslint-disable-next-line react/jsx-props-no-spreading
-      setNewsList(<NewsList {...filter} onFatched={setRendered} />);
-    }
-  }
+    return {
+      ...filter,
+      startDateTime: dateToString(startDate, 'VALUE'),
+      endDateTime: dateToString(endOfWeekOrMonth(startDate), 'VALUE'),
+    };
+  }, [filter]);
 
-  if (status === 'RENDERED') {
-    const nextStartDateTime = startOfWeekOrMonth(addDays(new Date(filter.startDateTime), 1));
+  const isNoContent = useCallback(() => {
+    setNoContent(true);
+  }, []);
 
-    setNextNewsList(
-      <InfiniteScrollNewsList
-        // eslint-disable-next-line react/jsx-props-no-spreading
-        {...filter}
-        startDateTime={dateToString(nextStartDateTime, 'VALUE')}
-      />
-    );
-  }
+  const nextNoContent = useMemo(() => (noContent ? noConentCount + 1 : noConentCount), [
+    noConentCount,
+    noContent,
+  ]);
 
   return (
     <>
-      {newsList}
-      {nextNewsList}
+      {status === 'OBSERVING' && (
+        <IntersectionObserverComponent onObserve={setLoading} key="observer" />
+      )}
+      {status === 'OBSERVING' ? null : (
+        <NewsList
+          filter={filter}
+          isRenderCorpList={isRenderCorpList}
+          isRenderLinkListItem={isRenderLinkListItem}
+          isRenderPlatformLinkListItem={isRenderPlatformLinkListItem}
+          mainNewsId={mainNewsId}
+          onFatched={setRendered}
+          onNoContent={isNoContent}
+          key="newsList"
+        />
+      )}
+      {status === 'RENDERED' && noConentCount < maxNoConentCount && (
+        <InfiniteScrollNewsList
+          filter={nextFilter}
+          noConentCount={nextNoContent}
+          maxNoConentCount={maxNoConentCount}
+          key="nextNewsList"
+        />
+      )}
     </>
   );
 };
