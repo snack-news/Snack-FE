@@ -46,3 +46,7 @@ nps test
   - newsService: News API Wrapping Interface
     - api: News API Origin Interface
     
+
+# Todo
+- 서버랜더링
+- isRenderCorpList, isRenderLinkListItem, isRenderPlatformLinkListItem 작동 버그 수정
