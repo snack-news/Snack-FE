@@ -5,26 +5,26 @@ import { Items } from './Items';
 import { useNews } from '~src/hooks/useNews';
 import { useNewsList } from '~src/hooks/useNewsList';
 
-interface IProps extends INewsFilter {
+interface IProps {
   isRenderCorpList?: boolean;
   isRenderLinkListItem?: boolean;
   isRenderPlatformLinkListItem?: boolean;
   mainNewsId?: string;
+  filter: INewsFilter;
 
   onFatched?: () => void;
 }
 
 export const NewsList: FC<IProps> = ({
-  children,
   isRenderCorpList,
   isRenderLinkListItem,
   isRenderPlatformLinkListItem,
   mainNewsId,
   onFatched,
-  ...requestParams
+  filter,
 }) => {
   const mainNews = useNews(mainNewsId);
-  const newsList = useNewsList(requestParams);
+  const newsList = useNewsList(filter);
 
   if (!newsList) return null;
 

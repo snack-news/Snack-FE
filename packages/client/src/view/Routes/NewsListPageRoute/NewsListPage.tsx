@@ -19,11 +19,16 @@ export const NewsListPage: FC<IProps> = ({ startDateTime }) => {
   const startStrDateTime = useMemo(() => dateToString(startDate, 'VALUE'), [startDate]);
   const endStrDateTime = useMemo(() => dateToString(endDateTime, 'VALUE'), [endDateTime]);
 
+  const filter = useMemo<INewsFilter>(
+    () => ({ startDateTime: startStrDateTime, endDateTime: endStrDateTime }),
+    [endStrDateTime, startStrDateTime]
+  );
+
   return (
     <PageLayout>
       {{
         header: <NewsListPageHeader startDateTime={startDateTime} />,
-        main: <NewsList startDateTime={startStrDateTime} endDateTime={endStrDateTime} />,
+        main: <NewsList filter={filter} />,
         footer: <Footer />,
       }}
     </PageLayout>

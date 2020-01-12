@@ -27,6 +27,10 @@ export const CorpNewsListPage: FC<IProps> = ({ corpId }) => {
   const endStrDateTime = useMemo(() => dateToString(endDateTime, 'VALUE'), [endDateTime]);
 
   const crop = useCorp(corpId);
+  const filter = useMemo<INewsFilter>(
+    () => ({ startDateTime: startStrDateTime, endDateTime: endStrDateTime, topicIds: corpId }),
+    [corpId, endStrDateTime, startStrDateTime]
+  );
 
   if (!crop) {
     return null;
@@ -36,13 +40,7 @@ export const CorpNewsListPage: FC<IProps> = ({ corpId }) => {
     <PageLayout>
       {{
         header: <CorpNewsListPageHeader corpName={crop.name} />,
-        main: (
-          <NewsList
-            startDateTime={startStrDateTime}
-            endDateTime={endStrDateTime}
-            topicIds={corpId}
-          />
-        ),
+        main: <NewsList filter={filter} />,
         footer: <Footer />,
       }}
     </PageLayout>
