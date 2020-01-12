@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", 
+    "module": "ESNext", 
+    "moduleResolution": "node", 
+    "allowSyntheticDefaultImports": true, 
+    "esModuleInterop": true,
+    "diagnostics": false, 
+    "traceResolution": false, 
+    "listEmittedFiles": false, 
+    "listFiles": false, 
+    "locale": "ko", 
+    "pretty": true, 
+    "jsx": "react", 
+    "strict": true,     
+    "allowUnreachableCode": false, 
+    "allowUnusedLabels": false, 
+    "noFallthroughCasesInSwitch": true, 
+    "noImplicitReturns": true, 
+    "suppressExcessPropertyErrors": false, 
+    "suppressImplicitAnyIndexErrors": false,
+    "noStrictGenericChecks": true, 
+    "noUnusedLocals": true, 
+    "noUnusedParameters": true,
+    "charset": "utf8", 
+    "emitBOM": false,
+    "removeComments": false, 
+    "disableSizeLimit": false, 
+    "noEmit": false, 
+    "noEmitOnError": false, 
+    "preserveConstEnums": false, 
+    "downlevelIteration": false, 
+    "experimentalDecorators": true, 
+    "stripInternal": false, 
+    "importHelpers": true, 
+    "sourceMap": false,
+    "baseUrl": "./", 
+    "typeRoots": ["../node_modules/@types"],
+    "allowJs": true, // 자바스크립트 파일 컴파일 허용 여부. 
+    "checkJs": true, // allowJs 옵션이 true여서 js파일 모듈을 사용시 js파일의 오류 검사 여부
+    "declaration": true, // .d.ts 파일의 생성 여부
+    "declarationDir": "./dist/" // .d.ts 파일이 생성되는 디렉토리 설정
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./src/types/**/*.d.ts", "../types/**/*.d.ts"]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "snak-fe-common",
+  "version": "0.0.1",
+  "description": "Snack News FE",
+  "main": "index.js",
+  "scripts": {
+  },
+  "_moduleAliases": {
+    "~root": "."
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}

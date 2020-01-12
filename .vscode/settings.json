@@ -1,6 +1,6 @@
 {
   "eslint.workingDirectories": [
-    ".", "./client/src", "./server/src", "./storybook"
+    "./packages/client", "./packages/server", "./packages/client/src", "./packages/server/src"
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
