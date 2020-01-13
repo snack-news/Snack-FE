@@ -46,4 +46,8 @@ module.exports = {
     'no-plusplus': 'off',
     'no-minusminus': 'off',
   },
+  globals: {
+    IS_CLIENT: 'readonly',
+    IS_SERVER: 'readonly',
+  },
 };

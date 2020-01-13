@@ -13,7 +13,7 @@ interface IProps {
   name: string;
   image: string;
   className?: string;
-  id: string;
+  id: number;
 }
 
 export const Corp: FC<IProps> = ({ name, image, className, id }) => (

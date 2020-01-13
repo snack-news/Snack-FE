@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     './config/eslintrc.common',
     './config/eslintrc.react',
-    './config/eslintrc.typescript'
+    './config/eslintrc.typescript',
   ].map(require.resolve),
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'prettier'],
@@ -20,5 +20,5 @@ module.exports = {
   env: {
     es6: true,
   },
-  rules: {}
+  rules: {},
 };

@@ -11,6 +11,7 @@ import { config } from 'dotenv';
 import { getMetadata } from './metascraper';
 
 // import { debug } from './debug';
+import { render } from './render';
 
 config();
 
@@ -31,17 +32,13 @@ app
     //   return;
     // }
 
-    // if (ctx.path === '/metascraper?') {
-    //   ctx.body = render(ctx.path);
-    //   return;
-    // }
-
     await next();
   })
   .use(serve(path.resolve(__dirname, '../../client/dist/')))
   .use(ctx => {
-    ctx.type = 'html';
-    ctx.body = createReadStream(path.resolve(__dirname, '../../client/dist/index.html'));
+    // ctx.type = 'html';
+    // ctx.body = createReadStream(path.resolve(__dirname, '../../client/dist/index.html'));
+    ctx.body = render(ctx.path);
   });
 
 const run = async () => {

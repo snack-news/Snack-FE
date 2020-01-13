@@ -1,5 +1,5 @@
 /* eslint-disable max-lines */
-
+const webpack = require('webpack');
 const merge = require('webpack-merge');
 
 const path = require('path');
@@ -33,6 +33,12 @@ module.exports = merge(
         },
       ],
     },
+    plugins: [
+      new webpack.DefinePlugin({
+        IS_SERVER: JSON.stringify(false),
+        IS_CLIENT: JSON.stringify(true),
+      }),
+    ],
   },
   common,
   node,

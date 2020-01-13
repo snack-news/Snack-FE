@@ -1,3 +1,6 @@
+/* eslint-disable max-lines */
+// TODO 코드 개선 필요 (너무 긴 라인수) (code bad smell)
+
 import React, { FC, ReactNode } from 'react';
 import styled from 'styled-components';
 
@@ -8,6 +11,7 @@ export interface IProps {
   src?: string;
   alt?: string;
   className?: string;
+  style?: React.CSSProperties;
   frontLabel?: ReactNode;
   backLabel?: ReactNode;
   width?: string;
@@ -18,13 +22,14 @@ export const ImgButton: FC<IProps> = ({
   onClick,
   src,
   className,
+  style,
   alt,
   frontLabel,
   backLabel,
   width,
   height,
 }) => (
-  <StyledButton onClick={onClick} className={className}>
+  <StyledButton onClick={onClick} className={className} style={style}>
     {frontLabel}
     <StyledImg src={src} alt={alt} style={{ width, height }} />
     {backLabel}

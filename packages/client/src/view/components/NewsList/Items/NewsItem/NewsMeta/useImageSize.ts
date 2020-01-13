@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 
-interface ImgSize {
+interface IImgSize {
   height: number;
   width: number;
 }
 
 export const useImageSize = (image: string) => {
-  const [imgSize, setImgSize] = useState<ImgSize>();
+  const [imgSize, setImgSize] = useState<IImgSize>();
 
   useEffect(() => {
     const asyncGetImageSize = async () => {
@@ -21,7 +21,7 @@ export const useImageSize = (image: string) => {
 };
 
 const getImageSize = (image: string) =>
-  new Promise<ImgSize>((resolve, reject) => {
+  new Promise<IImgSize>((resolve, reject) => {
     // eslint-disable-next-line no-undef
     const img = new Image();
 

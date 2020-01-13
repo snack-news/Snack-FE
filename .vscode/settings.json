@@ -1,6 +1,10 @@
 {
   "eslint.workingDirectories": [
-    "./packages/client", "./packages/server", "./packages/client/src", "./packages/server/src"
+    "./packages/client",
+    "./packages/server",
+    "./packages/client/src",
+    "./packages/server/src",
+    "./packages/eslint-config-snak"
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true

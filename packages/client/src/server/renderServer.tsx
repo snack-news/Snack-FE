@@ -5,18 +5,11 @@ import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
 import { Helmet } from 'react-helmet';
 
-import path from 'path';
-import fs from 'fs';
-
 import { App } from 'snak-fe-client/src/view/App';
 
 const sheet = new ServerStyleSheet();
 
-const indexHtml = fs.readFileSync(path.resolve(__dirname, '../../n-client/dist/index.html'), {
-  encoding: 'utf8',
-});
-
-export const render = (location: string) => {
+export const render = (location: string, indexHtml: string) => {
   const rendered = ReactDOMServer.renderToString(
     <StaticRouter location={location}>
       <StyleSheetManager sheet={sheet.instance}>

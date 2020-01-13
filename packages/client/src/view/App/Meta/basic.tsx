@@ -1,4 +1,6 @@
 /* eslint-disable max-lines */
+// TODO 코드 개선 필요 (너무 긴 라인수) (code bad smell)
+
 import React, { useMemo, FC } from 'react';
 
 import { TITLE, DESCRIPTION, URL } from './constants';

@@ -1,17 +1,17 @@
-import { ContentHeaderBlock, decodeHeaderBlock } from './decodeHeaderBlock';
-import { ContentParagraphBlock, decodeParagraphBlock } from './decodeParagraphBlock';
-import { ContentDelimiterBlock, decodeDelimiterBlock } from './decodeDelimiterBlock';
-import { ContentImageBlock, decodeImageBlock } from './decodeImageBlock';
-import { ContentListBlock, decodeListBlock } from './decodeListBlock';
+import { IContentHeaderBlock, decodeHeaderBlock } from './decodeHeaderBlock';
+import { IContentParagraphBlock, decodeParagraphBlock } from './decodeParagraphBlock';
+import { IContentDelimiterBlock, decodeDelimiterBlock } from './decodeDelimiterBlock';
+import { IContentImageBlock, decodeImageBlock } from './decodeImageBlock';
+import { IContentListBlock, decodeListBlock } from './decodeListBlock';
 
-export type ContentBlock =
-  | ContentHeaderBlock
-  | ContentParagraphBlock
-  | ContentDelimiterBlock
-  | ContentImageBlock
-  | ContentListBlock;
+export type IContentBlock =
+  | IContentHeaderBlock
+  | IContentParagraphBlock
+  | IContentDelimiterBlock
+  | IContentImageBlock
+  | IContentListBlock;
 
-export const decodeBlock = (block: ContentBlock) => {
+export const decodeBlock = (block: IContentBlock) => {
   if (block.type === 'header') return decodeHeaderBlock(block);
   if (block.type === 'paragraph') return decodeParagraphBlock(block);
   if (block.type === 'delimiter') return decodeDelimiterBlock(block);

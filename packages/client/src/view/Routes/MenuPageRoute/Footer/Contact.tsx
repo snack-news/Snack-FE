@@ -2,12 +2,12 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-interface ContactProps {
+interface IContactProps {
   to: string;
   icon: string;
 }
 
-export const Contact: FC<ContactProps> = ({ to, icon }) => (
+export const Contact: FC<IContactProps> = ({ to, icon }) => (
   <Link to={to}>
     <ContactIcon src={icon} />
   </Link>

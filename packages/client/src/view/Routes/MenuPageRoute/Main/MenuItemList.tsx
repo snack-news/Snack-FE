@@ -1,3 +1,6 @@
+/* eslint-disable max-lines */
+// TODO 코드 개선 필요 (너무 긴 라인수) (code bad smell)
+
 import React, { FC } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';

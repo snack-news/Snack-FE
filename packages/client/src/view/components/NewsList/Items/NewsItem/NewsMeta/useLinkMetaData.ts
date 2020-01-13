@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-export interface MetaData {
+export interface IMetaData {
   author: string | null;
   date: string | null;
   description: string | null;
@@ -13,7 +13,7 @@ export interface MetaData {
 }
 
 export const useLinkMetaData = (url: string) => {
-  const [metaData, setMetaData] = useState<MetaData | null>(null);
+  const [metaData, setMetaData] = useState<IMetaData | null>(null);
 
   useEffect(() => {
     const asyncSetMetaData = async () => {
@@ -30,7 +30,7 @@ export const useLinkMetaData = (url: string) => {
 
 const getMetaData = async (url: string) => {
   const resMetaData = (
-    await axios.get<MetaData>('/node-api/metascraper', {
+    await axios.get<IMetaData>('/node-api/metascraper', {
       params: { url },
     })
   ).data;

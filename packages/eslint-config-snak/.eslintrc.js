@@ -1,16 +1,16 @@
 const path = require('path');
 
 module.exports = {
-  extends: ['snak'],
+  extends: ['./index'],
   env: {
-    'shared-node-browser': true,
+    node: true,
   },
   rules: {
     'import/no-extraneous-dependencies': [
       'error',
       {
-        packageDir: path.resolve(__dirname, '..'),
-        devDependencies: false, 
+        packageDir: path.resolve(__dirname, '.'),
+        devDependencies: true,
         optionalDependencies: false,
         peerDependencies: false,
       },

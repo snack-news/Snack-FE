@@ -1,4 +1,4 @@
-export interface ContentImageBlock {
+export interface IContentImageBlock {
   type: 'image';
   data: {
     caption: string;
@@ -8,5 +8,5 @@ export interface ContentImageBlock {
   };
 }
 
-export const decodeImageBlock = (block: ContentImageBlock) =>
+export const decodeImageBlock = (block: IContentImageBlock) =>
   `<img class="img-fluid" src="${block.data.file.url}" title="${block.data.caption}" /><br /><em>${block.data.caption}</em>`;

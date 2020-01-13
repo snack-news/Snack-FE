@@ -3,12 +3,7 @@ import styled from 'styled-components';
 
 import { Contact } from './Contact';
 
-import {
-  facebookWhiteImg,
-  twitterWhiteImg,
-  kakaoWhiteImg,
-  emailWhiteImg,
-} from '~src/resources';
+import { facebookWhiteImg, twitterWhiteImg, kakaoWhiteImg, emailWhiteImg } from '~src/resources';
 import { FACEBOOK_URL, TWITTER_URL, KAKAO_URL, EMAIL_URL } from '~src/constants/urls';
 
 interface IProps {}

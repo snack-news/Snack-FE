@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "link-module-alias && webpack",
+    "eslint": "eslint --ext .jsx,.js,.tsx,.ts -c ./src/.eslintrc.js ./src",
+    "checktype": "tsc --noEmit",
     "postinstall": "link-module-alias",
     "preinstall": "command -v link-module-alias && link-module-alias clean || true"
   },

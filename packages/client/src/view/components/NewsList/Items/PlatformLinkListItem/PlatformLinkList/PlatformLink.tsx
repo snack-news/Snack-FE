@@ -16,12 +16,12 @@ export const PlatformLink: FC<IProps> = ({ color, background, href, name }) => (
   </StyledAnchor>
 );
 
-interface StyledAnchorProps {
+interface IStyledAnchorProps {
   color: string;
   background: string;
 }
 
-const StyledAnchor = styled.a<StyledAnchorProps>`
+const StyledAnchor = styled.a<IStyledAnchorProps>`
   display: flex;
   align-items: center;
   justify-content: center;
