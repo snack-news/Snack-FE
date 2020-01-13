@@ -15,7 +15,7 @@ const scss = require('./configs/webpack/webpack.config.scss');
 
 module.exports = merge(
   {
-    entry: path.resolve(__dirname, 'src/dev.ts'),
+    entry: path.resolve(__dirname, 'src/index.ts'),
     output: {
       filename: 'index.js',
       path: path.resolve(__dirname, 'dist'),
@@ -35,8 +35,8 @@ module.exports = merge(
     },
     plugins: [
       new webpack.DefinePlugin({
-        IS_SERVER: JSON.stringify(false),
-        IS_CLIENT: JSON.stringify(true),
+        IS_SERVER: JSON.stringify(true),
+        IS_CLIENT: JSON.stringify(false),
       }),
     ],
   },

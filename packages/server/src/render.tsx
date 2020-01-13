@@ -1,44 +1,29 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { StaticRouter } from 'react-router';
-import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
-import { Helmet } from 'react-helmet';
-
-import path from 'path';
 import fs from 'fs';
 
-import { App } from 'snak-fe-client/src/view/App';
+import { create } from '../../client/src/server/SSR';
+import { App } from '../../client/src/view/App';
 
-const sheet = new ServerStyleSheet();
+import { INDEX_PATH } from './constants';
 
-const indexHtml = fs.readFileSync(path.resolve(__dirname, '../../n-client/dist/index.html'), {
+
+
+const indexHtml = fs.readFileSync(INDEX_PATH, {
   encoding: 'utf8',
 });
 
 export const render = (location: string) => {
-  const rendered = ReactDOMServer.renderToString(
-    <StaticRouter location={location}>
-      <StyleSheetManager sheet={sheet.instance}>
-        <App />
-      </StyleSheetManager>
-    </StaticRouter>
+  const ssr = create();
+
+  const body = ReactDOMServer.renderToString(
+    React.createElement(ssr.Component, { location }, React.createElement(App))
   );
 
-  const helmet = Helmet.renderStatic();
-
-  // TODO
-  // helmet.htmlAttributes.toString()
-  // helmet.bodyAttributes.toString()
-
-  const styleTags = sheet.getStyleTags();
-
   const page = indexHtml
-    .replace('<div id="root"></div>', `<div id="root">${rendered}</div>`)
-    .replace(
-      '<!--head-html-snippett-->',
-      [styleTags, helmet.title.toString(), helmet.meta.toString(), helmet.link.toString()].join('')
-    );
+    .replace('<div id="root"></div>', `<div id="root">${body}</div>`)
+    .replace('<!--head-html-snippett-->', ssr.getHead());
 
   return page;
 };
