@@ -57,3 +57,5 @@ nps test
   - isRenderCorpList, isRenderLinkListItem, isRenderPlatformLinkListItem 작동 버그 수정
 - dotenv 적용
 - 빌드시 eslint, tsc 검사
+- service woker 캐싱 적용
+- node server 성능 최적화
