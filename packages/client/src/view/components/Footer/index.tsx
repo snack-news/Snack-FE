@@ -22,7 +22,7 @@ const Wrapper = styled.footer`
   flex-grow: 1;
   flex-direction: column;
 
-  max-height: 220px;
+  max-height: fit-content;
   padding: 40px 0px 32px 0px;
 
   box-shadow: rgba(11, 102, 247, 0.4) 0px -1px 3px 0px;
