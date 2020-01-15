@@ -24,6 +24,8 @@ import metascraperUrl from 'metascraper-url';
 import axios from 'axios';
 import iconv from 'iconv-lite';
 
+import { getCharset } from './getCharset';
+
 const metascraperInstance = metascraper([
   metascraperAuthor(),
   metascraperDate(),
@@ -37,15 +39,8 @@ const metascraperInstance = metascraper([
 ]);
 
 axios.interceptors.response.use(response => {
-  const ctype: string = response.headers['content-type'];
-
-  const charset = /charset=([^;]+)/g.exec(ctype);
-
-  if (charset === null || charset.length < 2) {
-    response.data = iconv.decode(response.data, 'utf-8');
-  } else {
-    response.data = iconv.decode(response.data, charset[1]);
-  }
+  const charset = getCharset(response);
+  response.data = iconv.decode(response.data, charset);
 
   return response;
 });
