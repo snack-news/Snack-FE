@@ -1,3 +1,5 @@
+**REAL: https://snak.news/**
+
 # snack-fe 
 Snak News FE 코드입니다.
 
@@ -12,7 +14,8 @@ Snak News FE 코드입니다.
 ```shell
 ./build.sh
 ./install.sh
-./start.sh
+./start.sh # 포트번호가 출력됩니다.
+# open http://localhost:포트번호/
 ```
 
 # Todo
