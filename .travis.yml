@@ -6,11 +6,11 @@ node_js:
 cache:
   npm: true
 
-install: install.sh
+install: ./install.sh
 
-script: build.sh
+script: ./build.sh
 
-before_deploy: before_deploy.sh
+before_deploy: ./before_deploy.sh
 
 deploy:
   - provider: s3
