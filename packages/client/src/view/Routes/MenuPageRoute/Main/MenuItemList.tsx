@@ -13,8 +13,6 @@ import {
   ABOUT_NAME,
   HOME_NAME,
   CORPS_NAME,
-  PROPOSE_PATH,
-  PROPOSE_NAME,
 } from '~src/constants/paths';
 
 interface IProps {}
@@ -24,7 +22,6 @@ export const MenuItemList: FC<IProps> = () => (
     <MenuItem to={HOME_PATH}>{HOME_NAME}</MenuItem>
     <MenuItem to={CORPS_PATH}>{CORPS_NAME}</MenuItem>
     <MenuItem to={ABOUT_PATH}>{ABOUT_NAME}</MenuItem>
-    <MenuItem to={PROPOSE_PATH}>{PROPOSE_NAME}</MenuItem>
   </MenuItemListWrapper>
 );
 

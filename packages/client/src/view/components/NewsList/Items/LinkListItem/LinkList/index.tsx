@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Divider } from './Divider';
 
 import { BRIGHT_BLUE } from '~src/constants/colors';
-import { ABOUT_PATH, ABOUT_NAME, PROPOSE_PATH, PROPOSE_NAME } from '~src/constants/paths';
+import { ABOUT_PATH, ABOUT_NAME, PROPOSE_NAME } from '~src/constants/paths';
 import { CONTACT_URL, CONTACT_NAME } from '~src/constants/urls';
 
 interface IProps {}
@@ -13,8 +13,6 @@ interface IProps {}
 export const LinkList: FC<IProps> = () => (
   <Wrapper>
     <StyledLink to={ABOUT_PATH}>{ABOUT_NAME}</StyledLink>
-    <Divider />
-    <StyledLink to={PROPOSE_PATH}>{PROPOSE_NAME}</StyledLink>
     <Divider />
     <StyledLink to={CONTACT_URL}>{CONTACT_NAME}</StyledLink>
   </Wrapper>
