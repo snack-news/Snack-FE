@@ -1,4 +1,4 @@
-const nodeExternals = require('webpack-node-externals');
+// const nodeExternals = require('webpack-node-externals');
 
 module.exports = {
   target: 'node',
@@ -6,7 +6,9 @@ module.exports = {
   resolve: {
     mainFields: ['main', 'module'],
   },
-  externals: [nodeExternals({
-    whitelist: [/^~/]
-  })]
+  // externals: [
+  //   nodeExternals({
+  //     whitelist: [/^~/],
+  //   }),
+  // ],
 };

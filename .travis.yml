@@ -6,17 +6,11 @@ node_js:
 cache:
   npm: true
 
-install:
-    - npm ci
+install: install.sh
 
-script:
-    # - npm run lint
-    - npm run build
+script: build.sh
 
-before_deploy:
-  - zip -r snack-news-FE client/dist server/dist appspec.yml execute-deploy.sh deploy/*
-  - mkdir -p deploy
-  - mv snack-news-FE.zip deploy/snack-news-FE.zip
+before_deploy: before_deploy.sh
 
 deploy:
   - provider: s3

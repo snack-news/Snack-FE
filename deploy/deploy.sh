@@ -44,7 +44,7 @@ cd ${IDLE_PATH}
 echo "> ${IDLE_PATH}"
 
 echo "> 어플리케이션 RUN"
-sudo PORT=${IDLE_PORT} pm2 start ${IDLE_PATH}/server/dist/index.js --name ${IDLE_PROFILE}
+sudo PORT=${IDLE_PORT} pm2 start ${IDLE_PATH}/packages/server/dist/index.js --name ${IDLE_PROFILE}
 
 echo "> Nginx 스위칭"
 sleep 2
