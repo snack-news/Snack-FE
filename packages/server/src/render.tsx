@@ -8,8 +8,6 @@ import { App } from '../../client/src/view/App';
 
 import { INDEX_PATH } from './constants';
 
-
-
 const indexHtml = fs.readFileSync(INDEX_PATH, {
   encoding: 'utf8',
 });

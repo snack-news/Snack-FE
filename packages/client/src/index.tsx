@@ -12,7 +12,7 @@ if (IS_CLIENT) {
     throw new Error('rootDOM 을 찾지 못하였습니다.');
   }
 
-  ReactDOM.hydrate(
+  ReactDOM.render(
     <BrowserRouter>
       <App />
     </BrowserRouter>,
