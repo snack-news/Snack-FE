@@ -1,4 +1,5 @@
 import React, { useMemo, FC } from 'react';
+import { Helmet } from 'react-helmet';
 
 import { fbOgImage } from './resources';
 import { TITLE, DESCRIPTION, LONG_TITLE, URL } from './constants';
@@ -22,5 +23,5 @@ export const OgMeta: FC = () => {
     []
   );
 
-  return <>{metaTags}</>;
+  return <Helmet>{metaTags}</Helmet>;
 };

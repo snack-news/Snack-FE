@@ -1,4 +1,5 @@
 import React, { useMemo, FC } from 'react';
+import { Helmet } from 'react-helmet';
 
 import { TITLE } from './constants';
 import { snak144x144 } from './resources';
@@ -16,5 +17,5 @@ export const MsMeta: FC = () => {
     []
   );
 
-  return <>{metaTags}</>;
+  return <Helmet>{metaTags}</Helmet>;
 };

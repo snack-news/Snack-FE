@@ -1,4 +1,5 @@
 import React, { useMemo, FC } from 'react';
+import { Helmet } from 'react-helmet';
 
 import { TITLE } from './constants';
 
@@ -15,5 +16,5 @@ export const AppleMeta: FC = () => {
     []
   );
 
-  return <>{metaTags}</>;
+  return <Helmet>{metaTags}</Helmet>;
 };

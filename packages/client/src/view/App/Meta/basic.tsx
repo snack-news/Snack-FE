@@ -2,6 +2,7 @@
 // TODO 코드 개선 필요 (너무 긴 라인수) (code bad smell)
 
 import React, { useMemo, FC } from 'react';
+import { Helmet } from 'react-helmet';
 
 import { TITLE, DESCRIPTION, URL } from './constants';
 import { favicon, snak16x16 } from './resources';
@@ -44,10 +45,10 @@ export const BasicMeta: FC = () => {
   );
 
   return (
-    <>
+    <Helmet>
       <title>{TITLE}</title>
       {metaTags}
       {linkTags}
-    </>
+    </Helmet>
   );
 };

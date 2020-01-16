@@ -22,7 +22,6 @@ Snak News FE 코드입니다.
 - lerna 도입 고려
 - 서버 랜더링 일부 버그 수정후 재적용
   - 서버 랜더링시 비동기적으로 가져오는 데이터를 서버랜더링 하지 못하는 이슈
-  - 전반적인 검토 필요 (styled 서버랜더링이 잘 안되고 있다는 로그 출력에 대한 이슈)
 - 기사 목록 중간마다 주차 표시
 - 특정 조건에서 뉴스 중간중간 나오는 컴포넌트들이 안나오는 버그
   - isRenderCorpList, isRenderLinkListItem, isRenderPlatformLinkListItem 작동 버그 수정

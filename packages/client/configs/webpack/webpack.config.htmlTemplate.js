@@ -1,20 +1,19 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const htmlWebapckTemplate = require('html-webpack-template');
 
 module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
-     // Required
+      // Required
       inject: false,
-      template: require('html-webpack-template'),
-      // template: 'node_modules/html-webpack-template/index.ejs',
+      template: htmlWebapckTemplate,
 
       // Optional
       headHtmlSnippet: '<!--head-html-snippett-->',
       bodyHtmlSnippet: '<div id="root"></div>',
       googleAnalytics: {
         trackingId: 'UA-155136774-1',
-        pageViewOnLoad: true
+        pageViewOnLoad: true,
       },
       mobile: true,
     }),
