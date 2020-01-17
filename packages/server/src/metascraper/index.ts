@@ -46,11 +46,19 @@ axios.interceptors.response.use(response => {
 });
 
 export const getMetadata = async (targetUrl: string) => {
-  const { data: html } = await axios.request({
-    method: 'GET',
-    url: targetUrl,
-    responseType: 'arraybuffer',
-  });
+  const { data: html } = await axios
+    .request({
+      method: 'GET',
+      url: targetUrl,
+      responseType: 'arraybuffer',
+      headers: {
+        Accept: '*/*',
+      },
+    })
+    .catch(error => {
+      console.log(error);
+      return { data: '' };
+    });
 
   const metadata = await metascraperInstance({ html, url: targetUrl });
 
