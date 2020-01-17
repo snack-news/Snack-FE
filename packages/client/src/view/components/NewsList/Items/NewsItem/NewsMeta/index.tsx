@@ -18,13 +18,14 @@ export const NewsMeta: FC<IProps> = ({ link }) => {
   }
 
   return (
-    <Wrapper>
+    <Wrapper href={link}>
       {meta.image && <LinkImg image={meta.image} />}
       <LinkDesc title={meta.title || undefined} link={link} />
     </Wrapper>
   );
 };
 
-const Wrapper = styled.section`
+const Wrapper = styled.a`
   margin: 0 0 20px 0;
+  text-decoration: none;
 `;
