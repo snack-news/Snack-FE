@@ -16,7 +16,7 @@ const getCharsetWithHeaders = (response: AxiosResponse) => {
 };
 
 const getCharsetWithMetaTag = (response: AxiosResponse) => {
-  const charset = /charset=([^"]+)/g.exec(response.data.toString());
+  const charset = /charset=([^";]+)/g.exec(response.data.toString());
 
   return charset === null || charset.length < 2 ? undefined : charset[1];
 };
