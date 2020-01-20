@@ -5,10 +5,10 @@ import React, { FC, useMemo, Fragment } from 'react';
 
 import { CorpListItem } from './CorpListItem';
 import { LinkListItem } from './LinkListItem';
-import { NewsItem } from './NewsItem';
 import { PlatformLinkListItem } from './PlatformLinkListItem';
 
 import { HorizontalDivider } from '~src/view/components/HorizontalDivider';
+import { NewsItem } from '~src/view/components/NewsItem/index';
 
 interface IProps {
   newsList: INews[];

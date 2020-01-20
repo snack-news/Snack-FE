@@ -12,6 +12,8 @@ import { dateToString } from '~src/utils/date/dateToString';
 import { endOfWeekOrMonth } from '~src/utils/date/endOfWeekOrMonth';
 import { startOfWeekOrMonth } from '~src/utils/date/startOfWeekOrMonth';
 import { NOW } from '~src/utils/date/constants';
+import { NewsItem } from '~src/view/components/NewsItem';
+import { useNews } from '~src/hooks/useNews';
 
 interface IProps {
   mainNewsId: string;
@@ -29,18 +31,24 @@ export const NewsPage: FC<IProps> = ({ mainNewsId }) => {
     [endStrDateTime, startStrDateTime]
   );
 
+  const newsId = parseInt(mainNewsId, 10);
+  const news = useNews(newsId);
+
   return (
     <PageLayout>
       {{
         header: <NewsListPageHeader startDateTime={`${startDateTime.getTime()}`} />,
         main: (
-          <InfiniteScrollNewsList
-            filter={filter}
-            mainNewsId={parseInt(mainNewsId, 10)}
-            isRenderCorpList
-            isRenderLinkListItem
-            isRenderPlatformLinkListItem
-          />
+          <>
+            {news && <NewsItem news={news} />}
+            <InfiniteScrollNewsList
+              filter={filter}
+              excludeNewsId={newsId}
+              isRenderCorpList
+              isRenderLinkListItem
+              isRenderPlatformLinkListItem
+            />
+          </>
         ),
         footer: <Footer />,
       }}
