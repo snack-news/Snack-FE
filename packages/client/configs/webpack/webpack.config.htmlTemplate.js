@@ -1,21 +1,18 @@
+const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const htmlWebapckTemplate = require('html-webpack-template');
 
 module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.html$/i,
+        loader: 'html-loader',
+      },
+    ],
+  },
   plugins: [
     new HtmlWebpackPlugin({
-      // Required
-      inject: false,
-      template: htmlWebapckTemplate,
-
-      // Optional
-      headHtmlSnippet: '<!--head-html-snippett-->',
-      bodyHtmlSnippet: '<div id="root"></div>',
-      googleAnalytics: {
-        trackingId: 'UA-155136774-1',
-        pageViewOnLoad: true,
-      },
-      mobile: true,
+      template: path.resolve(__dirname, './index.html'),
     }),
   ],
 };
