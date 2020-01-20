@@ -17,6 +17,7 @@ if (IS_CLIENT) {
   }
 
   ReactDOM.render(
+    // <AxiosProvider baseURL="http://localhost:64216/" cache={cache} promises={promises}>
     <AxiosProvider baseURL="https://snak.news/" cache={cache} promises={promises}>
       <BrowserRouter>
         <App />

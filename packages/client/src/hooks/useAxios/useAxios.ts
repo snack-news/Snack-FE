@@ -27,6 +27,7 @@ export const useAxios = <T>(config: AxiosRequestConfig, onError?: (e: any) => vo
 
         setRes(newRes);
       } catch (e) {
+        console.log('error', e);
         if (onError) onError(e);
       }
     })();

@@ -26,10 +26,24 @@ const getBody = async (ssr: SSRInstance, location: string) => {
   const promises = {};
 
   const AxiosProviderProps = {
+    // baseURL: 'http://localhost:64216/',
     baseURL: 'https://snak.news/',
     cache,
     promises,
   };
+
+  // let promise = Promise.resolve();
+  // for (let i = 0; i < 2; i++) {
+  //   promise = promise.then(async () => {
+  //     ReactDOMServer.renderToString(
+  //       React.createElement(AxiosProvider, AxiosProviderProps, SSRAppElement)
+  //     );
+
+  //     await Promise.all(Object.values(promises));
+  //   });
+  // }
+
+  // await promise;
 
   ReactDOMServer.renderToString(
     React.createElement(AxiosProvider, AxiosProviderProps, SSRAppElement)

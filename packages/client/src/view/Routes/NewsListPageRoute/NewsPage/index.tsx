@@ -1,9 +1,10 @@
-/* eslint-disable max-lines */
+/* eslint-disable max-lines, react/jsx-max-depth */
 // TODO 코드 개선 필요 (너무 긴 라인수) (code bad smell)
 
 import React, { FC, useMemo } from 'react';
 
-import { NewsListPageHeader } from './Header/NewsListPageHeader';
+import { NewsListPageHeader } from '../Header/NewsListPageHeader';
+import { NewsPageHelmet } from './NewsPageHelmet';
 
 import { InfiniteScrollNewsList } from '~src/view/components/InfiniteScrollNewsList';
 import { PageLayout } from '~src/view/components/PageLayout';
@@ -35,23 +36,26 @@ export const NewsPage: FC<IProps> = ({ mainNewsId }) => {
   const news = useNews(newsId);
 
   return (
-    <PageLayout>
-      {{
-        header: <NewsListPageHeader startDateTime={`${startDateTime.getTime()}`} />,
-        main: (
-          <>
-            {news && <NewsItem news={news} />}
-            <InfiniteScrollNewsList
-              filter={filter}
-              excludeNewsId={newsId}
-              isRenderCorpList
-              isRenderLinkListItem
-              isRenderPlatformLinkListItem
-            />
-          </>
-        ),
-        footer: <Footer />,
-      }}
-    </PageLayout>
+    <>
+      {news && <NewsPageHelmet news={news} />}
+      <PageLayout>
+        {{
+          header: <NewsListPageHeader startDateTime={`${startDateTime.getTime()}`} />,
+          main: (
+            <>
+              {news && <NewsItem news={news} />}
+              <InfiniteScrollNewsList
+                filter={filter}
+                excludeNewsId={newsId}
+                isRenderCorpList
+                isRenderLinkListItem
+                isRenderPlatformLinkListItem
+              />
+            </>
+          ),
+          footer: <Footer />,
+        }}
+      </PageLayout>
+    </>
   );
 };

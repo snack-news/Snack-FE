@@ -1,10 +1,10 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
-import { useLinkMetaData } from './useLinkMetaData';
 import { LinkImg } from './LinkImg';
-
 import { LinkDesc } from './LinkDesc';
+
+import { useLinkMetaData } from '~src/hooks/useLinkMetaData';
 
 interface IProps {
   link: string;
