@@ -1,7 +1,6 @@
 import { Helmet } from 'react-helmet';
 
 import { createFunction } from './types';
-import { Component } from './empty';
 
 export const create: createFunction = () => {
   const getHead = () => {
@@ -16,6 +15,5 @@ export const create: createFunction = () => {
 
   return {
     getHead,
-    Component,
   };
 };

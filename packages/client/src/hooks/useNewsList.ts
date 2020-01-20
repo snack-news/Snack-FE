@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 
-import { fetchNewsList } from '~src/api/fetchNewsList';
+import { useAxios } from './useAxios';
+
+import { NEWS_API_URL } from '~src/constants/API_URL';
 
 export const useNewsList = (
   requestParams: INewsFilter,
@@ -8,22 +10,32 @@ export const useNewsList = (
   onNoContent?: () => void
 ) => {
   const [newsList, setNewsList] = useState<INews[]>();
+  const res = useAxios<{ data: INews[] }>({
+    url: NEWS_API_URL,
+    params: requestParams,
+    method: 'GET',
+  });
+
+  const status = res?.status;
+  const data = res?.data?.data;
 
   useEffect(() => {
-    fetchNewsList(requestParams).then(res => {
-      if (onFatched) onFatched();
+    if (!data) {
+      return;
+    }
 
-      if (res.status === 200) {
-        setNewsList(res.data.data);
-        return;
-      }
+    if (onFatched) onFatched();
 
-      if (res.status === 204) {
-        if (onNoContent) onNoContent();
-        setNewsList([]);
-      }
-    });
-  }, [onFatched, onNoContent, requestParams]);
+    if (status === 200) {
+      setNewsList(data);
+      return;
+    }
+
+    if (status === 204) {
+      if (onNoContent) onNoContent();
+      setNewsList([]);
+    }
+  }, [data, onFatched, onNoContent, status]);
 
   return newsList;
 };

@@ -1,13 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useAxios } from './useAxios';
 
-import { fetchCorps } from '~src/api/fetchCorps';
+import { CORP_API_URL } from '~src/constants/API_URL';
 
 export const useCorps = () => {
-  const [corps, setCorps] = useState<ICorp[]>();
+  const res = useAxios<{ data: ICorp[] }>({ url: CORP_API_URL, method: 'GET' });
 
-  useEffect(() => {
-    fetchCorps().then(newCorps => setCorps(newCorps));
-  }, []);
+  if (!res) {
+    return undefined;
+  }
 
-  return corps;
+  return res.data.data;
 };

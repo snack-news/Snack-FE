@@ -1,13 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useAxios } from './useAxios';
 
-import { fetchNews } from '~src/api/fetchNews';
+import { NEWS_API_URL } from '~src/constants/API_URL';
 
 export const useNews = (newsId?: number) => {
-  const [news, setNews] = useState<INews>();
+  const res = useAxios<{ data: INews }>({ url: `${NEWS_API_URL}/${newsId}`, method: 'GET' });
 
-  useEffect(() => {
-    if (newsId) fetchNews(newsId).then(resNews => setNews(resNews));
-  }, [newsId]);
+  if (!res || newsId === undefined) {
+    return undefined;
+  }
 
-  return news;
+  return res.data.data;
 };

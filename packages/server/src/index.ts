@@ -19,15 +19,15 @@ app
     }
 
     if (ctx.path === '/') {
-      ctx.body = render(ctx.path);
+      ctx.body = await render(ctx.path);
       return;
     }
 
     await next();
   })
   .use(serve(CLIENT_PATH))
-  .use(ctx => {
-    ctx.body = render(ctx.path);
+  .use(async ctx => {
+    ctx.body = await render(ctx.path);
   });
 
 const run = async () => {

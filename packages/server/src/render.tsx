@@ -8,8 +8,8 @@ const indexHtml = fs.readFileSync(INDEX_PATH, {
   encoding: 'utf8',
 });
 
-export const render = (location: string) => {
-  const { body, head } = getRenderData(location);
+export const render = async (location: string) => {
+  const { body, head } = await getRenderData(location);
 
   const page = indexHtml
     .replace('<div id="root"></div>', `<div id="root">${body}</div>`)

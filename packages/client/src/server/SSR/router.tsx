@@ -2,7 +2,6 @@ import React from 'react';
 import { StaticRouter } from 'react-router';
 
 import { createFunction, SSRComponent } from './types';
-import { getHead } from './empty';
 
 export const create: createFunction = () => {
   const Component: SSRComponent = ({ children, location }) => (
@@ -10,7 +9,6 @@ export const create: createFunction = () => {
   );
 
   return {
-    getHead,
     Component,
   };
 };

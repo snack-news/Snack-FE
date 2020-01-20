@@ -34,11 +34,7 @@ export const NewsList: FC<IProps> = ({
   const newsList = useNewsList(filter, onFatched, onNoContent);
 
   const renderNewsList = useMemo(() => {
-    if (!newsList) {
-      return [];
-    }
-
-    let filteredNewsList = newsList;
+    let filteredNewsList = newsList ?? [];
 
     if (mainNews) {
       filteredNewsList = [mainNews, ...filteredNewsList.filter(({ id }) => id !== mainNews.id)];

@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-max-depth */
+
 import React, { FC } from 'react';
 
 import './common';
@@ -6,9 +8,11 @@ import { Root } from './Root';
 
 import { Routes } from '~src/view/Routes';
 
-export const App: FC = () => (
-  <Root>
-    <Meta />
-    <Routes />
-  </Root>
-);
+export const App: FC = () => {
+  return (
+    <Root>
+      <Meta />
+      <Routes />
+    </Root>
+  );
+};
