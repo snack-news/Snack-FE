@@ -4,7 +4,7 @@
 import React, { FC, useMemo } from 'react';
 
 import { NewsListPageHeader } from '../Header/NewsListPageHeader';
-import { NewsPageHelmet } from './NewsPageHelmet';
+// import { NewsPageHelmet } from './NewsPageHelmet';
 
 import { InfiniteScrollNewsList } from '~src/view/components/InfiniteScrollNewsList';
 import { PageLayout } from '~src/view/components/PageLayout';
@@ -37,7 +37,7 @@ export const NewsPage: FC<IProps> = ({ mainNewsId }) => {
 
   return (
     <>
-      {news && <NewsPageHelmet news={news} />}
+      {/* {news && <NewsPageHelmet news={news} />} */}
       <PageLayout>
         {{
           header: <NewsListPageHeader startDateTime={`${startDateTime.getTime()}`} />,
