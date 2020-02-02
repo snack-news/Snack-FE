@@ -3,7 +3,7 @@
 
 import React, { FC, useMemo, useState, useCallback } from 'react';
 
-import { subDays } from 'date-fns';
+import { subDays, isBefore } from 'date-fns';
 
 import { IntersectionObserverComponent } from './IntersectionObserverComponent';
 import { useStatus } from './useStatus';
@@ -12,6 +12,8 @@ import { NewsList } from '~src/view/components/NewsList';
 import { endOfWeekOrMonth } from '~src/utils/date/endOfWeekOrMonth';
 import { dateToString } from '~src/utils/date/dateToString';
 import { startOfWeekOrMonth } from '~src/utils/date/startOfWeekOrMonth';
+
+const MAX_START_DATE = new Date(2019, 9, 1);
 
 interface IProps {
   isRenderCorpList?: boolean;
@@ -35,15 +37,18 @@ export const InfiniteScrollNewsList: FC<IProps> = ({
   const { status, setLoading, setRendered } = useStatus();
   const [noContent, setNoContent] = useState<boolean>(false);
 
-  const nextFilter = useMemo(() => {
-    const startDate = startOfWeekOrMonth(subDays(new Date(filter.startDateTime), 1));
+  const nextStartDate = useMemo(
+    () => startOfWeekOrMonth(subDays(new Date(filter.startDateTime), 1)),
+    [filter.startDateTime]
+  );
 
+  const nextFilter = useMemo(() => {
     return {
       ...filter,
-      startDateTime: dateToString(startDate, 'VALUE'),
-      endDateTime: dateToString(endOfWeekOrMonth(startDate), 'VALUE'),
+      startDateTime: dateToString(nextStartDate, 'VALUE'),
+      endDateTime: dateToString(endOfWeekOrMonth(nextStartDate), 'VALUE'),
     };
-  }, [filter]);
+  }, [filter, nextStartDate]);
 
   const isNoContent = useCallback(() => {
     setNoContent(true);
@@ -72,7 +77,8 @@ export const InfiniteScrollNewsList: FC<IProps> = ({
         />
       )}
       {status === 'RENDERED' &&
-        (maxNoConentCount === undefined || noConentCount < maxNoConentCount) && (
+        (maxNoConentCount === undefined || noConentCount < maxNoConentCount) &&
+        isBefore(MAX_START_DATE, nextStartDate) && (
           <InfiniteScrollNewsList
             filter={nextFilter}
             noConentCount={nextNoContent}
