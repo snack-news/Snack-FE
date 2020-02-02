@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 
 import { useAxios } from './useAxios';
 
+import { HTTP_STATUS_CODES } from '../constants/HTTP_STATUS_CODES';
+
 import { NEWS_API_URL } from '~src/constants/API_URL';
 
 export const useNewsList = (
@@ -26,12 +28,12 @@ export const useNewsList = (
 
     if (onFatched) onFatched();
 
-    if (status === 200) {
+    if (status === HTTP_STATUS_CODES.OK) {
       setNewsList(data);
       return;
     }
 
-    if (status === 204) {
+    if (status === HTTP_STATUS_CODES.NO_CONTENT) {
       if (onNoContent) onNoContent();
       setNewsList([]);
     }
