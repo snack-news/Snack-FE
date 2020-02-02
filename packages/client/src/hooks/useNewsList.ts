@@ -22,11 +22,9 @@ export const useNewsList = (
   const data = res?.data?.data;
 
   useEffect(() => {
-    if (!data) {
-      return;
+    if (status && onFatched) {
+      onFatched();
     }
-
-    if (onFatched) onFatched();
 
     if (status === HTTP_STATUS_CODES.OK) {
       setNewsList(data);
