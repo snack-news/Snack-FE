@@ -25,18 +25,17 @@ export const IntersectionObserverComponent: FC<IProps> = ({ onObserve }) => {
         }
       );
     }
-    return {
-      observe: () => undefined,
-      disconnect: () => undefined,
-    };
+    return null;
   }, [onObserve]);
 
   useEffect(() => {
-    if (rootRef.current) {
+    if (rootRef.current && io) {
       io.observe(rootRef.current);
     }
 
-    return () => io.disconnect();
+    return () => {
+      if (io) io.disconnect();
+    };
   }, [onObserve, io]);
 
   return <div ref={rootRef} />;

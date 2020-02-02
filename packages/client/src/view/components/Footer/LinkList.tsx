@@ -2,7 +2,7 @@ import React, { FC } from 'react';
 import styled from 'styled-components';
 
 import { CONTACT_URL, CONTACT_NAME } from '~src/constants/urls';
-import { ABOUT_PATH, ABOUT_NAME, PROPOSE_NAME } from '~src/constants/paths';
+import { ABOUT_PATH, ABOUT_NAME } from '~src/constants/paths';
 import { WHITE_THREE } from '~src/constants/colors';
 
 interface IProps {

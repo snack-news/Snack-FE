@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import { Divider } from './Divider';
 
 import { BRIGHT_BLUE } from '~src/constants/colors';
-import { ABOUT_PATH, ABOUT_NAME, PROPOSE_NAME } from '~src/constants/paths';
+import { ABOUT_PATH, ABOUT_NAME } from '~src/constants/paths';
 import { CONTACT_URL, CONTACT_NAME } from '~src/constants/urls';
 
 interface IProps {}
