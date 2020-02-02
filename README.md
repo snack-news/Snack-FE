@@ -12,8 +12,8 @@ Snak News FE 코드입니다.
 
 ## How to Build & Run
 ```shell
-./build.sh
 ./install.sh
+./build.sh
 ./start.sh # 포트번호가 출력됩니다.
 # open http://localhost:포트번호/
 ```
