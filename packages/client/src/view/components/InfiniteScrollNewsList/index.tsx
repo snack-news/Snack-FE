@@ -30,7 +30,7 @@ export const InfiniteScrollNewsList: FC<IProps> = ({
   excludeNewsId,
   filter,
   noConentCount = 0,
-  maxNoConentCount = 3,
+  maxNoConentCount,
 }) => {
   const { status, setLoading, setRendered } = useStatus();
   const [noContent, setNoContent] = useState<boolean>(false);
@@ -71,15 +71,16 @@ export const InfiniteScrollNewsList: FC<IProps> = ({
           key="newsList"
         />
       )}
-      {status === 'RENDERED' && noConentCount < maxNoConentCount && (
-        <InfiniteScrollNewsList
-          filter={nextFilter}
-          noConentCount={nextNoContent}
-          maxNoConentCount={maxNoConentCount}
-          excludeNewsId={excludeNewsId}
-          key="nextNewsList"
-        />
-      )}
+      {status === 'RENDERED' &&
+        (maxNoConentCount === undefined || noConentCount < maxNoConentCount) && (
+          <InfiniteScrollNewsList
+            filter={nextFilter}
+            noConentCount={nextNoContent}
+            maxNoConentCount={maxNoConentCount}
+            excludeNewsId={excludeNewsId}
+            key="nextNewsList"
+          />
+        )}
     </>
   );
 };
