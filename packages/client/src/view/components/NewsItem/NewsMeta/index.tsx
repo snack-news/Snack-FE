@@ -25,7 +25,7 @@ export const NewsMeta: FC<IProps> = ({ link }) => {
   );
 };
 
-const Wrapper = styled.a`
+const Wrapper = styled.a.attrs({ target: '_blank' })`
   margin: 0 0 20px 0;
   text-decoration: none;
 `;
