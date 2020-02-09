@@ -3,6 +3,7 @@ import React, { FC } from 'react';
 import { Corp } from './Corp';
 
 import { useCorps } from '~src/hooks/useCorps';
+import { CORPS_NEWS_PATH } from '~src/constants/paths';
 
 interface IProps {}
 
@@ -13,7 +14,7 @@ export const CorpList: FC<IProps> = () => {
     <>
       {corps &&
         corps.map(({ id, image, name }) => (
-          <Corp to={`newslist/corp/${id}`} image={image || undefined} key={id}>
+          <Corp to={`${CORPS_NEWS_PATH}/${id}`} image={image || undefined} key={id}>
             {name}
           </Corp>
         ))}

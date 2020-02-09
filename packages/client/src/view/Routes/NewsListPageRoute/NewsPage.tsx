@@ -3,7 +3,7 @@
 
 import React, { FC, useMemo } from 'react';
 
-import { NewsListPageHeader } from '../Header/NewsListPageHeader';
+import { NewsListPageHeader } from './Header/NewsListPageHeader';
 
 import { InfiniteScrollNewsList } from '~src/view/components/InfiniteScrollNewsList';
 import { PageLayout } from '~src/view/components/PageLayout';

@@ -9,7 +9,7 @@ import { NewsListPage } from './NewsListPage';
 import { NewsPage } from './NewsPage';
 import { CorpNewsListPage } from './CorpNewsListPage';
 
-import { HOME_PATH } from '~src/constants/paths';
+import { HOME_PATH, CORPS_NEWS_PATH } from '~src/constants/paths';
 
 interface IHomeURLParams {}
 
@@ -32,7 +32,7 @@ export const NewsListPageRoute: FC<IProps> = () => {
   // TODO path 상수화..?
   const newsListMatch = useRouteMatch<INewsListURLParams>(['/newslist/week/:startDateTime']);
   const newsMatch = useRouteMatch<INewsURLParams>(['/newslist/news/:mainNewsId']);
-  const corpNewsListMatch = useRouteMatch<ICorpNewsListURLParams>(['/newslist/corp/:corpId']);
+  const corpNewsListMatch = useRouteMatch<ICorpNewsListURLParams>([`/${CORPS_NEWS_PATH}/:corpId`]);
 
   if (homeMatch && homeMatch.isExact) {
     return <HomePage />;

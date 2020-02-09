@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { CorpLogo } from './CorpLogo';
 
 import { SLATE_GREY } from '~src/constants/colors';
+import { CORPS_NEWS_PATH } from '~src/constants/paths';
 
 interface IProps {
   name: string;
@@ -17,7 +18,7 @@ interface IProps {
 }
 
 export const Corp: FC<IProps> = ({ name, image, className, id }) => (
-  <Wrapper className={className} to={`newslist/corp/${id}`}>
+  <Wrapper className={className} to={`${CORPS_NEWS_PATH}/${id}`}>
     <CorpLogo src={image} />
     <Label>{name}</Label>
   </Wrapper>

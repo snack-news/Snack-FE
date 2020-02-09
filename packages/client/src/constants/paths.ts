@@ -12,3 +12,5 @@ export const PROPOSE_NAME = '제안하기';
 
 export const MENU_PATH = '/menu';
 export const MENU_NAME = '메뉴';
+
+export const CORPS_NEWS_PATH = 'newslist/corp';

@@ -1,6 +1,11 @@
 import React, { FC } from 'react';
 
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+
 import { NewsLabel } from './NewsLabel';
+
+import { CORPS_NEWS_PATH } from '~src/constants/paths';
 
 interface IProps {
   topics: ITopic[];
@@ -9,7 +14,11 @@ interface IProps {
 export const TopicLabelList: FC<IProps> = ({ topics }) => (
   <>
     {topics.map(topic => (
-      <NewsLabel key={topic.id}>{topic.name}</NewsLabel>
+      <LinkWrap to={`${CORPS_NEWS_PATH}/${topic.id}`} key={topic.id}>
+        <NewsLabel>{topic.name}</NewsLabel>
+      </LinkWrap>
     ))}
   </>
 );
+
+const LinkWrap = styled(Link)``;
