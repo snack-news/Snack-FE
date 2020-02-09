@@ -1,15 +1,17 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
 
+import { Link } from '~src/view/components/Link';
+
 interface IProps {
   color: string;
   background: string;
-  href: string;
+  to: string;
   name: string;
 }
 
-export const PlatformLink: FC<IProps> = ({ color, background, href, name }) => (
-  <StyledAnchor color={color} background={background} href={href}>
+export const PlatformLink: FC<IProps> = ({ color, background, to, name }) => (
+  <StyledAnchor color={color} background={background} to={to}>
     {name}
     <br />
     에서 보기
@@ -21,7 +23,7 @@ interface IStyledAnchorProps {
   background: string;
 }
 
-const StyledAnchor = styled.a<IStyledAnchorProps>`
+const StyledAnchor = styled(Link)<IStyledAnchorProps>`
   display: flex;
   align-items: center;
   justify-content: center;

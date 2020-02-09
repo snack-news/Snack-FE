@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 import { Divider } from './Divider';
 
+import { Link } from '~src/view/components/Link';
 import { BRIGHT_BLUE } from '~src/constants/colors';
 import { ABOUT_PATH, ABOUT_NAME } from '~src/constants/paths';
 import { CONTACT_URL, CONTACT_NAME } from '~src/constants/urls';

@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+
+import { Link } from '~src/view/components/Link';
 
 import { contentImg } from '~src/resources';
 import { HOME_PATH } from '~src/constants/paths';

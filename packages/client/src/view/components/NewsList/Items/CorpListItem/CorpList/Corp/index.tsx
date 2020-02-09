@@ -3,10 +3,10 @@
 
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 import { CorpLogo } from './CorpLogo';
 
+import { Link } from '~src/view/components/Link';
 import { SLATE_GREY } from '~src/constants/colors';
 import { CORPS_NEWS_PATH } from '~src/constants/paths';
 

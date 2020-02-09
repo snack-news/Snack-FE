@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
 
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 import { NewsLabel } from './NewsLabel';
 
 import { CORPS_NEWS_PATH } from '~src/constants/paths';
 import { useCorps } from '~src/hooks/useCorps';
+import { Link } from '~src/view/components/Link';
 
 interface IProps {
   topics: ITopic[];

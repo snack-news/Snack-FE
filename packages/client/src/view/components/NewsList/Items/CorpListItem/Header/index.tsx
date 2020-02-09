@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
+import { Link } from '~src/view/components/Link';
 import { CORPS_PATH } from '~src/constants/paths';
 import { BRIGHT_BLUE } from '~src/constants/colors';
 

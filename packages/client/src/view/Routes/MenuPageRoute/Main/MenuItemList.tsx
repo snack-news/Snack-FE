@@ -3,8 +3,8 @@
 
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
+import { Link } from '~src/view/components/Link';
 import { DARK } from '~src/constants/colors';
 import {
   HOME_PATH,

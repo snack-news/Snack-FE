@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
-
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
+
+import { Link } from '~src/view/components/Link';
 
 export interface IProps {
   to: string;

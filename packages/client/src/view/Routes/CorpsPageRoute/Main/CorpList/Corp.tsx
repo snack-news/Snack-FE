@@ -1,9 +1,9 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 import { CorpIcon } from './CorpIcon';
 
+import { Link } from '~src/view/components/Link';
 import { arrowLinkImg } from '~src/resources';
 import { BLACK } from '~src/constants/colors';
 

@@ -13,9 +13,9 @@ interface IProps {}
 
 export const PlatformLinkList: FC<IProps> = () => (
   <Wrapper>
-    <PlatformLink color={WHITE_THREE} background={FACEBOOK} name="Facebook" href={FACEBOOK_URL} />
-    <PlatformLink color={BLACK} background={KAKAO} name="KakaoTalk" href={KAKAO_URL} />
-    <PlatformLink color={WHITE_THREE} background={TWITTER} name="Twitter" href={TWITTER_URL} />
+    <PlatformLink color={WHITE_THREE} background={FACEBOOK} name="Facebook" to={FACEBOOK_URL} />
+    <PlatformLink color={BLACK} background={KAKAO} name="KakaoTalk" to={KAKAO_URL} />
+    <PlatformLink color={WHITE_THREE} background={TWITTER} name="Twitter" to={TWITTER_URL} />
   </Wrapper>
 );
 

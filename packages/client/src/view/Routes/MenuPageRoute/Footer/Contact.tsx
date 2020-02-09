@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+
+import { Link } from '~src/view/components/Link';
 
 interface IContactProps {
   to: string;
