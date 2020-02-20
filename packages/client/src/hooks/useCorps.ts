@@ -1,9 +1,21 @@
-import { useAxios } from './useAxios';
+import axios from 'axios';
+
+import { useEffect, useState } from 'react';
 
 import { CORP_API_URL } from '~src/constants/API_URL';
 
 export const useCorps = () => {
-  const res = useAxios<{ data: ICorp[] }>({ url: CORP_API_URL, method: 'GET' });
+  const [corps, setCorps] = useState<ICorp[]>();
 
-  return res?.data?.data;
+  useEffect(() => {
+    fetchCorps().then(newCorps => setCorps(newCorps));
+  }, []);
+
+  return corps;
+};
+
+const fetchCorps = async () => {
+  const res = await axios.get<{ data: ICorp[] }>(CORP_API_URL);
+
+  return res.data.data;
 };
