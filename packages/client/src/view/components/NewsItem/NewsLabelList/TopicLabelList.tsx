@@ -20,7 +20,7 @@ export const TopicLabelList: FC<IProps> = ({ topics }) => {
       {topics.map(topic => {
         if (corps?.some(({ id }) => id === topic.id)) {
           return (
-            <LinkWrap to={`${CORPS_NEWS_PATH}/${topic.id}`} key={topic.id}>
+            <LinkWrap to={`/${CORPS_NEWS_PATH}/${topic.id}`} key={topic.id}>
               <NewsLabel>{topic.name}</NewsLabel>
             </LinkWrap>
           );
