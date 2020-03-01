@@ -9,9 +9,7 @@ interface IProps {
 export const TagLabelList: FC<IProps> = ({ tags }) => (
   <>
     {tags.map(tag => (
-      <NewsLabel highlight key={tag.id}>
-        {tag.title}
-      </NewsLabel>
+      <NewsLabel key={tag.id}>{tag.title}</NewsLabel>
     ))}
   </>
 );

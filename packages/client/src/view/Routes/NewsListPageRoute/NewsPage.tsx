@@ -5,6 +5,8 @@ import React, { FC, useMemo } from 'react';
 
 import { NewsListPageHeader } from './Header/NewsListPageHeader';
 
+import { FilterContextProvider } from '../../../hooks/useFilter/FilterContext';
+
 import { InfiniteScrollNewsList } from '~src/view/components/InfiniteScrollNewsList';
 import { PageLayout } from '~src/view/components/PageLayout';
 import { Footer } from '~src/view/components/Footer';
@@ -42,13 +44,14 @@ export const NewsPage: FC<IProps> = ({ mainNewsId }) => {
           main: (
             <>
               {news && <NewsItem news={news} />}
-              <InfiniteScrollNewsList
-                filter={filter}
-                excludeNewsId={newsId}
-                isRenderCorpList
-                isRenderLinkListItem
-                isRenderPlatformLinkListItem
-              />
+              <FilterContextProvider filter={filter}>
+                <InfiniteScrollNewsList
+                  excludeNewsId={newsId}
+                  isRenderCorpList
+                  isRenderLinkListItem
+                  isRenderPlatformLinkListItem
+                />
+              </FilterContextProvider>
             </>
           ),
           footer: <Footer />,

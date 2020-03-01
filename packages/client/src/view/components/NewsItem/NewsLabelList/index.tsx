@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { TagLabelList } from './TagLabelList';
 import { TopicLabelList } from './TopicLabelList';
+import { DateLabel } from './DateLabel';
 
 interface IProps {
   tags: ITag[];
@@ -12,6 +13,7 @@ interface IProps {
 
 export const NewsLabelList: FC<IProps> = ({ tags, topics, className }) => (
   <Wrapper className={className}>
+    <DateLabel />
     <TagLabelList tags={tags} />
     <TopicLabelList topics={topics} />
   </Wrapper>

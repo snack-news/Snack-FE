@@ -5,6 +5,8 @@ import React, { FC, useMemo } from 'react';
 
 import { Items } from './Items';
 
+import { useFilter } from '../../../hooks/useFilter/index';
+
 import { useNewsList } from '~src/hooks/useNewsList';
 
 interface IProps {
@@ -12,7 +14,6 @@ interface IProps {
   isRenderLinkListItem?: boolean;
   isRenderPlatformLinkListItem?: boolean;
   excludeNewsId?: number;
-  filter: INewsFilter;
 
   onFatched?: () => void;
   onNoContent?: () => void;
@@ -25,8 +26,8 @@ export const NewsList: FC<IProps> = ({
   excludeNewsId,
   onFatched,
   onNoContent,
-  filter,
 }) => {
+  const filter = useFilter();
   const newsList = useNewsList(filter, onFatched, onNoContent);
 
   const renderNewsList = useMemo(() => {

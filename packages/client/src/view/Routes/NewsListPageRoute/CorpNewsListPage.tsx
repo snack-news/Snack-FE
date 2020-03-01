@@ -5,6 +5,8 @@ import React, { FC, useMemo } from 'react';
 
 import { CorpNewsListPageHeader } from './Header/CorpNewsListPageHeader';
 
+import { FilterContextProvider } from '../../../hooks/useFilter/FilterContext';
+
 import { InfiniteScrollNewsList } from '~src/view/components/InfiniteScrollNewsList';
 import { PageLayout } from '~src/view/components/PageLayout';
 import { Footer } from '~src/view/components/Footer';
@@ -40,7 +42,11 @@ export const CorpNewsListPage: FC<IProps> = ({ corpId }) => {
     <PageLayout>
       {{
         header: <CorpNewsListPageHeader corpName={corp.name} />,
-        main: <InfiniteScrollNewsList filter={filter} isRenderCorpList />,
+        main: (
+          <FilterContextProvider filter={filter}>
+            <InfiniteScrollNewsList isRenderCorpList />
+          </FilterContextProvider>
+        ),
         footer: <Footer />,
       }}
     </PageLayout>
