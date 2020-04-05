@@ -18,9 +18,7 @@ const META_PROPS_LIST: React.MetaHTMLAttributes<HTMLMetaElement>[] = [
   { name: 'theme-color', content: 'white' },
   {
     name: 'keywords',
-    content: ['뉴스', 'IT', '유니콘', '스타트업', '테크', '비즈니스', '이직', 'Tech', '취업'].join(
-      ','
-    ),
+    content: '뉴스, IT, 유니콘, 스타트업, 테크, 비즈니스, 이직, Tech, 취업',
   },
 ];
 
