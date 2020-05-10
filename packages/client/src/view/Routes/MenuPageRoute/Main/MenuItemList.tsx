@@ -8,11 +8,13 @@ import { Link } from '~src/view/components/Link';
 import { DARK } from '~src/constants/colors';
 import {
   HOME_PATH,
+  HOME_NAME,
   CORPS_PATH,
+  CORPS_NAME,
   ABOUT_PATH,
   ABOUT_NAME,
-  HOME_NAME,
-  CORPS_NAME,
+  // ADD_SLACK_PATH,
+  // ADD_SLACK_NAME,
 } from '~src/constants/paths';
 
 interface IProps {}
@@ -22,6 +24,7 @@ export const MenuItemList: FC<IProps> = () => (
     <MenuItem to={HOME_PATH}>{HOME_NAME}</MenuItem>
     <MenuItem to={CORPS_PATH}>{CORPS_NAME}</MenuItem>
     <MenuItem to={ABOUT_PATH}>{ABOUT_NAME}</MenuItem>
+    {/* <MenuItem to={ADD_SLACK_PATH}>{ADD_SLACK_NAME}</MenuItem> */}
   </MenuItemListWrapper>
 );
 
