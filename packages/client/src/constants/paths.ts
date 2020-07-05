@@ -22,4 +22,6 @@ export const MENU_NAME = '메뉴';
 export const ADD_SLACK_PATH = '/add-slack';
 export const ADD_SLACK_NAME = 'Slack 구독';
 
+export const ADDED_SLACK_PATH = '/api/slackbot/auth';
+
 export const CORPS_NEWS_PATH = 'newslist/corp';
