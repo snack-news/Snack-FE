@@ -73,7 +73,7 @@
     "@types/koa-static": "^4.0.1",
     "@types/node": "^13.1.6",
     "@types/styled-components": "^4.4.2",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "get-port": "^5.1.0",
